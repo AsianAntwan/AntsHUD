@@ -12,8 +12,8 @@
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
-		"border"				"DeepSkyBlueBorderThick"
-		"bgcolor_override"		"25 25 25 255"
+		"border"				"NoBorder"
+		"bgcolor_override"		"BGAnyDarker"
 	}
 	"mouseoveritempanel"
 	{
@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Avenir32"
+		"font"			"HudFontSmallBold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"

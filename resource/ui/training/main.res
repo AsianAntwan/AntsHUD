@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"25 25 25 200"
 	}
 
 	"Container"
@@ -65,7 +65,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"AntsHUDDarkGray"
+			"bgcolor_override"	"BGAnyDarker"
 		}
 
 		"TitleLabel"

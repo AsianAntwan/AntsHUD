@@ -196,7 +196,7 @@
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
-	//				"border"				"QuickplayBorder"
+					"border"				"NoBorder"
 				}
 
 				"ComplexityLabel"
@@ -342,7 +342,7 @@
 			"tall"		"240"
 			"visible"	"0"
 			"enabled"	"1"
-			"border"	"QuickplayBorder"
+			"border"	"NoBorder"
 			"bgcolor_override"	"0 0 0 255"
 
 			"TitleLabel"

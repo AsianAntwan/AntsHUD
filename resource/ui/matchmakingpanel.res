@@ -205,7 +205,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 
 			"SearchActiveTitle"

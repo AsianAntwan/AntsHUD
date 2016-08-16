@@ -61,7 +61,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south-west"
-		"font"			"Cebetica10"
+		"font"			"Avenir10"
 		"maxchars"		"-1"
 	}
 }

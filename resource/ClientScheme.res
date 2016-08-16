@@ -23,7 +23,10 @@ Scheme
 		
 		"TransparentPanelBG"		"25 25 25 128"
 		"ButtonBG"					"40 40 40 255"
+		"ButtonBGDark"				"20 20 20 255"
 
+		"BGAnyLight"				"40 40 40 255"
+		"BGAnyDark"					"30 30 30 255"
 		"BGAnyDarker"				"20 20 20 255"
 		
 		"StatBar"					"0 191 255 255"
@@ -278,13 +281,13 @@ Scheme
 		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"AntsHUDWhite"
-		Button.BgColor					"25 25 25 255"
+		Button.BgColor					"ButtonBG"
 		Button.ArmedTextColor			"AntsHUDWhite"
-		Button.ArmedBgColor				"35 35 35 255"
+		Button.ArmedBgColor				"AntsHUDDeepSkyBlue"
 		Button.SelectedTextColor		"AntsHUDWhite"
-		Button.SelectedBgColor			"25 25 25 255"
+		Button.SelectedBgColor			"AntsHUDDeepSkyBlue"
 		Button.DepressedTextColor		"AntsHUDWhite"
-		Button.DepressedBgColor			"35 35 35 255"
+		Button.DepressedBgColor			"ButtonBG"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -316,12 +319,12 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"AntsHUDDeepSkyBlue"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
+		FrameTitleBar.DisabledTextColor	"AntsHUDDeepSkyBlue"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"AntsHUDDeepSkyBlue"
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"AntsHUDGray"
@@ -332,12 +335,12 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"AntsHUDDeepSkyBlue"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"AntsHUDDeepSkyBlue"
 
 		Menu.TextColor					"AntsHUDWhite"
 		Menu.BgColor					"TransparentBlack"
@@ -345,7 +348,7 @@ Scheme
 		Menu.ArmedBgColor				"AntsHUDWhite"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"AntsHUDDeepSkyBlue"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -367,7 +370,7 @@ Scheme
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"AntsHUDDeepSkyBlue"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.SelectedTextColor	"AntsHUDDeepSkyBlue"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -392,7 +395,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Orange"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"AntsHUDDeepSkyBlue"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor				"108 108 108 255"
@@ -3003,7 +3006,7 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		ItemFontAttribSmallv2
+		"ItemFontAttribSmallv2"
 		{
 			"1"
 			{
@@ -3205,7 +3208,7 @@ Scheme
 			}
 		}
 
-			"QuestInstructionText_Merasmus"
+		"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
@@ -3675,6 +3678,16 @@ Scheme
 			{
 				"name"		 "AvenirLTStd-Medium"
 				"tall" 		 "12"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Avenir13"
+		{
+			"1"
+			{
+				"name"		 "AvenirLTStd-Medium"
+				"tall" 		 "13"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -4278,7 +4291,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}
+		}	
 		DeepSkyBlueBorderTabs
 		{
 			"inset" "0 0 1 1"
@@ -4376,27 +4389,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "4 1"
 				}
 			}
@@ -4405,27 +4418,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "4 1"
 				}
 			}
@@ -4434,27 +4447,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "15 100 100 255"
+					"color" "0 191 200 255"
 					"offset" "4 1"
 				}
 			}
@@ -4665,7 +4678,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "100 224 255 255"
+					"color" "0 171 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4674,7 +4687,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "100 224 255 255"
+					"color" "0 171 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4683,7 +4696,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "100 224 255 255"
+					"color" "0 171 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -5408,13 +5421,13 @@ Scheme
 
 		ToolTipBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
-					"offset" "0 1"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -5422,8 +5435,8 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
-					"offset" "1 0"
+					"color" "Blank"
+					"offset" "0 0"
 				}
 			}
 
@@ -5431,7 +5444,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -5440,7 +5453,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}

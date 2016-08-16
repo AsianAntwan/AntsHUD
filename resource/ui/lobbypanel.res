@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"50 50 50 255"
+		"bgcolor_override"	"25 25 25 255"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -33,13 +33,14 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDarker"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmall"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
 			"xpos"			"20"
@@ -67,7 +68,7 @@
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"BGAnyDarker"
 		"proportionaltoparent"	"1"
 
 		"NoGCTitle"
@@ -197,8 +198,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"20 20 20 175"
+		"border"		"NoBorder"
 
 		"SearchActiveTitle"
 		{
@@ -610,8 +611,8 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"20 20 20 200"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -694,8 +695,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"20 20 20 200"
+			"border"		"NoBorder"
 		}
 
 		"ChatTextEntry"
@@ -708,8 +709,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"20 20 20 200"
+			"border"		"NoBorder"
 		}
 	}
 

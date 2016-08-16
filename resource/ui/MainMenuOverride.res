@@ -328,7 +328,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"20 20 20 255"
 		
 		"TipSubLabel"
 		{
@@ -375,8 +375,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"244"
-		"ypos"			"141"
+		"xpos"			"245"
+		"ypos"			"138"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -1029,7 +1029,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
@@ -1598,7 +1598,179 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}
+	
+	//This is just here for the sole purpose of just making the HUD work
+	"PlayListContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayListContainer"
+		"xpos"			"25"
+		"ypos"			"145"
+		"zpos"			"11"
+		"wide"			"145"
+		"tall"			"100"
+		"visible"		"0"
 
+		"PlaylistBGPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"PlaylistBGPanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"-1"
+			"wide"			"145"
+			"tall"			"100"
+			"visible"		"0"
+			"PaintBackgroundType"	"0"
+			"border"		"NoBorder"
+			"proportionaltoparent"	"1"
+
+			"pinCorner"		"2"
+			"autoResize"	"1"
+
+			"PlayListDropShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"PlaylistBGPanel"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"PaintBackgroundType"	"0"
+				"border"		"NoBorder"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+			}
+
+			"PlayListContainer"
+			{
+				"ControlName"	"CExScrollingEditablePanel"
+				"fieldName"		"PlayListContainer"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"145"
+				"tall"			"100"
+				"visible"		"0"
+				"proportionaltoparent"	"1"
+				"restrict_width" "0"
+
+				"CasualEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CasualEntry"
+					"xpos"			"0"
+					"ypos"			"0"
+					"tall"			"14"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_casual"
+					"button_token"		"#MMenu_PlayList_Casual_Button"
+					"button_command"	"play_casual"
+					"desc_token"		""
+				}
+
+				"CompetitiveEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"CompetitiveEntry"
+					"xpos"			"0"
+					"ypos"			"20"
+					"tall"			"14"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_competitive"
+					"button_token"		"#MMenu_PlayList_Competitive_Button"
+					"button_command"	"play_competitive"
+					"desc_token"		""
+				}
+
+				"MvMEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"MvMEntry"
+					"xpos"			"0"
+					"ypos"			"40"
+					"tall"			"14"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_mvm"
+					"button_token"		"#MMenu_PlayList_MvM_Button"
+					"button_command"	"play_mvm"
+					"desc_token"		""
+				}
+
+				"ServerBrowserEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"ServerBrowserEntry"
+					"xpos"			"0"
+					"ypos"			"60"
+					"tall"			"14"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_community_server"
+					"button_token"		"#MMenu_PlayList_ServerBrowser_Button"
+					"button_command"	"OpenServerBrowser"
+					"desc_token"		""
+				}
+
+				"TrainingEntry"
+				{
+					"ControlName"	"CMainMenuPlayListEntry"
+					"fieldName"		"TrainingEntry"
+					"xpos"			"0"
+					"ypos"			"80"
+					"tall"			"14"
+					"wide"			"p1"
+					"proportionaltoparent"	"1"
+
+					"image_name"		"main_menu/main_menu_button_training"
+					"button_token"		"#MMenu_PlayList_Training_Button"
+					"button_command"	"play_training"
+					"desc_token"		""
+				}
+
+				"ScrollBar"
+				{
+					"ControlName"	"ScrollBar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"9999"
+					"ypos"			"9999"
+					"tall"			"0"
+					"wide"			"0" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"TanDark"
+					}
+		
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+		
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}
+			}
+		}
+	}
+	
 	"CasualButton"
 	{
 		"ControlName"	"EditablePanel"

@@ -22,7 +22,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"70 130 180 153"
+			"fillcolor"		"AntsHUDBlue"
 			"scaleImage"		"1"
 		}
 		"BlueScoreBG2"
@@ -38,7 +38,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"70 130 180 153"
+			"fillcolor"		"AntsHUDBlue"
 			"scaleImage"		"1"
 		}
 		"RedScoreBG"
@@ -54,7 +54,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"fillcolor"		"205 50 50 153"
+			"fillcolor"		"AntsHUDRed"
 		}
 		"RedScoreBG2"
 		{
@@ -70,13 +70,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"fillcolor"		"205 50 50 153"
+			"fillcolor"		"AntsHUDRed"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Avenir24"
+			"font"			"NeutraDisp26"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"29"
@@ -92,7 +92,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"138"
@@ -109,8 +109,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Avenir48"
-			"fgcolor"		"TransparentBlack"
+			"font"			"NeutraDisp46"
+			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"140"
@@ -127,7 +127,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Avenir24"
+			"font"			"NeutraDisp26"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"220"
@@ -143,7 +143,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"230"
@@ -160,8 +160,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Avenir48"
-			"fgcolor"		"TransparentBlack"
+			"font"			"NeutraDisp46"
+			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"232"
@@ -276,7 +276,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"LosingTeamLabelDropshadow"
 		"font"			"NeutraDisp20"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"36"
 		"ypos"			"95"
 		"zpos"			"1"
@@ -316,7 +316,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"NeutraDisp20"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"36"
 		"ypos"			"95"
 		"zpos"			"1"

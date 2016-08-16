@@ -63,7 +63,7 @@
 
 		"defaultFgColor_override" "AntsHUDWhite"
 		"armedFgColor_override" "AntsHUDDeepSkyBlue"
-		"depressedFgColor_override" "AntsHUDWhite"		
+		"depressedFgColor_override" "AntsHUDWhite"
 	}
 
 	"TitleLabel"
@@ -185,11 +185,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
-		"depressedBgColor_override"	"ButtonBG"
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
+		"defaultFgColor_override" "AntsHUDWhite"
+		"defaultBgColor_override" "20 20 20 255"
+		"armedBgColor_override"	"AntsHUDDeepSkyBlue"
+		"armedFgColor_override" "AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"
 	}	
 }
