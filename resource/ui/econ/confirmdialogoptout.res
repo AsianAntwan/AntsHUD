@@ -17,7 +17,7 @@
 		"paintborder"			"2"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyDarker"
+		"bgcolor_override"		"BGAnyDark"
 	}
 	
 	"TitleLabel"

@@ -363,7 +363,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDark"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
@@ -452,7 +452,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"TipLabel"
 		{

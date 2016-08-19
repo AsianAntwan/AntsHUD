@@ -115,7 +115,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"BGAnyDarker"
+			"fillcolor"		"BGAnyDark"
 			"PaintBackgroundType"	"0"
 		}	
 
@@ -137,7 +137,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"BGAnyDarker"
+			"fillcolor"		"BGAnyDark"
 			"PaintBackgroundType"	"0"
 		}
 	}
@@ -197,7 +197,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"BGAnyDarker"
+			"bgcolor_override"	"BGAnyDark"
 		}
 		"ResultsText"
 		{

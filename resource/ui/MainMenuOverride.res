@@ -328,7 +328,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"TipSubLabel"
 		{
@@ -376,7 +376,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
 		"xpos"			"245"
-		"ypos"			"138"
+		"ypos"			"140"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -517,7 +517,7 @@
 		"paintbackground"	"2"
 		"bgcolor_override"	"25 25 25 230"
 		
-		"border"		"NoBorde"
+		"border"		"NoBorder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
@@ -1102,10 +1102,11 @@
 		"zpos"			"1"
 		"wide"			"210"
 		"tall"			"80"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
@@ -1163,7 +1164,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"50 50 50 255"
+			"fgcolor_override"	"AntsHUDWhite"
 			"wrap"			"1"
 		}
 		
@@ -3197,7 +3198,7 @@
 		"xpos"			"300"
 		"ypos"			"325"
 		"zpos"			"-50"
-		"wide"			"270"
+		"wide"			"190"
 		"tall"			"140"
 		"visible"		"1"
 
@@ -3208,14 +3209,14 @@
 			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"0"
-			"wide"			"260"
+			"wide"			"190"
 			"tall"			"60"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"bgcolor_override"	"BGAnyDarker"
+			"bgcolor_override"	"BGAnyDark"
 
 			"TitleLabel"
 			{
@@ -3223,10 +3224,10 @@
 				"fieldName"		"TitleLabel"
 				"font"			"NeutraDisp15"
 				"labelText"		"#MMenu_Update"
-				"textAlignment"	"west"
-				"xpos"			"12"
+				"textAlignment"	"center"
+				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"f0"
+				"wide"			"190"
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -3240,10 +3241,10 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewDetailsButton"
-				"xpos"			"p0.02"
+				"xpos"			"5"
 				"ypos"			"27"
 				"zpos"			"11"
-				"wide"			"p0.48"
+				"wide"			"180"
 				"tall"			"26"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
@@ -3296,12 +3297,12 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldname"		"ViewWarButton"
-				"xpos"			"p0.5"
-				"ypos"			"27"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"11"
 				"wide"			"p0.48"
 				"tall"			"26"
-				"visible"		"1"
+				"visible"		"0"
 				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 
@@ -3315,8 +3316,8 @@
 					"tall"			"f0"
 					"autoResize"	"0"
 					"pinCorner"		"3"
-					"visible"		"1"
-					"enabled"		"1"
+					"visible"		"0"
+					"enabled"		"0"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
 					"font"			"NeutraDisp16"
@@ -3481,8 +3482,9 @@
 		"tall"			"120"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -3511,7 +3513,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -3529,7 +3531,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TutorialHighlightButton"
@@ -3569,7 +3571,7 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 				
-				"defaultFgColor_override" "50 50 50 255"
+				"defaultFgColor_override" 	"AntsHUDWhite"
 				"armedFgColor_override" "AntsHUDWhite"
 				"depressedFgColor_override" "50 50 50 255"
 				
@@ -3605,8 +3607,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3617,26 +3619,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}	
 	
@@ -3649,8 +3634,9 @@
 		"tall"			"120"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c-85"
 		"start_y"		"185"
@@ -3679,7 +3665,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -3697,7 +3683,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"PracticeHighlightButton"
@@ -3737,7 +3723,7 @@
 				"border_armed"		"MainMenuButtonArmed"
 				"paintbackground"	"0"
 				
-				"defaultFgColor_override" "50 50 50 255"
+				"defaultFgColor_override" 	"AntsHUDWhite"
 				"armedFgColor_override" "AntsHUDWhite"
 				"depressedFgColor_override" "50 50 50 255"
 				
@@ -3773,8 +3759,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3785,26 +3771,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"				
 		}		
 	}	
 	
@@ -3819,8 +3788,9 @@
 		"tall"			"120"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c-112"
 		"start_y"		"437"
@@ -3849,7 +3819,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -3868,7 +3838,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -3885,8 +3855,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3897,26 +3867,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDwhite"		
 		}		
 	}	
 	
@@ -3931,8 +3884,9 @@
 		"tall"			"120"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c238"
 		"start_y"		"437"
@@ -3961,7 +3915,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -3980,7 +3934,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -3997,8 +3951,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -4009,27 +3963,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		}		
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 	}
 	
 	"LoadoutHighlightPanel"
@@ -4043,8 +3979,9 @@
 		"tall"			"120"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c-190"
 		"start_y"		"267"
@@ -4073,7 +4010,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -4092,7 +4029,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -4109,8 +4046,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -4121,26 +4058,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 	}
 
@@ -4155,8 +4075,9 @@
 		"tall"			"60"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c20"
 		"start_y"		"285"
@@ -4185,7 +4106,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -4204,7 +4125,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -4221,8 +4142,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -4233,26 +4154,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}
 
@@ -4267,8 +4171,9 @@
 		"tall"			"60"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"start_x"		"c20"
 		"start_y"		"285"
@@ -4297,7 +4202,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -4316,7 +4221,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -4334,7 +4239,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		"X"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -4347,24 +4252,7 @@
 			
 			"defaultFgColor_override" "AntsHUDWhite"
 			"armedFgColor_override" "AntsHUDDeepSkyBlue"
-			"depressedFgColor_override" "AntsHUDWhite"
-			
-			"image_drawcolor"	"100 100 100 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"0"
-				"enabled"		"0"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 	}
 

@@ -12,7 +12,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BGAnyDarker"
+		"fillcolor"		"BGAnyDark"
 		"border"		"NoBorder"
 
 		"src_corner_height"	"22"				// pixels inside the image

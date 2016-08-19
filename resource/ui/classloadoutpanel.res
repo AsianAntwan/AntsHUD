@@ -271,7 +271,7 @@
 		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDark"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
@@ -365,8 +365,9 @@
 		"tall"			"160"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-200"
@@ -393,7 +394,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -412,7 +413,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -429,8 +430,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -441,27 +442,10 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"100 100 100 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		}		
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
+		}				
 	}
 	
 	"ItemOptionsPanel"
@@ -482,10 +466,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedButton"
-//		"xpos"				"c-40"
-//		"ypos"				"35"
-		"xpos"				"c5"
-		"ypos"				"22"
+		"xpos"				"c-40"
+		"ypos"				"35"
 		"zpos"				"12"	
 		"wide"				"80"
 		"tall"				"20"
@@ -494,23 +476,23 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"RED Team"
+		"labelText"			"RED"
 		"textAlignment"		"center"
-		"font"				"Avenir16"
+		"font"				"NeutraDisp16"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
 		"fgcolor"					"AntsHUDWhite"
-		"defaultFgColor_override" "250 68 17 255"
+		"defaultFgColor_override" "AntsHUDRed"
 		"armedFgColor_override" "AntsHUDDeepSkyBlue"
-		"depressedFgColor_override" "250 68 17 255"
+		"depressedFgColor_override" "AntsHUDRed"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -521,10 +503,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
-//		"xpos"				"c-40"
-//		"ypos"				"10"
-		"xpos"				"c-85"
-		"ypos"				"22"
+		"xpos"				"c-40"
+		"ypos"				"10"
 		"zpos"				"12"	
 		"wide"				"80"
 		"tall"				"20"
@@ -533,23 +513,23 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"BLU Team"
+		"labelText"			"BLU"
 		"textAlignment"		"center"
-		"font"				"Avenir16"
+		"font"				"NeutraDisp16"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"fgcolor"					"AntsHUDWhite"
-		"defaultFgColor_override" "0 98 255 255"
+		"defaultFgColor_override" "AntsHUDBlue"
 		"armedFgColor_override" "AntsHUDDeepSkyBlue"
-		"depressedFgColor_override" "0 98 255 255"
+		"depressedFgColor_override" "AntsHUDBlue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"keyboardinputenabled"	"0"
 		
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -577,6 +557,7 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
 
 		"image_drawcolor"	"AntsHUDWhite"
 		"image_armedcolor"	"AntsHUDDeepSkyBlue"
@@ -618,6 +599,7 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
 		
 		"image_drawcolor"	"AntsHUDWhite"
 		"image_armedcolor"	"AntsHUDDeepSkyBlue"
@@ -649,8 +631,9 @@
 		"tall"			"160"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"force_close"	"1"
 		"end_x"			"c-180"
@@ -677,7 +660,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"TextLabel"
@@ -696,7 +679,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "50 50 50 255"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		
 		"CloseButton"
@@ -713,8 +696,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -725,27 +708,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "50 50 50 255"
-			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "50 50 50 255"
-			
-			"image_drawcolor"	"100 100 100 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}
-
 }

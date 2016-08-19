@@ -34,7 +34,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"TipLabel"
 		{
@@ -68,7 +68,7 @@
 		"tall"		"f0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
 		"proportionaltoparent"	"1"
 
 		"NoGCTitle"

@@ -347,7 +347,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&A"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -355,13 +355,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
-		"depressedBgColor_override"	"ButtonBG"
+		"paintbackground"	"0"
 		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDWhite"	
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -401,7 +399,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&D"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -409,13 +407,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
-		"depressedBgColor_override"	"ButtonBG"
+		"paintbackground"	"0"
 		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDWhite"	
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"

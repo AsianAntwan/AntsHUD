@@ -31,7 +31,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"DeepSkyBlueBorderThick"
+		"border"				"NoBorder"
 
 		"Background"
 		{

@@ -11,9 +11,9 @@
 		"tall"					"110"
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"20 20 20 255"
+		"bgcolor_override"		"BGAnyDark"
 		"settitlebarvisible"	"0"
-		"border"				"DeepSkyBlueBorder"
+		"border"				"NoBorder"
 	}
 	
 	"CenterPositioner"

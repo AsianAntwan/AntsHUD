@@ -13,7 +13,7 @@
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"		"30 30 30 255"
-		"border"				"DeepSkyBlueBorder"
+		"border"				"NoBorder"
 	}
 
 	"mouseoveritempanel"

@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDarker"
+		"bgcolor_override"	"BGAnyDark"
 
 		"TitleLabel"
 		{

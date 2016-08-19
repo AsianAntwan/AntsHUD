@@ -652,10 +652,10 @@
 			"uniNeutraDisp"			"0"
 			
 			"fgcolor_override"	"AntsHUDWhite"
-			"bgcolor_override"	"BGAnyDarker"
+			"bgcolor_override"	"BGAnyDark"
 			"disabledFgColor_override" "AntsHUDWhite"
-			"disabledBgColor_override" "BGAnyDarker"
-			"selectionColor_override" "BGAnyDarker"
+			"disabledBgColor_override" "BGAnyDark"
+			"selectionColor_override" "BGAnyDark"
 			"selectionTextColor_override" "AntsHUDWhite"
 			"defaultSelectionBG2Color_override" "AntsHUDWhite"
 		}

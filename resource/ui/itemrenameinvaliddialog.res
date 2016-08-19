@@ -13,8 +13,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"DeepSkyBlueBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"border"				"NoBorder"
+		"bgcolor_override"		"30 30 30 255"
 	}
 
 	"TitleLabel"
