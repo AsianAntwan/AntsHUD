@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyLight"
+		"bgcolor_override"		"0 0 0 0"
 	}
 
 	"HelpTextLabel"

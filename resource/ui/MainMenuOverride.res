@@ -1582,7 +1582,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"Beta"
+			"labelText"		"Beta v1.2"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

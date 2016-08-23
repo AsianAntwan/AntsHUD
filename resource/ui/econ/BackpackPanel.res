@@ -46,7 +46,7 @@
 		"tall" "10"
 		"visible" "0"
 		"bgcolor_override" "0 0 0 0"
-		"noitem_textcolor" "100 100 100 255"
+		"noitem_textcolor" "AntsHUDLessWhite"
 		"PaintBackgroundType" "2"
 		"paintborder" "1"
 
@@ -58,7 +58,7 @@
 		"tall" "13"
 		"visible" "1"
 		"bgcolor_override" "0 0 0 0"
-		"noitem_textcolor" "100 100 100 255"
+		"noitem_textcolor" "AntsHUDLessWhite"
 		"PaintBackgroundType" "2"
 		"paintborder" "1"
 		"textAlignment" "center"
@@ -91,7 +91,8 @@
 		"border" "StoreNewBorder"
 		"fgcolor" "10 10 10 255"
 		}
-
+	}
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"

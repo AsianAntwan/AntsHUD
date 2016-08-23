@@ -24,7 +24,7 @@ Scheme
 		"TransparentPanelBG"		"25 25 25 128"
 		"ButtonBG"					"50 50 50 255"
 
-		"BGAnyLight"				"40 40 40 255"
+		"BGAnyLight"				"50 50 50 255"
 		"BGAnyDark"					"30 30 30 255"
 		"BGAnyDarker"				"20 20 20 255"
 		

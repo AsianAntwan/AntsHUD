@@ -137,7 +137,7 @@
 				"proportionaltoparent"	"1"
 
 				"paintborder"	"1"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
 			}
 
 			"PremiumButton"
@@ -164,8 +164,8 @@
 			
 				"paintbackground"	"1"
 
-				"defaultBgColor_override" "0 0 0 64"
-				"armedBgColor_override" "0 0 0 0"
+				"defaultBgColor_override" "50 50 50 255"
+				"armedBgColor_override" "60 60 60 255"
 
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
@@ -247,8 +247,8 @@
 			
 				"paintbackground"	"1"
 
-				"defaultBgColor_override" "0 0 0 64"
-				"armedBgColor_override" "0 0 0 0"
+				"defaultBgColor_override" "50 50 50 255"
+				"armedBgColor_override" "60 60 60 255"
 
 				"image_drawcolor"	"200 200 200 255"
 				"image_armedcolor"	"255 255 255 255"
@@ -341,7 +341,7 @@
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
 
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"BGAnyLight"
 
 			"items"
 			{
@@ -367,8 +367,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"X"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -381,30 +381,10 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"0"
-			
-			//"defaultFgColor_override" "235 226 202 255"
-			//"armedFgColor_override" "46 43 42 255"
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-			}				
+
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}
 
