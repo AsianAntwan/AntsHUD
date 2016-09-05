@@ -972,7 +972,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -1015,9 +1015,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"Avenir24"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"font"			"NeutraDisp24"
+		"xpos"			"232"
+		"ypos"			"r53"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
@@ -1028,7 +1028,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 		
 		"if_mvm" 
 		{

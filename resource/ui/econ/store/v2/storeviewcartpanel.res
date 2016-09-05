@@ -159,21 +159,21 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"BGAnyDarker"
 		"tileImage"		"1"
-	}				
+	}			
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
+		"ypos"			"430"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"BGAnyDarker"
@@ -181,19 +181,22 @@
 	}			
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"2"
+		"ypos"			"430"
+		"zpos"			"5"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"DeepSkyBlueBorder"
+		"bgcolor_override"		"AntsHUDDeepSkyBlue"
 	}				
-	
+
 	"ClientArea"
 	{
 		"ControlName"	"EditablePanel"
@@ -201,23 +204,25 @@
 		"xpos"			"0"
 		"ypos"			"55"
 		"wide"			"f0"
-		"tall"			"368"
-		"bgcolor_override"				"50 50 50 255"
+		"tall"			"380"
+		"bgcolor_override"				"25 25 25 255"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+			"autoResize"	"1"
+			"PaintBackgroundType"	"1"
+			"border"				"DeepSkyBlueBorder"
+			"bgcolor_override"		"AntsHUDDeepSkyBlue"
+		}					
 		
 		"CartItemsLabel"
 		{
@@ -239,17 +244,19 @@
 		
 		"SeparatorLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"SeparatorLine"
 			"xpos"			"c-300"
 			"ypos"			"60"
 			"zpos"			"5"
 			"wide"			"600"
-			"tall"			"5"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"tileImage"		"1"
+			"autoResize"	"1"
+			"PaintBackgroundType"	"1"
+			"border"				"DeepSkyBlueBorder"
+			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}				
 		
 		"EmptyCartLabel"
@@ -281,7 +288,7 @@
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"51 47 46 255"
+			"bgcolor_override"	"BGAnyDark"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
@@ -293,7 +300,7 @@
 				
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"fgcolor_override"	"AntsHUDGray"
 				}
 				
 				"nobuttons"		"1"
@@ -326,7 +333,7 @@
 				"wide"			"500"
 				"tall"			"240"
 				"PaintBackgroundType"	"2"
-				"bgcolor_override"	"200 187 161 0"
+				"bgcolor_override"	"BGAnyLight"
 				
 				"FeaturedItemSymbol"
 				{
@@ -434,7 +441,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c-300"
-		"ypos"			"437"
+		"ypos"			"442"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"25"
@@ -443,7 +450,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_ContinueShopping"
+		"labelText"		"<< ContinueShopping (&Q)"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -459,7 +466,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
 		"xpos"			"c170"
-		"ypos"			"437"
+		"ypos"			"442"
 		"zpos"			"2"
 		"wide"			"130"
 		"tall"			"25"
@@ -468,7 +475,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_Checkout"
+		"labelText"		"Checkout (&E) >>"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"

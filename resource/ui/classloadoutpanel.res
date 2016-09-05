@@ -41,18 +41,18 @@
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override" 		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_center_x"        "1"
-			"model_ypos"	"3"
-			"model_tall"	"52"
+			"model_center_x"    "1"
+			"model_ypos"		"3"
+			"model_tall"		"52"
 			"model_wide"		"82"
-			"text_ypos"		"47"
-			"text_center"	"1"
-			"name_only"		"1"
+			"text_ypos"			"47"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -73,8 +73,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"12"
-			"tall"			"16"
+			"wide"			"14"
+			"tall"			"14"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"
@@ -87,17 +87,6 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"bgcolor_override"		"255 0 0 255"
-			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
-			"paintborder"	"1"
-			
-			"fgcolor_override"			"AntsHUDDeepSkyBlue"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"border_depressed"			"NoBorder"
 		}
 	}
 	
@@ -271,7 +260,7 @@
 		"wide"			"250"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
@@ -297,7 +286,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"40 40 40 255"
 			
 			"attriblabel"
 			{
@@ -459,17 +448,17 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 0"
+		"bgcolor_override"		"BGAnyDark"
 		"PaintBackgroundType"	"0"
 	}
 	"RedButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedButton"
-		"xpos"				"c-40"
-		"ypos"				"35"
+		"xpos"				"c-45"
+		"ypos"				"87"
 		"zpos"				"12"	
-		"wide"				"80"
+		"wide"				"40"
 		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
@@ -478,13 +467,13 @@
 		"tabPosition"		"0"
 		"labelText"			"RED"
 		"textAlignment"		"center"
-		"font"				"NeutraDisp16"
+		"font"				"NeutraDisp20"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
 		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "AntsHUDRed"
-		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"armedFgColor_override" "AntsHUDLightRed"
 		"depressedFgColor_override" "AntsHUDRed"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -503,10 +492,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
-		"xpos"				"c-40"
-		"ypos"				"10"
+		"xpos"				"c5"
+		"ypos"				"87"
 		"zpos"				"12"	
-		"wide"				"80"
+		"wide"				"40"
 		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
@@ -515,13 +504,13 @@
 		"tabPosition"		"0"
 		"labelText"			"BLU"
 		"textAlignment"		"center"
-		"font"				"NeutraDisp16"
+		"font"				"NeutraDisp20"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
 		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "AntsHUDBlue"
-		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"armedFgColor_override" "AntsHUDLightBlue"
 		"depressedFgColor_override" "AntsHUDBlue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -557,11 +546,7 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
 
-		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"AntsHUDDeepSkyBlue"
-		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -599,10 +584,6 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 		"SubImage"
 		{

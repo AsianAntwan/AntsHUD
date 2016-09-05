@@ -10,8 +10,10 @@ Scheme
 
 		"AntsHUDDeepSkyBlue"		"0 191 255 255"
 
+		"AntsHUDLightBlue"			"95 155 205 255"
 		"AntsHUDBlue"				"70 130 180 255"
 		"AntsHUDDarkBlue"			"45 105 155 255"
+		"AntsHUDLightRed"			"215 75 75 255"
 		"AntsHUDRed"				"190 50 50 255"
 		"AntsHUDDarkRed"			"165 25 25 255"
 		
@@ -30,7 +32,7 @@ Scheme
 		
 		"StatBar"					"0 191 255 255"
 
-		"ItemPanelBG"				"45 45 45 255"
+		"ItemPanelBG"				"50 50 50 255"
 		
 		//-----------------------------------------------------
 		// Game UI Colors
@@ -267,9 +269,9 @@ Scheme
 		Econ.Button.DepressedBgColor						"ButtonBG"
 		Econ.Button.DepressedFgColor						"AntsHUDGray"
 		
-		Econ.Button.PresetDefaultColorFg					"0 191 255 255"
-		Econ.Button.PresetArmedColorFg						"0 191 255 255"
-		Econ.Button.PresetDepressedColorFg					"0 191 255 255"
+		Econ.Button.PresetDefaultColorFg					"AntsHUDDeepSkyBlue"
+		Econ.Button.PresetArmedColorFg						"AntsHUDDeepSkyBlue"
+		Econ.Button.PresetDepressedColorFg					"AntsHUDDeepSkyBlue"
 		
 		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
@@ -286,15 +288,15 @@ Scheme
 		Button.SelectedTextColor		"AntsHUDWhite"
 		Button.SelectedBgColor			"AntsHUDDeepSkyBlue"
 		Button.DepressedTextColor		"AntsHUDWhite"
-		Button.DepressedBgColor			"ButtonBG"
+		Button.DepressedBgColor			"AntsHUDDeepSkyBlue"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"AntsHUDWhite"
+		CheckButton.SelectedTextColor	"AntsHUDWhite"
+		CheckButton.BgColor				"BGAnyDarker"
+		CheckButton.Border1  			"AntsHUDWhite" 		// the left checkbutton border
+		CheckButton.Border2  			"AntsHUDWhite"		// the right checkbutton border
+		CheckButton.Check				"AntsHUDWhite"		// color of the check itself
+		CheckButton.HighlightFgColor	"AntsHUDWhite"
 		
 		ComboBoxButton.ArrowColor		"AntsHUDWhite"
 		ComboBoxButton.ArmedArrowColor	"AntsHUDWhite"
@@ -1607,46 +1609,6 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"HudFontGiant"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"32"
-				"tall_lodef"	"80"
-				"additive"	"0"
-				"antialias" "1"
-			}
-			"2"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"44"
-				"tall_hidef"	"120"
-				"additive"	"0"
-				"antialias" "1"
-			}
-			"3"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"48"
-				"additive"	"0"
-				"antialias" "1"
-			}
-			"4"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"52"
-				"additive"	"0"
-				"antialias" "1"
-			}
-			"5"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"72"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
 		"HudFontGiantBold"
 		{
 			"1"
@@ -1669,16 +1631,7 @@ Scheme
 			}
 		}
 
-		"HudFontBig"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"44"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+
 		"HudFontMediumBig"
 		{
 			"1"
@@ -5257,11 +5210,9 @@ Scheme
 		GrayDialogBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
-			"image"					"loadout_rect"			
-			//"color"					"ItemPanelBG"
-			
+			"image"					"loadout_rect"						
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -5271,7 +5222,7 @@ Scheme
 		StoreFreeTrialBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			
 			"image"					"loadout_rect_red"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5284,10 +5235,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"BGAnyLight"
 			
-			"image"					"loadout_rect"			
-			//"color"					"ItemPanelBG"
-			
+			"image"					"backpack_rect_mouseover_color"					
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -5296,88 +5246,21 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "0"
 		}
 		Econ.Button.Border.Armed
-{
+		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "0 191 255 255"
-					"offset" "0 0"
-				}
-			}
+			"backgroundtype" "0"
 		}
 
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"65 65 65 255"
 			
-			"image"					"loadout_rect_mouseover"
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -5387,62 +5270,11 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"65 65 65 255"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"ItemPanelBG"
-			
+			"image"					"backpack_rect_mouseover_color"			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
-		}
-		
-		// Collector's ------------------------------------------------------------------------------------------------
-		BackpackItemBorder_Collectors
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors"
-			
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"		
-		}
-		BackpackItemMouseOverBorder_Collectors
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors"
-			
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
-		}
-		BackpackItemGreyedOutBorder_Collectors
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors_GreyedOut"
-			
-			"image"					"backpack_rect_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
-			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"2"	
-		}
-		BackpackItemGreyedOutSelectedBorder_Collectors
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color"					"QualityColorCollectors_GreyedOut"
-			
-			"image"					"backpack_rect_mouseover_color"
-			"src_corner_height"		"24"				// pixels inside the image
-			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
@@ -5460,10 +5292,12 @@ Scheme
 			"draw_corner_height" 	"2"	
 		}
 		
+		// Standard ------------------------------------------------------------------------------------------------				
 		BackpackItemBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"BGAnyLight"
 			
 			"image"					"backpack_rect"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5475,7 +5309,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"backpack_rect_mouseover"
+			"color"					"65 65 65 255"
+			
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -5485,14 +5321,16 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-
-			"image"					"backpack_rect_selected"
+			"color"					"65 65 65 255"
+			
+			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
 		
+		// Unique ------------------------------------------------------------------------------------------------		
 		BackpackItemBorder_Unique
 		{
 			"bordertype"			"scalable_image"
@@ -5517,6 +5355,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+		
+		// Rarity1 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_1
 		{
 			"bordertype"			"scalable_image"
@@ -5541,6 +5381,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"		
 		}
+		
+		// Rarity2 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_2
 		{
 			"bordertype"			"scalable_image"
@@ -5565,6 +5407,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+		
+		// Rarity3 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_3
 		{
 			"bordertype"			"scalable_image"
@@ -5589,6 +5433,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+
+		// Rarity4 ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_4
 		{
 			"bordertype"			"scalable_image"
@@ -5613,6 +5459,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+		
+		// Haunted ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Haunted
 		{
 			"bordertype"			"scalable_image"
@@ -5761,6 +5609,8 @@ Scheme
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"2"	
 		}
+
+		// Vintage ------------------------------------------------------------------------------------------------
 		BackpackItemBorder_Vintage
 		{
 			"bordertype"			"scalable_image"

@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"NeutraDisp24"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -89,9 +89,9 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"font"			"NeutraDisp24"
+		"xpos"			"cs-0.46"
+		"ypos"			"cs-0.06"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 		"proportionaltoparent"	"1"
 
 	

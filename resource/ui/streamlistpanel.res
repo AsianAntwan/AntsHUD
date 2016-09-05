@@ -186,7 +186,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
 		"defaultFgColor_override" "AntsHUDWhite"
-		"defaultBgColor_override" "20 20 20 255"
+		"defaultBgColor_override" "50 50 50 255"
 		"armedBgColor_override"	"AntsHUDDeepSkyBlue"
 		"armedFgColor_override" "AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"

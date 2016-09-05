@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"20 20 20 175"
 	}
 	
 	
@@ -50,7 +50,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
 	}	
 
@@ -119,7 +119,7 @@
 		"wrap"			"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"AntsHUDWhite"

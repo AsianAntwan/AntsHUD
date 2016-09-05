@@ -61,7 +61,7 @@
 				"wide"			"f0"
 				"tall"			"f0"
 				"visible"		"1"
-				"bgcolor_override"		"0 0 0 0"
+				"bgcolor_override"		"BGAnyLight"
 			
 				"itemmodelpanel"
 				{
@@ -156,7 +156,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 187 161 255"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	
 	"selectedrecipecontainer"
@@ -187,7 +187,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"200 187 161 255"
+			"fgcolor"		"AntsHUDWhite"
 			"wrap"			"1"
 		}
 		
@@ -227,7 +227,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"100 100 100 255"
+			"fgcolor"		"AntsHUDLessWhite"
 		}
 		"OutputLabel"
 		{
@@ -245,7 +245,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"100 100 100 255"
+			"fgcolor"		"AntsHUDLessWhite"
 		}
 		
 		"CraftButton"
@@ -363,7 +363,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
@@ -389,7 +389,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"40 40 40 255"
 			
 			"attriblabel"
 			{
@@ -425,6 +425,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"2"
+		"paintbackground"	"1"
 		"paintborder"	"1"
 		
 		"model_ypos"	"5"

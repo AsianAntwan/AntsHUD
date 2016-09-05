@@ -42,7 +42,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GameModesContainer"
 		"xpos"			"c-305"
-		"ypos"			"r343"
+		"ypos"			"r335"
 		"zpos"			"100"
 		"wide"			"260"
 		"tall"			"290"

@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"proportionalToParent"	"1"
 		"autohide_scrollbar"	"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDark"
 
 		"HatUseHeadCheckButton"
 		{
@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Item_SelectStyle"
-			"font"			"Avenir14"
+			"font"			"NeutraDisp14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -86,9 +86,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"set_style"
 			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
-			"border_depressed"			"NoBorder"
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"	
+			
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+			"depressedBgColor_override"	"ButtonBG"
 		}
 	}
 }

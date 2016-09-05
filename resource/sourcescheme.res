@@ -19,7 +19,7 @@ Scheme
 		"AntsHUDDullWhite"			"132 132 132 255"
 		
 		"AntsHUDGray"				"70 70 70 255"
-		"AntsHUDDarkGrey"			"40 40 40 255"
+		"AntsHUDDarkGray"			"40 40 40 255"
 		
 		// ----------------------------------
 		
@@ -93,7 +93,7 @@ Scheme
 		RadioButton.SelectedTextColor	"AntsHUDWhite"
 		RadioButton.ArmedTextColor		"TFTextMedium"
 		
-		Frame.BgColor					"AntsHUDDarkGrey"
+		Frame.BgColor					"AntsHUDDarkGray"
 		Frame.OutOfFocusBgColor			"27 27 27 100"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"AntsHUDWhite"
@@ -479,7 +479,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGrey"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -488,7 +488,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGrey"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -497,7 +497,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGrey"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -506,7 +506,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGrey"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}

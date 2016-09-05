@@ -7,12 +7,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"150"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDark"
 	}
 
 	"HelpTextLabel"

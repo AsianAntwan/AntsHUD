@@ -29,7 +29,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 153"
+		"fillcolor"		"70 130 180 255"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 153"
+		"fillcolor"		"190 50 50 255"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"AntsHUDWhite"
 		
 		"if_hybrid"
@@ -145,8 +145,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
-		"ypos"			"r32"
+		"xpos"			"c-55"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -154,8 +154,8 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Avenir40"
-		"fgcolor"		"Black"
+		"font"			"NeutraDisp40"
+		"fgcolor"		"ShadowBlack"
 		
 		"if_hybrid"
 		{
@@ -186,7 +186,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"AntsHUDWhite"		
 		
 		"if_hybrid"
@@ -209,8 +209,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c8"
-		"ypos"			"r32"
+		"xpos"			"c9"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -218,8 +218,8 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Avenir40"
-		"fgcolor"		"Black"		
+		"font"			"NeutraDisp40"
+		"fgcolor"		"ShadowBlack"		
 		
 		"if_hybrid"
 		{
@@ -236,7 +236,7 @@
 			"visible"	"0"
 		}
 	}	
-															
+	
 	"OutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -342,7 +342,7 @@
 		}
 	}	
 		
-		"BlueFlag"
+	"BlueFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"

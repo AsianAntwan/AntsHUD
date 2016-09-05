@@ -9,10 +9,10 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
-		"bgcolor_override"		"ahudDarkerGrey"
+		"bgcolor_override"		"BGAnyDark"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
-		"border"				"ahudPanelBorder"
+		"border"				"NoBorder"
 	}
 	
 	"TitleLabel"
@@ -86,13 +86,13 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"ahudWhite"
-		"bgcolor_override"	"ahudBlack"
-		"disabledFgColor_override" "ahudWhite"
-		"disabledBgColor_override" "ahudBlack"
-		"selectionColor_override" "ahudBlack"
-		"selectionTextColor_override" "ahudWhite"
-		"defaultSelectionBG2Color_override" "ahudBlack"
+		"fgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"ButtonBG"
+		"disabledFgColor_override" "AntsHUDWhite"
+		"disabledBgColor_override" "ButtonBG"
+		"selectionColor_override" "0 0 0 0"
+		"selectionTextColor_override" "AntsHUDWhite"
+		"defaultSelectionBG2Color_override" "ButtonBG"
 	}
 		
 	"CancelButton"
@@ -118,6 +118,15 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"	
+		
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"ButtonBG"
+
 	}
 	
 	"OkButton"
@@ -143,5 +152,13 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"	
+		
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"ButtonBG"
 	}
 }

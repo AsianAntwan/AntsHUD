@@ -33,7 +33,6 @@
 		"scaleImage"	"1"
 	}
 	
-	
 	"MainContentsContainer"
 	{
 		"ControlName"	"EditablePanel"

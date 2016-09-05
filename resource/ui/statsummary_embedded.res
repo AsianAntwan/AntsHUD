@@ -2552,14 +2552,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"vguicancel"
-					"defaultBgColor_override"	"ButtonBG"
-			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
-			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
-			"defaultFgColor_override"	"AntsHUDWhite"
-			"armedFgColor_override" 	"AntsHUDWhite"
-			"depressedFgColor_override" "AntsHUDWhite"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"Footer" [$X360]
 	{

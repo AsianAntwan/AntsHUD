@@ -15,7 +15,7 @@
 		"enabled"		"1"
 	}
 	
-		"MainBG"
+	"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -28,7 +28,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"20 20 20 175"
 	}
 	
 	"MapInfoTitle"
@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
 	}
 	
@@ -159,7 +159,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"AntsHUDWhite"
@@ -173,7 +173,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c60"
+		"xpos"			"c70"
 		"ypos"			"c96"
 		"zpos"			"6"
 		"wide"			"120"
@@ -188,7 +188,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"Avenir20"
+		"font"			"NeutraDisp16"
 		"paintbackground"	"0"
 
 		"fgcolor"					"AntsHUDWhite"
@@ -202,7 +202,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"c-180"
+		"xpos"			"c-190"
 		"ypos"			"c96"
 		"zpos"			"6"
 		"wide"			"120"
@@ -216,7 +216,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"Avenir20"
+		"font"			"NeutraDisp16"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"AntsHUDWhite"

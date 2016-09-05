@@ -584,7 +584,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 0 0 230"
+		"bgcolor_override"		"20 20 20 240"
 		
 		"MOTD_HeaderContainer"
 		{
@@ -755,7 +755,7 @@
 			"wide"			"280"
 			"tall"			"95"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"AntsHUDDeepSkyBlue"
+			"fgcolor_override"	"AntsHUDGray"
 			
 			"MOTD_TextPanel"
 			{
@@ -847,8 +847,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"labelText"		"<"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -863,22 +863,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"AntsHUDWhite"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"blog_back"
-				"scaleImage"	"1"
-			}
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 		
 		"MOTD_NextButton"
@@ -895,8 +882,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		""
-			"font"			"HudFontSmallBold"
+			"labelText"		">"
+			"font"			"HudFontSmallishBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -905,23 +892,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"AntsHUDWhite"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"blog_forward"
-				"scaleImage"	"1"
-			}
+
+			"defaultFgColor_override" 	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"	
 		}
 	}
 	

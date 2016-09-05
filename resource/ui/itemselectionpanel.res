@@ -44,7 +44,7 @@
 			"wide"			"54"
 			"tall"			"42"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
+			"bgcolor_override" 		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
@@ -446,7 +446,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"40 40 40 255"
 			
 			"attriblabel"
 			{

@@ -40,9 +40,9 @@
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"BGAnyLight"
+		"item_panel_bgcolor_mouseover"	"100 100 100 255"
+		"item_panel_bgcolor_selected"	"125 125 125 255"
 		
 		"classicon_xdelta"		"5"
 
@@ -275,7 +275,7 @@
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
-			"BackColor"
+		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
@@ -290,7 +290,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"40 40 40 255"
 			
 			"attriblabel"
 			{

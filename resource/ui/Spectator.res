@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp24"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}

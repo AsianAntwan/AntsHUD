@@ -33,7 +33,7 @@
 		"FieldName"		"ScrollBar"
 		"xpos"			"c222"
 		"ypos"			"c-120"
-		"wide"			"11"
+		"wide"			"9"
 		"tall"			"200"
 		"zpos"			"1000"
 		"visible"		"1"
@@ -41,8 +41,7 @@
 		
 		"Slider"
 		{
-			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"fgcolor_override"	"AntsHUDGray"
 		}
 		
 		"UpButton"
@@ -92,8 +91,9 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"bgcolor_override"	"BGAnyDarker"
+		"paintbackground"	"1"
+		"border"		"NoBorder"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -127,7 +127,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "BGAnyDark"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -145,7 +145,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "BGAnyDark"
 		}
 		
 		"ItemNameLabel"
@@ -215,7 +215,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"118 107 94 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"RestrictionsLabel"
@@ -266,7 +266,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"UsedByTextLabel"
@@ -299,7 +299,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"SlotTextLabel"
@@ -401,7 +401,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"TradableTextLabel"
@@ -434,7 +434,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"GiftableTextLabel"
@@ -467,7 +467,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"NameableTextLabel"
@@ -500,7 +500,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"AntsHUDLessWhite"
 				}		
 				
 				"CraftableTextLabel"
@@ -1039,9 +1039,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"AntsHUDLessWhite"
+		"armedFgColor_override"		"225 225 225 255"
+		"depressedFgColor_override"	"AntsHUDWhite"
 	}		
 	
 	"IconsMoveRightButton"
@@ -1067,9 +1067,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"AntsHUDLessWhite"
+		"armedFgColor_override"		"225 225 225 255"
+		"depressedFgColor_override"	"AntsHUDWhite"
 	}	
 	
 	"ClassUsageMouseoverLabel"
@@ -1118,9 +1118,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"AntsHUDLessWhite"
+		"armedFgColor_override"		"225 225 225 255"
+		"depressedFgColor_override"	"AntsHUDWhite"
 		"button_activation_type"	"0"
 	}		
 	
@@ -1147,9 +1147,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"AntsHUDLessWhite"
+		"armedFgColor_override"		"225 225 225 255"
+		"depressedFgColor_override"	"AntsHUDWhite"
 		"button_activation_type"	"0"
 	}	
 				
@@ -1200,8 +1200,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"		"200 200 200 255"
+		"image_armedcolor"		"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -1245,8 +1245,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"		"118 107 94 200"
-		"image_armedcolor"		"128 117 104 255"
+		"image_drawcolor"		"200 200 200 255"
+		"image_armedcolor"		"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -1290,8 +1290,8 @@
 		
 		"paintbackground"	"0"
 		
-		"image_drawcolor"	"118 107 94 200"
-		"image_armedcolor"	"246 247 213 255"
+		"image_drawcolor"		"200 200 200 255"
+		"image_armedcolor"		"255 255 255 255"
 		
 		"SubImage"
 		{
@@ -1485,8 +1485,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labeltext"		"X"
+		"font"			"HudFontSmallishBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1496,24 +1496,10 @@
 		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
 		
 		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-		}				
+
+		"defaultFgColor_override" "AntsHUDWhite"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDWhite"
 	}		
 	
 	"BackButton"
@@ -1521,7 +1507,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
 		"xpos"			"c-230"
-		"ypos"			"c105"
+		"ypos"			"c108"
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"22"
@@ -1570,8 +1556,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c25"
-		"ypos"			"c103"
+		"xpos"			"c65"
+		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"27"
