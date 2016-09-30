@@ -87,20 +87,6 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"Frame"
-	{
-		"Controlname"	"EditablePanel"
-		"fieldName"		"Frame"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"zpos"			"5"
-		"proportionaltoparent"	"1"
-		"border"		"NoBorder"
-		"mouseinputenabled"	"0"
-	}	
-
 	"FadeTransition"
 	{
 		"ControlName"			"EditablePanel"
@@ -116,7 +102,7 @@
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"		"0"
 
-		"bgcolor_override"		"26 23 22 255"
+		"bgcolor_override"		"BGAnyLight"
 	}
 
 }

@@ -305,11 +305,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c210"
-		"ypos"			"155"
+		"xpos"			"c-240"
+		"ypos"			"335"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"25"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -323,10 +323,10 @@
 		"Command"		"discarditem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"defaultBgColor_override" "100 100 100 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "100 100 100 255"
+		
+		"defaultBgColor_override" "ButtonBG"
+		"armedBgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedBgColor_override" "ButtonBG"
 			
 		"image_drawcolor"	"255 255 255 255"		
 		"image_armedcolor"	"255 255 255 255"		
@@ -335,8 +335,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"3"
+			"ypos"			"3"
 			"zpos"			"1"
 			"wide"			"20"
 			"tall"			"20"
@@ -351,8 +351,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DiscardButtonTooltip"
-		"xpos"			"c175"
-		"ypos"			"186"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"50"

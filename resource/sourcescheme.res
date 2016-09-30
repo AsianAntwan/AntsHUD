@@ -1,10 +1,9 @@
+//SourceScheme.res edited by rays, originally by:
+// Doodles - DoodleHUD - http://doodlesstuff.com
+//
 #base "SourceSchemeBase.res"
-
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		//---------------------------------------------
@@ -43,8 +42,8 @@ Scheme
 
 	    "TFMediumBrown"				"69 64 58 255"
 
-	    "QuickListBGDeselected"		"0 0 0 0"
-	    "QuickListBGSelected"       "169 123 53 255"
+	    "QuickListBGDeselected"		"20 20 20 255"
+	    "QuickListBGSelected"       "0 191 255 255"
 	    
 	    "Blank"						"0 0 0 0"
 	    
@@ -231,490 +230,154 @@ Scheme
 	}
 	
 	Fonts
-	}
-	"NeutraDisp35"
 	{
-		"1"
+		"MainMenuFont"
 		{
-			"name"		"Neutra Display Titling"
-			"tall"		"35"
-			"additive"	"0"
-			"antialias" "1"
+			"1"	[$WIN32]
+			{
+				"name"		"TF2 Build"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
 		}
+		"MenuLarge"
+		{
+			"1"	[$X360]
+			{
+				"tall_hidef"		"24"
+			}
+		}
+		"ServerBrowserTitle"
+		{
+			"1"
+			{
+				"name"		"Neutra Display Titling"
+				"tall"		"35"
+				"tall_lodef"	"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Default" [$OSX]
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
+			}
+		}
+		"ServerBrowserSmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Tahoma"
+				"tall"		"16"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Tahoma"
+				"tall"		"19"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+		}	
+		AchievementItemTitle	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"weight"		"1500"
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [$OSX]
+				"antialias"		"1"
+			}
+		}
+		AchievementItemTitleLarge	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"weight"		"1500"
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [$OSX]
+				"antialias"		"1"
+			}
+		}
+		AchievementItemDescription	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"weight"		"1000"
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [$OSX]
+				"antialias"		"1" [!$OSX]
+			}
+		}
+
 	}
-	"Avenir16"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"16"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"Avenir17"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"17"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"Avenir18"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"18"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"Avenir19"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"19"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"Avenir20"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"20"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"MainMenuFont"
-	{
-		"1"	[$WIN32]
-		{
-			"name"		"TF2 Build"
-			"tall"		"18"
-			"weight"	"500"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-	"MenuLarge"
-	{
-		"1"
-		{
-			"name"		"AvenirLTStd-Medium"
-			"tall"		"18"
-			"weight"	"0"
-			"antialias"	"1"
-		}
-	}
-
-	"ServerBrowserTitle"
-	{
-		"1"
-		{
-			"name"		"Neutra Display Titling"
-			"tall"		"35"
-			"antialias" "1"
-		}
-	}
-
-	"Default"	[$OSX]
-	{
-		"1"
-		{
-			"name"		"Verdana"
-			"tall"		"14"
-			"weight"	"500"
-		}
-	}
-
-	"ServerBrowserSmall"
-	{
-		"1"
-		{
-			"name"		"Tahoma"
-			"tall"		"16"
-			"weight"	"0"
-			"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			"yres"	"480 599"
-		}
-		"2"
-		{
-			"name"		"Tahoma"
-			"tall"		"16"
-			"weight"	"0"
-			"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			"yres"	"600 767"
-		}
-		"3"
-		{
-			"name"		"Tahoma"
-			"tall"		"16"
-			"weight"	"0"
-			"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			"yres"	"768 1023"
-			"antialias"	"1"
-		}
-		"4"
-		{
-			"name"		"Tahoma"
-			"tall"		"19"
-			"weight"	"0"
-			"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			"yres"	"1024 1199"
-			"antialias"	"1"
-		}
-		"5"
-		{
-			"name"		"Tahoma"
-			"tall"		"19"
-			"weight"	"0"
-			"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			"yres"	"1200 6000"
-			"antialias"	"1"
-		}
-	}
-	
-			
-	AchievementItemTitle	[$WIN32]
-	{
-		"1"
-		{
-			"name"		"Arial" [!$OSX]
-			"name"		"Verdana Bold" [$OSX]
-			"weight"		"1500"
-			"tall"			"16" [!$OSX]
-			"tall"			"18" [$OSX]
-			"antialias"		"1"
-		}
-	}
-	
-	AchievementItemTitleLarge	[$WIN32]
-	{
-		"1"
-		{
-			"name"		"Arial" [!$OSX]
-			"name"		"Verdana Bold" [$OSX]
-			"weight"		"1500"
-			"tall"			"18" [!$OSX]
-			"tall"			"19" [$OSX]
-			"antialias"		"1"
-		}
-	}
-	
-	AchievementItemDescription	[$WIN32]
-	{
-		"1"
-		{
-			"name"		"Arial" [!$OSX]
-			"name"		"Verdana" [$OSX]
-			"weight"		"1000"
-			"tall"			"14" [!$OSX]
-			"tall"			"12" [$OSX]
-			"antialias"		"1" [!$OSX]
-		}
-	}
-
-	Borders
-	{
-		BaseBorder		SubtleBorder
-		ButtonBorder	RaisedBorder
-		ComboBoxBorder	DepressedBorder
-		MenuBorder		SubtleBorder
-		BrowserBorder	DepressedBorder
-		PropertySheetBorder	RaisedBorder
-
-		FrameBorder
-		{
-			// rounded corners for frames
-			//"backgroundtype" "2"
-
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		DepressedBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDDarkGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDDarkGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDDarkGray"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "AntsHUDDarkGray"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		TitleButtonBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		TitleButtonDisabledBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		TitleButtonDepressedBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		ScrollBarButtonBorder
-		{
-			"inset" "0 0 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		ScrollBarButtonDepressedBorder
-		{
-			"inset" "0 0 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		TabBorder
-		{
-			"inset" "1 1 1 1"
-
-			render 
-			{
-				"0" "fill( x0, y0, x1, y1, AntsHUDGray )"
-			}
-
-			render_bg 
-			{
-				"0" "fill( x0, y0, x1, y1, AntsHUDDeepSkyBlue )"
-			}
-
-		}
-
-		TabActiveBorder
-		{
-			"inset" "1 1 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-		}
-
-
-		ToolTipBorder
-		{
-			"inset" "0 0 1 0"
-			Left
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "AntsHUDGray"
-					"offset" "0 0"
-				}
-			}
-		}		
-	}
-	
 	CustomFontFiles
 	{
 		"1"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"2"
-		{
-			"font"	"resource/fonts/Neutra Display Titling.ttf"
-			"name"	"Neutra Display Titling"
+		{	
+			"font" "resource/fonts/Neutra Display Titling.ttf"
+			"name" "Neutra Display Titling"
 		}
 		"3"
-		{
-			"font"	"resource/fonts/AvenirLTStd-Medium.otf"
-			"name"	"AvenirLTStd-Medium"
+		{	
+			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"name" "AvenirLTStd-Medium"
 		}
 	}
 }
