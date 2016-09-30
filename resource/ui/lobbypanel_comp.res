@@ -381,7 +381,7 @@
 	"PartyActiveGroupBox"
 	{
 		"xpos"			"c+100"
-		"ypos"		"r340"
+		"ypos"		"r335"
 		"tall"		"300"
 		"proportionaltoparent"	"1"
 
@@ -409,7 +409,7 @@
 	"SearchActiveGroupBox"
 	{
 		"xpos"		"c-300"
-		"ypos"		"r340"
+		"ypos"		"r335"
 		"wide"		"250"
 		"tall"		"285"
 		"proportionaltoparent"	"1"

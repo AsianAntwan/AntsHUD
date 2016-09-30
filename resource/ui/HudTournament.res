@@ -1,5 +1,3 @@
-//tick 52000
-
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
