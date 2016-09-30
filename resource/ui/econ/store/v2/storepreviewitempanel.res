@@ -626,8 +626,7 @@
 		"wide"			"220"
 		"tall"			"220"
 		"visible"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"BGAnyDark"
+		"paintbackground"	"0"
 		"paintborder"	"0"
 		
 		"model_xpos"	"10"

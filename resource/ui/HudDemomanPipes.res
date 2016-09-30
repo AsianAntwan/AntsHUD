@@ -113,8 +113,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"36"
-			"ypos"			"14"
+			"xpos"			"35"
+			"ypos"			"13"
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"24"

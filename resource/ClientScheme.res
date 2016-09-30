@@ -4190,16 +4190,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"MoreSymbols"
-		{
-			"1"
-			{
-				"name"	"ToonHUD Icons"
-				"tall"	"16"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
 		"TF2ComboBox"
 		{
 			"1"
@@ -4984,7 +4974,7 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"loadout_round_rect_selected"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5029,7 +5019,7 @@ Scheme
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/tournament_panel_brown"
 			//"image"					"../hud/color_panel_browner"
@@ -5041,7 +5031,7 @@ Scheme
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -5063,7 +5053,7 @@ Scheme
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -5074,7 +5064,7 @@ Scheme
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -5085,7 +5075,7 @@ Scheme
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -5096,7 +5086,7 @@ Scheme
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -5118,7 +5108,7 @@ Scheme
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
@@ -5279,7 +5269,7 @@ Scheme
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
+			"backgroundtype"		"2"
 			"color"					"65 65 65 255"
 			
 			"image"					"backpack_rect_mouseover_color"			
@@ -5293,7 +5283,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"BGAnyLight"
+			"color"					"Black"
 			
 			"image"					"backpack_rect_color"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -7063,11 +7053,6 @@ Scheme
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
-		}
-		"12" // Other Icons		
-		{
-			"font" "resource/fonts/More Icons.ttf"
-			"name"	"ToonHUD Icons"
 		}
 	}
 }

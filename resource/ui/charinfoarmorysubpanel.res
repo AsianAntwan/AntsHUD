@@ -17,9 +17,9 @@
 		"infocus_bgcolor_override" "25 25 25 255"
 		"outoffocus_bgcolor_override" "25 25 25 255"
 		
-		"thumbnail_bgcolor"			"50 50 50 255"
-		"thumbnail_bgcolor_mouseover"	"87 87 87 255"
-		"thumbnail_bgcolor_selected"	"125 125 125 255"
+		"thumbnail_bgcolor"			"40 40 40 255"
+		"thumbnail_bgcolor_mouseover"	"140 140 140 255"
+		"thumbnail_bgcolor_selected"	"160 160 160 255"
 		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
@@ -136,12 +136,12 @@
 		"unicode"			"0"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"BGAnyLight"
+		"bgcolor_override"	"51 47 46 255"
 		"disabledFgColor_override" "255 255 255 255"
-		"disabledBgColor_override" "BGAnyLight"
-		"selectionColor_override" "BGAnyLight"
+		"disabledBgColor_override" "51 47 46 255"
+		"selectionColor_override" "51 47 46 255"
 		"selectionTextColor_override" "255 255 255 255"
-		"defaultSelectionBG2Color_override" "BGAnyLight"
+		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 	
 	"DataPanel"
@@ -155,9 +155,8 @@
 		"tall"			"253"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"BGAnyLight"
 		"paintborder"	"1"
-		"border"		"NoBorder"
+		"border"		"StorePreviewBorder"
 
 		"Data_TextRichText"
 		{
@@ -253,7 +252,7 @@
 		"wide"			"250"
 		"tall"			"180"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDark"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
@@ -380,7 +379,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"WikiButton"
-		"xpos"			"c75"
+		"xpos"			"c130"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"160"
@@ -446,8 +445,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-300"
-		"ypos"			"290"
+		"xpos"			"c-138"
+		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"

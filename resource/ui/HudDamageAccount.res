@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"TransparentBlack"
 		"font"			"NeutraDisp32"
 	}
 }

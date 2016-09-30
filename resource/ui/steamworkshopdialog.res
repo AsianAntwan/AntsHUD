@@ -157,9 +157,9 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"1"
-				"defaultBgColor_override"	"30 30 30 255"
-				"armedBgColor_override"		"50 50 50 255"
-				"depressedBgColor_override"	"30 30 30 255"
+				"defaultBgColor_override"	"ButtonBG"
+				"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+				"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 				"defaultFgColor_override"	"AntsHUDWhite"
 				"armedFgColor_override" 	"AntsHUDWhite"
 				"depressedFgColor_override" "AntsHUDWhite"
@@ -547,7 +547,7 @@
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"ButtonBG"
 			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
-			"depressedBgColor_override"	"ButtonBG"
+			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override" 	"AntsHUDWhite"
 			"depressedFgColor_override" "AntsHUDWhite"
@@ -576,9 +576,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
-			"depressedBgColor_override"	"30 30 30 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override" 	"AntsHUDWhite"
 			"depressedFgColor_override" "AntsHUDWhite"
@@ -607,9 +607,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
-			"depressedBgColor_override"	"30 30 30 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override" 	"AntsHUDWhite"
 			"depressedFgColor_override" "AntsHUDWhite"
@@ -637,10 +637,6 @@
 			"Command"		"learn_more"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
-			"depressedBgColor_override"	"30 30 30 255"
 		}
 
 		"ViewLegalAgreementButton"
@@ -664,19 +660,19 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"view_legal_agreement"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
-			"depressedBgColor_override"	"30 30 30 255"
-			
-			"defaultFgColor_override"	"AntsHUDWhite"
-			"armedFgColor_override" 	"AntsHUDWhite"
-			"depressedFgColor_override" "AntsHUDWhite"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"0 0 0 255"
+		
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 		}
 
 		"CancelButton"
@@ -700,19 +696,19 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"cancel"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
-			"depressedBgColor_override"	"30 30 30 255"
-			
-			"defaultFgColor_override"	"AntsHUDWhite"
-			"armedFgColor_override" 	"AntsHUDWhite"
-			"depressedFgColor_override" "AntsHUDWhite"
-			
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"0 0 0 255"
+		"armedBgColor_override"		"35 35 35 255"
+		"depressedBgColor_override"	"0 0 0 255"
+		
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 		}			
 	}
 }

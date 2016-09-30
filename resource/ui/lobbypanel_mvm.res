@@ -812,7 +812,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SearchActiveGroupBox"
 		"xpos"		"c-305"
-		"ypos"		"20"
+		"ypos"		"10"
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"330"
@@ -901,37 +901,37 @@
 			"enabled"	"1"
 		}
 
-		"PlayersInGameTotalNearbyValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersInGameTotalNearbyValue"
-			"font"			"HudFontSmall"
-			"xpos"		"190"
-			"ypos"		"90"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersInGameTotalNearbyValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersInGameTotalNearbyValue"
+				"font"			"HudFontSmall"
+				"xpos"		"190"
+				"ypos"		"90"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
-		"PlayersInGameTotalWorldwideValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersInGameTotalWorldwideValue"
-			"font"			"HudFontSmall"
-			"xpos"		"280"
-			"ypos"		"90"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersInGameTotalWorldwideValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersInGameTotalWorldwideValue"
+				"font"			"HudFontSmall"
+				"xpos"		"280"
+				"ypos"		"90"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
 		"PlayersInGameMatchingLabel"
 		{
@@ -949,37 +949,37 @@
 			"enabled"	"1"
 		}
 
-		"PlayersInGameMatchingNearbyValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersInGameMatchingNearbyValue"
-			"font"			"HudFontSmall"
-			"xpos"		"190"
-			"ypos"		"110"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersInGameMatchingNearbyValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersInGameMatchingNearbyValue"
+				"font"			"HudFontSmall"
+				"xpos"		"190"
+				"ypos"		"110"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
-		"PlayersInGameMatchingWorldwideValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersInGameMatchingWorldwideValue"
-			"font"			"HudFontSmall"
-			"xpos"		"280"
-			"ypos"		"110"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersInGameMatchingWorldwideValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersInGameMatchingWorldwideValue"
+				"font"			"HudFontSmall"
+				"xpos"		"280"
+				"ypos"		"110"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
 		"PlayersSearchingLabel"
 		{
@@ -1013,37 +1013,37 @@
 			"enabled"	"1"
 		}
 
-		"PlayersSearchingTotalNearbyValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersSearchingTotalNearbyValue"
-			"font"			"HudFontSmall"
-			"xpos"		"190"
-			"ypos"		"160"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersSearchingTotalNearbyValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersSearchingTotalNearbyValue"
+				"font"			"HudFontSmall"
+				"xpos"		"190"
+				"ypos"		"160"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
-		"PlayersSearchingTotalWorldwideValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersSearchingTotalWorldwideValue"
-			"font"			"HudFontSmall"
-			"xpos"		"280"
-			"ypos"		"160"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersSearchingTotalWorldwideValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersSearchingTotalWorldwideValue"
+				"font"			"HudFontSmall"
+				"xpos"		"280"
+				"ypos"		"160"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
 		"PlayersSearchingMatchingLabel"
 		{
@@ -1061,37 +1061,37 @@
 			"enabled"	"1"
 		}
 
-		"PlayersSearchingMatchingNearbyValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersSearchingMatchingNearbyValue"
-			"font"			"HudFontSmall"
-			"xpos"		"190"
-			"ypos"		"180"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersSearchingMatchingNearbyValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersSearchingMatchingNearbyValue"
+				"font"			"HudFontSmall"
+				"xpos"		"190"
+				"ypos"		"180"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
-		"PlayersSearchingMatchingWorldwideValue"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"PlayersSearchingMatchingWorldwideValue"
-			"font"			"HudFontSmall"
-			"xpos"		"280"
-			"ypos"		"180"
-			"zpos"			"2"
-			"wide"		"90"
-			"tall"		"20"
-			"textAlignment"	"north-east"
-			"visible"	"1"
-			"enabled"	"1"
-			"labelText"		"?"
-		}
+			"PlayersSearchingMatchingWorldwideValue"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"PlayersSearchingMatchingWorldwideValue"
+				"font"			"HudFontSmall"
+				"xpos"		"280"
+				"ypos"		"180"
+				"zpos"			"2"
+				"wide"		"90"
+				"tall"		"20"
+				"textAlignment"	"north-east"
+				"visible"	"1"
+				"enabled"	"1"
+				"labelText"		"?"
+			}
 
 		"EmptyGameserversLabel"
 		{
@@ -1209,7 +1209,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PartyActiveGroupBox"
 		"xpos"			"c+100"
-		"ypos"		"20"
+		"ypos"		"10"
 		"zpos"		"1"
 		"wide"		"200"
 		"tall"		"310"
@@ -1344,7 +1344,7 @@
 		"ControlName"		"CheckButton"
 		"fieldName"		"JoinLateCheckButton"
 		"xpos"		"c+100"
-		"ypos"		"335"
+		"ypos"		"325"
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
