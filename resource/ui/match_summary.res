@@ -113,7 +113,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"StatsAndMedals"
-			"font"			"Avenir16"
+			"font"			"MatchSummaryStatsAndMedals"
 			"labelText"		"#TF_StatsAndMedals"
 			"textAlignment"		"center"
 			"xpos"			"0"
@@ -133,7 +133,7 @@
 			"fieldName"		"StatsAndMedalsShadow"
 			"font"			"MatchSummaryStatsAndMedals"
 			"labelText"		"#TF_StatsAndMedals"
-			"fgcolor"		"Black"
+			"fgcolor"		"ShadowBlack"
 			"textAlignment"		"center"
 			"xpos"			"1"
 			"ypos"			"1"
@@ -172,7 +172,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"bgcolor_override"	"AntsHUDBlue"
 		}
 		"BlueTeamScore"
 		{
@@ -196,7 +196,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"font"			"NeutraDisp56"
-			"fgcolor"		"Black"
+			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"21"
@@ -263,7 +263,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Avenir20"
+			"font"			"NeutraDisp20"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"60"
@@ -290,6 +290,19 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
+		}
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BlueLeaderAvatarBG"
+			"xpos"			"16"
+			"ypos"			"98"
+			"zpos"			"4"
+			"wide"			"38"
+			"tall"			"38"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"AntsHUDBlue"
 		}
 		"BlueMedals"
 		{
@@ -321,7 +334,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"BlueGoldMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%blueteammedals_gold%"
 				"textAlignment"		"center"
 				"xpos"			"15"
@@ -352,7 +365,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"BlueSilverMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%blueteammedals_silver%"
 				"textAlignment"		"center"
 				"xpos"			"70"
@@ -383,7 +396,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"BlueBronzeMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%blueteammedals_bronze%"
 				"textAlignment"		"center"
 				"xpos"			"125"
@@ -426,6 +439,8 @@
 				"linegap"		"0"
 				//"show_columns"	"1"
 
+
+
 				"medal_width"	"s.08"
 				"avatar_width"	"s.08"
 				"spacer"		"s.01"
@@ -464,7 +479,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"bgcolor_override"	"ahudRed"
 		}						
 		"RedTeamScore"
 		{
@@ -555,7 +570,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Avenir20"
+			"font"			"NeutraDisp20"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"r335"
@@ -582,6 +597,19 @@
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"52 48 45 255"
+		}
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedLeaderAvatarBG"
+			"xpos"			"r54"
+			"ypos"			"98"
+			"zpos"			"4"
+			"wide"			"38"
+			"tall"			"38"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"AntsHUDRed"
 		}
 		"RedMedals"
 		{
@@ -613,7 +641,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"RedGoldMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%redteammedals_gold%"
 				"textAlignment"		"center"
 				"xpos"			"15"
@@ -644,7 +672,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"RedSilverMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%redteammedals_silver%"
 				"textAlignment"		"center"
 				"xpos"			"70"
@@ -675,7 +703,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"RedBronzeMedalValue"
-				"font"			"Avenir14"
+				"font"			"MatchSummaryStatsAndMedals"
 				"labelText"		"%redteammedals_bronze%"
 				"textAlignment"		"center"
 				"xpos"			"125"

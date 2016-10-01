@@ -56,6 +56,22 @@
 			"scaleImage"		"1"
 			
 		}
+		"BLUBG2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"BLUBG2"
+			"xpos"			"0"
+			"ypos"			"25"
+			"zpos"			"-2"
+			"wide"			"100"
+			"tall"			"3"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"AntsHUDDarkBlue"
+			"scaleImage"		"1"
+		}
 		"REDBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -69,6 +85,22 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"AntsHUDRed"
+			"scaleImage"		"1"
+		}
+		"REDBG2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"REDBG2"
+			"xpos"			"100"
+			"ypos"			"25"
+			"zpos"			"-2"
+			"wide"			"100"
+			"tall"			"3"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"AntsHUDDarkRed"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -294,8 +326,8 @@
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"NeutraDisp20"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"11"
-		"ypos"			"55"
+		"xpos"			"12"
+		"ypos"			"56"
 		"zpos"			"1"
 		"wide"			"180"
 		"tall"			"40"

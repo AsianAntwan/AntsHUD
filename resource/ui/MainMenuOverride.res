@@ -960,8 +960,8 @@
 			"font"			"NeutraDisp16"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"8"
-			"ypos"			"1"
+			"xpos"			"9"
+			"ypos"			"2"
 			"zpos"			"4"
 			"wide"			"16"
 			"tall"			"16"
@@ -969,7 +969,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"0 0 0 255"
+			"fgcolor_override"	"ShadowBlack"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -1556,7 +1556,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"Beta v1.3"
+			"labelText"		"Beta v1.35"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
