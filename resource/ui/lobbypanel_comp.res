@@ -340,7 +340,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"ButtonBG"
+						"fgcolor_override"	"AntsHUDGray"
 					}
 		
 					"UpButton"

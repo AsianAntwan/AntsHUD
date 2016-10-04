@@ -61,8 +61,8 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"BLUBG2"
 			"xpos"			"0"
-			"ypos"			"25"
-			"zpos"			"-2"
+			"ypos"			"38"
+			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"3"
 			"autoResize"	"0"
@@ -92,8 +92,8 @@
 			"ControlName"		"ImagePanel"
 			"fieldName"		"REDBG2"
 			"xpos"			"100"
-			"ypos"			"25"
-			"zpos"			"-2"
+			"ypos"			"38"
+			"zpos"			"1"
 			"wide"			"100"
 			"tall"			"3"
 			"autoResize"	"0"
@@ -299,7 +299,6 @@
 		"enabled"		"1"
 		"scaleImage"		"1"	
 		"fillcolor"		"0 0 0 100"
-	
 	}
 	"WinningTeamLabel"
 	{	

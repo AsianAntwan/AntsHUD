@@ -72,7 +72,7 @@
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor" 	"255 255 255 50"
+		"fillcolor" 	"0 0 0 150"
 	}
 	
 	"IndividualChargesLabel"

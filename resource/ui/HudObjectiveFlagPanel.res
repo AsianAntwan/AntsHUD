@@ -22,14 +22,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-120"
+		"xpos"			"c-100"
 		"ypos"			"r20"	
 		"zpos"			"-1"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 255"
+		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -47,19 +47,34 @@
 			"visible"	"0"
 		}
 	}
+	
+	"LeftSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG2"
+		"xpos"			"c-100"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkBlue"
+		"scaleImage"	"1"	
+	}
 		
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"	[$WIN32]
+		"ypos"			"r20"
 		"zpos"			"-1"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"190 50 50 255"
+		"fillcolor"		"AntsHUDRed"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -76,6 +91,21 @@
 		{
 			"visible"	"0"
 		}
+	}
+	
+	"RightSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG2"
+		"xpos"			"c0"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkRed"
+		"scaleImage"	"1"	
 	}
 		
 	"OutlineBG"
@@ -187,7 +217,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"AntsHUDWhite"		
+		"fgcolor"		"AntsHUDWhite"
 		
 		"if_hybrid"
 		{
@@ -219,7 +249,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"ShadowBlack"		
+		"fgcolor"		"ShadowBlack"
 		
 		"if_hybrid"
 		{
@@ -316,14 +346,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"20 20 20 175"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -347,7 +377,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
-		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r70"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
@@ -388,7 +418,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
 		"xpos"			"c5"
-		"ypos"			"r75"
+		"ypos"			"r70"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -427,7 +457,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-28"
-		"ypos"			"r100"	[$WIN32]
+		"ypos"			"r95"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"56"
 		"tall"			"56"

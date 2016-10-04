@@ -36,7 +36,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"55"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"BGAnyDarker"
@@ -102,7 +102,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"5"
-			"textinsety"		"-7"
+			"textinsety"		"-4"
 			"textAlignment"		"center"
 			"font"				"NeutraDisp32"
 			"ypos"				"50"

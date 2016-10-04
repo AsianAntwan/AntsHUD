@@ -99,7 +99,7 @@
 
  	"VersionNumber"
  	{
-		"label" "Beta v1.35" 
+		"label" "Beta v1.4" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
  	}
