@@ -177,7 +177,7 @@
 		
 		"render_texture""0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"	"1"
 				
 		"model"
 		{
@@ -455,23 +455,22 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"RedButton"
-		"xpos"				"c-45"
-		"ypos"				"87"
-		"zpos"				"12"	
-		"wide"				"40"
+		"xpos"				"c80"
+		"ypos"				"64"
+		"zpos"				"30"	
+		"wide"				"20"
 		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"RED"
+		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"NeutraDisp20"
+		"font"				"MoreSymbols"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
-		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "AntsHUDRed"
 		"armedFgColor_override" "AntsHUDLightRed"
 		"depressedFgColor_override" "AntsHUDRed"
@@ -479,36 +478,30 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"keyboardinputenabled"	"0"
-		
+		"keyboardinputenabled"	"0"		
 		"paintbackground"	"0"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
 	}
 	
 	"BlueButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BlueButton"
-		"xpos"				"c5"
-		"ypos"				"87"
-		"zpos"				"12"	
-		"wide"				"40"
+		"xpos"				"c60"
+		"ypos"				"64"
+		"zpos"				"30"	
+		"wide"				"20"
 		"tall"				"20"
 		"autoResize"		"1"
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"BLU"
+		"labelText"			"B"
 		"textAlignment"		"center"
-		"font"				"NeutraDisp20"
+		"font"				"MoreSymbols"
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
-		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "AntsHUDBlue"
 		"armedFgColor_override" "AntsHUDLightBlue"
 		"depressedFgColor_override" "AntsHUDBlue"
@@ -516,15 +509,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"keyboardinputenabled"	"0"
-		
+		"keyboardinputenabled"	"0"	
 		"paintbackground"	"0"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
-		"border_depressed"			"NoBorder"
+
 	}
-	
+
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"

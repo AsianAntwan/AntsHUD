@@ -1,4 +1,4 @@
-"Resource/UI/match_summary.res"
+"Resource/UI/Match_Summary.res"
 {
 	"MatchSummary"
 	{

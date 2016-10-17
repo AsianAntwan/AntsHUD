@@ -162,18 +162,17 @@ event HudMedicChargedStop
 	Animate	ChargeMeter 	FgColor		"Uber Bar Color"		Linear 0.0 0.0001
 	Animate ChargeLabel 	FgColor 	"AntsHUDWhite" 				Linear 0.0 0.0001
 }
-
 //===========================================
 
 event DamagedPlayer
 {
-	Animate KnucklesCrosses	 	FgColor 	"CrosshairDamage" 		Linear 0.0 0.0
-	Animate KnucklesCrosses	 	FgColor 	"Crosshair" 			Linear 0.15 0.0
-	
-	// The colors for CrosshairDamage and Crosshair can be changed under custom
-	// colors in colors.res in the resource/scheme folder. Alternatively, you can
-	// use RGBA. 
-
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+}
+event HitMarker
+{
+	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// Hitmarker start
+	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 	// Hitmarker end
 }
 
 //===========================================

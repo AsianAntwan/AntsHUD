@@ -1,4 +1,4 @@
-"Resource/UI/ServerNoConnectedToSteam.res"
+"Resource/UI/ServerNotConnectedToSteam.res"
 {
 	"ServerNotConnectedToSteamDialog"
 	{
@@ -9,7 +9,7 @@
 		"ypos"					"170"
 		"wide"					"320"
 		"tall"					"140"
-		"bgcolor_override"		"AntsHUDDarker"
+		"bgcolor_override"		"AntsHUDDark"
 		"paintbackgroundtype"	"0"
 	}
 
@@ -30,7 +30,7 @@
 		"wrap"			"0"
 		"labelText"		"#TF_ServerNoSteamConn_Title"
 		"textAlignment"		"North"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"ExplanationLabel"
 	{	
