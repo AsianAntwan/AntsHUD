@@ -806,7 +806,7 @@
 			"labelText"		"#TF_Casual_Explanation_MapsDetails_Body"
 			"textAlignment"	"north-west"
 			"xpos"			"cs-0.5"
-			"ypos"			"45"
+			"ypos"			"30"
 			"wide"			"f20"
 			"tall"			"200"
 			"autoResize"	"0"
@@ -848,6 +848,41 @@
 			"defaultFgColor_override" "AntsHUDWhite"
 			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"				
-		}			
+		}		
+	}
+	
+	"Tooltip_CasualLobby"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Tooltip_CasualLobby"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1000"
+		"wide"			"150"
+		"tall"			"20"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDark"
+
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"center"
+			"xpos"			"20"
+			"ypos"			"5"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"AntsHUDWhite"
+			"auto_wide_tocontents" "1"
+		}
 	}	
 }

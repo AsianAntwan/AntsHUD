@@ -32,7 +32,7 @@
 		"wide"			"300"
 		"tall"			"0"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
 		"bgcolor_override"	"BGAnyDark"
 		
@@ -40,7 +40,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"west"
 			"xpos"			"20"

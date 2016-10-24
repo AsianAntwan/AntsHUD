@@ -14,6 +14,8 @@ Scheme
 		"AntsHUDLightRed"			"215 75 75 255"
 		"AntsHUDRed"				"190 50 50 255"
 		"AntsHUDDarkRed"			"165 25 25 255"
+		"AntsHUDHalloween"			"255 145 0 255"
+		"AntsHUDHalloweenGreen"		"84 221 86 255"
 		
 		"AntsHUDWhite"				"255 255 255 255"
 		"AntsHUDLessWhite"			"200 200 200 255"

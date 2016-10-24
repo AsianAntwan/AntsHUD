@@ -62,8 +62,8 @@
 		"paintbackground"	"0"
 
 		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "84 221 86 255"
-		"depressedFgColor_override" "84 221 86 255"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDWhite"
 	}
 
 	"TitleLabel"
@@ -187,7 +187,7 @@
 			
 		"defaultFgColor_override" "AntsHUDWhite"
 		"defaultBgColor_override" "50 50 50 255"
-		"armedBgColor_override"	"84 221 86 255"
+		"armedBgColor_override"	"AntsHUDDeepSkyBlue"
 		"armedFgColor_override" "AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"
 	}	

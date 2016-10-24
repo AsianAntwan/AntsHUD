@@ -1,8 +1,8 @@
 ==How to Install Customiztions==
 
-1. Move/Copy the folder you want to add to AntsHUD-Beta to the desktop
+1. Remove/Copy or Cut the contents within the folder you want to add to AntsHUD-Beta to the desktop/Paste to the desktop
 2. Go back to your custom folder in the Windows Explorer window to view the AntsHUD-Beta Folder
-3. Move/Paste the folder you placed on the desktop onto the AntsHUD-Beta Folder
+3. Move/Paste those contents you placed on the desktop on top of the AntsHUD-Beta Folder/within the AntsHUD-Beta Folder
 4. Click any "Yes" or "Replace" that pops up in order for your customization to be installed
 5. You're Done!
 
@@ -12,6 +12,9 @@
 		a) Code by: ToonHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Rep
+	-Normal Theme(Only for Scream Fortress 8)
+		a) Code by: ahud
+		b) Coding for colors and theme: Antwan/Creator of AntsHUD-Beta
 	-Top Left Chat Box
 		a) Suggested by: antlers
 	-Transparent Viewmodels

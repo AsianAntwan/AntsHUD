@@ -35,6 +35,70 @@ Scheme
 				}
 			}
 		}	
+		MainMenuTabsHalloween
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "255 145 0 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 145 0 255"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "255 145 0 255"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "255 145 0 255"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "255 145 0 255"
+					"offset" "0 0"
+				}
+			}
+		}	
+		MainMenuTabsHalloweenGreen
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "84 221 86 255"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "84 221 86 255"
+					"offset" "0 0"
+				}
+				"3"
+				{
+					"color" "84 221 86 255"
+					"offset" "0 0"
+				}
+				"4"
+				{
+					"color" "84 221 86 255"
+					"offset" "0 0"
+				}
+				"5"
+				{
+					"color" "84 221 86 255"
+					"offset" "0 0"
+				}
+			}
+		}	
 		DeepSkyBlueBorder
 		{
 			"inset" "0 0 0 0"
@@ -2309,7 +2373,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_holder_central"
+			"image"					"replay/thumbnails/mmbg"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional

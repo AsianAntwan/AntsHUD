@@ -156,7 +156,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Black"
 		}				
 		"BlueLeaderAvatar"
 		{
@@ -239,7 +238,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Black"
 		}
 		"RedLeaderAvatar"
 		{
