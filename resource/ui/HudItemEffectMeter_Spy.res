@@ -6,6 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"	
+		"xpos_minmode"	"c15"	
 		"ypos"			"360"
 		"wide"			"500"
 		"tall"			"500"
@@ -72,7 +73,7 @@
 		"font"					"MoreSymbols"
 		"fgcolor_override"		"255 255 0 255"
 	}
-
+	
 	"ItemEffectMeterIconShadow"
 	{
 		"ControlName"			"CExLabel"
@@ -97,11 +98,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"ypos"					"0"
+		"xpos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"tall"					"6"				
+		"tall"					"4"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"0"
@@ -109,6 +110,7 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"bgcolor_override"		"20 20 20 150"
 	}					
 	
 	"ItemEffectMeterCount"

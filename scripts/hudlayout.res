@@ -130,6 +130,7 @@
 		"enabled"		"1"
 		"xpos"			"c-150"	
 		"ypos"			"c20"	
+		"ypos_minmode"	"c64"	
 		"wide"			"500"
 		"tall"			"500"
 	}
@@ -238,7 +239,9 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c96"
+		"xpos_minmode"			"c206"
 		"ypos"					"c6"
+		"ypos_minmode"			"c26"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -250,7 +253,8 @@
 	{
 		"fieldName"				"CHealthAccountPanel"
 		"xpos"					"c-288"
-		"ypos"					"c45"
+		"ypos"					"c50"
+		"ypos_minmode"			"c95"
 		"wide"					"250"
 		"tall"  				"120"
 		"visible" 				"1"
@@ -275,13 +279,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
+		"xpos"		"10"
+		"ypos"		"r70"
 		"wide"		"500"
 		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -324,7 +325,7 @@
 		"wide" 		"600"
 		"tall" 		"45"
 		"priority" 	"35"
-}
+	}
 	
 	BuildingStatus_Spy
 	{
@@ -517,7 +518,7 @@
 
 		"MaxDeathNotices" "10"
 		"IconScale"	  	  "0.35"
-		"LineHeight"	  "15"
+		"LineHeight"	  "14"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 0, killfeed goes to left of your screen.
@@ -611,7 +612,9 @@
 		"tall"	 "480"
 		"zpos" 	"10"
 		"xpos"			"c-176"
+		"xpos_minmode"	"c-275"
 		"ypos"			"c90"
+		"ypos_minmode"	"c95"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1022,7 +1025,7 @@
 		"PaintBackgroundType"	"0"
 	}
 	
-		"HudEurekaEffectTeleportMenu"
+	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
@@ -1040,7 +1043,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c90"
-		"ypos"			"c-72"
+		"ypos"			"c-92"
 		"wide"			"490"
 		"tall"			"220"	[$WIN32]
 		"PaintBackgroundType"	"0"

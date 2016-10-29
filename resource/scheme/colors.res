@@ -44,8 +44,8 @@ Scheme
 		"ShadowBlack"				"0 0 0 196"
 
 		"Health Normal"				"255 255 255 255"
-		"Health Buff"				"0 225 255 200"
-		"Health Hurt"				"255 0 0 200"
+		"Health Buff"				"0 225 255 175"
+		"Health Hurt"				"255 0 0 175"
 
 		"Ammo In Clip"				"255 255 255 255"
 		"Ammo In Reserve"			"0 191 255 255"

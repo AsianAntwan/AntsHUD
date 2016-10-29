@@ -6,6 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"	
+		"xpos_minmode"	"c15"	
 		"ypos"			"360"
 		"wide"			"500"
 		"tall"			"500"
@@ -72,7 +73,7 @@
 		"font"					"MoreSymbols"
 		"fgcolor_override"		"255 255 0 255"
 	}
-
+	
 	"ItemEffectMeterIconShadow"
 	{
 		"ControlName"			"CExLabel"

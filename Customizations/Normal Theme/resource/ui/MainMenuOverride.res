@@ -434,7 +434,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"170"
+		"xpos"			"195"
 		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"28"
@@ -527,7 +527,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"130"
+		"xpos"			"105"
 		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"28"
@@ -903,7 +903,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"155"
+		"xpos"			"130"
 		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"32"
@@ -1041,6 +1041,128 @@
 			}
 		}
 	}	
+	
+	"HUDDefaultModeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"HUDDefaultModeButton"
+		"xpos"			"145"
+		"ypos"			"108"
+		"zpos"			"2"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"8"
+			"ypos"			"8"
+			"wide"			"30"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			
+			"image_drawcolor"	"AntsHUDWhite"
+			"image_armedcolor"	"0 191 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/glyphs/glyph_hudmode_default"
+			}				
+		}		
+	}
+	
+	"HUDLoweredModeButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"HUDCenteredModeButton"
+		"xpos"			"170"
+		"ypos"			"108"
+		"zpos"			"2"
+		"wide"			"28"
+		"tall"			"28"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"8"
+			"ypos"			"8"
+			"wide"			"30"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			
+			"image_drawcolor"	"AntsHUDWhite"
+			"image_armedcolor"	"0 191 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"18"
+				"tall"			"18"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/glyphs/glyph_hudmode_lowered"
+			}				
+		}		
+	}
 	
 	"Notifications_ShowButtonPanel"
 	{
@@ -1642,7 +1764,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"Beta v1.5"
+			"labelText"		"Beta v1.55"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2776,7 +2898,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HUDReloadButton"
-		"xpos"			"190"
+		"xpos"			"215"
 		"ypos"			"110"
 		"zpos"			"1"
 		"wide"			"32"
@@ -2927,69 +3049,13 @@
 			"image"			"glyph_options"
 		}			
 	}
-	
-	"ScoreboardToggle"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"ScoreboardToggle"
-		"xpos"			"85"
-		"ypos"			"375"
-		"zpos"			"1"
-		"wide"			"190"
-		"tall"			"16"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"Switch Scoreboards"
-		"font"			"NeutraDisp16"
-		"textAlignment"	"west"
-		"textinsetx"	"10"
-		"use_proportional_insets" "1"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		"Command"		"engine incrementvar cl_hud_minmode 0 1 1"
-		
-		"border_default"	""
-		"border_armed"		"MainMenuTabs"
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDWhite"
-			
-		"defaultBgColor_override" "0 0 0 0"
-		"armedBgColor_override" "TransparentPanelBG"
-		"depressedBgColor_override" "TransparentPanelBG"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"AntsHUDWhite"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
-			"ypos"			"6"
-			"zpos"			"1"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_options"
-		}			
-	}		
+
 	"DisconnectButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DisconnectButton"
 		"xpos"			"85"
-		"ypos"			"411"
+		"ypos"			"393"
 		"zpos"			"1"
 		"wide"			"190"
 		"tall"			"16"
@@ -3052,7 +3118,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuitButton"
 		"xpos"			"85"
-		"ypos"			"411"
+		"ypos"			"393"
 		"zpos"			"1"
 		"wide"			"190"
 		"tall"			"16"
@@ -3175,70 +3241,6 @@
 		}
 	}
 
-	"DisconnectButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"DisconnectButton"
-		"xpos"			"85"
-		"ypos"			"411"
-		"zpos"			"1"
-		"wide"			"190"
-		"tall"			"16"
-		"visible"		"1"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"190"
-			"tall"			"16"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"10"
-			"use_proportional_insets" "1"
-			"font"			"NeutraDisp16"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		"MainMenuTabs"
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDWhite"
-			"depressedFgColor_override" "AntsHUDWhite"
-			
-			"defaultBgColor_override" "0 0 0 0"
-			"armedBgColor_override" "TransparentPanelBG"
-			"depressedBgColor_override" "TransparentPanelBG"
-			
-			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDDeepSkyBlue"
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
-				"zpos"			"1"
-				"wide"			"0"
-				"tall"			"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}
-		}
-	}
-	
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"

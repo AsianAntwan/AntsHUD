@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"ActionText"
@@ -89,11 +89,11 @@
 		"font"			"NeutraDisp28"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"44"
-		"ypos"			"31"
+		"xpos"			"45"
+		"ypos"			"32"
 		"wide"			"20"
 		"tall"			"30"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"ShadowBlack"
 	}
 	
 	"CountText"

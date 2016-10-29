@@ -240,7 +240,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_x"			"115"	[$X360]
 		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
@@ -265,8 +264,6 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"AntsHUDWhite"
 			"xpos"			"28"
 			"ypos"			"-4"
@@ -284,7 +281,6 @@
 
 				"xpos"			"cs-0.5"
 				"ypos"			"13"
-				"ypos_minmode"	"9"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"

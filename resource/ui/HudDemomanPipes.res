@@ -59,7 +59,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"20 20 20 150"
 	}				
 		
 	"PipesPresentPanel"
@@ -68,6 +68,7 @@
 		"fieldName"		"PipesPresentPanel"
 		"xpos"			"23"
 		"ypos"			"35"
+		"ypos_minmode"	"82"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"50"

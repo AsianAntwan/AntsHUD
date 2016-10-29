@@ -19,9 +19,7 @@ Scheme
 				"name"		"Avenir_bold"
 				"tall"		"72"
 				"antialias" 	"1"
-			}
-			
-			
+			}		
 		}
 		"DefaultUnderline"
 		{
@@ -384,7 +382,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 
 		"HudFontSmallestShadow"
 		{

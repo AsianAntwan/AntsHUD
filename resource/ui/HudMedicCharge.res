@@ -65,14 +65,14 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ChargeBackground"
 		"font"			"Default"
-		"xpos"			"75"
-		"ypos"			"115"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor" 	"0 0 0 150"
+		"fillcolor" 	"20 20 20 150"
 	}
 	
 	"IndividualChargesLabel"
@@ -136,7 +136,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override" 		"0 0 0 150"
+		"bgcolor_override" 		"20 20 20 150"
 		"fgcolor_override"		 "Uber Bar Color"
 	}
 
@@ -225,8 +225,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeMeterLabel"
-		"xpos"			"75"
-		"ypos"			"117"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"15"
@@ -257,18 +257,32 @@
 		"scaleImage"	"1"	
 	}
 
+	"ResistIconAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ResistIconAnchor"
+		"xpos"			"323"
+		"ypos"			"20"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	"ResistIcon"
 	{
-		"ControlName" 	"ImagePanel"
-		"fieldName" 	"ResistIcon"
-		"xpos" 			"0"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ResistIcon"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide" 			"28"
-		"tall" 			"28"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"image" 		"../HUD/defense_buff_bullet_blue"
-		
-	}	
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/defense_buff_bullet_blue"
+		"scaleImage"	"1"	
+		"pin_to_sibling" "ResistIconAnchor"
+		"pin_corner_to_sibling" "1" 
+		"pin_to_sibling_corner" "1" 
+	}
 }
-

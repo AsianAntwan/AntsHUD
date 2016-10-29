@@ -7,6 +7,7 @@
 		"font"			"Avenir12"
 		"xpos"			"0"
 		"ypos"			"84"
+		"ypos_minmode"	"130"
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"4"				
@@ -18,7 +19,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "AntsHUDWhite"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"20 20 20 175"
 	}
 	"ChargeMeterLabel"
 	{
@@ -26,6 +27,7 @@
 		"fieldName" 		"ChargeMeterLabel"
 		"xpos" 				"0"
 		"ypos" 				"71"
+		"ypos_minmode"		"117"
 		"zpos" 				"3"
 		"wide" 				"150"
 		"tall" 				"10"

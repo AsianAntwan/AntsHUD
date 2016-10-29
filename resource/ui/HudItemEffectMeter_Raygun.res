@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-75"	
 		"ypos"			"c100"	
+		"ypos_minmode"	"c145"	
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
@@ -71,7 +72,6 @@
 		"enabled"				"1"
 		"textAlignment"			"Center"
 		"dulltext"				"0"
-		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"brighttext"			"20 20 20 150"
 	}					
 }

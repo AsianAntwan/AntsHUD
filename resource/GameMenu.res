@@ -99,21 +99,52 @@
 
  	"VersionNumber"
  	{
-		"label" "Beta v1.5" 
+		"label" "Beta v1.55" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
+		"tooltip" "how did u no?"
  	}
 	"MOTD_ShowButtonPanel"
 	{
 		"label" "%"
 		"command" "motd_show"
 		"subimage" ""
+		"tooltip" "TF2 Blog News"
+	}
+	"QuestLogButton"
+	{
+		"label" "s"
+		"command" "questlog"
+		"subimage" ""
+		"tooltip" "Contracts"
+	}
+	"HUDDefaultModeButton"
+	{
+		"label"		""
+		"command"	"engine cl_hud_minmode 0"
+		"subimage"	""
+		"tooltip"	"Default mode"
+	}
+	"HUDCenteredModeButton"
+	{
+		"label"		""
+		"command"	"engine cl_hud_minmode 1"
+		"subimage"	""
+		"tooltip"	"Lowered mode"
+	}
+	"WatchStreamButton"
+	{
+		"label" ""
+		"command" "watch_stream"
+		"subimage" ""
+		"tooltip" "Twitch Streams"
 	}
 	"HUDReloadButton"
 	{
 		"label" "d"
 		"command" "engine hud_reloadscheme"
 		"subimage" ""
+		"tooltip" "HUD Reload"
 	}
 	"CreateServerButton"
 	{

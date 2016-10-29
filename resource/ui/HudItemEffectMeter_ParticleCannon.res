@@ -5,8 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"xpos"			"c-75"
+		"ypos"			"c80"
+		"ypos_minmode"	"c125"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
@@ -72,6 +73,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"0 0 0 100"
+		"bgcolor_override"		"20 20 20 150"
 	}					
 }
