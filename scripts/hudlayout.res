@@ -30,6 +30,28 @@
 		"fgcolor" 		"Crosshair"
 	}
 	
+	KnucklesCrosses2
+	{
+		"visible" 		"0"
+		"enabled" 		"0"
+		
+		"labelText"		""
+		
+		"controlName"	"CExLabel"
+		"fieldName"	 	"KnucklesCrosses2"
+		"zpos"			"0"
+		"xpos" 		 	"c-25"
+		"ypos" 		 	"c-25"
+		"wide" 		 	"50"
+		"tall" 		 	"50"
+		
+		"font"			"size:30,outline:off"	// size: range 10-50
+												// outline: on or off
+		
+		"textAlignment"	"center"
+		"fgcolor" 		"Crosshair"
+	}
+	
 	Hitmarker
 	{
 		"ControlName"	"CTFImagePanel"
@@ -292,6 +314,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-100"
 		"ypos"		"c25"
+		"ypos_minmode"	"c70"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -321,6 +344,7 @@
 		"enabled" 	"1"
 		"xpos" 		"c-100"
 		"ypos" 		"c65"
+		"ypos_minmode"	"c110"
 		"zpos"		"1"
 		"wide" 		"600"
 		"tall" 		"45"
@@ -1382,7 +1406,7 @@
 		"tall"			"150"
 	}
 	
-		"CTFKillStreakNotice"
+	"CTFKillStreakNotice"
 	{
 		"fieldName"		"CTFKillStreakNotice"
 		"xpos"			"0"			

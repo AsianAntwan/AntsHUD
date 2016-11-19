@@ -127,10 +127,7 @@
 				"ypos"			"9"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+				"font"			"HudFontSmall"		
 			}			
 		}	
 	}

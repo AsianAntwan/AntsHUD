@@ -4,39 +4,64 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-120"
+		"xpos"			"c-100"
 		"ypos"			"r20"	
 		"zpos"			"-1"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 255"
+		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"	"1"	
-		
 	}
-
+	"LeftSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG2"
+		"xpos"			"c-100"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkBlue"
+		"scaleImage"	"1"	
+	}
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RightSideBG"
 		"xpos"			"c0"
-		"ypos"			"r20"	[$WIN32]
+		"ypos"			"r20"
 		"zpos"			"-1"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"190 50 50 255"
+		"fillcolor"		"AntsHUDRed"
 		"scaleImage"	"1"	
 	}
-		
+	"RightSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG2"
+		"xpos"			"c0"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkRed"
+		"scaleImage"	"1"	
+	}		
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
-		"xpos"			"cs-0.5"
-		"ypos"			"r77"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
@@ -45,7 +70,6 @@
 		"image"			"../hud/objectives_flagpanel_bg_outline"
 		"scaleImage"	"1"	
 	}
-	
 	"BlueScore"
 	{
 		"ControlName"	"CExLabel"
@@ -62,12 +86,11 @@
 		"font"			"NeutraDisp40"
 		"fgcolor"		"AntsHUDWhite"
 	}	
-		
 	"BlueScoreShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-54"
+		"xpos"			"c-55"
 		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"50"
@@ -79,7 +102,6 @@
 		"font"			"NeutraDisp40"
 		"fgcolor"		"ShadowBlack"
 	}	
-	
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
@@ -94,9 +116,8 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"AntsHUDWhite"			
+		"fgcolor"		"AntsHUDWhite"
 	}	
-		
 	"RedScoreShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -111,17 +132,17 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"ShadowBlack"		
+		"fgcolor"		"ShadowBlack"
 	}	
 															
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"xpos"			"c-70"
+		"ypos"			"r54"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -137,14 +158,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r50"	[$WIN32]
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"tall"			"20"	[$WIN32]
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"wide"			"100"
+		"tall"			"20"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"20 20 20 175"
 		"scaleImage"	"1"	
 	}
 

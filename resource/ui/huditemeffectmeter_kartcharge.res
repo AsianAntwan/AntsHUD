@@ -6,7 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c94"	
+		"ypos"			"c95"
+		"ypos_minmode"	"c141"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -37,21 +38,21 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"30"
+		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"8"
+		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_KART"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Avenir12"
-		"fgcolor_override"		"150 150 150 255"
+		"font"					"NeutraDisp16"
+		"fgcolor_override"		"AntsHUDDeepSkyBlue"
 	}
 
 	"ItemEffectMeter"
@@ -60,10 +61,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"30"
+		"ypos"					"14"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"8"				
+		"tall"					"4"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -71,7 +72,9 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}	
+		"bgcolor_override"		"20 20 20 150"
+	}					
+}
 	
 	"ItemEffectMeterCount"
 	{
@@ -110,6 +113,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NeutraDisp28"
-		"fgcolor_override"		"TransparentBlack"
+		"fgcolor_override"		"ShadowBlack"
 	}
 }

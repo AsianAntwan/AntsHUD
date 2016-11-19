@@ -12,9 +12,6 @@
 		a) Code by: ToonHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Rep
-	-Normal Theme(Only for Scream Fortress 8)
-		a) Code by: ahud
-		b) Coding for colors and theme: Antwan/Creator of AntsHUD-Beta
 	-Top Left Chat Box
 		a) Suggested by: antlers
 	-Transparent Viewmodels

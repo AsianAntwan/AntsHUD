@@ -176,7 +176,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 

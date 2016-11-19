@@ -113,8 +113,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
-		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r96"	[$X360]
+		"ypos"			"r75"
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
@@ -272,8 +271,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
-		"ypos"			"r148"	[$X360]
+		"ypos"			"r127"
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -312,10 +310,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r54"	[$WIN32]
+		"xpos"			"c-70"
+		"ypos"			"r54"
 		"zpos"			"4"
-		"wide"			"140"	[$WIN32]
+		"wide"			"140"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -377,7 +375,7 @@
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-165"
-		"ypos"			"r70"	[$WIN32]
+		"ypos"			"r70"
 		"zpos"			"2"
 		"wide"			"160"
 		"tall"			"90"
@@ -404,7 +402,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r75"
+			"ypos"		"r80"
 		}
 		
 		"if_no_flags"
@@ -443,7 +441,7 @@
 
 		"if_specialdelivery"
 		{
-			"ypos"		"r75"
+			"ypos"		"r80"
 		}
 		
 		"if_no_flags"
@@ -457,7 +455,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-28"
-		"ypos"			"r95"	[$WIN32]
+		"ypos"			"r95"
 		"zpos"			"5"
 		"wide"			"56"
 		"tall"			"56"
@@ -471,7 +469,7 @@
 		
 		"if_specialdelivery"
 		{
-			"ypos"		"r100"
+			"ypos"		"r60"
 		}
 	}
 	
@@ -512,7 +510,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"9999"
-		"ypos"			"9999"	[$WIN32]
+		"ypos"			"9999"
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

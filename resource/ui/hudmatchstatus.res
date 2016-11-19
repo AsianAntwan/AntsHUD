@@ -108,8 +108,8 @@
 	
 		if_readymode
 		{
-			"xpos"			"300"
-			"ypos"			"130"
+			"xpos"			"302"
+			"ypos"			"132"
 		}
 	}	
 
@@ -283,8 +283,6 @@
 				"ypos"			"13"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}

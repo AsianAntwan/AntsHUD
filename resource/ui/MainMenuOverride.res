@@ -51,7 +51,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
 				"border_default"	""
-				"border_armed"		"MainMenuTabsHalloweenGreen"
+				"border_armed"		"MainMenuTabs"
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "AntsHUDWhite"
@@ -63,8 +63,8 @@
 				"depressedBgColor_override" "TransparentPanelBG"
 				
 				"image_drawcolor"	"AntsHUDWhite"
-				"image_armedcolor"	"AntsHUDHalloweenGreen"
-				"image_depressedcolor" "AntsHUDHalloweenGreen"
+				"image_armedcolor"	"AntsHUDDeepSkyBlue"
+				"image_depressedcolor" "AntsHUDDeepSkyBlue"
 				
 				"SubImage"
 				{
@@ -193,35 +193,6 @@
 			"wide"			"o1.6"
 			"tall"			"f0"
 		}
-		
-		if_halloween_0
-		{
-			"image"		"../console/title_team_halloween2011_widescreen"
-		}
-		if_halloween_1
-		{
-			"image"		"../console/title_team_halloween2012_widescreen"
-		}
-		if_halloween_2
-		{
-			"image"		"../console/title_team_halloween2013_widescreen"
-		}
-		if_halloween_3
-		{
-			"image"		"../console/title_team_halloween2014_widescreen"
-		}
-		if_halloween_4
-		{	
-			"image"		"../console/title_team_halloween2015_widescreen"
-		}
-		if_fullmoon
-		{
-			"image"		"../console/title_fullmoon_widescreen"
-		}
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
 	}
 	
 	"SidePanelBG"
@@ -250,7 +221,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"AntsHUDHalloween"
+		"fillcolor"		"AntsHUDDeepSkyBlue"
 	}
 	"SidePanelRightStripe"
 	{
@@ -264,7 +235,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"AntsHUDHalloween"
+		"fillcolor"		"AntsHUDDeepSkyBlue"
 	}
 	"HudName"
 	{
@@ -294,8 +265,8 @@
 		"sound_released"	"UI/napstablook.wav"
 		
 		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "AntsHUDHalloween"
-		"depressedFgColor_override" "AntsHUDHalloween"				
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDDeepSkyBlue"				
 	}	
 
 	"TFCharacterImage"
@@ -356,8 +327,8 @@
 		"tall"			"20"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDarker"
+		"border"		"MainMenuBGBorder"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"TipSubLabel"
 		{
@@ -440,7 +411,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -595,7 +566,7 @@
 			"paintbackground" "0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}
@@ -676,8 +647,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
-			"depressedFgColor_override" "AntsHUDHalloweenGreen"	
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDDeepSkyBlue"	
 		}	
 
 		"MOTD_HeaderIcon"
@@ -851,7 +822,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"ButtonBG"
-			"armedBgColor_override"		"AntsHUDHalloweenGreen"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"ButtonBG"
 			
 			"defaultFgColor_override"	"AntsHUDWhite"
@@ -893,7 +864,7 @@
 			"paintbackground" "0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" 	"AntsHUDHalloweenGreen"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 		
@@ -923,7 +894,7 @@
 			"paintbackground" "0"
 
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" 	"AntsHUDHalloweenGreen"
+			"armedFgColor_override" 	"AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"	
 		}
 	}
@@ -975,8 +946,8 @@
 			"paintborder"		"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
-			"depressedFgColor_override" "AntsHUDHalloweenGreen"	
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDDeepSkyBlue"	
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"72 255 255 255"
@@ -1005,33 +976,16 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"NotificationsContainer"
-			"xpos"			"rs1"
-			"ypos"			"0"
+			"xpos"			"3"
+			"ypos"			"-2"
 			"zpos"			"10"
-			"wide"			"16"
-			"tall"			"16"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"keyboardinputenabled" "0"
 
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
-				"zpos"			"3"
-				"wide"			"16"
-				"tall"			"16"
-				"visible"		"0"
-				"enabled"		"0"
-				"image"			"glyph_achievements"
-				"scaleImage"	"1"
-				"drawcolor" "210 125 33 255"
-				"proportionaltoparent"	"1"
-			}				
-		
 			"Notifications_CountLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -1048,7 +1002,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"AntsHUDHalloweenGreen"
+				"fgcolor_override"	"AntsHUDDeepSkyBlue"
 			}
 			"Notifications_CountLabelBG"
 			{
@@ -1113,7 +1067,7 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -1174,7 +1128,7 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -1229,7 +1183,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"AntsHUDHalloweenGreen"
+			"fgcolor_override"	"AntsHUDDeepSkyBlue"
 		}
 		"Notifications_CountLabelBG"
 		{
@@ -1281,11 +1235,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -1356,7 +1310,7 @@
 			"paintbackground"	"0"
 
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 	
@@ -1438,7 +1392,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -1450,7 +1404,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1502,7 +1456,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -1565,7 +1519,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -1642,7 +1596,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -1806,7 +1760,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}
@@ -2016,7 +1970,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2028,7 +1982,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2079,7 +2033,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2091,7 +2045,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2142,7 +2096,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2154,7 +2108,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2205,7 +2159,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2217,7 +2171,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2268,7 +2222,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2280,7 +2234,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2331,7 +2285,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 							
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 							
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2343,7 +2297,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 							
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 			
 			"SubImage"
 			{
@@ -2396,7 +2350,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -2408,7 +2362,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 			"SubImage"
 			{
@@ -2469,7 +2423,7 @@
 			"paintbackground"	"0"
 	
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -2530,7 +2484,7 @@
 			"paintbackground"	"0"
 
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -2591,7 +2545,7 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -2653,7 +2607,7 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"84 221 86 255"
+			"image_armedcolor"	"0 191 255 255"
 			
 			"SubImage"
 			{
@@ -2728,7 +2682,7 @@
 		"PaintBackgroundType" "0"
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"84 221 86 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2772,7 +2726,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"84 221 86 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2818,7 +2772,7 @@
 		"paintbackground"	"0"
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"84 221 86 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2863,7 +2817,7 @@
 		"border_default"	""
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"84 221 86 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2906,7 +2860,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"84 221 86 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2961,7 +2915,7 @@
 			"paintborder"		"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}
@@ -2991,7 +2945,7 @@
 		"Command"		"opentf2options"
 		
 		"border_default"	""
-		"border_armed"		"MainMenuTabsHalloweenGreen"
+		"border_armed"		"MainMenuTabs"
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "AntsHUDWhite"
@@ -3048,7 +3002,7 @@
 		"Command"		"OpenOptionsDialog"
 		
 		"border_default"	""
-		"border_armed"		"MainMenuTabsHalloweenGreen"
+		"border_armed"		"MainMenuTabs"
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "AntsHUDWhite"
@@ -3113,7 +3067,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -3125,7 +3079,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 			"SubImage"
 			{
@@ -3176,7 +3130,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -3188,7 +3142,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 			"SubImage"
 			{
@@ -3240,7 +3194,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	""
-			"border_armed"		"MainMenuTabsHalloweenGreen"
+			"border_armed"		"MainMenuTabs"
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
@@ -3252,7 +3206,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"AntsHUDWhite"
-			"image_armedcolor"	"AntsHUDHalloweenGreen"
+			"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 			"SubImage"
 			{
@@ -3269,7 +3223,7 @@
 			}
 		}
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"ControlName"	"ImagePanel"
@@ -3328,7 +3282,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"AntsHUDHalloweenGreen"
+		"image_armedcolor"	"AntsHUDDeepSkyBlue"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3494,7 +3448,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}	
@@ -3646,7 +3600,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"				
 		}		
 	}	
@@ -3742,7 +3696,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDwhite"		
 		}		
 	}	
@@ -3838,7 +3792,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 	}
 	
@@ -3933,7 +3887,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 	}
@@ -4029,7 +3983,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" 	"AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}
@@ -4125,7 +4079,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDHalloweenGreen"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 			"depressedFgColor_override" "AntsHUDWhite"	
 		}		
 	}
