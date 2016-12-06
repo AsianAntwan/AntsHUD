@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"25"
-		"ypos"			"10"
+		"xpos"			"27"
+		"ypos"			"16"
 		"zpos"			"0"
-		"wide"			"200"
-		"tall"			"120"
+		"wide"			"195"
+		"tall"			"110"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"fillcolor"		"50 255 50 50"
+		"fillcolor"		"0 0 0 225"
 	}
 
 	"ItemBackground"
@@ -70,8 +70,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NeutraDisp32"
-		"xpos"			"34"			// align me to the left edge of the first selection
-		"ypos"			"-10"
+		"xpos"			"34"
+		"ypos"			"-8"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -92,8 +92,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NeutraDisp32"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"36"			// align me to the left edge of the first selection
-		"ypos"			"-8"
+		"xpos"			"36"
+		"ypos"			"-6"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

@@ -14,8 +14,8 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
-			"xpos"			"99999"
-			"ypos"			"99999"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"0"
 			"tall"			"0"
 			"autoResize"	"0"
@@ -32,11 +32,11 @@
 			"font"			"HudFontGiantBold"
 			"labelText"		"Victory!"
 			"textAlignment" "center"
-			"xpos"			"2"
-			"ypos"			"14"
+			"xpos"			"3"
+			"ypos"			"15"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"black"
+			"fgcolor"		"ShadowBlack"
 		}
 		
 		"SplashLabel"

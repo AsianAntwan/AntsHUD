@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"50"
-		"ypos"			"10"
+		"xpos"			"52"
+		"ypos"			"16"
 		"zpos"			"0"
-		"wide"			"400"
-		"tall"			"130"
+		"wide"			"395"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"fillcolor"		"50 255 50 50"
+		"fillcolor"		"0 0 0 225"
 	}
 	
 	"ItemBackground"
@@ -32,6 +32,7 @@
 		"tileImage"		"1"
 		"drawcolor"		"192 192 192 255"
 	}
+	
 	"BackgroundEngineer"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -71,7 +72,7 @@
 		"fieldName"		"TitleLabel"
 		"font"			"NeutraDisp32"
 		"xpos"			"68"			
-		"ypos"			"-10"
+		"ypos"			"-8"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -92,8 +93,8 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NeutraDisp32"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"70"			// align me to the left edge of the first selection
-		"ypos"			"-8"
+		"xpos"			"70"
+		"ypos"			"-6"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

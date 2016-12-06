@@ -90,8 +90,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"NeutraDisp24"
-		"xpos"			"cs-0.46"
-		"ypos"			"cs-0.06"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -198,8 +198,8 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
-		"ypos"			"-2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"		
 		"wide"			"300"
 		"tall"			"100"
@@ -220,7 +220,7 @@
 		"visible"			"0"
 		
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"border"			"NoBorder"
 		
 		if_match
 		{
@@ -233,46 +233,45 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"110"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		"delta_item_x"			"22"	[$WIN32]
-		"delta_item_start_y"	"50"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"25"
+		"delta_item_start_y"	"35"
+		"delta_item_end_y"		"45"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"AvenirBla18"
 
 		if_match
 		{
-			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
+			"delta_item_start_y"	"23"
+			"delta_item_end_y"		"33"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_font"		"AvenirBla18"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
+			"font"			"AvenirBla18"
 			"fgcolor"		"AntsHUDWhite"
-			"xpos"			"28"
-			"ypos"			"-4"
+			"xpos"			"25"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"50"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_match
@@ -280,9 +279,9 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"13"
-				"tall"			"10"
-				"font"			"HudFontSmall"
+				"ypos"			"23"
+				"tall"			"18"
+				"font"			"AvenirBla18"
 			}
 		}	
 	}
@@ -306,11 +305,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-2"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c2"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -472,7 +471,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Avenir13"
+				"font"			"AvenirBla11"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -523,13 +522,13 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"DeathPanel"
-				"xpos"			"cs-0.5"
-				"ypos"			"0"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"0"
 				"wide"			"f0"
 				"tall"			"24"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/comp_player_status"	
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
@@ -538,12 +537,12 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
-				"xpos"			"cs-0.5"
-				"zpos"			"1"
+				"xpos"			"9999"
+				"zpos"			"9999"
 				"wide"			"o1.2"
 				"tall"			"p0.15"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"image"			"../HUD/comp_player_status_skull"	
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"	
@@ -707,7 +706,6 @@
 			"tall"			"385"
 		}
 		
-
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"

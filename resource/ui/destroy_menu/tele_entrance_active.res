@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NeutraDisp12"
+		"font"			"NeutraDisp13"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -88,10 +88,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
 		"xpos"			"0"
-		"ypos"			"95"
+		"ypos"			"92"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -104,14 +104,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
+	
 	"NumberLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"
-		"ypos"			"96"
+		"xpos"			"2"
+		"ypos"			"94"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"

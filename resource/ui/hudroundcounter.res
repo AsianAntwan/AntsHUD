@@ -58,7 +58,7 @@
 		"wide"			"80"
 		"tall"			"15"
 		"proportionaltoparent"	"1"
-		"fillcolor"				"TransparentBlack"
+		"fillcolor"				"20 20 20 175"
 		"scaleimage"			"1"
 	}
 	"BlueTeamBackground"

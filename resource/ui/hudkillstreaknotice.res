@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 160"	
+		"bgcolor_override"	"20 20 20 175"	
 	}
 	
 	"SplashLabel"

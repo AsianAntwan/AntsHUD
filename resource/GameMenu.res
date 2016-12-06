@@ -99,10 +99,9 @@
 
  	"VersionNumber"
  	{
-		"label" "Beta v1.55" 
+		"label" "Beta v1.6" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
-		"tooltip" "how did u no?"
  	}
 	"MOTD_ShowButtonPanel"
 	{
