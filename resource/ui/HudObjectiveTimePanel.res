@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"50"
-		"tall"			"18"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
@@ -20,9 +20,7 @@
 
 		if_match
 		{
-			"visible"	"1"
-			"ypos"		"23"
-			"xpos"		"30"
+			"visible"	"0"
 		}		
 	}
 	"TimePanelProgressBar"
@@ -33,8 +31,11 @@
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
+		"wide_lodef"		"25"
 		"tall"				"20"
+		"tall_lodef"		"25"	
 		"visible"			"0"
+		"visible_minmode"	"0"
 		"enabled"			"1"
 		"scaleImage"			"1"
 		"image"				"../hud/objectives_timepanel_progressbar"
@@ -53,18 +54,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"25"
-		"ypos"			"18"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirHea12"
+		"font"			"Avenir12"
 		
 		if_match
 		{
@@ -77,18 +78,20 @@
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"9999"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
+		"ypos_hidef"	"-100"	//off-screen
+		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 		
 		if_match
 		{
@@ -100,18 +103,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"25"
-		"ypos"			"18"
+		"ypos"			"33"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirHea12"
+		"font"			"Avenir12"
 		
 		if_match
 		{
@@ -126,18 +129,20 @@
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"9999"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
+		"ypos_hidef"	"-100"	//off-screen
+		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 	
 		if_match
 		{
@@ -149,16 +154,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"25"
-		"ypos"			"18"
+		"ypos"			"33"
+		"ypos_hidef"	"41"
+		"ypos_lodef"	"41"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
 		"font"			"Avenir12"
 		
@@ -172,18 +179,20 @@
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"9999"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
+		"ypos_hidef"	"-100"	//off-screen
+		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 		
 		if_match
 		{
@@ -195,40 +204,43 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
 		"xpos"			"25"
-		"ypos"			"18"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirHea12"
+		"font"			"Avenir12"
 		
 		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"40"
-			"font"					"AvenirHea12"
+			"ypos"					"22"
+			"font"			"Avenir10"
 		}		
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"9999"
+		"xpos"			"9999"	[$WIN32]
 		"ypos"			"9999"
+		"ypos_hidef"	"-100"	//off-screen
+		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 		
 		if_match
 		{
@@ -239,19 +251,23 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"67"
-		"ypos"			"2"
+		"xpos"			"25"
+		"ypos"			"21"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"wide_hidef"	"300"
+		"wide_lodef"	"300"
+		"tall"			"19"
+		"tall_hidef"	"19"
+		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"	"center"
+		"textAlignment"		"center"
 		"dulltext"		"0"
-		"brighttext"	"0"
+		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"AvenirBla12"
+		"font"			"Avenir14"
 		
 		if_match
 		{
@@ -260,21 +276,27 @@
 			"ypos"					"17"
 			"ypos_minmode"			"17"
 			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
 		}		
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"75"
-		"ypos"			"2"
+		"xpos"			"9999"	[$WIN32]
+		"xpos"			"9999"	[$X360]
+		"ypos"			"9999"
+		"ypos_hidef"	"-100"	//off-screen
+		"ypos_lodef"	"-100"	//off-screen
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
 		"visible"		"0"
-		"enable"		"1"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"		"1"	
 		
 		if_match
 		{

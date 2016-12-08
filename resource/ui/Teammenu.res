@@ -52,7 +52,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"0 0 0 175"
 	}
 	"SpectateBackground"
 	{
@@ -65,7 +65,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"0 0 0 175"
 	}
 
 	"SysMenu"
@@ -282,10 +282,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"9999"
+		"xpos"			"9999" [$WIN32] 
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"102"
+		"wide"			"102" [$WIN32] 
+		"wide"			"94" [$X360]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"

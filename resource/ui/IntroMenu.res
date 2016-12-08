@@ -16,7 +16,7 @@
 		"paintbackground"	"0"
 	}
 	
-	"MainBG"
+		"MainBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"0 0 0 100"
 	}
 	
 	"titlelabel"
@@ -47,7 +47,7 @@
 		"tabPosition"		"0"
 	}
 
-	"Skip"
+	"Skip" [$WIN32] 
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"Skip"
@@ -67,7 +67,7 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"skip"
-		"font"			"NeutraDisp20"
+		"font"			"Avenir20"
 		"paintbackground"	"0"
 
 		"fgcolor"					"AntsHUDWhite"
@@ -100,7 +100,7 @@
 		"font"			"MenuSmallFont"
 	}
 	
-	"Back"
+	"Back" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Back"
@@ -118,7 +118,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"NeutraDisp20"
+		"font"			"Avenir20"
 		"paintbackground"	"0"
 		
 		"fgcolor"					"AntsHUDWhite"
@@ -128,7 +128,7 @@
 		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 
-	"ReplayVideo"
+	"ReplayVideo" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReplayVideo"
@@ -258,4 +258,36 @@
 		"fgcolor"		"White"
 		"wrap"			"1"
 	}
+	
+	"Footer" [$X360]
+	{
+		"ControlName"		"CTFFooter"
+		"fieldName"			"Footer"
+		"zpos"				"6"
+		"tall"				"80"
+		"button_separator"	"10"
+		"button_separator_lodef"	"5"
+		"buttongap"			"50"
+		"textadjust"		"3"
+		"buttonoffsety"		"20"
+		"buttonoffsety_hidef"		"0"
+		"buttonoffsety_lodef"		"18"
+		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
+		"fgcolor"			"HudOffWhite" 	
+		
+		"button"
+		{
+			"name"		"intro"
+			"text"		"#GameUI_Back"
+			"icon"		"#GameUI_Icons_B_BUTTON"	
+		}
+		
+		"button"
+		{
+			"name"		"continue"
+			"text"		"#Button_SkipIntro_360"
+			"icon"		"#GameUI_Icons_A_BUTTON"	
+		}
+	}	
 }

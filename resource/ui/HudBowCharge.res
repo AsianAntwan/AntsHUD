@@ -9,7 +9,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"150"
-		"tall"			"3"				
+		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,7 +17,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor_override"		"20 20 20 150"
+		"bgcolor_override"		"0 0 0 100"
 	}
 	"ChargeMeterLabel"
 	{
@@ -38,6 +38,6 @@
 		"dulltext" 		  	"0"
 		"brighttext" 	   	"0"
 		"font" 			  	"NeutraDisp16"
-		"fgcolor_override" 	"AntsHUDDeepSkyBlue"
+		"fgcolor_override" 	"0 255 200 255"
 	}	
 }

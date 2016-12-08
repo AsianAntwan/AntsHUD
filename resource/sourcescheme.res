@@ -233,13 +233,20 @@ Scheme
 	{
 		"MainMenuFont"
 		{
-			"1"
+			"1"	[$WIN32]
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"MenuLarge"
+		{
+			"1"	[$X360]
+			{
+				"tall_hidef"		"24"
 			}
 		}
 		"ServerBrowserTitle"
@@ -252,6 +259,15 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
+			}
+		}
+		"Default" [$OSX]
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"500"
 			}
 		}
 		"ServerBrowserSmall"
@@ -300,34 +316,40 @@ Scheme
 				"antialias"	"1"
 			}
 		}	
-		AchievementItemTitle
+		AchievementItemTitle	[$WIN32]
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
-				"tall"			"16"
+				"tall"			"16" [!$OSX]
+				"tall"			"18" [$OSX]
 				"antialias"		"1"
 			}
 		}
-		AchievementItemTitleLarge
+		AchievementItemTitleLarge	[$WIN32]
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
 				"weight"		"1500"
-				"tall"			"18"
+				"tall"			"18" [!$OSX]
+				"tall"			"19" [$OSX]
 				"antialias"		"1"
 			}
 		}
-		AchievementItemDescription
+		AchievementItemDescription	[$WIN32]
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"Arial" [!$OSX]
+				"name"		"Verdana" [$OSX]
 				"weight"		"1000"
-				"tall"			"14"
-				"antialias"		"1"
+				"tall"			"14" [!$OSX]
+				"tall"			"12" [$OSX]
+				"antialias"		"1" [!$OSX]
 			}
 		}
 

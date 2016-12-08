@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBackground"
-		"xpos"			"52"
-		"ypos"			"16"
+		"xpos"			"50"
+		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"395"
-		"tall"			"120"
+		"wide"			"400"
+		"tall"			"130"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"0 0 0 100"
 	}
 	
 	"BuildIcon"	
@@ -45,16 +45,16 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"ShadowBlack"
+		"iconColor"		"0 0 0 255"
 	}
 	
 	"TitleLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NeutraDisp36"
+		"font"			"NeutraDisp32"
 		"xpos"			"68"			
-		"ypos"			"-8"
+		"ypos"			"-10"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -72,10 +72,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NeutraDisp36"
+		"font"			"NeutraDisp32"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"70"
-		"ypos"			"-6"
+		"xpos"			"70"			// align me to the left edge of the first selection
+		"ypos"			"-8"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

@@ -483,6 +483,38 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		GameUIButtons
+		{
+			"1"	//[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"1.0"
+				"scalex_lodef"		"0.75"
+				"scaley"	"1.0"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSmall
+		{
+			"1"	[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.5"
+				"scaley"	"0.5"
+			}
+		}
+		GameUIButtonsSmallest
+		{
+			"1"	[$X360]
+			{
+				"bitmap"	"1"
+				"name"		"Buttons"
+				"scalex"	"0.4"
+				"scaley"	"0.4"
+			}
+		}
 		"GameUIButtonText"
 		{
 			"1"
@@ -566,7 +598,8 @@ Scheme
 			"2"
 			{
 				"name"		"AvenirLTStd-Medium"
-				"tall"		"15"
+				"tall"		"15"	[$WIN32]
+				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
@@ -610,6 +643,13 @@ Scheme
 				"weight"	"400"
 				"outline"	"1"
 				"range"		"0x0000 0x017F" // Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"1"	[$X360]
+			{
+				"name"		"Tahoma"
+				"tall"		"18"
+				"weight"	"200"
+				"outline"	"1"
 			}
 		}		
 		TFTypeDeath
@@ -991,7 +1031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1015,7 +1055,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -1027,7 +1067,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1282,7 +1322,8 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"
+				"tall"		"11"  [!$OSX]
+				"tall"		"9"  [$OSX]
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1733,7 +1774,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1"
+				"custom"		"1" [$OSX]
 				"weight"	"500"
 			}
 		}
@@ -2339,6 +2380,17 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"AvenirOutline24"
+		{
+			"1"
+			{
+				"name"		 "AvenirLTStd-Medium"
+				"tall" 		 "24"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
 		"Avenir26"
 		{
 			"1"
@@ -2469,489 +2521,6 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"AvenirHea7"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea8"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "8"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea9"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "9"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea10"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea11"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "11"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea12"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea13"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "13"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea14"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea15"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "15"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea16"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea17"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "17"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea18"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "18"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea19"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "19"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea20"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirHea22"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-
-		"AvenirHea24"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Heavy"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla7"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla8"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "8"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla9"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "9"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla10"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla11"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "11"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla12"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla13"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "13"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla14"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla15"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "15"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla16"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla17"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "17"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla18"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "18"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla19"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "19"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla20"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"AvenirBla22"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-
-		"AvenirBla24"
-		{
-			"1"
-			{
-				"name"		 "AvenirLTStd-Black"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code7"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code8"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "8"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code9"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "9"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code10"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code11"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "11"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code12"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code13"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "13"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code14"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code15"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "15"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code16"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code17"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "17"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code18"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "18"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code19"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "19"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code20"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code22"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-
-		"Code24"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
 		"NeutraDisp12"
 		{
 			"1"
@@ -3052,23 +2621,23 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"NeutraDispOutline16"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
 		"NeutraDispOutline20"
 		{
 			"1"
 			{
 				"name"		 "Neutra Display Titling"
 				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
-		"NeutraDispOutline22"
-		{
-			"1"
-			{
-				"name"		 "Neutra Display Titling"
-				"tall" 		 "22"
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"

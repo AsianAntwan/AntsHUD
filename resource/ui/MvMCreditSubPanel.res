@@ -24,7 +24,7 @@
 		"wide"			"190"
 		"tall"			"42"
 		"visible"		"1"
-		"bgcolor_override"		"20 20 20 175"
+		"bgcolor_override"		"20 20 20 50"
 	}
 	
 	"CreditCollectedTextLabel"
@@ -80,7 +80,7 @@
 		"ypos"			"27"
 		"wide"			"30"
 		"tall"			"12"
-		"fgcolor"		"255 0 0 255"
+		"fgcolor"		"RedSolid"
 	}
 	
 	"CreditBonusTextLabel"
@@ -115,21 +115,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditRatingLabelShadow"
-		"font"			"NeutraDisp26"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%ratingshadow%"
 		"textAlignment" "center"
-		"xpos"			"127"
-		"ypos"			"27"
+		"xpos"			"126"
+		"ypos"			"26"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 	}
 	
 	"CreditRatingLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"NeutraDisp26"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%rating%"
 		"textAlignment" "center"
 		"xpos"			"125"

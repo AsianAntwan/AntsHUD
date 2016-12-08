@@ -11,10 +11,4 @@
 	{	
 		"labelText"		"2"
 	}
-	
-	"NumberLabelShadow"
-	{	
-		"fgcolor"		"ShadowBlack"
-		"labelText"		"2"
-	}
 }

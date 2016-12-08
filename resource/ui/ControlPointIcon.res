@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"AvenirHea14"
+		"font"			"Avenir14"
 		"xpos"			"11"
 		"ypos"			"0"
 		"zpos"			"4"

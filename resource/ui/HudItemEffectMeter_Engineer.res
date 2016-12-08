@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"	
-		"xpos_minmode"	"c45"	
-		"ypos"			"355"
+		"xpos_minmode"	"c15"	
+		"ypos"			"360"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
@@ -110,7 +110,7 @@
 		"textAlignment"			"Center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"20 20 20 175"
+		"bgcolor_override"		"20 20 20 150"
 	}					
 	
 	"ItemEffectMeterCount"
@@ -130,7 +130,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp24"
+		"font"					"NeutraDisp26"
 	}
 	"ItemEffectMeterCountBackground"
 	{
@@ -149,7 +149,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp24"
+		"font"					"NeutraDisp26"
 		"fgcolor"				"ShadowBlack"
 	}
 }

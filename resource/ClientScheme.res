@@ -97,32 +97,22 @@ Scheme
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}
-		"9" // Other Main Font Bolder
-		{	
-			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
-			"name" "AvenirLTStd-Heavy"
-		}
-		"10" // Other Main Font Boldest
-		{	
-			"font" "resource/fonts/AvenirLTStd-Black.ttf"
-			"name" "AvenirLTStd-Black"
-		}
-		"11" // Tournament HUD block
+		"9" // Tournament HUD block
 		{	
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"12" // Crosshairs
+		"10" // Crosshairs
 		{		
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
-		"13" // Main Menu Icons		
+		"11" // Main Menu Icons		
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
-		"14" // Other Icons		
+		"12" // Other Icons		
 		{
 			"font" "resource/fonts/More Icons.ttf"
 			"name"	"ToonHUD Icons"
