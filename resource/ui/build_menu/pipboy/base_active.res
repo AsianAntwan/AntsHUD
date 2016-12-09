@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NeutraDisp12"
+		"font"			"NeutraDisp13"
 		"xpos"			"15"
 		"ypos"			"2"
 		"zpos"			"1"
@@ -69,6 +69,22 @@
 		"iconColor"		"0 255 0 255"
 	}
 	
+	"MetalIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIconShadow"
+		"xpos"			"35"
+		"ypos"			"19"
+		"zpos"			"1"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"icon"			"ico_metal"
+		"iconColor"		"ShadowBlack"
+	}
+	
 	"CostLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -77,6 +93,25 @@
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"49"
 		"ypos"			"16"
+		"zpos"			"1"
+		"wide"			"84"
+		"tall"			"13"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"Left"	
+	}
+	
+	"CostLabelShadow"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"CostLabelShadow"
+		"font"			"NeutraDisp16"
+		"fgcolor"		"ShadowBlack"
+		"xpos"			"50"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"13"
@@ -127,10 +162,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"0"
-		"ypos"			"95"
+		"ypos"			"92"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"
@@ -143,14 +178,15 @@
 		"dulltext"		"1"
 		"brighttext"	"0"
 	}
+	
 	"NumberLabelShadow"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"1"
-		"ypos"			"96"
+		"xpos"			"2"
+		"ypos"			"94"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"18"

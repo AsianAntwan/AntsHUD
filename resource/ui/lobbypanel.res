@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -611,7 +611,7 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"20 20 20 175"
 			"border"		"NoBorder"
 
 			"NavToRelay"	"InviteButton"
@@ -695,7 +695,7 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"20 20 20 175"
 			"border"		"NoBorder"
 		}
 
@@ -709,7 +709,7 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"20 20 20 175"
 			"border"		"NoBorder"
 		}
 	}

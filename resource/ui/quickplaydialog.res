@@ -49,7 +49,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"BGAnyDark"
 		}
 
 		"TitleLabel"
@@ -253,7 +253,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"25 25 25 255"
+						"bgcolor_override"	"BGAnyDark"
 					}
 			
 					"MoreInfoLabel"
@@ -931,10 +931,10 @@
 			"wide"			"280"
 			"tall"			"160"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground" "1"
 			"border"		"NoBorder"
-			"bgcolor_override"	"BGAnyDark"
+			"bgcolor_override"	"BGAnyLight"
 		
 			"force_close"	"1"
 			"end_x"			"50"

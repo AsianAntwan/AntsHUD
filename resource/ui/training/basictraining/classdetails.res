@@ -37,7 +37,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"AntsHUDDarkGray"
+		"bgcolor_override"	"BGAnyLight"
 		"border"			"NoBorder"
 		
 		"ClassNameLabel"
@@ -80,10 +80,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WeaponSetLabel"
-			"font"			"HudFontSmallest"
+			"font"			"AvenirHea13"
 			"labelText"		"Standard Weapon Set"
 			"textAlignment"	"center"
-			"xpos"			"10"
+			"xpos"			"0"
 			"ypos"			"100"
 			"wide"			"300"
 			"tall"			"15"

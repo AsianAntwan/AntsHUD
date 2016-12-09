@@ -9,15 +9,15 @@
 		"ypos"					"170"
 		"wide"					"320"
 		"tall"					"140"
-		"bgcolor_override"		"AntsHUDDark"
-		"paintbackgroundtype"	"0"
+		"bgcolor_override"		"BGAnyDark"
+		"PaintBackgroundType"	"0"
 	}
 
 	"TitleLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"AvenirBla16"
 		"xpos"			"0"
 		"ypos"			"13"
 		"zpos"			"1"

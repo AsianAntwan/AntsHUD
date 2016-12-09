@@ -53,7 +53,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"fillcolor"		"AntsHUDRed"
 		}
 		"RedScoreBG2"
@@ -69,7 +69,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"fillcolor"		"AntsHUDRed"
 		}
 		"BlueTeamLabel"
@@ -246,7 +246,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"20 20 20 175"
 		"src_corner_height" "3"
 		"src_corner_width" "3"
 		"draw_corner_width" "0"

@@ -296,7 +296,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"20 20 20 175"
 	}
 	"WinningTeamLabel"
 	{	

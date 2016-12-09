@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ProgressLabel"
-		"font"			"HudFontSmallest"
+		"font"			"AvenirHea12"
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -47,6 +47,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"201 79 57 255"
+		"fgcolor_override"	"AntsHUDDeepSkyBlue"
 	}
 }

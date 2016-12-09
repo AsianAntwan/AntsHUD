@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -114,7 +114,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"paintborder"	"1"
 
@@ -239,9 +239,10 @@
 		"unicode"			"0"
 		"default"			"0"
 		"border"			"NoBorder"
+		"paintborder"		"0"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"BGAnyLight"
 		"disabledFgColor_override" "255 255 255 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
@@ -284,7 +285,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDWhite"
+		"fgcolor"		"AntsHUDLessWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -304,10 +305,8 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"AntsHUDWhite"
-		"bgcolor_override"	"30 30 30 255"
+		"bgcolor_override"	"BGAnyLight"
 		"paintbackgroundtype" "0"
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
 		"font"		"HudFontSmallest"
 	}
 	
@@ -331,9 +330,10 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
+		"paintborder"		"0"
 		
 		"fgcolor_override"	"255 255 255 255"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"BGAnyLight"
 		"disabledFgColor_override" "255 255 255 255"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
@@ -353,7 +353,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
@@ -412,7 +412,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
 		"model_ypos"	"5"
@@ -605,8 +605,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-85"
-		"ypos"			"323"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
@@ -628,21 +628,14 @@
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"ButtonBG"
-		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
 	}			
 
 	"UseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c35"
-		"ypos"			"323"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"20"
 		"wide"			"130"
 		"tall"			"25"
@@ -664,21 +657,14 @@
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"ButtonBG"
-		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
 	}
 	
 	"StyleButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c-200"
-		"ypos"			"323"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
@@ -700,21 +686,14 @@
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"ButtonBG"
-		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
 	}
 
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c185"
-		"ypos"			"323"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"
@@ -736,13 +715,6 @@
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"ButtonBG"
-		
-		"defaultFgColor_override"	"AntsHUDWhite"
-		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
-		
-		"border_default"			"NoBorder"
-		"border_armed"				"NoBorder"
 	}
 
 	"ShowExplanationsButton"
@@ -792,10 +764,10 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -934,18 +906,18 @@
 		"wide"			"250"
 		"tall"			"100"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
-		"end_x"			"c-50"
+		"end_x"			"c-240"
 		"end_y"			"130"
 		"end_wide"		"300"
 		"end_tall"		"115"
-		"callout_inparents_x"	"c240"
-		"callout_inparents_y"	"290"
+		"callout_inparents_x"	"c-230"
+		"callout_inparents_y"	"313"
 		"next_explanation"		"ContextExplanation"
 		
 		"TitleLabel"
@@ -1106,10 +1078,10 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1278,10 +1250,10 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1450,10 +1422,10 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -1622,10 +1594,10 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		
 		"force_close"	"1"
@@ -1795,10 +1767,10 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground" "1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		
 		"force_close"	"1"
 		"end_x"			"c-110"

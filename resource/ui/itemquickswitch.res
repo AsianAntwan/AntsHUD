@@ -15,8 +15,8 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		
-		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"25 25 25 255"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
@@ -27,7 +27,7 @@
 			"wide"			"220"
 			"tall"			"40"
 			"bgcolor_override"		"59 54 48 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			
@@ -123,7 +123,7 @@
 		"ypos"			"30"
 		"wide"			"265"
 		"tall"			"125"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
@@ -137,7 +137,7 @@
 		"ypos"			"0"
 		"wide"			"240"
 		"tall"			"125"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"200 187 161 0"
 		
 		"CurrentlyEquippedBackground"
@@ -153,7 +153,7 @@
 			"wide"			"200"
 			"tall"			"40"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"fgcolor_override" "200 80 60 255"
 			"bgcolor_override"	"0 0 0 0"
 		}

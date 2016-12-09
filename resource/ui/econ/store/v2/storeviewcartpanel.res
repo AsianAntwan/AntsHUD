@@ -48,7 +48,7 @@
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
 				"noitem_textcolor"		"100 100 100 255"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"0"
 				"paintborder"	"0"
 				
 				"model_xpos"	"3"
@@ -192,7 +192,7 @@
 		"enabled"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"				"DeepSkyBlueBorder"
 		"bgcolor_override"		"AntsHUDDeepSkyBlue"
 	}				
@@ -205,7 +205,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"380"
-		"bgcolor_override"				"25 25 25 255"
+		"bgcolor_override"				"BGAnyDark"
 		
 		"HeaderLine"
 		{
@@ -286,7 +286,7 @@
 			"zpos"			"5"
 			"wide"			"600"
 			"tall"			"240"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"BGAnyDark"
 			"autohide_buttons" "1"
@@ -332,7 +332,7 @@
 				"zpos"			"5"
 				"wide"			"500"
 				"tall"			"240"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"0"
 				"bgcolor_override"	"BGAnyLight"
 				
 				"FeaturedItemSymbol"

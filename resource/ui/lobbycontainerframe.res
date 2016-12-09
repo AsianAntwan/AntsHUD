@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
@@ -73,7 +73,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"				"DeepSkyBlueBorder"
 			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}		

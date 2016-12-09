@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"	
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"AchievementName"

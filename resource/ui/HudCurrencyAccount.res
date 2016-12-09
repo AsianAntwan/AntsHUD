@@ -8,12 +8,12 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
-		"tall"			"20"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"20 20 20 175"
 	}
 	
 	"CurrencyLabel"
@@ -26,7 +26,7 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"20"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
@@ -43,57 +43,10 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"50"
-		"tall"			"20"
+		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%currency%"
-	}	
-	
-	"CurrencyShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyShadow"
-		"font"			"Avenir16"
-		"fgcolor"		"Black"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}	
-	
-	"WhiteBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"
-		"wide"			"60"
-		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"AntsHUDWhite"
-	}	
-	
-	"GreenBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"
-		"wide"			"58"
-		"tall"			"16"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
-	}
+	}		
 }

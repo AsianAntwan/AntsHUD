@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -35,7 +35,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"MannVsMachineLabel"
 		{
@@ -48,8 +48,7 @@
 			"tall"			"25"
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
 			"font"			"HudFontMediumBold"
-			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"AntsHUDDeepSkyBlue"
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -232,7 +231,7 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 200"
+			"bgcolor_override"	"BGAnyDark"
 			"border"		"NoBorder"
 
 			"NavToRelay"	"TourList"
@@ -261,7 +260,7 @@
 				"wide"			"400"
 				"tall"			"197"
 				"linespacing"	"12"
-				"bgcolor_override"	"25 25 25 200"
+				"bgcolor_override"	"BGAnyDark"
 			}
 		}
 
@@ -293,10 +292,10 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"BGAnyDark"
 
 		"TourLootImage"
 		{
@@ -354,7 +353,7 @@
 		"wide"			"400"
 		"tall"			"120"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"BGAnyDark"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -426,7 +425,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"AntsHUDDeepSkyBlue"
 			"xpos"			"70"
 			"ypos"			"79"
 			"zpos"			"1"
@@ -486,7 +485,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"AntsHUDDeepSkyBlue"
 			"xpos"			"70"
 			"ypos"			"43"
 			"zpos"			"1"
@@ -561,10 +560,10 @@
 		"zpos"		"-1"
 		"wide"		"400"
 		"tall"		"120"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"BGAnyDark"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -724,10 +723,10 @@
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"197"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"border"	"NoBorder"
-			"bgcolor_override"	"25 25 25 200"
+			"bgcolor_override"	"BGAnyDark"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -771,7 +770,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"BGAnyDark"
 
 		"NoGCTitle"
 		{
@@ -819,7 +818,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"20 20 20 200"
+		"bgcolor_override"	"40 40 40 175"
 
 		"SearchActiveTitle"
 		{
@@ -1237,7 +1236,7 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"border"	"NoBorder"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"40 40 40 175"
 
 			"NavToRelay"	"InviteButton"
 
@@ -1321,7 +1320,7 @@
 			"wide"			"200"
 			"tall"			"110"
 			"border"	"NoBorder"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"40 40 40 175"
 		}
 
 		"ChatTextEntry"
@@ -1335,7 +1334,7 @@
 			"wide"			"200"
 			"tall"			"20"
 			"border"	"NoBorder"
-			"bgcolor_override"	"20 20 20 200"
+			"bgcolor_override"	"40 40 40 175"
 		}
 	}
 

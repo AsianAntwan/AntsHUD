@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"UpgradeBuyPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"wide"			"155"
 		"tall"			"45"		
 		"autoResize"	"0"
@@ -46,32 +46,32 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"155"
-		"tall"			"43"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"97 94 85 255"
+		"bgcolor_override"	"BGAnyLight"
 	}
 	
 	"IconBorder"
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"IconBorder"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"30"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	
 	"Icon"
@@ -99,7 +99,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"PriceLabel"
 		"xpos"			"2"
-		"ypos"			"31"
+		"ypos"			"32"
 		"wide"			"30"
 		"tall"			"13"
 		"zpos"			"25"
@@ -111,7 +111,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"font"			"Avenir12"
+		"font"			"AvenirBla14"
 	}
 	
 	"ShortDescriptionLabel"
@@ -143,14 +143,14 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"20"
-		"tall"			"43"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		
 		"PaintBackgroundType" "0"
-		"bgcolor_override"	"117 114 103 255"
+		"bgcolor_override"	"BGAnyLight"
 	}
 	
 	"IncrementButton"
@@ -192,7 +192,7 @@
 		"ControlName"	"CImageButton"
 		"fieldName"		"DecrementButton"
 		"xpos"			"137"
-		"ypos"			"23"
+		"ypos"			"24"
 		"wide"			"16"
 		"tall"			"16"
 		"zpos"			"20"

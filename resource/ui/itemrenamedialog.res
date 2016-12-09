@@ -10,7 +10,7 @@
 		"wide"					"400"
 		"tall"					"240"
 		"settitlebarvisible"	"0"
-		"paintbackgroundtype"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"30 30 30 255"
 		"border"				"NoBorder"
@@ -28,7 +28,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
@@ -144,7 +144,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
 		"model_xpos"	"2"
@@ -209,7 +209,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
 		"model_xpos"	"2"

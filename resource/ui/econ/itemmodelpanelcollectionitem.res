@@ -182,7 +182,7 @@
 			"wide"			"145"
 			"tall"			"9"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override"		"215 206 182 255"
 		}
 		
@@ -204,7 +204,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 	
 		"paint_icon"
@@ -239,7 +239,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"serieslabel"
@@ -260,7 +260,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"matcheslabel"
@@ -281,7 +281,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 		}
 
 		"vision_restriction_icon"
@@ -357,7 +357,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
 			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"useparentbg"	"0"
 		

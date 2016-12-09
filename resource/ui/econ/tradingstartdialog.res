@@ -10,7 +10,7 @@
 		"wide"					"400"
 		"tall"					"300"
 		"settitlebarvisible"	""
-		"paintbackgroundtype"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
 		"bgcolor_override"		"BGAnyDark"
@@ -100,7 +100,7 @@
 		"ypos"			"80"
 		"wide"			"380"
 		"tall"			"130"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"100 100 100 255"
 		"bgcolor_override"	"0 0 0 64"
 		
@@ -126,7 +126,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -257,7 +257,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -317,7 +317,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{
@@ -369,7 +369,7 @@
 		"ypos"					"50"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	
 		"QueryLabel"
 		{

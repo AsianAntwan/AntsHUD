@@ -116,7 +116,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 		"bgcolor_override"	"BGAnyDark"
 		

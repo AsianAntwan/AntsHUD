@@ -12,7 +12,7 @@
 		"visible"			"1"
 		"enabled"			"1"
   
-		"Next" [$WIN32] 
+		"Next"
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Next"
@@ -36,12 +36,12 @@
 			"brighttext"	"0"
 			"wrap"			"0"
 			"command"		"next"
-			"font"			"MenuSmallFont"
+			"font"			"NeutraDisp18"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 
-		"Quit" [$WIN32] 
+		"Quit"
 		{
 			"ControlName"		"CExButton"
 			"fieldName"		"Quit"
@@ -65,12 +65,12 @@
 			"brighttext"	"0"
 			"wrap"			"0"
 			"command"		"quit"
-			"font"			"MenuSmallFont"
+			"font"			"NeutraDisp18"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
 		
-		"Replay" [$WIN32] 
+		"Replay"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"Replay"
@@ -91,7 +91,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command"		"replay"
-			"font"			"MenuSmallFont"
+			"font"			"NeutraDisp18"
 			"fgcolor"		"Black"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -115,7 +115,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"BGAnyDark"
+			"fillcolor"		"BGAnyDarker"
 			"PaintBackgroundType"	"0"
 		}	
 
@@ -123,8 +123,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TopBar"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"ypos_lodef"	"r74"
 			"ypos_hidef"	"r65"
 			"zpos"			"5"
@@ -134,8 +134,8 @@
 			"tall_hidef"	"65"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"	
 			"fillcolor"		"BGAnyDark"
 			"PaintBackgroundType"	"0"
@@ -195,7 +195,7 @@
 			"wide"			"400"
 			"tall"			"275"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 			"bgcolor_override"	"BGAnyDark"
 		}

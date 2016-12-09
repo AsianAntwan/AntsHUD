@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
 		"proportionaltoparent"	"1"
 	}
 
@@ -125,7 +125,7 @@
 				"wide"			"p0.95"
 				"tall"			"p0.89"
 				"visible"		"0"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"0"
 				"border"		"NoBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"

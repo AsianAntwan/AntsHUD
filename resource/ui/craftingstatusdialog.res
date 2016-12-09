@@ -9,7 +9,7 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"110"
-		"paintbackgroundtype"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"		"BGAnyDark"
 		"settitlebarvisible"	"0"

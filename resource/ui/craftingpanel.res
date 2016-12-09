@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -39,7 +39,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 			
 			"model_ypos"	"5"
@@ -168,7 +168,7 @@
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"200 187 161 0"
 
 		"RecipeTitle"
@@ -335,7 +335,7 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"59 54 48 255"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"
@@ -349,7 +349,7 @@
 		"zpos"			"5"
 		"wide"			"280"
 		"tall"			"240"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"200 187 161 0"
 	}
 	
@@ -365,7 +365,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
@@ -424,7 +424,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 		"paintborder"	"1"
 		
@@ -451,7 +451,7 @@
 		"wide"			"140"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 		"bgcolor_override"	"BGAnyDark"
 		

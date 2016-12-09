@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -39,8 +39,8 @@
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
-			"BackColor"
-			{
+		"BackColor"
+		{
     		"ControlName"		"EditablePanel"
     		"fieldName"			"BackColor"
     		"xpos"				"0"
@@ -54,17 +54,14 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"BGAnyLight"
 			
-			}
+		}
 			
-			"itemmodelpanel"
-			{
-				"use_item_rendertarget" "0"
-				"inventory_image_type" "1"
-			}
-		
-
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"inventory_image_type" "1"
 		}
 	}
 	
@@ -78,7 +75,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "60 60 60 255"
 	}
 	
 	"classimage"
@@ -357,7 +354,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
 		
 		"TipLabel"

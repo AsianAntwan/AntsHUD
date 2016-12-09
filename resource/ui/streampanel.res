@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"0 0 0 50"
+		"bgcolor_override"	"20 20 20 175"
 	}
 
 
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBla14"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"HudFontSmallest"
+		"font"			"AvenirHea12"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"

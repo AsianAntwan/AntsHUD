@@ -9,7 +9,7 @@
 		"wide"			"400"
 		"tall"			"150"
 		"visible"		"1"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 

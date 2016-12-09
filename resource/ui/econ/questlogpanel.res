@@ -5,7 +5,7 @@
 		"ControlName"	"CQuestLogPanel"
 		"fieldName"		"QuestLog"
 		"xpos"			"r360"
-		"ypos"			"50"
+		"ypos"			"90"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -26,7 +26,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
 		
@@ -66,7 +66,7 @@
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
 		
 		"TipLabel"

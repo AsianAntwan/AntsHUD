@@ -30,10 +30,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"BGAnyDark"
 
 		"Background"
 		{
@@ -144,10 +144,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"BGAnyDark"
 
 
 		"Background"
@@ -163,7 +163,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"		"25 25 25 255"
+			"bgcolor_override"		"BGAnyDark"
 		}
 
 		"TitleLabel"

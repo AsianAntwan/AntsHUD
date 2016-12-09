@@ -23,7 +23,7 @@
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"117 107 94 255"
 	}
 	"AvatarImage"

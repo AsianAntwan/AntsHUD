@@ -53,7 +53,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp16"
+		"font"					"NeutraDisp14"
 		"fgcolor_override"		"AntsHUDDeepSkyBlue"
 	}
 
@@ -63,10 +63,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"13"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"6"				
+		"tall"					"4"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

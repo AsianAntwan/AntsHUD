@@ -49,7 +49,7 @@
 		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
 	}
-	
+
 	"MapInfoType"
 	{
 		"ControlName"	"CExLabel"
@@ -111,11 +111,11 @@
 		"scaleImage"	"1"		
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
-		"xpos"			"99999"
+		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"6"
 		"wide"			"120"
@@ -140,7 +140,7 @@
 		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
-	"MapInfoContinue2" [$WIN32]
+	"MapInfoContinue2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue2"
@@ -169,11 +169,11 @@
 		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
-	"MapInfoWatchIntro" [$WIN32]
+	"MapInfoWatchIntro"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoWatchIntro"
-		"xpos"			"c70"
+		"xpos"			"c60"
 		"ypos"			"c96"
 		"zpos"			"6"
 		"wide"			"120"
@@ -183,12 +183,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_WatchIntro"
-		"textAlignment"	"center"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"intro"
-		"default"		"1"
 		"font"			"NeutraDisp16"
+		"wrap"			"1"
 		"paintbackground"	"0"
 
 		"fgcolor"					"AntsHUDWhite"
@@ -198,11 +198,11 @@
 		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
-		"xpos"			"c-190"
+		"xpos"			"c-160"
 		"ypos"			"c96"
 		"zpos"			"6"
 		"wide"			"120"
@@ -212,7 +212,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
@@ -277,37 +277,5 @@
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
-	}	
-
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"textadjust"		"3"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"intro"
-			"text"		"#TF_WatchIntro_360"
-			"icon"		"#GameUI_Icons_Y_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"continue"
-			"text"		"#TF_Continue_360"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
 	}	
 }

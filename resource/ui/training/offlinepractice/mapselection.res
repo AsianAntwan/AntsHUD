@@ -12,7 +12,7 @@
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"border"		"NoBorder"
-		"paintbackgroundtype"	"2"
+		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 	}
 

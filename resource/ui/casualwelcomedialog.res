@@ -30,7 +30,7 @@
     		"enabled"			"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"			"NoBorder"
 			"bgcolor_override"	"BGAnyDark"
     	}
@@ -55,7 +55,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "StoreGreen"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 
 	"SubtitleLabel"
@@ -75,7 +75,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "AntsHUDWhite"
+		"fgcolor_override" "AntsHUDLessWhite"
 	}
 
 	"SectionOneTitleLabel"
@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "AntsHUDWhite"
+		"fgcolor_override" "AntsHUDLessWhite"
 	}
 
 	"SectionOneTextLabel"
@@ -117,7 +117,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "AntsHUDLessWhite"
+		"fgcolor_override" "150 150 150 255"
 	}
 
 	"SectionThreeTitleLabel"
@@ -138,7 +138,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "AntsHUDWhite"
+		"fgcolor_override" "AntsHUDLessWhite"
 	}
 
 	"SectionThreeTextLabel"
@@ -159,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "AntsHUDLessWhite"
+		"fgcolor_override" "150 150 150 255"
 	}
 
 	"TakeTourButton"

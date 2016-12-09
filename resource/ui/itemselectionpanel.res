@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
 		
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
@@ -46,7 +46,7 @@
 			"visible"		"0"
 			"bgcolor_override" 		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"

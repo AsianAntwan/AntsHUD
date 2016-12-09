@@ -13,18 +13,18 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"BGAnyDark"
+		"infocus_bgcolor_override" "BGAnyDark"
+		"outoffocus_bgcolor_override" "BGAnyDark"
 		
-		"thumbnail_bgcolor"			"50 50 50 255"
-		"thumbnail_bgcolor_mouseover"	"87 87 87 255"
-		"thumbnail_bgcolor_selected"	"125 125 125 255"
+		"thumbnail_bgcolor"			"BGAnyLight"
+		"thumbnail_bgcolor_mouseover"	"60 60 60 255"
+		"thumbnail_bgcolor_selected"	"100 100 100 255"
 		
 		"thumbnails_rows"		"4"
-		"thumbnails_columns"	"4"
+		"thumbnails_columns"	"5"
 		
-		"thumbnails_x"			"c-300"
+		"thumbnails_x"			"c-350"
 		"thumbnails_y"			"60"
 		"thumbnails_delta_x"	"8"
 		"thumbnails_delta_y"	"8"
@@ -38,7 +38,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"100 100 100 255"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"7"
@@ -148,7 +148,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DataPanel"
-		"xpos"			"c20"
+		"xpos"			"c40"
 		"ypos"			"30"
 		"zpos"			"0"
 		"wide"			"270"
@@ -199,7 +199,7 @@
 		"tall"			"135"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
 		"model_hide"	"1"
@@ -224,7 +224,7 @@
 		"tall"			"140"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
 		
@@ -301,7 +301,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c-86"
+		"xpos"			"c-54"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
@@ -334,7 +334,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
-		"xpos"			"c-60"
+		"xpos"			"c-28"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"40"
@@ -350,7 +350,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c-15"
+		"xpos"			"c16"
 		"ypos"			"290"
 		"zpos"			"5"
 		"wide"			"20"
@@ -380,7 +380,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"WikiButton"
-		"xpos"			"c75"
+		"xpos"			"c95"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"160"
@@ -446,7 +446,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StoreButton"
-		"xpos"			"c-300"
+		"xpos"			"c-350"
 		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"

@@ -127,7 +127,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"	"NoBorder"
-		"bgcolor_override"	"25 25 25 200"
+		"bgcolor_override"	"0 0 0 0"
 
 		"PlayWithFriendsExplanationTitle"
 		{

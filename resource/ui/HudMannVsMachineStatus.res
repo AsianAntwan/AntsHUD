@@ -48,7 +48,8 @@
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-190"
-		"ypos"				"r90"
+		"ypos"				"r100"
+		"ypos_minmode"		"r55"
 		"wide"				"100"
 		"tall"				"100"
 		"visible" 			"1"
@@ -60,7 +61,8 @@
 		"ControlName" 		"CInWorldCurrencyStatus"
 		"fieldName" 		"InWorldCurrencyPanel"
 		"xpos"				"c-190"
-		"ypos" 				"r65"
+		"ypos" 				"r84"
+		"ypos_minmode"		"r39"
 		"wide" 				"100"
 		"tall" 				"20"
 		"visible" 			"1"
@@ -217,43 +219,21 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		
-		"Background"
-		{
-			"ControlName"		"ScalableImagePanel"
-			"fieldName"		"Background"
-			"xpos"			"c-150"
-			"ypos"			"400"
-			"wide"			"300"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
 
-			"src_corner_height"	"22"				// pixels inside the image
-			"src_corner_width"	"22"
-		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
-		}
-	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
+			"font"			"AvenirHea16"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"400"
+			"ypos"			"50"
 			"wide"			"300"
-			"tall"			"20"
+			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"AntsHUDWhite"		
 		}
 	}
-	
 }

@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-50"
-		"ypos"				"0"	[$WIN32]
+		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"200"
 		"tall"				"150"

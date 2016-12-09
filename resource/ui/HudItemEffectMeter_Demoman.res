@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-30"	
-		"xpos_minmode"	"c15"	
-		"ypos"			"360"
+		"xpos_minmode"	"c45"	
+		"ypos"			"355"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
@@ -129,7 +129,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp26"
+		"font"					"NeutraDisp24"
 	}
 	"ItemEffectMeterCountBackground"
 	{
@@ -148,7 +148,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp26"
+		"font"					"NeutraDisp24"
 		"fgcolor"				"ShadowBlack"
 	}
 }

@@ -18,7 +18,7 @@
 		"paintborder"			"1"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"BGAnyDark"
 		
 		"control_w"			"500"
 		"control_h"			"25"

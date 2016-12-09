@@ -51,7 +51,7 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"visible"		"0"
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"0"
 					"border"		"NoBorder"
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"	"0"

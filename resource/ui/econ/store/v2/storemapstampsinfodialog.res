@@ -97,7 +97,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}

@@ -43,7 +43,7 @@
 			"wide"			"p1.1"
 			"tall"			"f5"
 			"visible"		"1"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 			"bgcolor_override"	"BGAnyDark"
 			"proportionaltoparent"	"1"
@@ -59,7 +59,7 @@
 			"wide"			"p1.1"
 			"tall"			"p1"
 			"visible"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 		}

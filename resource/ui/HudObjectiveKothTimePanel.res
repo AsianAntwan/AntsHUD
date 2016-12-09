@@ -1,13 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-	
 	"BlueTimer"
 	{
 		"ControlName"		"ImagePanel"
@@ -19,32 +11,34 @@
 		"tall"				"50"
 		"visible"			"1"
 		"enabled"			"1"
+		"delta_item_x" 		"0"
+		"delta_item_start_y""35"
+		"delta_item_end_y" 	"45"
+		"PositiveColor" 	"0 255 0 255"
+		"NegativeColor" 	"255 0 0 255"
+		"delta_lifetime" 	"1.5"
+		"delta_item_font" 	"AvenirHea18"
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-.7"
-			"ypos"					"4"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"xpos"					"-5"
+			"ypos"					"0"
+			"delta_item_x"			"0"
+			"delta_item_start_y"	"35"
+			"delta_item_end_y"		"45"
 		}
 		
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Avenir22"
+			"font"			"AvenirBla18"
 			"fgcolor"		"AntsHUDWhite"
-			"xpos"			"28"
-			"ypos"			"-4"
+			"xpos"			"25"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"50"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"
@@ -52,13 +46,9 @@
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"10"
-				"ypos"			"9"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
+				"xpos"			"30"
+				"ypos"			"23"
+				"font"			"AvenirBla18"
 			}
 		}	
 	}
@@ -74,60 +64,51 @@
 		"tall"				"150"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"delta_item_x" 		"0"
-		"delta_item_start_y""50"
-		"delta_item_end_y" 	"70"
+		"delta_item_x" 		"50"
+		"delta_item_start_y""35"
+		"delta_item_end_y" 	"45"
 		"PositiveColor" 	"0 255 0 255"
 		"NegativeColor" 	"255 0 0 255"
 		"delta_lifetime" 	"1.5"
-		"delta_item_font" 	"Avenir22"
+		"delta_item_font" 	"AvenirHea18"
 		
 		if_match
 		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.77"
-			"ypos"					"4"
+			"xpos"					"45"
+			"ypos"					"0"
 			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
+			"delta_item_start_y"	"35"
+			"delta_item_end_y"		"45"
 		}		
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"Avenir22"
+			"font"				"AvenirBla18"
 			"fgcolor"			"AntsHUDWhite"
-			"xpos"				"28"
-			"ypos"				"-4"
+			"xpos"				"25"
+			"ypos"				"0"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"31"
+			"wide"				"50"
+			"tall"				"18"
 			"visible"			"1"
 			"enabled"			"1"
-			"delta_item_x" 		"22"
-			"delta_item_start_y""50"
-			"delta_item_end_y" 	"70"
+			"delta_item_x" 		"25"
+			"delta_item_start_y""35"
+			"delta_item_end_y" 	"45"
 			"PositiveColor" 	"0 255 0 255"
 			"NegativeColor" 	"255 0 0 255"
 			"delta_lifetime" 	"1.5"
-			"delta_item_font" 	"Avenir20"
+			"delta_item_font" 	"AvenirBla18"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
 			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"ypos"			"9"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"		
+				"xpos"			"30"
+				"ypos"			"23"
+				"font"			"AvenirBla18"
 			}			
 		}	
 	}
@@ -137,7 +118,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"15"
-		"ypos"				"23"
+		"ypos"				"18"
 		"zpos"				"10"
 		"wide"				"50"
 		"tall"				"2"

@@ -7,11 +7,24 @@
 5. You're Done!
 
 ==Credits==
-
-	-Hitmarkers
+	-Centered Remaining MvM Money
+		a) Code by: RaysHUD
+		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
+		c) Suggested by: Message: "i just don't see the point"
+	-Hitmarkers(Damage Indicators)
 		a) Code by: ToonHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Rep
+	-Medic Flashing Color Bars
+		a) Code by: RaysHUD
+		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
+		c) Suggested by: Message: "i just don't see the point"
+	-Old Suijin Background
+		a) Images by: Antwan/Creator of AntsHUD-Beta
+	-Stats on Map Loading
+		a) Code by: RaysHUD
+		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
+		c) Suggested by: Meer Sarwat
 	-Top Left Chat Box
 		a) Suggested by: antlers
 	-Transparent Viewmodels

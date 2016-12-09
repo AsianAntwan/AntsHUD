@@ -47,7 +47,7 @@
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 		"model_xpos"	"2"
 		"model_ypos"	"5"

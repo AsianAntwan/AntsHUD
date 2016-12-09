@@ -143,7 +143,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 			"bgcolor_override" "BGAnyDark"
 		}
@@ -663,7 +663,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		
 		"bgblockout"
 		{
@@ -676,7 +676,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		
@@ -684,7 +684,7 @@
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -717,7 +717,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		
 		"bgblockout"
 		{
@@ -730,7 +730,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		
@@ -738,7 +738,7 @@
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -771,7 +771,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		
 		"bgblockout"
 		{
@@ -784,7 +784,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		
@@ -792,7 +792,7 @@
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -825,7 +825,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		
 		"bgblockout"
 		{
@@ -838,7 +838,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		
@@ -846,7 +846,7 @@
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -879,7 +879,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		
 		"bgblockout"
 		{
@@ -892,7 +892,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		
@@ -900,7 +900,7 @@
 		{
 			"fieldName"		"itempanel"
 			
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			
 			"model_xpos"	"1"
@@ -934,7 +934,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage2"
 	{
@@ -950,7 +950,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage3"
 	{
@@ -966,7 +966,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage4"
 	{
@@ -982,7 +982,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage5"
 	{
@@ -998,7 +998,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage6"
 	{
@@ -1014,7 +1014,7 @@
 		"panel_bgcolor" "100 100 100 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"IconsMoveLeftButton"
@@ -1089,7 +1089,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
@@ -1592,7 +1592,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 
 		"text_center_x"		"1"

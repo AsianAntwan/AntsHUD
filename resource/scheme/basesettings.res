@@ -27,9 +27,9 @@ Scheme
 		Econ.Button.PresetArmedColorFg						"AntsHUDDeepSkyBlue"
 		Econ.Button.PresetDepressedColorFg					"AntsHUDDeepSkyBlue"
 		
-		Econ.Button.PresetDefaultColorBg					"25 25 25 255"
+		Econ.Button.PresetDefaultColorBg					"ButtonBG"
 		Econ.Button.PresetArmedColorBg						"50 50 50 255"
-		Econ.Button.PresetDepressedColorBg					"25 25 25 255"
+		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		
 		Border.Bright					"NoBorder"		// the lit side of a control
 		Border.Dark						"NoBorder"		// the dark/unlit side of a control
@@ -59,10 +59,8 @@ Scheme
 
 		Frame.BgColor					"TransparentBlack"
 		Frame.OutOfFocusBgColor			"TransparentBlack"
-		Frame.FocusTransitionEffectTime	"0.0"	[$WIN32] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"	[$WIN32] // time it takes for a window to fade in/out on open/close
-		Frame.FocusTransitionEffectTime	"0.15"	[$X360] // time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.15"	[$X360] // time it takes for a window to fade in/out on open/close
+		Frame.FocusTransitionEffectTime	"0.0" // time it takes for a window to fade in/out on focus/out of focus
+		Frame.TransitionEffectTime		"0.0" // time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"Blank"
 		FrameGrip.Color2				"Blank"
@@ -210,7 +208,7 @@ Scheme
 		// CHudMenu
 		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
 		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"MenuBoxBg"		"20 20 20 175"
 
 		// weapon selection colors
 		"SelectionNumberFg"		"251 235 202 255"

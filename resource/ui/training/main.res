@@ -13,7 +13,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"25 25 25 200"
 	}
 
 	"Container"
@@ -48,7 +47,7 @@
 			"scaleImage"	"1"
 			"image"			""
 			"border"		"NoBorder"
-			"paintbackgroundtype"	"2"
+			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
 		}
 
@@ -72,7 +71,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"NeutraDisp24"
+			"font"			"NeutraDisp28"
 			"labelText"		"Select Training Mode"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -90,7 +89,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SubTitleLabel"
-			"font"			"NeutraDisp18"
+			"font"			"NeutraDisp20"
 			"labelText"		"%subtitle%"
 			"textAlignment"	"center"
 			"xpos"			"0"

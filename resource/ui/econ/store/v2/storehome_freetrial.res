@@ -17,7 +17,7 @@
 		"bgcolor_override"		"131 66 55 255"
 		"paintbackground"		"1"
 		"paintborder"			"0"
-		"paintbackgroundtype"	"2"
+		"PaintBackgroundType"	"0"
 		
 		// Cover up top rounded corners
 		"BodyBgSquare"
@@ -52,7 +52,7 @@
 			"enabled"		"1"
 			"bgcolor_override"		"34 30 31 255"
 			"paintbackground"		"1"
-			"paintbackgroundtype"	"2"
+			"PaintBackgroundType"	"0"
 		}	
 		
 		"HeaderText"

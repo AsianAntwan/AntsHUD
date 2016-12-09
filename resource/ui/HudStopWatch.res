@@ -51,12 +51,11 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-
 		
 		if_comp
 		{		
-			"xpos"	"0"
-			"ypos"	"28"
+			"xpos"	"-20"
+			"ypos"	"12"
 		}
 		
 		"TimePanelValue"
@@ -98,14 +97,13 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		
+		"enabled"		"1"	
 		
 		if_comp
 		{
 			"font"	"Avenir12"
-			"xpos"	"146"
-			"ypos"	"28"
+			"xpos"	"70"
+			"ypos"	"22"
 		}
 	}
 	"StopWatchPointsLabel"
@@ -129,8 +127,8 @@
 		if_comp
 		{
 			"font"	"Avenir12"
-			"xpos"	"158"
-			"ypos"	"28"
+			"xpos"	"82"
+			"ypos"	"22"
 		}
 	}
 
@@ -157,8 +155,8 @@
 			"font"	"Avenir12"
 			"textAlignment"	"center"
 			"wide"	"80"
-			"xpos"	"100"
-			"ypos"	"28"
+			"xpos"	"70"
+			"ypos"	"12"
 		}
 	}
 
@@ -174,7 +172,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
 
 
@@ -200,7 +198,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 	}
 }
