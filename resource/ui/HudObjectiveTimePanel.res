@@ -116,12 +116,10 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"font"					"HudFontSmallestBold"
-			"xpos"					"c0"
-			"wide"					"72"
-			"ypos"					"22"
-			"font"			"Avenir10"
-
+			"font"			"Avenir12"
+			"xpos"					"30"
+			"wide"					"41"
+			"ypos"					""
 		}
 	}			
 	"OvertimeBG"

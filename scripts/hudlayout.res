@@ -1216,10 +1216,7 @@
 		"tall"					"25"
 	}
 	
-
-	{
-		"fieldName"				"HudArenaVsPanel"		
-		"visible"				"1"	HudArenaClassLayout
+	HudArenaClassLayout [$WIN32]
 	{
 		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
@@ -1231,7 +1228,10 @@
 		"tall"					"320"
 	}
 	
-	HudArenaVsPanel
+	HudArenaVsPanel [$WIN32]
+	{
+		"fieldName"				"HudArenaVsPanel"		
+		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"240"

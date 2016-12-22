@@ -2,7 +2,6 @@
 //	AntsHUD animations
 //===========================================
 
-//=Overhealed BG Animation=
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
@@ -22,6 +21,7 @@ event HudHealthBonusPulse
 	RunEvent HudHealthBonusPulseLoop	0.44
 }
 
+// call to loop HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
@@ -44,7 +44,6 @@ event HudHealthBonusPulseStop
 
 //===========================================
 
-//=Low Health BG Animation=
 //Health Dying Pulse
 event HudHealthDyingPulse
 {	
@@ -64,6 +63,7 @@ event HudHealthDyingPulse
 	RunEvent HudHealthDyingPulseLoop	0.44
 }
 
+// call to loop HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 0.0
@@ -86,16 +86,16 @@ event HudHealthDyingPulseStop
 
 //===========================================
 
-//=Low Ammo BG Animation=
 event HudLowAmmoPulse
 {
 	Animate LowAmmoBG 	BgColor 	"LowAmmo" 	Accel 0.0 0.0
 	Animate LowAmmoBG 	Alpha 		"255" 		Accel 0.0 0.2
 	Animate LowAmmoBG 	Alpha		"0"		Accel 0.2 0.4
 	
-	RunEvent HudLowAmmoPulseLoop	0.44
+	RunEvent HudLowAmmoPulseLoop	0.44		//0.25 for normal
 }
 
+// call to loop HudLowAmmoPulse
 event HudLowAmmoPulseLoop
 {
 	RunEvent HudLowAmmoPulse 0.0
@@ -112,15 +112,14 @@ event HudLowAmmoPulseStop
 
 //===========================================
 
-//=CTF Notification=
 // Local player flag pickup/drop
 event FlagOutline
 {
 	RunEvent FlagOutlineHide 0.0
 	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
 	
-	Animate OutlineImage	Position	"c-100 260"		Linear 0.1 0.2
-	Animate OutlineImage	Size		"200 100"		Linear 0.1 0.2
+	Animate OutlineImage	Position	"c-100 260"		Linear 0.1 0.2		// "c-200 140"
+	Animate OutlineImage	Size		"200 100"		Linear 0.1 0.2		// "400 200"
 	
 	Animate OutlineImage	Position	"c-22 r60"		Linear 0.7 0.2
 	Animate OutlineImage	Size		"44 22"			Linear 0.7 0.2
@@ -130,7 +129,6 @@ event FlagOutline
 
 //===========================================
 
-//=Spy Disguise Notification=
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
@@ -154,17 +152,18 @@ event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"40 40"			Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
 	RunEvent HudSpyDisguiseChanged	0
 	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"0 0"			Linear 0.0 0.0
 }
 
 //===========================================
 
-//=Medic Bar Charge=
 // Flash the medic charge hud when we have full charge
 
 event HudMedicCharged
@@ -238,6 +237,7 @@ event HudMedicCharged
 	RunEvent HudMedicChargedLoop	0.6
 }
 
+// call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
 	RunEvent HudMedicCharged 0.0
@@ -253,7 +253,6 @@ event HudMedicChargedStop
 
 //===========================================
 
-//=HitMarker=
 //Remove slashes to enable HitMarker
 event DamagedPlayer
 {
@@ -267,7 +266,7 @@ event HitMarker
 }
 
 //===========================================
-//=Match Animations=
+//Match Animations
 event CompetitiveGame_LowerChatWindow
 {
 	Animate HudChat ypos r140 Accel 0 0
@@ -472,7 +471,7 @@ event HudMatchSummary_SlideInPanels
 	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
 
-//=MainMenu Playlist Animation=
+// MainMenu PlayList
 event MMenu_PlayList_Expand
 {
 	// empty
@@ -490,7 +489,7 @@ event MMenu_PlayList_Collapse_Immediate
 
 //===========================================
 
-//=End of Casual Match Survey=
+// End of Casual Match Survey
 event SurveyShowSequence
 {
 	Animate Survey ypos 480 Linear 0 0
@@ -501,11 +500,11 @@ event SurveyShowSequence
 
 event SurveySubmitSequence
 {
-	// Submitting
+	// Show submitting
 	SetVisible QuestionContainer 0 0
 	SetVisible SubmittingContainer 1 0
 
-	// Thanks
+	// Show thanks
 	SetVisible SubmittingContainer 0 2
 	SetVisible ThanksContainer 1 2
 
