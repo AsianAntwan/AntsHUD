@@ -11,16 +11,21 @@
 		a) Code by: RaysHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Message: "i just don't see the point"
-	-Hitmarkers(Damage Indicators)
-		a) Code by: ToonHUD
-		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
+	-Hitmarkers or Colorful Medic Bar Charges
+		a) Hitmarker Code by: ToonHUD
+		b) Edited Hitmarker Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Rep
-	-Medic Flashing Color Bars
-		a) Code by: RaysHUD
-		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
-		c) Suggested by: Message: "i just don't see the point"
+		d) Medic Bar Charge Code by: RaysHUD/RaysFire
+		e) Edited Method by: Antwan/Creator of AntsHUD-Beta
+		f) Suggested by: Message: "i just don't see the point"
+	-Normal AntsHUD Theme
+		a) Images by: Antwan/Creator of AntsHUD-Beta
+		b) Added for Smissmas 2016
 	-Old Suijin Background
 		a) Images by: Antwan/Creator of AntsHUD-Beta
+	-Scoreboard-32 Players
+		a) Code by: RaysHUD/RaysFire
+		b) Edited Design by: Antwan/Creator of AntsHUD-Beta
 	-Stats on Map Loading
 		a) Code by: RaysHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta

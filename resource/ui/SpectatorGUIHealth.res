@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"font" 			"NeutraDisp18"
-		"fgcolor"		"Health Normal"
+		"fgcolor"		"AntsHUDWhite"
 		"textAlignment"	"center"	
 	}
 	"PlayerStatusHealthValueBackground"
@@ -79,12 +79,12 @@
 		"ypos"			"9999"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"10"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"font" 			"NeutraDisp18"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"ShadowBlack"
 		"textAlignment"	"center"	
 	}
 	"PlayerStatusPlayerLevel"

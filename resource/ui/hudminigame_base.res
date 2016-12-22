@@ -14,20 +14,6 @@
 		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"	"1"	
 	}
-	"LeftSideBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftSideBG2"
-		"xpos"			"c-100"
-		"ypos"			"r9"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"AntsHUDDarkBlue"
-		"scaleImage"	"1"	
-	}
 	"RightSideBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,20 +28,6 @@
 		"fillcolor"		"AntsHUDRed"
 		"scaleImage"	"1"	
 	}
-	"RightSideBG2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightSideBG2"
-		"xpos"			"c0"
-		"ypos"			"r9"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"AntsHUDDarkRed"
-		"scaleImage"	"1"	
-	}		
 	"OutlineBG"
 	{
 		"ControlName"	"ImagePanel"

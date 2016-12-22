@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"25"
+		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"50"
@@ -29,7 +29,7 @@
 	{
 		"ControlName"			"CTFProgressBar"
 		"fieldName"			"TimePanelProgressBar"
-		"xpos"				"67"
+		"xpos"				"72"
 		"ypos"				"16"
 		"zpos"				"4"	
 		"wide"				"20"
@@ -52,7 +52,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"25"
+		"xpos"			"30"
 		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"50"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"25"
+		"xpos"			"30"
 		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"50"
@@ -148,7 +148,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"25"
+		"xpos"			"30"
 		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"50"
@@ -194,7 +194,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"25"
+		"xpos"			"30"
 		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"50"
@@ -239,11 +239,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"67"
-		"ypos"			"2"
+		"xpos"			"70"
+		"ypos"			"3"
 		"zpos"			"5"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -251,7 +251,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"AvenirBla12"
+		"font"			"AvenirBla11"
 		
 		if_match
 		{
@@ -266,11 +266,11 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"75"
-		"ypos"			"2"
+		"xpos"			"80"
+		"ypos"			"3"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"14"
+		"tall"			"12"
 		"visible"		"0"
 		"enable"		"1"
 		"fillcolor"		"20 20 20 175"

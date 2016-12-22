@@ -204,7 +204,7 @@
 			"visible"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"20 20 20 175"
 			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 
