@@ -26,10 +26,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"	
 		"xpos"			"c-100"
-		"ypos"			"131"
+		"ypos"			"130"
 		"zpos"			"0"
 		"wide"			"200"
-		"tall"			"8"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
@@ -38,14 +38,16 @@
 		
 		"if_multiple_trains"
 		{
-			"ypos"			"115"
+			"ypos"			"114"
 			"zpos"			"3"
+			"tall"			"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}
 		
 		"if_single_with_hills"
 		{
 			"ypos"			"131"
+			"tall"			"8"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}
@@ -62,7 +64,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"20 20 20 150"
+		"bgcolor_override"	"20 20 20 175"
 		
 		"if_multiple_trains"
 		{
@@ -78,7 +80,7 @@
 		"ypos"			"131"
 		"zpos"			"10"
 		"wide"			"200"
-		"tall"			"8"
+		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -87,6 +89,7 @@
 		{
 			"ypos"			"115"
 			"zpos"			"6"
+			"tall"			"8"
 			"visible"		"1"
 		}
 	}		
@@ -126,7 +129,7 @@
 		
 		"if_multiple_trains"
 		{
-			"xpos"			"c-107"
+			"xpos"			"c-108"
 			"zpos"			"10"
 			"wide"			"12"
 			"tall"			"12"
@@ -189,8 +192,8 @@
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"2"
-		"wide"			"82"	
-		"tall"			"120"	
+		"wide"			"80"	
+		"tall"			"115"	
 		"visible"		"1"
 		"enabled"		"1"
 				
@@ -206,8 +209,8 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"AvenirBla11"			
-			"xpos"			"27"		
+			"font"			"Avenir11"			
+			"xpos"			"28"		
 			"ypos"			"92"		
 			"zpos"			"2"
 			"wide"			"25"
@@ -223,7 +226,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"AvenirBla11"
+				"font"			"Avenir11"
 				"xpos"			"15"
 				"wide"			"18"
 				"tall"			"10"
@@ -270,8 +273,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"10"
+				"xpos"			"9"
 				"ypos"			"43"
+				"wide"			"30"
+				"tall"			"30"
 			}						
 		}
 		
@@ -305,8 +310,10 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"10"
+				"xpos"			"9"
 				"ypos"			"71"
+				"wide"			"30"
+				"tall"			"30"
 			}			
 		}
 		
@@ -355,7 +362,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"21"
+				"xpos"			"20"
 				"wide"			"8"
 				"tall"			"8"
 			}
@@ -388,7 +395,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"21"
+				"xpos"			"20"
 				"wide"			"5"
 				"tall"			"10"
 			}
@@ -408,8 +415,8 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"AvenirBla11"
-			"xpos"			"27"
+			"font"			"Avenir11"
+			"xpos"			"28"
 			"ypos"			"92"
 			"zpos"			"4"
 			"wide"			"25"
@@ -425,7 +432,8 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"16"
+				"font"			"Avenir11"
+				"xpos"			"15"
 				"wide"			"18"
 				"tall"			"9"
 				"textinsetx"	"-10"
@@ -463,7 +471,7 @@
 			
 			"if_multiple_trains"
 			{
-				"xpos"			"23"
+				"xpos"			"22"
 				"wide"			"8"
 				"tall"			"8"
 			}
@@ -493,7 +501,10 @@
 			
 			"if_multiple_trains"
 			{
-				"visible"		"0"		
+				"xpos"			"9999"
+				"ypos"			"9999"			
+				"wide"			"65"			
+				"tall"			"42"			
 			}	
 						
 			"Teardrop"
@@ -513,7 +524,7 @@
 				
 				"if_multiple_trains"
 				{
-					"visible"		"0"
+					//				
 				}	
 			}
 
@@ -522,8 +533,8 @@
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"font"				"DefaultSmall"
-				"xpos"				"9999"
-				"ypos"				"9999"
+				"xpos"				"0"
+				"ypos"				"8"
 				"zpos"				"23"
 				"wide"				"0"
 				"tall"				"0"
@@ -539,7 +550,11 @@
 				
 				"if_multiple_trains"
 				{
-					"visible"		"0"		
+					"font"			"DefaultVerySmall"
+					"xpos"			"0"
+					"ypos"			"3"			
+					"wide"			"0"			
+					"tall"			"0"			
 				}	
 			}
 
@@ -547,20 +562,23 @@
 			{
 				"ControlName"		"CIconPanel"
 				"fieldName"			"Blocked"
-				"xpos"				"9999"
-				"ypos"				"9999"
+				"xpos"				"2"
+				"ypos"				"3"
 				"zpos"				"1"
 				"wide"				"30"
 				"tall"				"30"
-				"visible"			"0"
-				"enabled"			"0"
+				"visible"			"1"
+				"enabled"			"1"
 				"scaleImage"		"1"
 				"icon"				"cappoint_progressbar_blocked"
 				"iconColor"			"255 255 255 255"	
 				
 				"if_multiple_trains"
 				{
-					"visible"		"0"			
+					"xpos"			"2"
+					"ypos"			"2"			
+					"wide"			"31"			
+					"tall"			"31"			
 				}	
 			}	
 			
@@ -568,15 +586,15 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"Capping"	
-				"xpos"			"9999"
-				"ypos"			"9999"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"24"
 				"tall"			"24"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"0"
+				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
 				"image"			"../hud/cart_arrow_right"
@@ -584,7 +602,10 @@
 				
 				"if_multiple_trains"
 				{
-					"visible"		"0"		
+					"xpos"			"8"
+					"ypos"			"8"			
+					"wide"			"20"			
+					"tall"			"20"			
 				}		
 			}			
 		}

@@ -69,7 +69,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"NeutraDisp16"
-		"fgcolor"		"AntsHUDWhite"
+		"fgcolor"		"Health Normal"
 	}								
 	"SpecHealthBG"	
 	{

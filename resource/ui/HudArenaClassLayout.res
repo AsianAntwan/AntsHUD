@@ -29,25 +29,27 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"140"
 		"zpos"			"2"
 		"wide"			"45"
 		"tall"			"80"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_clear"
+		"teambg_3"		"../hud/color_panel_clear"
 			
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
-
+	
 	"title"
 	{
 		"ControlName"	"CExLabel"
@@ -61,7 +63,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"NeutraDisp26"
+		"font"			"NeutraDisp20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
 		"fgcolor"		"AntsHUDWhite"
@@ -69,9 +71,9 @@
 	"titleShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"titleShadow"
-		"xpos"			"c-198"
-		"ypos"			"109"
+		"fieldName"		"NeutraDisp24"
+		"xpos"			"c-199"
+		"ypos"			"108"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"20"
@@ -79,10 +81,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"NeutraDisp26"
+		"font"			"NeutraDisp20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"TransparentBlack"
 	}
 		
 	"changeLabel"
@@ -119,7 +121,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"ShadowBlack"
+		"fgcolor"		"Black"
 	}
 	
 	"classImage0"

@@ -19,7 +19,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPasstimeBallStatus"
 		"xpos"				"0"
-		"ypos"				"9"
+		"ypos"				"0"
 		"zpos"				"100"
 		"wide"				"f0"
 		"tall"				"f0"
@@ -60,7 +60,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"
 		"labelText"		""
-		fgcolor_override	"255 255 0 255"
+		fgcolor_override	"255 235 255 255"
 		pin_to_sibling			EventTitleLabel
 		pin_corner_to_sibling	6
 		pin_to_sibling_corner	4
@@ -282,7 +282,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		"font"					"Avenir13"
+		//font					TargetID
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"

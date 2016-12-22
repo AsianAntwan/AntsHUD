@@ -24,12 +24,12 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
@@ -82,7 +82,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
 				"border"		"NoBorder"
-				"bgcolor_override"	"BGAnyLight"
+				"bgcolor_override"	"BGAnyDark"
 				"proportionaltoparent"	"1"
 			}
 

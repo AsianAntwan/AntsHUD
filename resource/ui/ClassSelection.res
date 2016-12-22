@@ -67,7 +67,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -81,6 +81,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 	}
+	
 		
 	"Offense"
 	{
@@ -118,7 +119,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"1  Scout"	[$WIN32]
+		"labelText"			"1   Scout"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass scout"
 		"font"				"NeutraDisp16"
@@ -127,7 +128,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -143,7 +144,7 @@
 
 	}
 	"soldier"
-	{
+		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
 		"xpos"				"c55"
@@ -156,7 +157,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"2  Soldier"	[$WIN32]
+		"labelText"			"2   Soldier"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass soldier"
 		"Default"			"0"
@@ -166,7 +167,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -180,9 +181,9 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 
-	}
+		}
 	"pyro"
-	{
+		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
 		"xpos"				"c55"
@@ -195,7 +196,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"3  Pyro"	[$WIN32]
+		"labelText"			"3   Pyro"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass pyro"
 		"Default"			"0"
@@ -205,7 +206,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -219,7 +220,7 @@
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
 
-	}
+		}
 	
 	"Defense"
 	{
@@ -230,6 +231,7 @@
 		"zpos"			"2"
 		"wide"			"90"
 		"tall"			"12"
+		"tall_lodef"			"22"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -243,7 +245,7 @@
 		"fgcolor_lodef"	"AntsHUDWhite"
 	}
 	"demoman"
-	{
+		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
 		"xpos"				"c55"
@@ -256,7 +258,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"4  Demoman"	[$WIN32]
+		"labelText"			"4   Demoman"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass demoman"
 		"Default"			"0"
@@ -266,7 +268,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -279,9 +281,10 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}
+		}
+		
 	"heavyweapons"
-	{
+		{
 		"ControlName"		"CExLabel"
 		"fieldName"			"heavyweapons"
 		"xpos"				"c55"
@@ -294,7 +297,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"5  Heavy"	[$WIN32]
+		"labelText"			"5   Heavy"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass heavyweapons"
 		"Default"			"0"
@@ -304,7 +307,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -317,7 +320,8 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}
+		}
+		
 	"engineer"
 	{
 		"ControlName"		"CExLabel"
@@ -332,7 +336,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"6  Engineer"	[$WIN32]
+		"labelText"			"6   Engineer"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass engineer"
 		"Default"			"0"
@@ -342,7 +346,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -357,6 +361,7 @@
 		"keyboardinputenabled"	"0"
 	}
 
+	
 	"Support"
 	{
 		"ControlName"	"CExLabel"
@@ -379,7 +384,7 @@
 		"fgcolor_lodef"	"AntsHUDWhite"
 	}
 	"medic"
-	{
+			{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
 		"xpos"				"c55"
@@ -392,7 +397,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"7  Medic"	[$WIN32]
+		"labelText"			"7   Medic"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass medic"
 		"Default"			"0"
@@ -402,7 +407,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -415,9 +420,9 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}
+		}
 	"sniper"
-	{
+		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
 		"xpos"				"c55"
@@ -430,7 +435,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"8  Sniper"	[$WIN32]
+		"labelText"			"8   Sniper"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass sniper"
 		"Default"			"0"
@@ -440,7 +445,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -453,9 +458,9 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}
+		}
 	"spy"
-	{
+		{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
 		"xpos"				"c55"
@@ -468,7 +473,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"9  Spy"	[$WIN32]
+		"labelText"			"9   Spy"	[$WIN32]
 		"textAlignment"		"west"
 		"Command"			"joinclass spy"
 		"Default"			"0"
@@ -478,7 +483,7 @@
 		
 		"fgcolor"					"AntsHUDLessWhite"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
 			
@@ -491,7 +496,7 @@
 		"Default"				"1"
 		"selectonhover"			"1"
 		"keyboardinputenabled"	"0"
-	}
+		}
 
 	"CancelButton" [$WIN32] 
 	{
@@ -507,17 +512,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"&O  Cancel"
+		"labelText"		"&O Cancel"
 		"textAlignment"	"west"
 		"paintbackground""0"
 		"Command"		"vguicancel"
 		"font"			"NeutraDisp16"
-		
-		"fgcolor"					"AntsHUDLessWhite"
-		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDLessWhite"
-		"selectedFgColor_override" 	"AntsHUDWhite"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -543,14 +542,37 @@
 		"Command"		"openloadout"
 		"font"			"NeutraDisp16"
 		
-		"fgcolor"					"AntsHUDLessWhite"
-		"defaultFgColor_override" 	"AntsHUDLessWhite"
-		"armedFgColor_override"		"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDLessWhite"
-		"selectedFgColor_override" 	"AntsHUDWhite"
-		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	"LoadoutButtonBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LoadoutButtonBackground"
+		"xpos"			"c98"
+		"ypos"			"c114"
+		"wide"			"20"
+		"tall"			"0"
+	}
+	"ResetButton" [$WIN32] 
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ResetButton"
+		"xpos"			"r470"
+		"ypos"			"r38"
+		"zpos"			"6"
+		"wide"			"110"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_ClassMenu_Reset"
+		"paintbackground""0"
+		"textAlignment"	"center"
+		"Command"		"resetclass"
+		"font"			"NeutraDisp16"
 	}
 
 	"ClassMenuSelect"
@@ -596,6 +618,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "365"
+			"origin_x_lodef" "415"
+			"origin_x_hidef" "380"
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
@@ -606,10 +630,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Hint"
 		"xpos"			"c-300"
+		"xpos_hidef"	"c-287"
+		"xpos_lodef"	"c-260"
 		"ypos"			"95"
+		"ypos_hidef"	"101"
+		"ypos_lodef"	"115"
 		"zpos"			"2"
 		"wide"			"600"
 		"tall"			"50"
+		"tall_lodef"	"30"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"0"
@@ -628,15 +657,19 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c90"
+		"ypos"			"1296"
+		"ypos_lodef"			"r74"
+		"ypos_hidef"			"r65"
 		"zpos"			"4"
 		"wide"			"f0"
 		"tall"			"50"
+		"tall_lodef"			"74"
+		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
@@ -663,7 +696,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"9999"
-		"ypos"			"9999"
+		"ypos"			"99999"
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"80"

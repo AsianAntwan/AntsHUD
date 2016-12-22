@@ -7,7 +7,7 @@
 		"ypos"			"cs-0.5"
 		"zpos"			"50"
 		"wide"			"400"
-		"tall"			"130"
+		"tall"			"150"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"

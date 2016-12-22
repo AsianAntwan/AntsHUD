@@ -1,3 +1,6 @@
+//SourceScheme.res edited by rays, originally by:
+// Doodles - DoodleHUD - http://doodlesstuff.com
+//
 #base "SourceSchemeBase.res"
 Scheme
 {
@@ -251,15 +254,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"Default" [$OSX]
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"14"
-				"weight"	"500"
-			}
-		}
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -306,42 +300,34 @@ Scheme
 				"antialias"	"1"
 			}
 		}	
-		AchievementItemTitle	[$WIN32]
+		AchievementItemTitle
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Arial"
 				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
+				"tall"			"16"
 				"antialias"		"1"
 			}
 		}
-		
-		AchievementItemTitleLarge	[$WIN32]
+		AchievementItemTitleLarge
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Arial"
 				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
+				"tall"			"18"
 				"antialias"		"1"
 			}
 		}
-		
-		AchievementItemDescription	[$WIN32]
+		AchievementItemDescription
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Arial"
 				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
+				"tall"			"14"
+				"antialias"		"1"
 			}
 		}
 

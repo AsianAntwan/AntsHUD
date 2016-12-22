@@ -64,7 +64,7 @@
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"AntsHUDWhite"
+		"depressedFgColor_override"	"236 227 203 255"
 	}		
 	
 	"RotateRightButton"
@@ -91,7 +91,7 @@
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"AntsHUDWhite"
+		"depressedFgColor_override"	"236 227 203 255"
 	}	
 				
 	"NextWeaponButton"

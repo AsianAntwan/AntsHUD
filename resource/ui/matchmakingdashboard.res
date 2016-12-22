@@ -53,8 +53,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5"
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"

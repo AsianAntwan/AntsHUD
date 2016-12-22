@@ -422,14 +422,14 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallest"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
@@ -442,7 +442,7 @@
 
 		"PlayersInGameTotalLabel"
 		{
-			"font"			"AvenirHea12"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"85"
 		}
@@ -465,7 +465,7 @@
 
 		"PlayersInGameMatchingLabel"
 		{
-			"font"			"AvenirHea12"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"97"
 		}
@@ -495,7 +495,7 @@
 
 		"PlayersSearchingTotalLabel"
 		{
-			"font"			"AvenirHea12"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"135"
 		}
@@ -518,7 +518,7 @@
 
 		"PlayersSearchingMatchingLabel"
 		{
-			"font"			"AvenirHea12"
+			"font"			"HudFontSmallest"
 			"xpos"		"20"
 			"ypos"		"147"
 		}

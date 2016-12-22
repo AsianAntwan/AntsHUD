@@ -69,13 +69,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"classimageoutline"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c207"
+		"ypos"			"115"
 		"zpos"			"6"
 		"wide"			"36"
 		"tall"			"36"
 		"visible"		"1"
-		"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "60 60 60 255"
 	}
 	
 	"classimage"

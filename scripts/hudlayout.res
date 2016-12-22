@@ -225,6 +225,8 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
+		"RightMargin_hidef" "32"
+		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxWide" "72"
@@ -234,22 +236,22 @@
 		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
-		"BoxGap" "2"
+		"BoxGap" "4"
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"
 		"ErrorYPos" "48"
-		"TextColor" "AntsHUDWhite"
+		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
 		"PlaySelectSounds"	"1"
 		"Alpha" "220"
 		"SelectionAlpha" "220"
 		"BoxColor" "0 0 0 220"
 		"SelectedBoxClor" "0 0 0 220"
-		"SelectionNumberFg"	"AntsHUDWhite"
-		"NumberFont" "NeutraDisp16"
+		"SelectionNumberFg"	"200 187 161 255"
+		"NumberFont" "HudSelectionText"
 	}	
 	
 	CHudAccountPanel
@@ -282,8 +284,9 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"40"
+		"ypos"					"68"
+		"ypos_minmode"			"113"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible" 				"1"
@@ -308,8 +311,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c20"
-		"ypos_minmode"	"c60"
+		"ypos"		"c25"
+		"ypos_minmode"	"c70"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -322,8 +325,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c20"
-		"ypos_minmode"	"c60"
+		"ypos"		"c25"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -339,8 +341,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c107"
-		"ypos_minmode"	"c78"
+		"ypos" 		"c65"
+		"ypos_minmode"	"c110"
 		"zpos"		"1"
 		"wide" 		"600"
 		"tall" 		"45"
@@ -352,8 +354,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"0"	[$WIN32]
+		"ypos"		"0"	[$WIN32]
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1189,9 +1191,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"60"
+		"ypos"					"275"
 		"wide"					"640"
-		"tall"					"200"
+		"tall"					"100"
 	}
 
 	AchievementNotificationPanel	
@@ -1201,11 +1203,11 @@
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"180"
-		"wide"					"f10"
+		"wide"					"f10"	[$WIN32]
 		"tall"					"100"
 	}
 
-	CriticalPanel
+	CriticalPanel [$WIN32]
 	{
 		"fieldName"				"CriticalPanel"		
 		"visible"				"1"
@@ -1216,10 +1218,7 @@
 		"tall"					"25"
 	}
 	
-
-	{
-		"fieldName"				"HudArenaVsPanel"		
-		"visible"				"1"	HudArenaClassLayout
+	HudArenaClassLayout [$WIN32]
 	{
 		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
@@ -1231,7 +1230,10 @@
 		"tall"					"320"
 	}
 	
-	HudArenaVsPanel
+	HudArenaVsPanel [$WIN32]
+	{
+		"fieldName"				"HudArenaVsPanel"		
+		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
 		"ypos"					"240"

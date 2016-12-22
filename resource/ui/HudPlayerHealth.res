@@ -90,7 +90,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"NeutraDisp56"
-		"fgcolor"		"AntsHUDWhite"
+		"fgcolor"		"Health Normal"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

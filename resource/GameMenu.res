@@ -1,74 +1,108 @@
 "GameMenu"
 {
-	//Main Buttons
+	"ResumeGameButton"
+	{
+		"label"	"Resume"
+		"command" "ResumeGame"
+		"OnlyInGame" "1"
+		"subimage" "icon_resume"
+	}
 	"CasualButton"
 	{
 		"label"	"Casual"
 		"command" "play_casual"
 		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	"CompetitiveButton"
 	{
 		"label"	"Competitive"
 		"command" "play_competitive"
 		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	"MvMButton"
 	{
 		"label"	"MvM"
 		"command" "play_mvm"
 		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	"ServerBrowserButton"
 	{
 		"label"	"Server Browser"
 		"command" "OpenServerBrowser"
 		"OnlyAtMenu" "1"
+		"subimage" ""
+	}
+	"ServerBrowserButton2"
+	{
+		"label"	"Server Browser"
+		"command" "OpenServerBrowser"
+		"OnlyInGame" "1"
+		"subimage" ""
 	}
 	"TrainingButton"
 	{
 		"label"	"Training"
 		"command" "play_training"
 		"OnlyAtMenu" "1"
+		"subimage" ""
+	}
+	"ResumeGameButton"
+	{
+		"label"	"Resume"
+		"command" "ResumeGame"
+		"OnlyInGame" "1"
+		"subimage" "icon_resume"
 	}
 	"GeneralStoreButton"
 	{
 		"label" "Shop"
 		"command" "engine open_store"
+		"subimage" ""
 	}	
 	"CharacterSetupButton"
 	{
 		"label" "Items"
 		"command" "engine open_charinfo"
+		"subimage" ""
 	}
 	"ReplayBrowserButton"
 	{
-		"label" 		"Replays"
-		"command" 		"engine replay_reloadbrowser"
+		"label" "Replays"
+		"command" "engine replay_reloadbrowser"
+		"subimage" ""
 	}
 	"SteamWorkshopButton"
 	{
-		"label" 		"Workshop"
-		"command" 		"engine opentf2options"
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" ""
 	}
-	"SettingsButton"
+	"DisconnectButton"
 	{
-		"label" "Options"
-		"command" "OpenOptionsDialog"
-	}
-	"TF2SettingsButton"
-	{
-		"label" "Adv. Options"
-		"command" "engine opentf2options"
+		"label"	"Disconnect"
+		"command" "engine disconnect"
+		"OnlyInGame" "1"
+		"subimage" ""
 	}
 	"QuitButton"
 	{
 		"label"	"Quit"
-		"command" "engine quit"
+		"command" "engine replay_confirmquit"
 		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	
 	//Other Buttons
+
+ 	"VersionNumber"
+ 	{
+		"label" "Beta v1.6" 
+ 		"subimage" ""
+ 		"OnlyAtMenu" "0"
+ 	}
 	"MOTD_ShowButtonPanel"
 	{
 		"label" "%"
@@ -90,7 +124,7 @@
 		"subimage"	""
 		"tooltip"	"Default mode"
 	}
-	"HUDLoweredModeButton"
+	"HUDCenteredModeButton"
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 1"
@@ -111,13 +145,6 @@
 		"subimage" ""
 		"tooltip" "HUD Reload"
 	}
-	"AchievementsButton"
-	{
-		"label" 		""
-		"command" 		"OpenAchievementsDialog"
-		"subimage" 		"glyph_achievements"
-		"tooltip" 		"Achievements"
-	}
 	"CreateServerButton"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
@@ -125,30 +152,12 @@
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
-	
-	//In-Game Buttons
-	"ResumeGameButton"
-	{
-		"label"	"Resume"
-		"command" "ResumeGame"
-		"OnlyInGame" "1"
-		"subimage" ""
-	}
-	"ServerBrowserButton2"
-	{
-		"label"	"Server Browser"
-		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
-		"subimage" ""
-	}
-	"DisconnectButton"
-	{
-		"label"	"Disconnect"
-		"command" "engine disconnect"
-		"OnlyInGame" "1"
-	}
+
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
@@ -156,6 +165,7 @@
 	}
 	"MutePlayersButton"
 	{
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
@@ -163,6 +173,7 @@
 	}
 	"RequestCoachButton"
 	{
+		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
@@ -170,6 +181,7 @@
 	}
 	"ReportPlayerButton"
 	{
+		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"

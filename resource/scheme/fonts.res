@@ -201,8 +201,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		 "AvenirLTStd-Medium"
 				"tall" 		 "18"
 				"additive"	 "0"
 				"antialias"	 "1"
@@ -793,7 +792,6 @@ Scheme
 				"tall"			"28"
 				"additive"	"0"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardTitleBig"
@@ -804,7 +802,6 @@ Scheme
 				"tall"			"40"
 				"additive"	"0"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardTitleMedium"
@@ -815,7 +812,6 @@ Scheme
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
 			}
 		}
 		"ChalkboardText"
@@ -823,9 +819,7 @@ Scheme
 			"1"
 			{
 				"name"			"AvenirLTStd-Medium"
-				"tall"			"14" [!$OSX]
-				"tall"			"15" [$OSX]
-				"custom"		"1" [$OSX]
+				"tall"			"14"
 				"additive"		"0"
 				"antialias" 	"1"
 
@@ -1288,8 +1282,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"11"  [!$OSX]
-				"tall"		"9"  [$OSX]
+				"tall"		"11"
 				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1740,7 +1733,7 @@ Scheme
 				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
-				"custom"		"1" [$OSX]
+				"custom"		"1"
 				"weight"	"500"
 			}
 		}
@@ -2159,19 +2152,6 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 				"custom"	"1"
-			}
-		}
-		
-		"MapVotesPercentage"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"dropshadow"	"1"
 			}
 		}
 

@@ -115,7 +115,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"NeutraDisp28"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"teambutton0"
@@ -230,23 +230,26 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-500"
-		"ypos"			"c75"
+		"xpos"			"r190"
+		"xpos_hidef"	"r200"
+		"ypos"			"r40"
+		"ypos_lodef"	"r64"
+		"ypos_hidef"	"r54"
 		"zpos"			"6"
-		"wide"			"1000"
+		"wide"			"150"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Cancel"
+		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintbackground""0"
 		"command"		"cancelmenu"
-		"font"			"NeutraDisp24"
+		"font"			"NeutraDisp28"
 		"defaultFgColor_override" 	"AntsHUDLessWhite"
 		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
@@ -265,6 +268,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_lodef"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"center"
@@ -274,27 +278,50 @@
 		"fgcolor"		"AntsHUDWhite"
 	}
 	
-	"TeamMenuSelectShadow"
+	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSelectShadow"
-		"xpos"			"c-498"
-		"ypos"			"67"
-		"zpos"			"6"
-		"wide"			"1000"
-		"tall"			"40"
+		"fieldName"		"TeamMenuAuto"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"102"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_SelectATeam"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"#TF_Random"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NeutraDisp46"
-		"fgcolor"		"ShadowBlack"
+		"wrap"			"0"
+		"font"			"MenuSmallFont"
+		"fgcolor"		"black"
 	}
 	
+	"TeamMenuSpectate"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TeamMenuSpectate"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		""
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"NeutraDisp16"
+		"fgcolor"		"AntsHUDWhite"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -308,10 +335,31 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"255 255 255 7"
 		
 	}	
-
+	
+	"ShadedBar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ShadedBar"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"5"
+		"wide"			"0"
+		"tall"			"0"
+		"tall_lodef"	"74"
+		"tall_hidef"	"65"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"	
+		"image"			"loadout_bottom_gradient"
+		"tileImage"		"1"
+		"PaintBackgroundType"	"0"
+	}		
+	
 	"BlueCount"
 	{
 		"ControlName"	"CExLabel"
@@ -331,27 +379,6 @@
 		"brighttext"	"1"
 		"font"			"NeutraDisp72"
 		"fgcolor"		"AntsHUDWhite"
-	}
-	
-	"BlueCountShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueCountShadow"
-		"xpos"			"c-108"
-		"ypos"			"c-33"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"70"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%bluecount%"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"NeutraDisp72"
-		"fgcolor"		"ShadowBlack"
 	}
 	
 	"RedCount"
@@ -374,27 +401,77 @@
 		"font"			"NeutraDisp72"
 		"fgcolor"		"AntsHUDWhite"
 	}	
-	
-	"RedCountShadow"
+
+	"bluedoor"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedCountShadow"
-		"xpos"			"c12"
-		"ypos"			"c-33"
-		"zpos"			"1"
-		"wide"			"100"
-		"tall"			"70"
+		"ControlName"	"CModelPanel"
+		"fieldName"		"bluedoor"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"%redcount%"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"NeutraDisp72"
-		"fgcolor"		"ShadowBlack"
+		"fov"			"20"
+		
+	
 	}	
+	
+	"reddoor"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"reddoor"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		
+	}		
+	
+	"autodoor"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"autodoor"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		
+	
+	}		
+	
+	"spectate"
+	{
+		"ControlName"	"CModelPanel"
+		"fieldName"		"spectate"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"0"		
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fov"			"20"
+		
+	}			
+
 	
 	"HighlanderLabel" [$WIN32] 
 	{

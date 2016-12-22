@@ -17,14 +17,28 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LeftSideBG"
-		"xpos"			"c-90"
+		"xpos"			"c-100"
 		"ypos"			"r20"	
 		"zpos"			"-1"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"AntsHUDBlue"
+	}
+
+	"LeftSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"LeftSideBG2"
+		"xpos"			"c-100"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkBlue"
 	}
 
 	"RightSideBG"
@@ -34,11 +48,25 @@
 		"xpos"			"c0"
 		"ypos"			"r20"
 		"zpos"			"-1"
-		"wide"			"90"
+		"wide"			"100"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"AntsHUDRed"
+	}
+
+	"RightSideBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RightSideBG2"
+		"xpos"			"c0"
+		"ypos"			"r9"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkRed"
 	}
 
 	"OutlineBG"
@@ -128,8 +156,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayingToCluster"
-		"xpos"				"-130"
-		"ypos"				"26"
+		"xpos"				"0"
+		"ypos"				"5"
 		"zpos"				"10"
 		"wide"				"f0"
 		"tall"				"480"
@@ -140,10 +168,10 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
-			"xpos"			"c-70"
-			"ypos"			"r54"
+			"xpos"			"c-70"	[$WIN32]
+			"ypos"			"r54"	[$WIN32]
 			"zpos"			"4"
-			"wide"			"140"
+			"wide"			"140"	[$WIN32]
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"

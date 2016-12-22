@@ -13,7 +13,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyLight"
+		"bgcolor_override"		"BGAnyDark"
 		
 		
 		"button_kv"
