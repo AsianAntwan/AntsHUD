@@ -34,7 +34,7 @@
 		"itemcountcolor"			"AntsHUDDeepSkyBlue"
 		"itemcountcolor_noitems"	"100 100 100 255"
 	}
-	
+
 	"scout"
 	{
 		"ControlName"		"ImageButton"

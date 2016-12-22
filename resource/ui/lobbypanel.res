@@ -221,7 +221,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"NearbyColumnHead"
-			"font"			"HudFontSmall"
+			"font"			"AvenirBla14"
 			"labelText"		"#TF_Matchmaking_Nearby"
 			"xpos"		"190"
 			"ypos"		"50"

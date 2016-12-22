@@ -8,12 +8,12 @@ Scheme
 
 		"AntsHUDDeepSkyBlue"		"0 191 255 255"
 
-		"AntsHUDLightBlue"			"95 155 205 255"
-		"AntsHUDBlue"				"70 130 180 255"
-		"AntsHUDDarkBlue"			"45 105 155 255"
-		"AntsHUDLightRed"			"215 75 75 255"
-		"AntsHUDRed"				"190 50 50 255"
-		"AntsHUDDarkRed"			"165 25 25 255"
+		"AntsHUDLightBlue"			"95 145 195 255"
+		"AntsHUDBlue"				"90 140 190 255"
+		"AntsHUDDarkBlue"			"65 115 165 255"
+		"AntsHUDLightRed"			"235 85 85 255"
+		"AntsHUDRed"				"210 60 60 255"
+		"AntsHUDDarkRed"			"185 35 35 255"
 		"AntsHUDHalloween"			"255 145 0 255"
 		"AntsHUDHalloweenGreen"		"84 221 86 255"
 		
@@ -23,7 +23,7 @@ Scheme
 		"AntsHUDGray"				"100 100 100 255"
 		"AntsHUDDarkGray"			"50 50 50 255"
 		
-		"TransparentPanelBG"		"25 25 25 128"
+		"TransparentPanelBG"		"20 20 20 175"
 		"ButtonBG"					"50 50 50 255"
 
 		"BGAnyLight"				"40 40 40 255"
@@ -32,8 +32,6 @@ Scheme
 		
 		"StatBar"					"0 191 255 255"
 
-		"ItemPanelBG"				"50 50 50 255"
-		
 		//-----------------------------------------------------
 		// Game UI Colors
 		//-----------------------------------------------------
@@ -43,13 +41,12 @@ Scheme
 		
 		"ShadowBlack"				"0 0 0 196"
 
-		"Health Normal"				"255 255 255 255"
 		"Health Buff"				"0 225 255 175"
-		"Health Hurt"				"255 0 0 175"
+		"Health Hurt"				"240 0 0 175"
 
 		"Ammo In Clip"				"255 255 255 255"
 		"Ammo In Reserve"			"0 191 255 255"
-		"LowAmmo"					"255 0 0 175"
+		"LowAmmo"					"240 0 0 175"
 
 		"Heal Numbers"				"0 255 127 255"
 		"Damage Numbers"			"255 255 0 255"
@@ -59,8 +56,7 @@ Scheme
 		"Flashing Uber Color1"		"0 191 255 255"
 		"Flashing Uber Color2"		"0 121 255 255"
 		
-		//Rainbow Uber Colors
-		
+		//Rainbow Uber Colors		
 		"ColorRed"						"255 0 0 255"
 		"ColorOrange"					"255 128 0 255"
 		"ColorYellow"					"255 255 0 255"

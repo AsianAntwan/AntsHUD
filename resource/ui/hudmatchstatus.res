@@ -264,7 +264,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"AvenirBla18"
 			"fgcolor"		"AntsHUDWhite"
-			"xpos"			"25"
+			"xpos"			"30"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"50"

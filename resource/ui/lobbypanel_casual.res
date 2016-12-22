@@ -345,14 +345,14 @@
 
 		"NearbyColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallestBold"
 			"xpos"		"rs1-90"
 			"proportionaltoparent"	"1"
 		}
 
 		"WorldwideColumnHead"
 		{
-			"font"			"HudFontSmallest"
+			"font"			"HudFontSmallestBold"
 			"xpos"		"rs1-10"
 			"proportionaltoparent"	"1"
 		}
