@@ -220,7 +220,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		HudHintText
+		"HudHintText"
 		{
 			"1"
 			{

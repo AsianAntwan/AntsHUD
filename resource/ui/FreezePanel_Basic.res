@@ -23,7 +23,7 @@
 			"pinCorner" "0"
 			"visible" 	"1"
 			"enabled" 	"1"
-			"fillcolor" "0 0 0 200"
+			"fillcolor" "20 20 20 200"
 		}
 		
 		"FreezePanelBG"
@@ -102,6 +102,7 @@
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
 		}
+
 		"FreezeLabelKiller2"
 		{	
 			"ControlName"	"CExLabel"
@@ -119,7 +120,6 @@
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
 		}
-
 
 		"AvatarImage"
 		{
@@ -141,7 +141,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
-			"xpos"			"9999"		// FIXME
+			"xpos"			"9999"
 			"ypos"			"9999"
 			"zpos"			"4"
 			"wide"			"306"
@@ -223,24 +223,24 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"c-83"
-		"ypos"			"50"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"166"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 			
 		"ScreenshotPanelBG"
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"ScreenshotPanelBG"
-			"xpos"			"0"
-			"ypos"			"8"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"0"
-			"wide"			"166"
-			"tall"			"38"
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/freezecam_black_bg"
 			"scaleImage"		"1"
 		}
@@ -248,11 +248,11 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"ScreenshotIcon"
-			"xpos"			"3"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
-			"wide"			"36"
-			"tall"			"36"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/ico_camera"
@@ -263,19 +263,19 @@
 			"ControlName"		"Label"
 			"fieldName"		"ScreenshotLabel"
 			"font"			"SpectatorKeyHints"
-			"xpos"			"40"
-			"ypos"			"25"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"2"
 			"wide"			"133"
 			"tall"			"12"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%text%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"dulltext"		"0"
-			"brighttext"		"0"
+			"brighttext"	"0"
 		}
 	}	
 }

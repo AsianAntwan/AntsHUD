@@ -20,14 +20,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapImagePanel"
-		"xpos"		"60"
-		"ypos"		"320"
-		"wide"		"330"
-		"tall"		"15"
-		"autoResize"		"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"wide"			"330"
+		"tall"			"15"
+		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"		"0"
 		"bgcolor_override"	"AntsHUDDarkGray"
 	}
@@ -62,7 +62,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_LessThan"
-		"font"			"HudFontSmallBold"
+		"font"			"NeutraDisp20"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -87,7 +87,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_GreaterThan"
-		"font"			"HudFontSmallBold"
+		"font"			"NeutraDisp20"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
 		"dulltext"		"0"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameLabel"
-		"font"			"HudFontMedium"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"xpos"			"60"
@@ -117,16 +117,36 @@
 		"fgcolor_override"	"AntsHUDWhite"
 	}
 	
+	"MapNameLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MapNameLabelShadow"
+		"font"			"HudFontMediumBold"
+		"labelText"		"%mapname%"
+		"textAlignment"	"center"
+		"xpos"			"62"
+		"ypos"			"147"
+		"zpos"			"2"
+		"wide"			"330"
+		"tall"			"40"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"fgcolor_override"	"ShadowBlack"
+	}
+	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"AvenirBla18"
 		"labelText"		"%curpage%"
 		"textAlignment"	"north"
 		"center"		"1"
 		"xpos"			"63"
-		"ypos"			"3"
+		"ypos"			"165"
 		"zpos"			"100"
 		"wide"			"33"
 		"tall"			"18"
@@ -136,7 +156,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor_override"	"AntsHUDWhite"
-		"bgcolor_override"	"AntsHUDBlack"
+		"paintbackground"	"0"
 		"border"		"NoBorder"
 	}
 	
@@ -206,19 +226,19 @@
 		"textinsetx"		"50"
 		
 		"fgcolor_override"	"AntsHUDWhite"
-		"bgcolor_override"	"AntsHUDBlack"
-		"disabledFgColor_override" "AntsHUDWhite"
-		"disabledBgColor_override" "AntsHUDBlack"
-		"selectionColor_override" "AntsHUDBlack"
+		"bgcolor_override"	"BGAnyLight"
+		"disabledFgColor_override" "AntsHUDGray"
+		"disabledBgColor_override" "BGAnyDarker"
+		"selectionColor_override" "BGAnyLight"
 		"selectionTextColor_override" "AntsHUDWhite"
-		"defaultSelectionBG2Color_override" "AntsHUDBlack"
+		"defaultSelectionBG2Color_override" "BGAnyLight"
 	}
 	
 	"PlayersLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayersLabel"
-		"font"			"HudFontSmallest"
+		"font"			"AvenirHea13"
 		"labelText"		"#IT_BotAddition_Title"
 		"textAlignment"	"east"
 		"xpos"			"0"
@@ -237,7 +257,7 @@
 	{
 		"ControlName"	"TextEntry"
 		"fieldName"		"NumPlayersTextEntry"
-		"font"			"HudFontSmallest"
+		"font"			"AvenirBla14"
 		"textHidden"	"0"
 		"textAlignment"	"west"
 		"unicode"		"1"
@@ -256,7 +276,7 @@
 		"NumericInputOnly"	"1"
 		"selectallonfirstfocus"	"1"
 		
-		"bgcolor_override"	"AntsHUDBlack"
+		"bgcolor_override"	"BGAnyLight"
 		"fgcolor_override"	"AntsHUDWhite"
 	}
 	
@@ -264,7 +284,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SuggestedPlayerCountLabel"
-		"font"			"HudFontSmallest"
+		"font"			"AvenirHea12"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"230"

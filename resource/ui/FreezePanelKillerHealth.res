@@ -87,10 +87,10 @@
 		"font" 			"NeutraDisp18"
 		"textAlignment"	"center"		
 	}
-	"PlayerStatusHealthValueFreezeBackground"
+	"PlayerStatusHealthValueFreezeShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueFreezeBackground"
+		"fieldName"		"PlayerStatusHealthValueFreezeShadow"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"5"

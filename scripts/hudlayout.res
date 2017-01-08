@@ -234,21 +234,21 @@
 		"PlusStyleExpandSelected"	"0.3"
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
-		"BoxGap" "2"
+		"BoxGap" "4"
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"
 		"ErrorYPos" "48"
-		"TextColor" "AntsHUDWhite"
+		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
 		"PlaySelectSounds"	"1"
 		"Alpha" "220"
 		"SelectionAlpha" "220"
 		"BoxColor" "0 0 0 220"
 		"SelectedBoxClor" "0 0 0 220"
-		"SelectionNumberFg"	"AntsHUDWhite"
+		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "NeutraDisp16"
 	}	
 	
@@ -308,8 +308,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c20"
-		"ypos_minmode"	"c60"
+		"ypos"		"c30"
+		"ypos_minmode"	"c47"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
@@ -322,15 +322,12 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c20"
-		"ypos_minmode"	"c60"
+		"ypos"		"c30"
+		"ypos_minmode"	"c47"
 		"zpos"		"1"
 		"wide"	 	"600"
 		"tall"	 	"45"
 		"priority"	"40"
-		
-		"x_offset" "20"
-		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
@@ -352,8 +349,8 @@
 		"fieldName" "BuildingStatus_Spy"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
+		"xpos"		"-10"
+		"ypos"		"-30"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -365,12 +362,8 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
-		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
+		"xpos"		"-10"
+		"ypos"		"-30"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -534,21 +527,21 @@
 		"wide"	 "580"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "10"
+		"MaxDeathNotices" "8"
 		"IconScale"	  	  "0.35"
-		"LineHeight"	  "14"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 0, killfeed goes to left of your screen.
 		
-		"TextFont"		"Avenir14"
+		"TextFont"		"AvenirHea13"
 		
 		"TeamBlue"			"AntsHUDBlue"
 		"TeamRed"			"AntsHUDRed"
 		"IconColor"			"AntsHUDWhite"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"0 0 0 150"		[$WIN32]
+		"BaseBackgroundColor"	"20 20 20 175"		[$WIN32]
 		"LocalBackgroundColor"	"AntsHUDWhite"	[$WIN32]
 	}
 

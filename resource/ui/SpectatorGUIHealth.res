@@ -31,13 +31,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"			"2"
-		"ypos"			"2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_equip_bg"
 		"scaleImage"	"1"	
 	}	
@@ -71,10 +71,10 @@
 		"fgcolor"		"AntsHUDWhite"
 		"textAlignment"	"center"	
 	}
-	"PlayerStatusHealthValueBackground"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBackground"
+		"fieldName"		"PlayerStatusHealthValueShadow"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"5"

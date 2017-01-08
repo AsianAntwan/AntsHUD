@@ -20,7 +20,7 @@
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
@@ -57,7 +57,7 @@
 			}
 		}
 	}
-
+	
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"

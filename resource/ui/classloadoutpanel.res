@@ -511,7 +511,6 @@
 		
 		"keyboardinputenabled"	"0"	
 		"paintbackground"	"0"
-
 	}
 
 	"CharacterLoadoutButton"

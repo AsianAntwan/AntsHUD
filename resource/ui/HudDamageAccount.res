@@ -28,7 +28,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"Last DamageHeal Info"
-		"font"			"NeutraDisp28"
+		"font"			"NeutraDisp26"
 	}
 	
 	"DamageAccountValueBG"
@@ -46,6 +46,6 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"ShadowBlack"
-		"font"			"NeutraDisp28"
+		"font"			"NeutraDisp26"
 	}
 }

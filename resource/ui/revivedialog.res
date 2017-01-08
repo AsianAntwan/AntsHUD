@@ -31,7 +31,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
-			"bgcolor_override"	"15 15 15 175"
+			"bgcolor_override"	"20 20 20 255"
     	}
 
 		"TitleLabel"
@@ -69,7 +69,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "AntsHUDDeepSkyBlue"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 
 		"ConfirmButton"

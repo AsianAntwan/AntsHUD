@@ -49,7 +49,7 @@
 	"SteamWorkshopButton"
 	{
 		"label" 		"Workshop"
-		"command" 		"engine opentf2options"
+		"command" 		"engine OpenSteamWorkshopDialog"
 	}
 	"SettingsButton"
 	{

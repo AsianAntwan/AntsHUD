@@ -32,9 +32,7 @@
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -47,7 +45,7 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"43"
+		"ypos"			"48"
 		"zpos"			"6"
 		"wide"			"252"
 		"tall"	 		"10"
@@ -56,7 +54,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -69,7 +66,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"43"
+		"ypos"			"48"
 		"zpos"			"6"
 		"wide"			"252"
 		"tall"	 		"10"
@@ -78,7 +75,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
 		
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
@@ -96,7 +92,7 @@
 		"ypos"			"15"
 		"zpos"			"7"
 		"wide"			"300"
-		"tall"			"15"
+		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -150,8 +146,8 @@
 		"zpos"				"10"
 		"wide"				"38"
 		"tall"				"42"
-		"visible"			"1"
-		"enabled"			"1"	
+		"visible"			"0"
+		"enabled"			"0"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning""0.49"
 		"TFFont"			"HudFontSmall"

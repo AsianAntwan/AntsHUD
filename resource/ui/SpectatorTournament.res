@@ -192,27 +192,26 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
-				
+				"PaintBackgroundType"	"0"		
 			}
 			
 			"HealthIcon"
-				{
-					"ControlName" "EditablePanel"
-					"fieldName" "HealthIcon"
-					"xpos" "0"
-					"ypos" "0"
-					"zpos" "3"
-					"wide" "24"
-					"tall" "14"
-					"visible" "1"
-					"enabled" "1"
-					"HealthBonusPosAdj" "10"
-					"HealthDeathWarning" "0.49"
-					"TFFont" "HudFontSmallest"
-					"HealthDeathWarningColor" "HUDDeathWarning"
-					"TextColor" "HudOffWhite"
-				}
+			{
+				"ControlName"	 "EditablePanel"
+				"fieldName" 	"HealthIcon"
+				"xpos" 			"0"
+				"ypos" 			"0"
+				"zpos" 			"3"
+				"wide" 			"24"
+				"tall" 			"14"
+				"visible" 		"1"
+				"enabled" 		"1"
+				"HealthBonusPosAdj" "10"
+				"HealthDeathWarning" "0.49"
+				"TFFont" "HudFontSmallest"
+				"HealthDeathWarningColor" "HUDDeathWarning"
+				"TextColor" "HudOffWhite"
+			}
 			
 			"ReadyBG"
 			{

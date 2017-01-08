@@ -14,7 +14,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c106"
-		"ypos"			"385"
+		"ypos"			"350"
 		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"20"
@@ -140,7 +140,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayWithFriendsExplanationTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallishBold"
 			"labelText"		"#TF_Matchmaking_PlayWithFriends"
 			"textAlignment"	"center"
 			"xpos"			"0"
