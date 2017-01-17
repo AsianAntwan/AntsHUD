@@ -69,7 +69,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Avenir22"
+		"font"			"NeutraDisp18"
 	}
 	"BuyBackLabel"
 	{
@@ -109,16 +109,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ClassOrTeamLabel"
 		"xpos"			"9999"
-		"xpos_hidef"	"c-65"
-		"xpos_lodef"	"40"
 		"ypos"			"9999"
-		"ypos_hidef"	"90"
-		"ypos_lodef"	"30"	
 		"wide"			"170"
-		"wide_hidef"	"130"
-		"wide_lodef"	"220"
 		"tall"			"15"
-		"tall_lodef"	"25"
 		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -127,11 +120,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Spectator_ChangeTeam"
 		"textAlignment"		"center"
-		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
-		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
 	{

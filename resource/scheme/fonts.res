@@ -2093,7 +2093,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2104,7 +2104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutra Display Titling"
+				"name"		"AvenirLTStd-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3286,12 +3286,32 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"SymbolsBig"
+		{
+			"1"
+			{
+				"name"	"Entypo"
+				"tall"	"32"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 		"MoreSymbols"
 		{
 			"1"
 			{
 				"name"	"ToonHUD Icons"
 				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Checkmark"
+		{
+			"1"
+			{
+				"name"	"ModernPictograms"
+				"tall"	"18"
 				"additive"	"0"
 				"antialias"	"1"
 			}

@@ -31,14 +31,14 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
-			"bgcolor_override"	"20 20 20 255"
+			"bgcolor_override"	"20 20 20 175"
     	}
 
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"EconFontSmall"
+			"font"			"NeutraDisp14"
 			"labelText"		"#ConfirmTitle"
 			"textAlignment"	"north"
 			"xpos"			"0"
@@ -56,7 +56,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ExplanationLabel"
-			"font"			"ReplayBrowserSmallest"
+			"font"			"Avenir11"
 			"labelText"		"%text%"
 			"textAlignment"	"north"
 			"xpos"			"10"

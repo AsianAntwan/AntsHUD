@@ -115,6 +115,25 @@
 				"enabled"		"1"
 				"fgcolor_override" "AntsHUDWhite"
 			}
+			
+			"TitleLabelShadow"
+			{
+				"ControlName"		"CExLabel"
+				"fieldName"		"TitleLabelShadow"
+				"font"			"HudFontMediumBold"
+				"labelText"		"#TF_SteamWorkshop_Title"
+				"textAlignment"	"center"
+				"xpos"			"2"
+				"ypos"			"17"
+				"zpos"			"1"
+				"wide"			"550"
+				"tall"			"20"
+				"autoResize"	"1"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fgcolor_override" "ShadowBlack"
+			}
 
 			"DescLabel"
 			{
@@ -141,7 +160,7 @@
 				"ControlName"	"CExButton"
 				"fieldName"		"LearnMoreButton"
 				"xpos"			"175"
-				"ypos"			"165"
+				"ypos"			"220"
 				"zpos"			"20"
 				"wide"			"200"
 				"tall"			"25"
@@ -158,7 +177,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"1"
 				"defaultBgColor_override"	"30 30 30 255"
-				"armedBgColor_override"		"50 50 50 255"
+				"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 				"depressedBgColor_override"	"30 30 30 255"
 				"defaultFgColor_override"	"AntsHUDWhite"
 				"armedFgColor_override" 	"AntsHUDWhite"
@@ -539,7 +558,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_SteamWorkshop_BrowseTheWorkshop"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"Command"		"browse"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -577,7 +596,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"30 30 30 255"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override" 	"AntsHUDWhite"
@@ -608,7 +627,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"30 30 30 255"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override" 	"AntsHUDWhite"
@@ -639,7 +658,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"30 30 30 255"
 		}
 
@@ -668,7 +687,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"30 30 30 255"
 			
 			"defaultFgColor_override"	"AntsHUDWhite"
@@ -704,7 +723,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"30 30 30 255"
-			"armedBgColor_override"		"50 50 50 255"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 			"depressedBgColor_override"	"30 30 30 255"
 			
 			"defaultFgColor_override"	"AntsHUDWhite"

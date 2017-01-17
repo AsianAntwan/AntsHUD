@@ -9,7 +9,7 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"25 25 25 255"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"NoBorder"
@@ -19,11 +19,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"NeutraDisp24"
 		"labelText"		"#TF_Item_SelectStyle"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-6"
 		"zpos"			"0"
 		"wide"			"280"
 		"tall"			"60"
@@ -32,6 +32,26 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
+	}
+	
+	"TitleLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelShadow"
+		"font"			"NeutraDisp24"
+		"labelText"		"#TF_Item_SelectStyle"
+		"textAlignment"	"center"
+		"xpos"			"2"
+		"ypos"			"-4"
+		"zpos"			"-1"
+		"wide"			"280"
+		"tall"			"60"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"centerwrap"	"1"
+		"fgcolor"		"ShadowBlack"
 	}
 
 	"preview_model"
@@ -85,6 +105,7 @@
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
+		"paintborder"		"0"
 		
 		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"ButtonBG"

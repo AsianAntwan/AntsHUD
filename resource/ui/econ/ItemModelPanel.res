@@ -1,6 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
 {
-
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
@@ -119,21 +118,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"37"
-			"ypos"			"28"
+			"font"			"Checkmark"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"35"
-			"tall"			"10"
+			"wide"			"18"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#ItemPanelEquipped"
+			"labelText"		"%"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"0"
+			"bgcolor_override"		"0 0 0 0"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
@@ -149,14 +147,13 @@
 			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
-
 		}
 
 		"quantitylabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"Avenir12"
+			"font"			"NeutraDisp13"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -168,8 +165,8 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"fgcolor"		"AntsHUDLessWhite"
+			"bgcolor_override"		"40 40 40 200"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}
@@ -178,11 +175,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"Avenir12"
+			"font"			"NeutraDisp13"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"18"
+			"wide"			"30"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -191,7 +188,7 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"bgcolor_override"		"40 40 40 200"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
 		}

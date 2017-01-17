@@ -6,14 +6,14 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"c-200"
+		"ypos"					"c-185"
 		"wide"					"400"
 		"tall"					"240"
 		"settitlebarvisible"	"0"
 		"paintborder"			"2"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"25 25 25 255"
 	}
 
 	"mouseoveritempanel"
@@ -233,7 +233,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "AntsHUDDeepSkyBlue"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 
 	"CancelButton"

@@ -13,7 +13,7 @@
 		"paintborder"			"2"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"25 25 25 255"
 	}
 	"mouseoveritempanel"
 	{
@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Avenir32"
+		"font"			"HudFontSmallBold"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -229,7 +229,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "DcEmphasis"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"CancelButton"
 	{
@@ -246,7 +246,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"DfTitleLabelSmall"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -279,7 +279,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"DfTitleLabelSmall"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

@@ -169,23 +169,18 @@
 	
 	"Background"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-200"
+		"zpos"			"-199"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			"replay\thumbnails\menugif"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
-		
-		if_christmas
-		{
-			"image"		"../console/background_xmas2011_widescreen"
-		}
 	}
 	
 	"MainMenuBG"
@@ -280,8 +275,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"75"
-		"ypos"			"50"
+		"xpos"			"77"
+		"ypos"			"52"
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"40"
@@ -300,7 +295,9 @@
 		"default"		"1"
 		"paintbackground""0"
 
-		"defaultFgColor_override" "ShadowBlack"				
+		"defaultFgColor_override" "ShadowBlack"
+		"armedFgColor_override" "ShadowBlack"
+		"depressedFgColor_override" "ShadowBlack"				
 	}	
 
 	"VersionNumber"
@@ -331,7 +328,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"Beta v1.675"
+			"labelText"		"Beta v1.7"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -360,8 +357,8 @@
 		"tall"			"20"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"border"		"NoBorder"
+		"bgcolor_override"	"30 30 30 255"
 		
 		"TipSubLabel"
 		{
@@ -1364,6 +1361,94 @@
 				"image"			"glyph_create"
 				"scaleImage"	"1"
 			}				
+		}		
+	}
+	
+	"DemoUIButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemoUIButton"
+		"xpos"			"150"
+		"ypos"			"426"
+		"zpos"			"2"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"-10"
+			"wide"			"32"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"SymbolsBig"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"			
+			
+			"border_default"			""
+			"border_armed"				""
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
+		}		
+	}
+	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"175"
+		"ypos"			"426"
+		"zpos"			"2"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"-10"
+			"wide"			"32"
+			"tall"			"32"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"SymbolsBig"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"			
+			
+			"border_default"			""
+			"border_armed"				""
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}		
 	}
 	

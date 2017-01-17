@@ -6,13 +6,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"55"
 		"wide"					"400"
 		"tall"					"240"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"25 25 25 255"
 		"border"				"NoBorder"
 	}
 
@@ -74,8 +74,6 @@
 				"centerwrap"	"1"
 			}
     	}
-
-		
 	}
 
 	"TitleLabel"
@@ -243,8 +241,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override" "BGAnyLight"
+		"paintbackgroundtype" "0"
 	}
 	"OldItemNameDescLabel"
 	{
@@ -262,7 +260,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "100 100 100 255"
+		"fgcolor_override" "AntsHUDWhite"
 		"paintbackground" "0"
 	}
 	"OldItemNameLabel"
@@ -280,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "100 100 100 255"
+		"fgcolor_override" "150 150 150 255"
 		"paintbackground" "0"
 	}
 
@@ -300,8 +298,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override" "BGAnyLight"
+		"paintbackgroundtype" "0"
 	}
 	"NewItemNameDescLabel"
 	{
@@ -319,7 +317,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "100 100 100 255"
+		"fgcolor_override" "AntsHUDWhite"
 		"paintbackground" "0"
 	}
 	"CustomNameEntry"
@@ -343,7 +341,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"30 30 30 255"
-		"paintbackgroundtype" "2"
+		"paintbackgroundtype" "0"
 		"labelText"			""
 		"font"				"HudFontSmall"
 		"textAlignment"		"west"

@@ -73,20 +73,26 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"16"
+			"tall"			"16"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"Avenir12"
+			"font"			"NeutraDisp28"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+			"depressedFgColor_override"	"AntsHUDDeepSkyBlue"
 		}
 	}
 	
@@ -176,7 +182,7 @@
 		"enabled"		"1"
 		
 		"render_texture""0"
-		"fov"			"30"
+		"fov"			"27"
 		"allow_manip"	"1"
 				
 		"model"
@@ -286,7 +292,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"25 25 25 255"
 			
 			"attriblabel"
 			{
@@ -448,7 +454,7 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"25 25 25 255"
 		"PaintBackgroundType"	"0"
 	}
 	"RedButton"

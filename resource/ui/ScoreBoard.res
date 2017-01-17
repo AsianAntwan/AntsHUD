@@ -481,7 +481,7 @@
 		"fieldName"		"Spectators"
 		"font"			"Avenir11"
 		"labelText"		"%spectators%"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"c-266"
 		"ypos"			"324"
 		"zpos"			"900"
@@ -498,13 +498,13 @@
 		"fieldName"		"SpectatorsInQueue"
 		"font"			"Avenir11"
 		"labelText"		"%waitingtoplay%"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"160"
 		"ypos"			"324"	
 		"zpos"			"4"
 		"wide"			"600"
 		"tall"			"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -534,6 +534,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"388"
 		}
 	}
 	"StatsBackground"
@@ -556,6 +557,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"400"
 		}
 	}
 	"ClassImage"	
@@ -661,6 +663,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"AntsHUDWhite"
+		
+		if_mvm
+		{
+			"font"			"NeutraDisp18"
+			"fgcolor"		"AntsHUDLessWhite"
+		}
 	}	
 
 	"LocalPlayerDuelStatsPanel"
@@ -920,6 +928,7 @@
 		if_mvm
 		{
 			"visible"		"1"
+			"ypos"			"398"
 		}
 
 		"KillsLabel"

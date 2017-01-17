@@ -127,5 +127,10 @@ Scheme
 			"font" "resource/fonts/More Icons.ttf"
 			"name"	"ToonHUD Icons"
 		}
+		"15" // Other Icons	2
+		{
+			"font" "resource/fonts/ModernPictograms.otf"
+			"name"	"ModernPictograms"
+		}
 	}
 }

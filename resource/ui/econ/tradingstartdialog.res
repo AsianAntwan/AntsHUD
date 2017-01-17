@@ -13,8 +13,7 @@
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"border"				"NoBorder"
-		"bgcolor_override"		"BGAnyLight"
-		
+		"bgcolor_override"		"25 25 25 255"
 		
 		"button_kv"
 		{
@@ -92,6 +91,25 @@
 		"fgcolor_override" "AntsHUDWhite"
 	}
 	
+	"TitleLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelShadow"
+		"font"			"HudFontMediumBold"
+		"labelText"		"#TF_TradeStartDialog_Title"
+		"textAlignment"	"north"
+		"xpos"			"2"
+		"ypos"			"17"
+		"zpos"			"1"
+		"wide"			"400"
+		"tall"			"35"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override" "ShadowBlack"
+	}
+	
 	"PlayerListScroller"
 	{
 		"ControlName"	"ScrollableEditablePanel"
@@ -102,7 +120,7 @@
 		"tall"			"130"
 		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"100 100 100 255"
-		"bgcolor_override"	"0 0 0 64"
+		"bgcolor_override"	"0 0 0 0"
 		
 		"PlayerList"
 		{
@@ -472,8 +490,8 @@
 			"unicode"			"0"
 			"wrap"				"0"
 			"fgcolor_override"	"AntsHUDWhite"
-			"bgcolor_override"	"0 0 0 60"
-			"paintbackgroundtype" "2"
+			"bgcolor_override"	"70 70 70 255"
+			"paintbackgroundtype" "0"
 			"labelText"			""
 			"font"				"HudFontSmall"
 			"textAlignment"		"west"

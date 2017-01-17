@@ -15,7 +15,7 @@
 		"tabPosition"		"0"
 		"proportionalToParent"	"1"
 		"autohide_scrollbar"	"1"
-		"bgcolor_override"		"BGAnyDark"
+		"bgcolor_override"		"25 25 25 255"
 
 		"HatUseHeadCheckButton"
 		{

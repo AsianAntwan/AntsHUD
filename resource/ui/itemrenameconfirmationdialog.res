@@ -6,13 +6,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"55"
 		"wide"					"400"
 		"tall"					"240"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"25 25 25 255"
 		"border"				"NoBorder"
 	}
 
@@ -191,7 +191,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"GivenName"
-		"font"			"HudFontMediumSecondary"
+		"font"			"HudFontMediumBold"
 		"labelText"		"%name%"
 		"textAlignment"	"center"
 		"xpos"			"20"

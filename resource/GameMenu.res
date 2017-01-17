@@ -125,6 +125,20 @@
 		"OnlyAtMenu" "1"
 		"tooltip" "#GameUI_GameMenu_CreateServer"
 	}
+	"DemoUIButton"
+	{
+		"label" "q"
+		"command" "engine demoui"
+		"subimage" ""
+		"tooltip" "DemoUI"
+	}
+	"ConsoleButton"
+	{
+		"label" "i"
+		"command" "engine toggleconsole"
+		"subimage" ""
+		"tooltip" "Console"
+	}
 	
 	//In-Game Buttons
 	"ResumeGameButton"
