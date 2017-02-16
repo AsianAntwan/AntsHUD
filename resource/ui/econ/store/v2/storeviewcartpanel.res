@@ -76,13 +76,13 @@
 			{
 				"ControlName"	"Label"
 				"fieldname"		"quantitylabel"
-				"font"			"HudFontSmallestBold"
+				"font"			"HudFontSmallishBold"
 				"textAlignment"	"north-east"
-				"xpos"			"70"
-				"ypos"			"45"
+				"xpos"			"60"
+				"ypos"			"40"
 				"zpos"			"15"
-				"wide"			"16"
-				"tall"			"10"
+				"wide"			"24"
+				"tall"			"24"
 				"autoResize"	"1"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -97,13 +97,15 @@
 				"xpos"			"0"
 				"ypos"			"58"
 				"zpos"			"5"
-				"wide"			"580"
-				"tall"			"5"
+				"wide"			"600"
+				"tall"			"3"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"loadout_solid_line"
-				"tileImage"		"1"
-			}			
+				"autoResize"	"1"
+				"PaintBackgroundType"	"0"
+				"fillcolor"		"60 60 60 255"
+				"scaleImage"	"1"
+			}	
 			
 			"RemoveButton"
 			{
@@ -136,7 +138,7 @@
 				"fieldname"		"PriceLabel"
 				"font"			"FontCartPrice"
 				"textAlignment"	"east"
-				"xpos"			"475"
+				"xpos"			"480"
 				"ypos"			"0"
 				"zpos"			"15"
 				"wide"			"95"
@@ -146,11 +148,30 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "150 150 150 255"
 			}
 		}
 	}
 	
+	"CartLabel"
+	{
+		"ControlName"	"Label"
+		"fieldname"		"PriceLabel"
+		"font"			"NeutraDisp32"
+		"textAlignment"	"east"
+		"xpos"			"78"
+		"ypos"			"23"
+		"zpos"			"15"
+		"wide"			"80"
+		"tall"			"36"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Cart"
+		"fgcolor_override" "AntsHUDWhite"
+	}
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -219,7 +240,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"1"
-			"PaintBackgroundType"	"1"
+			"PaintBackgroundType"	"0"
 			"border"				"DeepSkyBlueBorder"
 			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}					
@@ -240,6 +261,26 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor"		"AntsHUDWhite"
+		}
+		
+		"CartItemsLabelShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CartItemsLabelShadow"
+			"font"			"HudFontMediumBold"
+			"labelText"		"%storecart%"
+			"textAlignment"	"west"
+			"xpos"			"c-298"
+			"ypos"			"27"
+			"zpos"			"1"
+			"wide"			"350"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"ShadowBlack"
 		}
 		
 		"SeparatorLine"
@@ -249,12 +290,12 @@
 			"xpos"			"c-300"
 			"ypos"			"60"
 			"zpos"			"5"
-			"wide"			"600"
+			"wide"			"590"
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"1"
-			"PaintBackgroundType"	"1"
+			"PaintBackgroundType"	"0"
 			"border"				"DeepSkyBlueBorder"
 			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}				
@@ -428,7 +469,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "AntsHUDWhite"
 					}
 					
 				}
@@ -443,14 +484,14 @@
 		"xpos"			"c-300"
 		"ypos"			"442"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<< ContinueShopping (&Q)"
+		"labelText"		"<< Store (&Q)"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -485,5 +526,4 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
 }

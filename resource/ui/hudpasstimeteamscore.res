@@ -128,7 +128,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"PlayingToCluster"
-		"xpos"				"-130"
+		"xpos"				"60"
 		"ypos"				"26"
 		"zpos"				"10"
 		"wide"				"f0"
@@ -140,7 +140,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
-			"xpos"			"c-70"
+			"xpos"			"c0"
 			"ypos"			"r54"
 			"zpos"			"4"
 			"wide"			"140"

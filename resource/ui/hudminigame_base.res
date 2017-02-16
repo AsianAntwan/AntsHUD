@@ -46,10 +46,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-57"
+		"xpos"			"c-107"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -62,10 +62,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-55"
+		"xpos"			"c-105"
 		"ypos"			"r31"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -81,7 +81,7 @@
 		"xpos"			"c7"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -97,7 +97,7 @@
 		"xpos"			"c9"
 		"ypos"			"r31"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"100"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -106,7 +106,7 @@
 		"font"			"NeutraDisp40"
 		"fgcolor"		"ShadowBlack"
 	}	
-															
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"

@@ -76,6 +76,25 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}		
+	
+	"StatsTitle"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StatsTitle"
+		"font"			"HudFontMediumBold"
+		"labelText"		"Stats"
+		"textAlignment"	"west"
+		"xpos"			"c-310"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}	
+	
 	"StatData"
 	{
 		"ControlName"	"EditablePanel"
@@ -183,6 +202,8 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"paintborder"	"0"
+				"bgcolor_override"	"BGAnyLight"
 			}
 			"BarChartComboB"
 			{
@@ -203,6 +224,8 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"paintborder"	"0"
+				"bgcolor_override"	"BGAnyLight"
 			}
 			"ClassCombo"
 			{
@@ -223,6 +246,8 @@
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
 				"unicode"		"0"
+				"paintborder"	"0"
+				"bgcolor_override"	"BGAnyLight"
 			}
 		}
 		"AveragesBG"

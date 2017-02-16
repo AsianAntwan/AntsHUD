@@ -34,7 +34,22 @@
 		"itemcountcolor"			"AntsHUDDeepSkyBlue"
 		"itemcountcolor_noitems"	"100 100 100 255"
 	}
-
+	
+	"Bar"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Bar"
+		"xpos"			"0"
+		"ypos"			"60"
+		"zpos"			"-3"
+		"wide"			"f0"
+		"tall"			"120"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"25 25 25 175"
+		"scaleImage"	"1"
+	}
+	
 	"scout"
 	{
 		"ControlName"		"ImageButton"

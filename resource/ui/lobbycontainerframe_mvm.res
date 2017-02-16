@@ -13,8 +13,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LearnMoreButton"
-		"xpos"			"c106"
-		"ypos"			"350"
+		"xpos"			"c103"
+		"ypos"			"400"
 		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"20"

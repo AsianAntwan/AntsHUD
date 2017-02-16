@@ -154,5 +154,5 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 		}
-		}
+	}
 }

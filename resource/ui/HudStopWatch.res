@@ -51,33 +51,26 @@
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
-		
-		if_comp
-		{		
-			"xpos"	"-20"
-			"ypos"	"12"
-		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Avenir20"
+			"font"			"AvenirBla16"
 			"fgcolor"		"AntsHUDWhite"
-			"xpos"			"-186"
-			"ypos"			"-3"
+			"xpos"			"-180"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"300"
-			"tall"			"31"
+			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"east"
+			"textAlignment"	"east"
 			
 			if_comp
 			{
-				"xpos"		"-170"
-				"font"		"Avenir12"
-				"ypos"		"0"
+				"font"		"AvenirBla14"
+				"ypos"		"23"
 			}
 		}	
 	}
@@ -86,39 +79,38 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"Avenir20"
+		"font"			"AvenirBla16"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"west"
-		"xpos"			"178"
-		"ypos"			"-3"
+		"textAlignment"	"west"
+		"xpos"			"180"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"300"
-		"tall"			"30"
-		"autoResize"		"0"
+		"tall"			"18"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"	
 		
 		if_comp
 		{
-			"font"	"Avenir12"
-			"xpos"	"70"
-			"ypos"	"22"
+			"font"	"AvenirBla14"
+			"ypos"	"23"
 		}
 	}
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"Avenir20"
+		"font"			"AvenirHea16"
 		"labelText"		"captures"
-		"textAlignment"		"west"
-		"xpos"			"192"
-		"ypos"			"-3"
+		"textAlignment"	"west"
+		"xpos"			"194"
+		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"300"
-		"tall"			"30"
-		"autoResize"		"0"
+		"tall"			"18"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -126,9 +118,8 @@
 		
 		if_comp
 		{
-			"font"	"Avenir12"
-			"xpos"	"82"
-			"ypos"	"22"
+			"font"	"AvenirHea14"
+			"ypos"	"23"
 		}
 	}
 
@@ -136,14 +127,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"Avenir14"
+		"font"			"Avenir13"
 		"labelText"		"%stopwatchlabel%"
-		"textAlignment"	"west"
-		"xpos"			"180"
-		"ypos"			"-2"
+		"textAlignment"	"east"
+		"xpos"			"0"
+		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"150"
-		"tall"			"30"
+		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -152,11 +143,8 @@
 		
 		if_comp
 		{
-			"font"	"Avenir12"
-			"textAlignment"	"center"
-			"wide"	"80"
-			"xpos"	"70"
-			"ypos"	"12"
+			"font"	"AvenirBla14"
+			"ypos"	"23"
 		}
 	}
 
@@ -167,14 +155,13 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"-1"
-		"wide"			"300"
-		"tall"			"19"
-		"autoResize"		"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-
 
 		"src_corner_height"	"2"				// pixels inside the image
 		"src_corner_width"	"2"
@@ -189,13 +176,13 @@
 		"fieldName"		"StopWatchDescriptionLabel"
 		"font"			"ClockSubTextTiny"
 		"labelText"		"%descriptionlabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"4"
-		"wide"			"125"
-		"tall"			"30"
-		"autoResize"		"0"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"

@@ -62,9 +62,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"AntsHUDWhite"
+		"defaultFgColor_override"	"ButtonBG"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override"	"ButtonBG"
 	}		
 	
 	"RotateRightButton"
@@ -89,11 +89,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"AntsHUDWhite"
+		"defaultFgColor_override"	"ButtonBG"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override"	"ButtonBG"
 	}	
-				
+	
 	"NextWeaponButton"
 	{
 		"ControlName"	"CExButton"
@@ -204,7 +204,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"

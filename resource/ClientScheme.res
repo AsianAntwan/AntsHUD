@@ -92,42 +92,47 @@ Scheme
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
-		"8" // Other Main Font
+		"8" // 2nd Main Font
 		{	
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}
-		"9" // Other Main Font Bolder
+		"9" // 2nd Main Font Bolder
 		{	
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
 		}
-		"10" // Other Main Font Boldest
+		"10" // 2nd Main Font Boldest
 		{	
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
 		}
-		"11" // Tournament HUD block
+		"11" // Literally for + Button on Loadout
+		{	
+			"font" "resource/fonts/CodeProBold.otf"
+			"name" "Code-Pro-Bold"
+		}
+		"12" // Tournament HUD block
 		{	
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"12" // Crosshairs
+		"13" // Crosshairs
 		{		
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
-		"13" // Main Menu Icons		
+		"14" // Main Menu Icons		
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
-		"14" // Other Icons		
+		"15" // Other Icons		
 		{
 			"font" "resource/fonts/More Icons.ttf"
 			"name"	"ToonHUD Icons"
 		}
-		"15" // Other Icons	2
+		"16" // Other Icons	2
 		{
 			"font" "resource/fonts/ModernPictograms.otf"
 			"name"	"ModernPictograms"

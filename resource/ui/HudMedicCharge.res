@@ -94,7 +94,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp46"
-		"fgcolor"		"Ammo in Clip"
+		"fgcolor"		"AmmoInClipFG"
 	}
 	
 	"IndividualChargesLabelShadow"
@@ -137,7 +137,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"bgcolor_override" 		"20 20 20 175"
-		"fgcolor_override"		 "Uber Bar Color"
+		"fgcolor_override"		 "UberBarColor"
 	}
 
 	"ChargeMeter1"
@@ -158,7 +158,7 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"bgcolor_override" 		"BGAnyLight"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"UberBarColor"
 	
 	}
 	
@@ -180,7 +180,7 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"bgcolor_override" 		"BGAnyLight"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"UberBarColor"
 	}
 
 	"ChargeMeter3"
@@ -201,7 +201,7 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"bgcolor_override" 		"BGAnyLight"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"UberBarColor"
 	}
 
 	"ChargeMeter4"
@@ -222,7 +222,7 @@
 		"dulltext" 			"0"
 		"brighttext" 		"0"
 		"bgcolor_override" 		"BGAnyLight"
-		"fgcolor_override"		"Uber Bar Color"
+		"fgcolor_override"		"UberBarColor"
 	}
 
 	"ChargeMeterLabel"
@@ -244,7 +244,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Avenir16"
-		"fgcolor"	"150 150 150 255"
+		"fgcolor"		"150 150 150 255"
 	}	
 	
 	"HealthClusterIcon"

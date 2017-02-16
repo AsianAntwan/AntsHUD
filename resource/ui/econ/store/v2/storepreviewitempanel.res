@@ -76,7 +76,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 128"
+		"bgcolor_override" "20 20 20 225"
 	}
 	
 	// Rounded dialog border
@@ -92,9 +92,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"BGAnyDarker"
-		"paintbackground"	"1"
 		"border"		"NoBorder"
-		"PaintBorder"	"1"
+		"paintbackground"	"1"
+		"PaintBorder"	"0"
 		
 		// Background for the player model & item preview panels
 		"PreviewViewportBg"
@@ -108,8 +108,9 @@
 			"tall"			"213"
 			"visible"		"1"
 			"enabled"		"1"
-			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"paintborder"	"0"
+			"border"		"NoBorder"
+			"bgcolor_override"	"BGAnyLight"
 		}
 	
 		// 90-degree corners on the top part of the footer
@@ -117,17 +118,17 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FooterTopPanel"
-			"xpos"			"3"
-			"ypos"			"240"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "BGAnyDark"
+			"bgcolor_override" "0 0 0 0"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -135,11 +136,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
-			"ypos"			"240"
+			"xpos"			"5"
+			"ypos"			"244"
 			"zpos"			"1"
-			"wide"			"474"
-			"tall"			"58"
+			"wide"			"470"
+			"tall"			"50"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
@@ -627,7 +628,7 @@
 		"tall"			"220"
 		"visible"		"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyLight"
 		"paintborder"	"0"
 		
 		"model_xpos"	"10"
@@ -1354,7 +1355,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"0"
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"
@@ -1507,14 +1508,14 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-230"
-		"ypos"			"c108"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"90"
-		"tall"			"22"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
 		"font"			"HudFontSmallBold"
@@ -1525,15 +1526,15 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"		"0 0 0 0"
 	}		
 	
 	"TryItOutButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"TryItOutButton"
-		"xpos"			"c-130"
-		"ypos"			"c105"
+		"xpos"			"c100"
+		"ypos"			"c108"
 		"zpos"			"2"
 		"wide"			"120"
 		"tall"			"22"
@@ -1557,7 +1558,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"AddToCartButton"
-		"xpos"			"c65"
+		"xpos"			"c-80"
 		"ypos"			"c105"
 		"zpos"			"2"
 		"wide"			"160"

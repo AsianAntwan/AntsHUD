@@ -25,9 +25,7 @@
 			"wide"			"156"
 			"tall"			"16"
 			"zpos"			"1"
-		
 
-			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
@@ -56,7 +54,7 @@
 				"xpos" 			"0"
 				"ypos"			"0"
 				"zpos" 			"-1"
-				"wide" 			"52"
+				"wide" 			"54"
 				"tall" 			"18"
 				"autoResize" 	"0"
 				"pinCorner"		"0"
@@ -72,7 +70,7 @@
 				"xpos" 			"0"
 				"ypos"			"0"
 				"zpos" 			"-1"
-				"wide" 			"49"
+				"wide" 			"54"
 				"tall" 			"18"
 				"autoResize" 	"0"
 				"pinCorner"		"0"
@@ -88,7 +86,7 @@
 				"xpos" 			"0"
 				"ypos"			"0"
 				"zpos" 			"-1"
-				"wide" 			"26"
+				"wide" 			"31"
 				"tall" 			"18"
 				"autoResize" 	"0"
 				"pinCorner"		"0"
@@ -150,7 +148,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"Avenir14"
-				"xpos"			"54"
+				"xpos"			"59"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"80"
@@ -168,16 +166,15 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"27"
+				"xpos"			"32"
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"18"
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
-				"team1_image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-				
+				"team1_image"	"../hud/class_scoutred"
+				"scaleImage"	"1"		
 			}
 			
 			"classimagebg"
@@ -202,8 +199,8 @@
 				"xpos" 			"0"
 				"ypos" 			"0"
 				"zpos" 			"3"
-				"wide" 			"24"
-				"tall" 			"14"
+				"wide" 			"31"
+				"tall" 			"16"
 				"visible" 		"1"
 				"enabled" 		"1"
 				"HealthBonusPosAdj" "10"
@@ -251,44 +248,42 @@
 				"enabled"		"1"
 				"image"			"hud/checkmark"
 				"scaleImage"		"1"
-
 			}
 			
 			"respawntime"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Avenir12"
-				"xpos"			"5"
-				"ypos"			"3"
+				"font"			"AvenirBla14"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"wide"			"31"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"255 20 175 255"
+				"textAlignment"	"center"
+				"fgcolor"		"AntsHUDWhite"
 				
 			}
 			"respawntimeBG"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"Avenir12"
-				"xpos"			"6"
-				"ypos"			"6"
+				"font"			"AvenirBla14"
+				"xpos"			"1"
+				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"wide"			"31"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"TransparentBlack"
-				
+				"textAlignment"	"center"
+				"fgcolor"		"ShadowBlack"
 			}
 			"healthcover"
 			{
@@ -298,7 +293,7 @@
 				"xpos"			"0"
 				"ypos"			"1"
 				"zpos"			"5"
-				"wide"			"26"
+				"wide"			"31"
 				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -313,35 +308,36 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Avenir12"
-				"xpos"			"126"
+				"font"			"AvenirBla14"
+				"xpos"			"131"
 				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"13"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 255 255 255"
+				"fgcolor"		"AntsHUDDeepSkyBlue"
 			}
+			
 			"chargeamountBG"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"Avenir12"
-				"xpos"			"127"
+				"font"			"AvenirBla14"
+				"xpos"			"132"
 				"ypos"			"3"
 				"zpos"			"6"
 				"wide"			"25"
-				"tall"			"13"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"TransparentBlack"
+				"fgcolor"		"ShadowBlack"
 			}
 			
 			"specindex"
@@ -361,9 +357,7 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"255 255 255 255"
 			}
-			
 		}
-		
 	}
 
 	"topbar"
@@ -392,9 +386,9 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
+		"xpos"			"c-300"
+		"ypos"			"50"
+		"wide"			"600"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -402,11 +396,11 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Avenir24"
+		"font"			"NeutraDisp18"
 		
 		if_mvm
 		{
-		"ypos"			"68"	[$WIN32]
+			"ypos"			"68"
 		}
 		
 	}
@@ -424,7 +418,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"AvenirHea18"
+		"font"			"Avenir14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	

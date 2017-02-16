@@ -139,8 +139,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"paintborder"	"0"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -179,6 +178,22 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\menugif"
+		"scaleImage"	"1"
+		"proportionaltoparent"	"1"
+	}	
+	
+	"Background2"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"Background2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-200"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../console/background_upward_widescreen"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}
@@ -241,7 +256,7 @@
 	}
 	"HudName"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExLabel"
 		"fieldName"		"HudName"
 		"xpos"			"75"
 		"ypos"			"50"
@@ -260,21 +275,13 @@
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/napstablook.wav"
-		
-		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "AntsHUDDeepSkyBlue"
-		"depressedFgColor_override" "AntsHUDDeepSkyBlue"				
+		"default"		"1"	
 	}	
 	
 	"HudNameShadow"
 	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"HudName"
+		"ControlName"	"CExLabel"
+		"fieldName"		"HudNameShadow"
 		"xpos"			"77"
 		"ypos"			"52"
 		"zpos"			"1"
@@ -292,12 +299,8 @@
 		"use_proportional_insets" "1"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
-		"paintbackground""0"
-
-		"defaultFgColor_override" "ShadowBlack"
-		"armedFgColor_override" "ShadowBlack"
-		"depressedFgColor_override" "ShadowBlack"				
+		"default"		"1"	
+		"fgcolor"		"ShadowBlack"
 	}	
 
 	"VersionNumber"
@@ -328,12 +331,11 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"Beta v1.7"
+			"labelText"		"v1.75"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
+
 			"sound_released"	"UI/napstablook.wav"
 			
 			"border_default"	""
@@ -341,7 +343,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "AntsHUDWhite"
-			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}

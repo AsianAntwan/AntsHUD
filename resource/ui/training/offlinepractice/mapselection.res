@@ -207,7 +207,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"DifficultyComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"HudFontSmallBold"
 		"xpos"				"200"
 		"ypos"				"200"
 		"zpos"				"1"
@@ -224,6 +224,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"textinsetx"		"50"
+		"paintborder"		"0"
 		
 		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"BGAnyLight"

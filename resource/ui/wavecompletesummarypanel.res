@@ -35,7 +35,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"NeutraDisp26"
+			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -56,7 +56,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"NeutraDisp26"
+			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"0"
@@ -180,7 +180,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingLabel"
-			"font"			"AvenirHea13"
+			"font"			"Avenir12"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
 			"xpos"			"0"

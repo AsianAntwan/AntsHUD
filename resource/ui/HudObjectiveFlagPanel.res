@@ -1,6 +1,4 @@
 "Resource/UI/HudObjectiveFlagPanel.res"
-
-
 {	
 	"ObjectiveStatusFlagPanel"
 	{
@@ -19,7 +17,6 @@
 			"zpos"			"-1"
 		}
 	}
-
 	
 	"LeftSideBG"
 	{
@@ -115,10 +112,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-57"
+		"xpos"			"c-97"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"90"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -147,10 +144,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-55"
+		"xpos"			"c-95"
 		"ypos"			"r31"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"90"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -183,7 +180,7 @@
 		"xpos"			"c7"
 		"ypos"			"r33"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"90"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -215,7 +212,7 @@
 		"xpos"			"c9"
 		"ypos"			"r31"
 		"zpos"			"8"
-		"wide"			"50"
+		"wide"			"90"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
@@ -284,10 +281,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
-		"xpos"			"c-190"
-		"xpos_minmode"			"c-190"
+		"xpos"			"c110"
 		"ypos"			"r20"
-		"ypos_minmode"			"r20"
 		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"14"

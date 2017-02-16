@@ -15,7 +15,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ModeNameLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"HudFontSmallishBold"
 			"labelText"		"%modename%"
 			"textAlignment"	"center"
 			"xpos"			"0"

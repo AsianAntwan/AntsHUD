@@ -557,20 +557,57 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassMenuSelect"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"5"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"west"
+		"font"			"NeutraDisp24"
+		"fgcolor"		"AntsHUDWhite"
+	}
+	
+	"ClassMenuSelect2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassMenuSelect2"
 		"xpos"			"470"
 		"ypos"			"160"
 		"zpos"			"5"
-		"wide"			"450"
+		"wide"			"200"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_lodef"	"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
+	}
+	
+	"ClassMenuSelectShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassMenuSelectShadow"
+		"xpos"			"472"
+		"ypos"			"162"
+		"zpos"			"4"
+		"wide"			"200"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"west"
+		"font"			"NeutraDisp24"
+		"fgcolor"		"ShadowBlack"
 	}
 	
 	"MenuBG"
@@ -580,12 +617,12 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"16"
 		
 		"model"
@@ -1310,13 +1347,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
+		"render_texture""0"
 		"fov"			"25"
 		"allow_rot"		"0"
 
-		"paintbackground" "1"		
-		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
-		
 		"model"
 		{
 			"force_pos"	"1"
@@ -1333,7 +1367,7 @@
 			"spotlight" "1"
 		
 			"modelname"		""
-			"vcd"		"class_select.vcd"		
+			"vcd"			"class_select.vcd"
 			
 			"animation"
 			{

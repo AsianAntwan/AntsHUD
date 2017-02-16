@@ -1,12 +1,10 @@
 "Resource/HudLayout.res"
 {
-	//--------------------------------------------------------------
-	// KNUCKLESCROSSES
+	// KnucklesCrosses
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use. Change labelText to the corr-
 	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
 	// values if not perfectly centered.
-	//--------------------------------------------------------------
 	
 	KnucklesCrosses
 	{
@@ -296,8 +294,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r70"
+		"xpos"		"-77"
+		"ypos"		"r60"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -527,21 +525,21 @@
 		"wide"	 "580"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "10"
+		"MaxDeathNotices" "8"
 		"IconScale"	  	  "0.35"
-		"LineHeight"	  "14"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 0, killfeed goes to left of your screen.
 		
-		"TextFont"		"Avenir14"
+		"TextFont"		"AvenirHea12"
 		
 		"TeamBlue"			"AntsHUDBlue"
 		"TeamRed"			"AntsHUDRed"
 		"IconColor"			"AntsHUDWhite"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"0 0 0 150"		[$WIN32]
+		"BaseBackgroundColor"	"20 20 20 175"		[$WIN32]
 		"LocalBackgroundColor"	"AntsHUDWhite"	[$WIN32]
 	}
 
@@ -1209,7 +1207,7 @@
 		"tall"					"25"
 	}
 	
-	HudArenaClassLayout
+	HudArenaClassLayout [$WIN32]
 	{
 		"fieldName"				"HudArenaClassLayout"		
 		"visible"				"1"
@@ -1221,7 +1219,7 @@
 		"tall"					"320"
 	}
 	
-	HudArenaVsPanel
+	HudArenaVsPanel [$WIN32]
 	{
 		"fieldName"				"HudArenaVsPanel"		
 		"visible"				"1"
@@ -1232,7 +1230,7 @@
 		"tall"					"240"
 	}
 	
-	HudArenaPlayerCount [$WIN32]
+	HudArenaPlayerCount
 	{
 		"fieldName"				"HudArenaPlayerCount"		
 		"visible"				"1"

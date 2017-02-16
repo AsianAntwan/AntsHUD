@@ -1,12 +1,10 @@
 "Resource/HudLayout.res"
 {
-	//--------------------------------------------------------------
-	// KNUCKLESCROSSES
+	// KnucklesCrosses
 	//--------------------------------------------------------------
 	// Set visible/enabled to 1 to use. Change labelText to the corr-
 	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
 	// values if not perfectly centered.
-	//--------------------------------------------------------------
 	
 	KnucklesCrosses
 	{
@@ -296,8 +294,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"
-		"ypos"		"r70"
+		"xpos"		"-77"
+		"ypos"		"r60"
 		"wide"		"500"
 		"tall"		"200"
 	}
@@ -529,12 +527,12 @@
 
 		"MaxDeathNotices" "8"
 		"IconScale"	  	  "0.35"
-		"LineHeight"	  "13"
+		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 0, killfeed goes to left of your screen.
 		
-		"TextFont"		"AvenirHea13"
+		"TextFont"		"AvenirHea12"
 		
 		"TeamBlue"			"AntsHUDBlue"
 		"TeamRed"			"AntsHUDRed"

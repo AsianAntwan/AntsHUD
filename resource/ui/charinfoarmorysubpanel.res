@@ -273,7 +273,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"25 25 25 255"
     	}
 		
 		"text_ypos"			"20"

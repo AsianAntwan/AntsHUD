@@ -7,15 +7,16 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		
-		"HudBlack"					"0 0 0 150"
+		"HudBlack"					"20 20 20 150"
 		
 		"AntsHUDDeepSkyBlue"		"0 191 255 255"
 		
 		"AntsHUDWhite"				"255 255 255 255"
-		"AntsHUDDullWhite"			"132 132 132 255"
+		"AntsHUDLessWhite"			"132 132 132 255"
 		
-		"AntsHUDGray"				"70 70 70 255"
-		"AntsHUDDarkGray"			"40 40 40 255"
+		"ButtonBG"					"60 60 60 255"
+		"BGAnyLight"				"45 45 45 255"
+		"BGAnyDark"					"30 30 30 255"
 		
 		// ----------------------------------
 		
@@ -60,16 +61,16 @@ Scheme
 		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"AntsHUDWhite"
-		Button.BgColor					"AntsHUDGray"
+		Button.BgColor					"ButtonBG"
 		Button.ArmedTextColor			"AntsHUDWhite"
 		Button.ArmedBgColor				"AntsHUDDeepSkyBlue"
 		Button.DepressedTextColor		"AntsHUDWhite"
 		Button.DepressedBgColor			"AntsHUDDeepSkyBlue"	
 		Button.FocusBorderColor			"Blank"
 		
-		CheckButton.TextColor			"AntsHUDDullWhite"
+		CheckButton.TextColor			"AntsHUDLessWhite"
 		CheckButton.SelectedTextColor	"AntsHUDWhite"
-		CheckButton.BgColor				"AntsHUDGray"
+		CheckButton.BgColor				"ButtonBG"
 		CheckButton.HighlightFgColor	"AntsHUDDeepSkyBlue"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
@@ -80,56 +81,57 @@ Scheme
 
 		ToggleButton.SelectedTextColor	"AntsHUDWhite"
 		
-		ComboBoxButton.ArrowColor		"AntsHUDDullWhite"
+		ComboBoxButton.ArrowColor		"AntsHUDLessWhite"
 		ComboBoxButton.ArmedArrowColor	"AntsHUDWhite"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 		
-		RadioButton.TextColor			"AntsHUDDullWhite"
+		RadioButton.TextColor			"AntsHUDLessWhite"
 		RadioButton.SelectedTextColor	"AntsHUDWhite"
 		RadioButton.ArmedTextColor		"TFTextMedium"
 		
-		Frame.BgColor					"AntsHUDDarkGray"
+		Frame.BgColor					"BGAnyDark"
 		Frame.OutOfFocusBgColor			"27 27 27 100"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"AntsHUDWhite"
 		FrameTitleButton.FgColor		"AntsHUDWhite"
 		FrameTitleBar.Font				"UiBold"
 		FrameTitleBar.TextColor			"AntsHUDWhite"
-		FrameTitleBar.DisabledTextColor	"AntsHUDDullWhite"
+		FrameTitleBar.DisabledTextColor	"AntsHUDLessWhite"
+		FrameTitleBar.BgColor			"0 0 0 0"
 		
-		Label.TextDullColor				"AntsHUDDullWhite"
+		Label.TextDullColor				"AntsHUDLessWhite"
 		Label.TextColor					"AntsHUDWhite"
 		Label.TextBrightColor			"AntsHUDWhite"
 		Label.SelectedTextColor			"AntsHUDWhite"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"AntsHUDDullWhite"	
+		Label.DisabledFgColor1			"AntsHUDLessWhite"	
 		Label.DisabledFgColor2			"Blank"	
 		
 		ListPanel.TextColor					"AntsHUDWhite"
 		ListPanel.BgColor					"HudBlack"
 		ListPanel.SelectedBgColor			"AntsHUDWhite"
-		ListPanel.SelectedOutOfFocusBgColor	"AntsHUDDullWhite"
+		ListPanel.SelectedOutOfFocusBgColor	"AntsHUDLessWhite"
 		
-		MainMenu.TextColor			"AntsHUDDullWhite"
+		MainMenu.TextColor			"AntsHUDLessWhite"
 		MainMenu.ArmedTextColor		"AntsHUDWhite"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"AntsHUDWhite"
 		Menu.BgColor			"HudBlack"
-		Menu.ArmedFgColor		"AntsHUDGray"
+		Menu.ArmedFgColor		"BGAnyLight"
 		Menu.ArmedBgColor		"AntsHUDWhite"
 		Menu.DividerColor		"Border.Dark"
 		
 		ScrollBarButton.FgColor				"AntsHUDWhite"
-		ScrollBarButton.BgColor				"AntsHUDGray"
-		ScrollBarButton.ArmedFgColor		"AntsHUDGray"
+		ScrollBarButton.BgColor				"BGAnyLight"
+		ScrollBarButton.ArmedFgColor		"BGAnyLight"
 		ScrollBarButton.ArmedBgColor		"AntsHUDWhite"
-		ScrollBarButton.DepressedFgColor	"AntsHUDGray"
+		ScrollBarButton.DepressedFgColor	"BGAnyLight"
 		ScrollBarButton.DepressedBgColor	"AntsHUDWhite"
 
-		ScrollBarSlider.BgColor				"AntsHUDGray"		// this isn't really used
+		ScrollBarSlider.BgColor				"30 30 30 255"			// Background behind the handle slider
 		ScrollBarSlider.FgColor				"AntsHUDWhite"		// handle with which the slider is grabbed
 		
 		Slider.NobColor				"TFAntsHUDWhite"		
@@ -139,7 +141,7 @@ Scheme
         Slider.DisabledTextColor2	"Blank"
 		
 		TextEntry.TextColor			        "AntsHUDWhite"
-		TextEntry.DisabledTextColor	        "AntsHUDDullWhite"
+		TextEntry.DisabledTextColor	        "AntsHUDLessWhite"
 		TextEntry.SelectedBgColor	        "AntsHUDWhite"
 		
 		// Borrowed from CS:S SourceScheme
@@ -163,51 +165,51 @@ Scheme
 		GraphPanel.BgColor			"HudBlack"
 		
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.SelectedTextColor			"AntsHUDGray"
-		ListPanel.EmptyListInfoTextColor	"AntsHUDDullWhite"
+		ListPanel.SelectedTextColor			"BGAnyLight"
+		ListPanel.EmptyListInfoTextColor	"AntsHUDLessWhite"
 		
 		Menu.TextColor				"AntsHUDWhite"
-		Menu.ArmedTextColor			"AntsHUDGray"
+		Menu.ArmedTextColor			"BGAnyLight"
 		
-		Panel.FgColor				"AntsHUDDullWhite"
+		Panel.FgColor				"AntsHUDLessWhite"
 		Panel.BgColor				"Blank"
 		
 		ProgressBar.FgColor			"AntsHUDWhite"
 		ProgressBar.BgColor			"HudBlack"
 		
-		PropertySheet.TextColor				"AntsHUDDullWhite"
+		PropertySheet.TextColor				"AntsHUDLessWhite"
 		PropertySheet.SelectedTextColor		"AntsHUDWhite"
 		PropertySheet.TransitionEffectTime	"0.25"
 		
-		RichText.TextColor				"AntsHUDDullWhite"
+		RichText.TextColor				"AntsHUDLessWhite"
 		RichText.BgColor				"HudBlack"
-		RichText.SelectedTextColor		"AntsHUDGray"
+		RichText.SelectedTextColor		"BGAnyLight"
 		RichText.SelectedBgColor		"AntsHUDWhite"
 		
 		ScrollBar.Wide					18
 		
 		SectionedListPanel.HeaderTextColor		"AntsHUDWhite"
 		SectionedListPanel.HeaderBgColor		"Blank"
-		SectionedListPanel.DividerColor			"AntsHUDGray"
+		SectionedListPanel.DividerColor			"BGAnyLight"
 		SectionedListPanel.TextColor			"DullWhite"
 		SectionedListPanel.BrightTextColor		"AntsHUDWhite"
 		SectionedListPanel.BgColor				"HudBlack"
-		SectionedListPanel.SelectedTextColor			"AntsHUDGray"
+		SectionedListPanel.SelectedTextColor			"BGAnyLight"
 		SectionedListPanel.SelectedBgColor				"AntsHUDWhite"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"AntsHUDGray"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"BGAnyLight"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		
 		TextEntry.BgColor						"HudBlack"
-		TextEntry.CursorColor					"AntsHUDDullWhite"
+		TextEntry.CursorColor					"AntsHUDLessWhite"
 		TextEntry.DisabledBgColor				"Blank"
-		TextEntry.SelectedTextColor				"AntsHUDGray"
+		TextEntry.SelectedTextColor				"BGAnyLight"
 		TextEntry.OutOfFocusSelectedBgColor		"100 100 100 128"
 		TextEntry.FocusEdgeColor				"0 0 0 196"
 		
 		ToggleButton.SelectedTextColor		"AntsHUDWhite"
 		
-		Tooltip.TextColor		"AntsHUDGray"
-		Tooltip.BgColor			"AntsHUDWhite"
+		Tooltip.TextColor		"AntsHUDWhite"
+		Tooltip.BgColor			"BGAnyLight"
 		
 		TreeView.BgColor		"HudBlack"
 		

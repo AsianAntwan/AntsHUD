@@ -216,7 +216,7 @@
 			"defaultBgColor_override"	"0 0 0 0"
 			"armedFgColor_override"	"0 191 255 255"
 			"armedBgColor_override"	"0 0 0 0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"0"
 		}
 	}
 	
@@ -257,7 +257,7 @@
 			"defaultBgColor_override"	"0 0 0 0"
 			"armedFgColor_override"	"0 191 255 255"
 			"armedBgColor_override"	"0 0 0 0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"0"
 		}
 	}
 	
@@ -290,7 +290,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"25 25 25 255"
 			
 			"attriblabel"
 			{
@@ -327,8 +327,8 @@
 		"xpos"			"36"
 		"ypos"			"170"
 		"zpos"			"100"
-		"wide"			"200"
-		"tall"			"30"
+		"wide"			"160"
+		"tall"			"25"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"

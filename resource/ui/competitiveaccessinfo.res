@@ -200,7 +200,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"checkmark"
+				"image"			"Checkmark"
 				"drawcolor_override"	"0 255 0 255"
 			}
 
@@ -283,7 +283,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"checkmark"
+				"image"			"Checkmark"
 				"drawcolor_override"	"0 255 0 255"
 			}
 		}

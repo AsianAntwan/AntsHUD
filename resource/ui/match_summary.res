@@ -39,7 +39,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"PaintBackgroundType"	"1"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 250"
 	}
 	"DrawingPanel"
@@ -226,24 +226,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"BlueTeamWinnerDropshadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"BlueTeamWinnerDropshadow"
-			"font"			"MatchSummaryWinner"
-			"fgcolor"		"ShadowBlack"
-			"labelText"		"%blueteamwinner%"
-			"textAlignment"		"east"
-			"xpos"			"7"
-			"ypos"			"105"
-			"zpos"			"3"
-			"wide"			"p.19"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}		
 		"BlueTeamImage"
 		{
 			"ControlName"		"ImagePanel"
@@ -533,24 +515,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"RedTeamWinnerDropshadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"RedTeamWinnerDropshadow"
-			"font"			"MatchSummaryWinner"
-			"fgcolor"		"ShadowBlack"
-			"labelText"		"%redteamwinner%"
-			"textAlignment"		"west"
-			"xpos"			"r3-p.19"
-			"ypos"			"105"
-			"zpos"			"3"
-			"wide"			"p.19"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-		}		
 		"RedTeamImage"
 		{
 			"ControlName"		"ImagePanel"

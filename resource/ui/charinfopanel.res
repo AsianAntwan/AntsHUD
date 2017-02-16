@@ -97,7 +97,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"1"
-			"PaintBackgroundType"	"1"
+			"PaintBackgroundType"	"0"
 			"border"				"DeepSkyBlueBorder"
 			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}				

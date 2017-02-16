@@ -22,7 +22,7 @@
 		"nemesis_width"		"15"	
 		"class_width"		"20"	
 		"score_width"		"20"
-		"ping_width"		"20"	
+		"ping_width"		"22"	
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}

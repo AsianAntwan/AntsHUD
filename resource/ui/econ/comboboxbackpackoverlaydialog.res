@@ -10,7 +10,7 @@
 		"wide"					"280"
 		"tall"					"240"
 		"bgcolor_override"		"25 25 25 255"
-		"paintbackgroundtype"	"0"
+		"PaintBackgroundType"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"NoBorder"
 	}

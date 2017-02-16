@@ -318,17 +318,17 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BallPowerMeterFrame"	
-			"xpos"			"c-100"
-			"ypos"			"0"
-			"zpos"			"5"
-			"wide"			"200"
-			"tall"			"50"
+			"xpos"			"c-85"
+			"ypos"			"13"
+			"zpos"			"1"
+			"wide"			"170"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"image"			"../passtime/hud/passtime_powerball_meter_frame"
+			"fillcolor"		"20 20 20 200"
 			"scaleImage"	"1"					
 		}
 

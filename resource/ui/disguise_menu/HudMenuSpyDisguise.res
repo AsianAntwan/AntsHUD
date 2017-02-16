@@ -21,7 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NeutraDisp28"
-		"xpos"			"10"			// align me to the left edge of the first selection
+		"xpos"			"10"
 		"ypos"			"40"
 		"zpos"			"3"
 		"wide"			"360"
@@ -42,7 +42,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NeutraDisp28"
 		"fgcolor"		"ShadowBlack"
-		"xpos"			"12"			// align me to the left edge of the first selection
+		"xpos"			"12"
 		"ypos"			"42"
 		"zpos"			"3"
 		"wide"			"360"
@@ -62,15 +62,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
 		"font"			"Avenir12"
-		"xpos"			"-40"
-		"ypos"			"195"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"13"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
@@ -96,6 +96,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"

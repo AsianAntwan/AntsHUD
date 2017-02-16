@@ -66,7 +66,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"PaintBackgroundType"	"1"
+		"PaintBackgroundType"	"0"
 		"bgcolor_override" "0 0 0 250"
 	}
 
@@ -272,29 +272,6 @@
 					if_large
 					{
 						"ypos"			"41"
-					}
-				}
-				"BlueTeamWinnerDropshadow"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"BlueTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"ShadowBlack"
-					"labelText"		"%blueteamwinner%"
-					"textAlignment"		"east"
-					"xpos"			"7"
-					"ypos"			"103"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0"
-					"enabled"		"0"
-
-					if_large
-					{
-						"ypos"			"42"
 					}
 				}
 				"BlueTeamImage"
@@ -541,29 +518,6 @@
 					if_large
 					{
 						"ypos"			"41"
-					}
-				}
-				"RedTeamWinnerDropshadow"
-				{
-					"ControlName"		"CExLabel"
-					"fieldName"		"RedTeamWinnerDropshadow"
-					"font"			"MatchSummaryWinner"
-					"fgcolor"		"ShadowBlack"
-					"labelText"		"%redteamwinner%"
-					"textAlignment"		"west"
-					"xpos"			"r3-p.19"
-					"ypos"			"103"
-					"zpos"			"3"
-					"wide"			"p.19"
-					"tall"			"30"
-					"autoResize"	"0"
-					"pinCorner"		"0"
-					"visible"		"0"
-					"enabled"		"0"
-
-					if_large
-					{
-						"ypos"			"42"
 					}
 				}
 				"RedTeamImage"

@@ -20,9 +20,9 @@
 
 		if_match
 		{
-			"visible"	"1"
-			"ypos"		"23"
 			"xpos"		"30"
+			"ypos"		"23"
+			"visible"	"1"
 		}		
 	}
 	"TimePanelProgressBar"

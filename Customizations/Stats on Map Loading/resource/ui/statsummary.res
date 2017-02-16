@@ -338,7 +338,7 @@
 		"fieldName"	"StatData"
 		"xpos"		"0"
 		"ypos"		"-50"
-		"zpos"		"1"
+		"zpos"		"200"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"	"1"

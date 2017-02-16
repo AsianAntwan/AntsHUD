@@ -95,7 +95,7 @@
 			"enabled"		"1"
 			"pinCorner"		"0"
 			"autoResize"	"0"
-			"PaintBackgroundType"	"1"
+			"PaintBackgroundType"	"0"
 			"border"				"DeepSkyBlueBorder"
 			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}				

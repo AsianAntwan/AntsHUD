@@ -134,7 +134,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDWhite"
+		"fgcolor"		"AntsHUDLessWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -155,8 +155,8 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"AntsHUDWhite"
-		"bgcolor_override"	"30 30 30 255"
-		"paintbackgroundtype" "2"
+		"bgcolor_override"	"40 40 40 255"
+		"paintbackgroundtype" "0"
 		"font"		"HudFontSmallest"
 	}
 	
@@ -190,7 +190,7 @@
 		"tileImage"		"1"
 		"tileVertically" "0"
 	}				
-		
+	
 	"ItemSlotLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -311,8 +311,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowSelection"
-		"xpos"			"c100"
-		"ypos"			"340"
+		"xpos"			"c-288"
+		"ypos"			"290"
 		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"25"
@@ -431,6 +431,13 @@
 		"noitem_textcolor"		"100 100 100 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
+		
+		"text_ypos"			"20"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+		
 		"BackColor"
     	{
     		"ControlName"		"EditablePanel"
@@ -446,7 +453,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"25 25 25 255"
 			
 			"attriblabel"
 			{
@@ -466,11 +473,5 @@
 				"centerwrap"	"1"
 			}
     	}
-		
-		"text_ypos"			"20"
-		"text_center"		"1"
-		"model_hide"		"1"
-		"resize_to_text"	"1"
-		"padding_height"	"15"
 	}
 }

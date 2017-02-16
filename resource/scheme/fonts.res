@@ -2811,167 +2811,6 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"Code7"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "7"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code8"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "8"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code9"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "9"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code10"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "10"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code11"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "11"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code12"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code13"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "13"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code14"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "14"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code15"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "15"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code16"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "16"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code17"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "17"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code18"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "18"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code19"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "19"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code20"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "20"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-		"Code22"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "22"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
-
-		"Code24"
-		{
-			"1"
-			{
-				"name"		 "Code-Pro-LC"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-			}
-		}
 		"NeutraDisp12"
 		{
 			"1"
@@ -3306,12 +3145,32 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Checkmark"
+		"ModernSymbols"
 		{
 			"1"
 			{
 				"name"	"ModernPictograms"
 				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"ModernSymbolsBig"
+		{
+			"1"
+			{
+				"name"	"ModernPictograms"
+				"tall"	"36"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Plus"
+		{
+			"1"
+			{
+				"name"	"Code-Pro-Bold"
+				"tall"	"25"
 				"additive"	"0"
 				"antialias"	"1"
 			}

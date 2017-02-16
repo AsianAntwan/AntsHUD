@@ -15,7 +15,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"Health Hurt"
+		"HealthDeathWarningColor"	"HPHurtBG"
 	}	
 	"HealthBG"	
 	{
@@ -90,7 +90,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"east"	
 		"font"			"NeutraDisp56"
-		"fgcolor"		"AntsHUDWhite"
+		"fgcolor"		"HPNormalFG"
 	}
 	"PlayerStatusHealthValueShadow"
 	{

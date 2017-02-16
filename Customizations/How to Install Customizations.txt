@@ -1,4 +1,6 @@
-==How to Install Customiztions==
+-----------------------------------
+| How to Install Customizations
+-----------------------------------
 
 1. Remove/Copy or Cut the contents within the folder you want to add to AntsHUD-Beta to the desktop/Paste to the desktop
 2. Go back to your custom folder in the Windows Explorer window to view the AntsHUD-Beta Folder
@@ -6,33 +8,56 @@
 4. Click any "Yes" or "Replace" that pops up in order for your customization to be installed
 5. You're Done!
 
-==Credits==
-	-Centered Remaining MvM Money
+Credits
+--------------------
+
+	Centered Remaining MvM Money
+	--------------------
 		a) Code by: RaysHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Message: "i just don't see the point"
-	-Hitmarkers or Colorful Medic Bar Charges
+		
+	Hitmarker(Damage Indicator)
+	--------------------
 		a) Hitmarker Code by: ToonHUD
 		b) Edited Hitmarker Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Rep
-		d) Medic Bar Charge Code by: RaysHUD/RaysFire
-		e) Edited Method by: Antwan/Creator of AntsHUD-Beta
-		f) Suggested by: Message: "i just don't see the point"
-	-Normal AntsHUD Theme
-		a) Images by: Antwan/Creator of AntsHUD-Beta
-		b) Added for Smissmas 2016
-	-Old Suijin Background
-		a) Images by: Antwan/Creator of AntsHUD-Beta
-	-Scoreboard-32 Players
+		
+	HUD Colors
+	--------------------
+		a) Color Code by: RaysHUD/RaysFire
+		b) Edited Method and RGB Codes by: Antwan/Creator of AntsHUD-Beta
+		c) Suggested by: Message: "i just don't see the point" & (forgot who it was)
+		
+	No Casual & Comp. UI
+	--------------------
+		a) Color Code by: RaysHUD/RaysFire
+		b) Edited UI: Antwan/Creator of AntsHUD-Beta
+		
+	Original Class Loadout Layout
+	--------------------
 		a) Code by: RaysHUD/RaysFire
 		b) Edited Design by: Antwan/Creator of AntsHUD-Beta
-	-Stats on Map Loading
+		
+	Scoreboard-32 Players
+	--------------------
+		a) Code by: RaysHUD/RaysFire
+		b) Edited Design by: Antwan/Creator of AntsHUD-Beta
+		
+	Stats on Map Loading
+	--------------------
 		a) Code by: RaysHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: Meer Sarwat
-	-Top Left Chat Box
+		d) Feedback from:
+		
+	Top Left Chat Box
+	--------------------
 		a) Suggested by: antlers
-	-Transparent Viewmodels
+		b) Feedback from: Simba
+		
+	Transparent Viewmodels
+	--------------------
 		a) Code by: ToonHUD
 		b) Edited Method by: Antwan/Creator of AntsHUD-Beta
 		c) Suggested by: antlers
