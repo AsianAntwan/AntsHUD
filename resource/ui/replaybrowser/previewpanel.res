@@ -10,7 +10,8 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"ReplayBalloonBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"25 25 25 255"
 		"proportional"	"0"
 	}
 	"Screenshot"
@@ -46,7 +47,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"MapLabel"
-			"Font"			"HudFontSmallestBold"
+			"Font"			"HudFontSmallBold"
 			"TextAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -146,5 +147,7 @@
 		"ControlName"	"Panel"
 		"FieldName"		"ClassImage"
 		"zpos"			"102"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

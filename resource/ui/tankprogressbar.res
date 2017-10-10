@@ -52,11 +52,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"29"
-		"ypos"			"3"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"155"
-		"tall"			"12"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
@@ -81,7 +81,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"AntsHUDDeepSkyBlue"
+		"fillcolor"		"20 20 20 175"
 		
 	}
 }

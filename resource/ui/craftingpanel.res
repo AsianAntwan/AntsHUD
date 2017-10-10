@@ -336,8 +336,8 @@
 		"wide"			"280"
 		"tall"			"240"
 		"PaintBackgroundType"	"0"
-		"fgcolor_override"	"59 54 48 255"
-		"bgcolor_override"	"200 187 161 0"
+		"fgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"0 0 0 0"
 		"autohide_buttons" "1"
 	}
 	"recipecontainer"
@@ -350,7 +350,7 @@
 		"wide"			"280"
 		"tall"			"240"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"200 187 161 0"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	
 	"mouseoveritempanel"
@@ -387,7 +387,7 @@
     		"enabled"			"1"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType""1"
+			"PaintBackgroundType""0"
 			"border"			"NoBorder"
 			"bgcolor_override"	"25 25 25 255"
 			
@@ -452,14 +452,14 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"border"		"NoBorder"
+		"bgcolor_override"	"BGAnyDarker"
 		
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmall"
+			"font"			"HudFontSmallBold"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"

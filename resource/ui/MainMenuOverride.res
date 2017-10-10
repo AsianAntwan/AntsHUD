@@ -177,7 +177,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\menugif"
+		"image"			"replay/thumbnails/menugif"
 		"scaleImage"	"1"
 		"proportionaltoparent"	"1"
 	}	
@@ -331,7 +331,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v1.75"
+			"labelText"		"v1.8"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

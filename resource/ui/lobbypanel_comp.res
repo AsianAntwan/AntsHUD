@@ -330,7 +330,7 @@
 				{
 					"ControlName"	"ScrollBar"
 					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-1"
+					"xpos"			"rs0.8-0"
 					"ypos"			"0"
 					"tall"			"f0"
 					"wide"			"5" // This gets slammed from client schme.  GG.

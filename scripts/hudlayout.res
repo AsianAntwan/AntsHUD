@@ -253,10 +253,9 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c96"
+		"xpos"					"c106"
 		"xpos_minmode"			"c236"
 		"ypos"					"c1"
-		"ypos_minmode"			"c23"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -267,7 +266,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"310"
+		"xpos"					"c-105"
 		"ypos"					"c0"
 		"ypos_minmode"			"c45"
 		"wide"					"250"
@@ -294,7 +293,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"-77"
+		"xpos"		"0"
 		"ypos"		"r60"
 		"wide"		"500"
 		"tall"		"200"
@@ -593,7 +592,7 @@
 		"fieldName" "HudMessage"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "f0"
+		"wide"	 "640"
 		"tall"	 "480"
 	}
 
@@ -614,16 +613,15 @@
 	
 	HudSpellMenu
 	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"10"
-		"xpos"			"c-176"
-		"xpos_minmode"	"c-275"
-		"ypos"			"c90"
-		"ypos_minmode"	"c95"
+		"fieldName"		"HudSpellMenu"
+		"visible" 		"1"
+		"enabled"		"1"
+		"wide"			"640"
+		"tall"	 		"480"
+		"zpos" 			"10"
+		"xpos"			"c-235"
+		"ypos"			"c105"
+		"ypos_minmode"	"c150"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -1168,7 +1166,7 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-160"
 		"ypos"					"0"
 		"wide"					"300"
 		"tall"					"f0"
@@ -1384,10 +1382,10 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
-	
-	"CTFKillStreakNotice"
+
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
+		"fieldName"		"CTFStreakNotice"
 		"xpos"			"0"			
 		"ypos"			"0"
 		"wide"			"640"
@@ -1397,6 +1395,19 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
+	
 	"HudMenuTauntSelection"
 	{
 		"fieldName" 	"HudMenuTauntSelection"
@@ -1408,6 +1419,7 @@
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
+
 	HudMiniGame
 	{
 		"fieldName" 	"HudMiniGame"

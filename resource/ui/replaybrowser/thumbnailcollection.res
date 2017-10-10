@@ -41,28 +41,11 @@
 		"border_armed"				"NoBorder"
 		
 	}
-	"CaratLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"west"
-		"labelText"		">>"
-		"auto_wide_tocontents" "1"
-		"tall"			"15"
-		"zpos"			"2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wide"			"f0"
-		"fgcolor"		"255 0 0 255"
-	}
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%titleandcount%"
 		"textAlignment"	"west"
 		"zpos"			"2"
@@ -85,20 +68,20 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"wide"			"f0"
-		"fgcolor_override" "116 107 98 255"
+		"fgcolor_override" "AntsHUDGray"
 	}
 	"WarningLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WarningLabel"
-		"font"			"DefaultSmall"
+		"font"			"HudFontSmallest"
 		"textAlignment"	"west"
 		"zpos"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "116 107 98 255"
+		"fgcolor_override" "AntsHUDGray"
 		"wrap"			"1"
 	}
 	"Line"
@@ -109,8 +92,8 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"bgcolor_override" "255 0 0 0"
+		"enabled"		"0"
+		"bgcolor_override" "0 0 0 0"
 	}
 	"CaratLabel"
 	{
@@ -118,16 +101,16 @@
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"west"
-		"labelText"		">>"
+		"labelText"		""
 		"auto_wide_tocontents" "1"
-		"tall"			"15"
+		"tall"			"0"
 		"zpos"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"wide"			"f0"
-		"fgcolor_override" "200 128 255 255"
+		"enabled"		"0"
+		"wide"			"0"
+		"fgcolor_override" "0 0 0 0"
 	}
 	"UnconvertedBg"
 	{
@@ -138,13 +121,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override" "0 0 0 255"
+		"bgcolor_override" "BGAnyLight"
 	}
 	"NoReplayItemsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoReplayItemsLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"AvenirBla12"
 		"wide"			"400"
 		"tall"			"40"
 		"zpos"			"5"
@@ -153,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override"	"100 100 100 255"
+		"fgcolor_override"	"AntsHUDGray"
 	}
 	"ShowPrevButton"
 	{

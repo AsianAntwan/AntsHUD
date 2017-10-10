@@ -24,6 +24,7 @@
 			"ypos"		"23"
 			"visible"	"1"
 		}		
+
 	}
 	"TimePanelProgressBar"
 	{
@@ -100,7 +101,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"30"
-		"ypos"			"18"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"14"
@@ -126,18 +127,13 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
+		"fillcolor"		"0 0 0 0"
 		"scaleImage"	"1"	
 		"scaleImage"	"1"	
-	
-		if_match
-		{
-			"wide"	"0"
-		}	
 	}
 	"SuddenDeathLabel"
 	{
@@ -163,6 +159,7 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"40"
 		}		
+
 	}			
 	"SuddenDeathBG"
 	{
@@ -171,18 +168,12 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"wide"	"0"
-		}		
+		"fillcolor"		"0 0 0 0"
+		"scaleImage"	"1"		
 	}	
 	"SetupLabel"
 	{
@@ -208,6 +199,7 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"40"
 		}		
+
 	}	
 	"SetupBG"
 	{
@@ -216,17 +208,12 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"wide"	"0"
-		}		
+		"fillcolor"		"0 0 0 0"
+		"scaleImage"	"1"
 	}
 	"ServerTimeLimitLabel"
 	{
@@ -249,11 +236,11 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"0"
 			"ypos"					"17"
-			"ypos_minmode"			"17"
 			"font"					"HudFontSmallestBold"
 		}		
+
 	}	
 	"ServerTimeLimitLabelBG"
 	{
@@ -272,6 +259,6 @@
 		if_match
 		{
 			"wide"	"0"
-		}			
+		}		
 	}	
 }

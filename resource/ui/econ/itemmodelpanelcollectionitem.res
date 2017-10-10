@@ -41,7 +41,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"0 0 0 0"
 		
 		"itemmodelpanel"
 		{

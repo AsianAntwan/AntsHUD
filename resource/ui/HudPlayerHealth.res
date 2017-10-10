@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"90"
+		"xpos"			"40"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"70"
@@ -265,7 +265,7 @@
 		"fgcolor" 		"AntsHUDGray"
 	}
 	
-		"PlayerStatus_WheelOfDoom"
+	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
@@ -280,7 +280,7 @@
 		"image"			"../signs/death_wheel_whammy"
 		"fgcolor"		"AntsHUDGray"
 	}
-		"PlayerStatus_SoldierOffenseBuff"
+	"PlayerStatus_SoldierOffenseBuff"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"

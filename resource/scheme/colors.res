@@ -23,10 +23,11 @@ Scheme
 		"AntsHUDHalloween"			"255 145 0 255"		// Main Color used for Halloween/Scream Fortress
 		"AntsHUDHalloweenGreen"		"84 221 86 255"		// Mouseover Color used for Halloween/Scream Fortress
 		
-		"AntsHUDWhite"				"255 255 255 255"	// Text Color
-		"AntsHUDLessWhite"			"200 200 200 255"	// Dark Color for Text
-		"AntsHUDGray"				"100 100 100 255"	// Darker Color for Text
-		"AntsHUDDarkGray"			"50 50 50 255"		// Darkest Color for Text
+		"AntsHUDWhite"				"255 255 255 255"	// White Color
+		"AntsHUDLessWhite"			"200 200 200 255"	// Dull White Color
+		"AntsHUDLesserWhite"		"150 150 150 255"	// Duller White Color
+		"AntsHUDGray"				"100 100 100 255"	// Gray Color
+		"AntsHUDDarkGray"			"50 50 50 255"		// Close-to Black Color
 
 		"StatBar"					"0 191 255 255"		// Color of Stat Bars in "Stats"
 

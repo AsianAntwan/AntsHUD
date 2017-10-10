@@ -14,8 +14,23 @@
 	
 	"BGImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BGImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/menugif"
+		"scaleImage"	"1"
+	}	
+	
+	"BGImage2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"

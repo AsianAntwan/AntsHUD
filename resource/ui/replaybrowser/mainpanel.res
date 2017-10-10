@@ -121,7 +121,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-310"
+		"xpos"			"c-300"
 		"ypos"			"442"
 		"zpos"			"1"
 		"wide"			"100"

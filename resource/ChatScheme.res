@@ -41,6 +41,7 @@ Scheme
 		Button.DepressedTextColor						"TFDarkBrown"
 		Button.DepressedBgColor							"TFAntsHUDWhite"	
 		Button.FocusBorderColor							"TransparentBlack"
+		
 		CheckButton.TextColor							"TFTextBright"
 		CheckButton.SelectedTextColor					"TFTextBright"
 		CheckButton.BgColor								"ListBG"
@@ -51,11 +52,14 @@ Scheme
 		CheckButton.Border2  							"Border.Bright"
 		CheckButton.Check								"TFTanBright"
 		CheckButton.DisabledBgColor	   	 				"ListBG"
+		
 		ComboBoxButton.ArrowColor						"TFAntsHUDWhite"
 		ComboBoxButton.ArmedArrowColor					"TFTanBright"
 		ComboBoxButton.BgColor							"Blank"
 		ComboBoxButton.DisabledBgColor					"Blank"
+		
 		"Chat.TypingText"								"TFTextBright"
+		
 		Frame.BgColor									"TransparentBlack"
 		Frame.OutOfFocusBgColor							"TransparentBlack"
 		Frame.FocusTransitionEffectTime					"0.0"
@@ -75,8 +79,10 @@ Scheme
 		FrameTitleBar.BgColor							"Blank"
 		FrameTitleBar.DisabledTextColor					"AntsHUDDeepSkyBlue"
 		FrameTitleBar.DisabledBgColor					"Blank"
+		
 		GraphPanel.FgColor								"AntsHUDWhite"
 		GraphPanel.BgColor								"TransparentBlack"
+		
 		Label.TextDullColor								"TFTextDull"
 		Label.TextColor									"TFTextBright"
 		Label.TextBrightColor							"TFTextBright"
@@ -84,28 +90,36 @@ Scheme
 		Label.BgColor									"Blank"
 		Label.DisabledFgColor1							"TFTextDull"	
 		Label.DisabledFgColor2							"Blank"
+		
 		ListPanel.TextColor								"TFTextBright"
 		ListPanel.BgColor								"ListBG"
 		ListPanel.SelectedBgColor						"SelectionBG"
 		ListPanel.SelectedOutOfFocusBgColor				"SelectionBG2"
+		
 		Menu.TextColor									"AntsHUDWhite"
 		Menu.BgColor									"ListBG"
 		Menu.ArmedTextColor								"TFTextBlack"
 		Menu.ArmedBgColor								"TFOrangeBright"
 		Menu.TextInset									"6"
+		
 		Panel.FgColor									"Blank"
 		Panel.BgColor									"TFDarkBrown"
+		
 		ProgressBar.FgColor								"AntsHUDWhite"
 		ProgressBar.BgColor								"TransparentBlack"
+		
 		PropertySheet.TextColor							"OffWhite"
 		PropertySheet.SelectedTextColor					"AntsHUDWhite"
 		PropertySheet.TransitionEffectTime				"0"
+		
 		RadioButton.TextColor							"DullWhite"
 		RadioButton.SelectedTextColor					"AntsHUDWhite"
+		
 		RichText.TextColor								"AntsHUDWhite"
 		RichText.BgColor								"ListBG"
 		RichText.SelectedTextColor						"AntsHUDWhite"
 		RichText.SelectedBgColor						"TFOrangeBright"
+		
 		ScrollBar.Wide									"5"
 		ScrollBarButton.FgColor							"Blank"
 		ScrollBarButton.BgColor							"Blank"
@@ -115,6 +129,7 @@ Scheme
 		ScrollBarButton.DepressedBgColor				"Blank"
 		ScrollBarSlider.BgColor							"Blank"
 		ScrollBarSlider.FgColor							"AntsHUDWhite"
+		
 		SectionedListPanel.HeaderTextColor				"AntsHUDWhite"
 		SectionedListPanel.HeaderBgColor				"Blank"
 		SectionedListPanel.DividerColor					"Black"
@@ -125,11 +140,13 @@ Scheme
 		SectionedListPanel.SelectedBgColor				"AntsHUDDeepSkyBlue"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
+		
 		Slider.NobColor									"108 108 108 255"
 		Slider.TextColor								"180 180 180 255"
 		Slider.TrackColor								"31 31 31 255"
 		Slider.DisabledTextColor1						"117 117 117 255"
 		Slider.DisabledTextColor2						"ButtonBG"
+		
 		TextEntry.TextColor								"TFTextBright"
 		TextEntry.BgColor								"ListBG"
 		TextEntry.CursorColor							"OffWhite"
@@ -139,23 +156,31 @@ Scheme
 		TextEntry.SelectedBgColor						"TFOrangeBright"
 		TextEntry.OutOfFocusSelectedBgColor				"255 155 0 128"
 		TextEntry.FocusEdgeColor						"0 0 0 196"
+		
 		ToggleButton.SelectedTextColor					"TFOrangeBright"
+		
 		Tooltip.TextColor								"0 0 0 196"
 		Tooltip.BgColor									"TFOrangeBright"
+		
 		TreeView.BgColor								"TransparentBlack"
+		
 		WizardSubPanel.BgColor							"Blank"
+		
 		MainMenu.TextColor								"AntsHUDWhite"
 		MainMenu.ArmedTextColor							"200 200 200 255"
 		MainMenu.DepressedTextColor						"192 186 80 255"
 		MainMenu.MenuItemHeight							"16"
 		MainMenu.Inset									"32"
 		MainMenu.Backdrop								"0 0 0 156"
+		
 		Console.TextColor								"OffWhite"
 		Console.DevTextColor							"AntsHUDWhite"
+		
 		NewGame.TextColor								"AntsHUDWhite"
 		NewGame.FillColor								"0 0 0 255"
 		NewGame.SelectionColor							"AntsHUDDeepSkyBlue"
 		NewGame.DisabledColor							"128 128 128 196"
+		
 		TFColors.ChatTextYellow							"251 235 202 255"
 		TFColors.ChatTextTeamBlue						"153 204 255 255"
 		TFColors.ChatTextTeamRed						"255 63 53 255"

@@ -81,11 +81,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StatsTitle"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"Stats"
-		"textAlignment"	"west"
-		"xpos"			"c-310"
-		"ypos"			"15"
+		"textAlignment"	"center"
+		"xpos"			"c-120"
+		"ypos"			"40"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"40"
@@ -93,6 +93,25 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+	}	
+	
+	"StatsTitleShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"StatsTitleShadow"
+		"font"			"HudFontMediumBigBold"
+		"labelText"		"Stats"
+		"textAlignment"	"center"
+		"xpos"			"c-118"
+		"ypos"			"42"
+		"zpos"			"1"
+		"wide"			"240"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor_override"	"ShadowBlack"
 	}	
 	
 	"StatData"

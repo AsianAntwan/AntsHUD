@@ -123,7 +123,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
 		"xpos"			"c-749"
-		"ypos"			"203"
+		"ypos"			"205"
 		"zpos"			"3"
 		"wide"			"750"
 		"tall"			"70"
@@ -132,7 +132,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"Blu"	[$WIN32]
+		"labelText"		"Blu"	
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -150,7 +150,7 @@
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
 		"xpos"			"c0"
-		"ypos"			"203"
+		"ypos"			"205"
 		"zpos"			"3"
 		"wide"			"750"
 		"tall"			"70"
@@ -159,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"Red"	[$WIN32]
+		"labelText"		"Red"	
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -186,7 +186,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"Auto-Join"	[$WIN32]
+		"labelText"		"Auto-Join"	
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -213,7 +213,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"Spectate"	[$WIN32]
+		"labelText"		"Spectate"	
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -226,14 +226,14 @@
 		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
-	"CancelButton" [$WIN32] 
+	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-500"
+		"xpos"			"c-60"
 		"ypos"			"c75"
 		"zpos"			"6"
-		"wide"			"1000"
+		"wide"			"120"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -257,10 +257,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelect"
-		"xpos"			"c-500"
+		"xpos"			"c-320"
 		"ypos"			"105"
 		"zpos"			"6"
-		"wide"			"1000"
+		"wide"			"640"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -278,10 +278,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSelectShadow"
-		"xpos"			"c-498"
+		"xpos"			"c-318"
 		"ypos"			"107"
 		"zpos"			"6"
-		"wide"			"1000"
+		"wide"			"640"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -396,14 +396,14 @@
 		"fgcolor"		"ShadowBlack"
 	}	
 	
-	"HighlanderLabel" [$WIN32] 
+	"HighlanderLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
-		"xpos"			"c-50"
-		"ypos"			"c100"
+		"xpos"			"c-320"
+		"ypos"			"59"
 		"zpos"			"6"
-		"wide"			"105"
+		"wide"			"640"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -413,19 +413,19 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NeutraDisp16"
-		"fgcolor"		"AntsHUDWhite"
+		"font"			"NeutraDisp24"
+		"fgcolor"		"AntsHUDLessWhite"
 		"centerwrap"	"1"
 	}
 	
-	"HighlanderLabelShadow" [$WIN32] 
+	"HighlanderLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"c-49"
-		"ypos"			"c101"
+		"xpos"			"c-318"
+		"ypos"			"61"
 		"zpos"			"6"
-		"wide"			"105"
+		"wide"			"640"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -435,12 +435,12 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NeutraDisp16"
+		"font"			"NeutraDisp24"
 		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabel" [$WIN32] 
+	"TeamsFullLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabel"
@@ -462,7 +462,7 @@
 		"centerwrap"	"1"
 	}
 	
-	"TeamsFullLabelShadow" [$WIN32] 
+	"TeamsFullLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamsFullLabelShadow"
@@ -484,7 +484,7 @@
 		"centerwrap"	"1"
 	}
 
-	"TeamsFullArrow" [$WIN32]
+	"TeamsFullArrow"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamsFullArrow"

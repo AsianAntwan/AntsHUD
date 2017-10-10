@@ -4,7 +4,7 @@ Scheme
 	{
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
-		// if a font fails to load then the subsequent fonts will replace		
+		// if a font fails to load then the subsequent fonts will replace	
 		
 		"Default"
 		{
@@ -16,7 +16,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Avenir_bold"
+
+				"name"		"Neutra Disp Titling"
 				"tall"		"72"
 				"antialias" 	"1"
 			}		
@@ -363,16 +364,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		"HudFontSmallBoldShadow"
-		{
-			"1"
-			{
-				"name"		"Neutra Display Titling"
-				"tall"		"14"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+
+
+
+
+
+
+
+
+
+
 		"HudFontSmallest"
 		{
 			"1"
@@ -384,16 +385,16 @@ Scheme
 			}
 		}
 
-		"HudFontSmallestShadow"
-		{
-			"1"
-			{
-				"name"		"AvenirLTStd-Medium"
-				"tall"		"12"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+
+
+
+
+
+
+
+
+
+
 		"HudFontSmallestBold"
 		{
 			"1"
@@ -3151,6 +3152,16 @@ Scheme
 			{
 				"name"	"ModernPictograms"
 				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"ModernSymbolsMedium"
+		{
+			"1"
+			{
+				"name"	"ModernPictograms"
+				"tall"	"24"
 				"additive"	"0"
 				"antialias"	"1"
 			}

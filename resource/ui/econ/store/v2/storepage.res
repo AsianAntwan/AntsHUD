@@ -91,7 +91,7 @@
 		
 		"modelpanel_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -142,7 +142,7 @@
 		
 		"cart_labels_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"north-east"
 			"xpos"			"c-61"
 			"ypos"			"32"
@@ -161,16 +161,16 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c-70"
-		"ypos"		"30"
-		"wide"		"90"
-		"tall"		"19"
-		"autoResize"		"0"
+		"xpos"			"c-70"
+		"ypos"			"30"
+		"wide"			"90"
+		"tall"			"19"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"		"1"
-		"textHidden"		"0"
+		"tabPosition"	"1"
+		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"AntsHUDWhite"
@@ -288,7 +288,7 @@
     		"enabled"			"1"
 			"pinCorner"			"0"
 			"autoResize"		"0"
-			"PaintBackgroundType""1"
+			"PaintBackgroundType""0"
 			"border"			"NoBorder"
 			"bgcolor_override"	"25 25 25 255"
 			
@@ -461,7 +461,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"AntsHUDGray"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -480,7 +480,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"AntsHUDGray"
 	}
 	
 	"SortFilterLabel"
@@ -499,7 +499,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"AntsHUDGray"
 	}
 	
 	"ClassFilterLabel"
@@ -518,7 +518,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor"		"AntsHUDGray"
 	}
 	
 	"ClassFilterNavPanel"
@@ -737,7 +737,7 @@
 		"labelText"		"%freebackpackspace%"
 		"textAlignment"	"west"
 		"xpos"			"c-292"
-		"ypos"			"279"
+		"ypos"			"270"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"20"
@@ -755,7 +755,7 @@
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
 		"xpos"			"c-292"
-		"ypos"			"299"
+		"ypos"			"290"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -763,7 +763,6 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"textinsetx"	"15"
-		
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -786,7 +785,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
 		"xpos"			"c-289"
-		"ypos"			"302"
+		"ypos"			"292"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -809,31 +808,6 @@
 		"enabled"		"1"
 		"image"			"store_special"
 		"scaleImage"	"1"
-	}
-	
-	"ReloadSchemeButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c0"
-		"ypos"			"330"
-		"zpos"			"25"
-		"wide"			"100"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"RELOADSCHEME"
-		"font"			"HudFontSmallestBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"reloadscheme"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 
 	"ShowExplanationsButton"

@@ -8,6 +8,7 @@
 		"xpos"			"c-30"	
 		"xpos_minmode"	"c45"	
 		"ypos"			"355"
+		"ypos_minmode"	"377"
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"

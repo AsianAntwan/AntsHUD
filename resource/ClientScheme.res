@@ -91,26 +91,46 @@ Scheme
 		{	
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"8" // 2nd Main Font
 		{	
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"9" // 2nd Main Font Bolder
 		{	
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"10" // 2nd Main Font Boldest
 		{	
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"11" // Literally for + Button on Loadout
 		{	
 			"font" "resource/fonts/CodeProBold.otf"
 			"name" "Code-Pro-Bold"
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
 		}
 		"12" // Tournament HUD block
 		{	

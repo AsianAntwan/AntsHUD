@@ -8,8 +8,8 @@
 		"PositiveColor"			"Heal Numbers"
 		"NegativeColor"			"Damage Numbers"
 		"delta_item_end_y"		"0"
-		"delta_lifetime"		"2"
-		"delta_item_font"		"NeutraDispOutline22" 
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"NeutraDispOutline22"
 		"delta_item_font_big"	"NeutraDispOutline22"
 	}
 	
@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-151"
+		"xpos"			"c-105"
 		"ypos"			"356"
 		"ypos_minmode"	"401"
 		"zpos"			"2"
@@ -26,7 +26,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"fgcolor"		"Last DamageHeal Info"
 		"font"			"NeutraDisp26"
 	}
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-149"
+		"xpos"			"c-104"
 		"ypos"			"357"
 		"ypos_minmode"	"403"
 		"zpos"			"1"
@@ -44,7 +44,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"west"
 		"fgcolor"		"ShadowBlack"
 		"font"			"NeutraDisp26"
 	}

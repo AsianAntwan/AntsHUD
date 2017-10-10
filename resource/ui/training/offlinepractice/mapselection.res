@@ -22,14 +22,14 @@
 		"fieldName"		"MapImagePanel"
 		"xpos"			"9999"
 		"ypos"			"9999"
-		"wide"			"330"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"		"0"
-		"bgcolor_override"	"AntsHUDDarkGray"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	
 	"GradientPanel"

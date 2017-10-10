@@ -31,7 +31,7 @@
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"MvMBossStatusPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-13"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"c-190"
+		"xpos"				"c-242"
 		"ypos"				"r100"
 		"ypos_minmode"		"r55"
 		"wide"				"100"
@@ -60,9 +60,9 @@
 	{
 		"ControlName" 		"CInWorldCurrencyStatus"
 		"fieldName" 		"InWorldCurrencyPanel"
-		"xpos"				"c-190"
-		"ypos" 				"r84"
-		"ypos_minmode"		"r39"
+		"xpos"				"c-137"
+		"ypos" 				"r100"
+		"ypos_minmode"		"r55"
 		"wide" 				"100"
 		"tall" 				"20"
 		"visible" 			"1"
@@ -94,7 +94,7 @@
 		"wide"			"640"
 		"tall"			"480"
 		"visible"		"0"
-					
+		
 		"UpgradeProgressTrack"
 		{
 			"ControlName"	"CMvMBombCarrierProgress"

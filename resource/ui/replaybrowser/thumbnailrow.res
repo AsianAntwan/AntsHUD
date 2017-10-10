@@ -13,6 +13,5 @@
 		"zpos"					"2"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"1"
-		//"bgcolor_override"		"0 0 255 255"
 	}
 }

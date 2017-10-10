@@ -60,7 +60,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBoldShadow"
+			"font"			"HudFontSmallBold"
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"zpos"			"1"
@@ -89,7 +89,7 @@
 			"enabled"		"0"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"HudFontSmallest"
 			"maxchars"		"-1"
 		}
 
@@ -126,7 +126,7 @@
 			"enabled"		"0"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"HudFontSmallest"
 			"maxchars"		"-1"
 		}
 	}	

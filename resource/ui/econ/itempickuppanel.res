@@ -31,40 +31,43 @@
 			"paintborder"			"0"
 			"bgcolor_override"		"0 0 0 0"
 			
-			"model_xpos"	"-125"
+			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
+			"model_wide"	"240"
 			
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
-		"BackColor"
-		{
-    		"ControlName"		"EditablePanel"
-    		"fieldName"			"BackColor"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-1"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
-			"pinCorner"			"0"
-			"autoResize"		"0"
-			"PaintBackgroundType""1"
-			"border"			"NoBorder"
-			"bgcolor_override"	"BGAnyLight"
+			"is_mouseover"		"1"
+			"hide_collection_panel" "1"
 			
-		}
-			
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" "0"
-			"inventory_image_type" "1"
+			"BackColor"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"BackColor"
+				"xpos"				"0"
+				"ypos"				"0"
+				"zpos"				"-1"
+				"wide"				"f0"
+				"tall"	 			"f0"
+				"visible"			"1"
+				"enabled"			"1"
+				"pinCorner"			"0"
+				"autoResize"		"0"
+				"PaintBackgroundType""0"
+				"border"			"NoBorder"
+				"bgcolor_override"	"BGAnyLight"
+			}
+				
+			"itemmodelpanel"
+			{
+				"use_item_rendertarget" "0"
+				"inventory_image_type" "1"
+			}
 		}
 	}
-	
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
@@ -72,12 +75,11 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"6"
-		"wide"			"36"
-		"tall"			"36"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
@@ -92,7 +94,6 @@
 		"image"			"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -111,7 +112,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -130,7 +130,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -159,13 +158,12 @@
 		"ypos"			"120"
 		"zpos"			"5"
 		"wide"			"120"
-		"tall"			"40"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
 	"NextButton"
 	{
 		"ControlName"		"CExButton"
@@ -231,7 +229,6 @@
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}
-	
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -256,12 +253,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
+		
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
+		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"
+		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}
@@ -288,22 +288,24 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
+		
 		"defaultBgColor_override"	"ButtonBG"
 		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
 		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
+		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"
+		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}
-	
 	"DiscardButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c-240"
-		"ypos"			"335"
+		"xpos"			"c-245"
+		"ypos"			"155"
 		"zpos"			"10"
 		"wide"			"25"
 		"tall"			"25"
@@ -351,8 +353,8 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"11"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
@@ -364,15 +366,15 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
-			"xpos"			"12"
-			"ypos"			"0"
-			"wide"			"80"
-			"tall"			"50"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor_override"	"0 0 0 0"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -394,9 +396,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"50 50 50 255"
+		"bgcolor_override"	"BGDarker"
 	}
-	
 	"ScoreEntry"
 	{
 		"ControlName"		"TextEntry"

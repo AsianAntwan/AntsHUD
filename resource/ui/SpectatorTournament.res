@@ -184,11 +184,11 @@
 				"xpos"			"9999"
 				"ypos"			"9999"
 				"zpos"			"2"
-				"wide"			"9999"
-				"tall"			"9999"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
-				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"enabled"		"0"
+				"bgcolor_override"		"0 0 0 0"
 				"PaintBackgroundType"	"0"		
 			}
 			
@@ -400,7 +400,7 @@
 		
 		if_mvm
 		{
-			"ypos"			"68"
+			"ypos"			"0"
 		}
 		
 	}
@@ -409,7 +409,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"100"
+		"ypos"			"74"
 		"wide"			"380"
 		"tall"			"24"
 		"autoResize"	"0"

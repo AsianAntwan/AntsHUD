@@ -168,7 +168,7 @@
 			"textAlignment"	"north-west"
 			"xpos"			"10"
 			"ypos"			"118"
-			"wide"			"250"
+			"wide"			"260"
 			"tall"			"125"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -176,14 +176,14 @@
 			"enabled"		"1"
 			"fgcolor"		"AntsHUDWhite"
 			"wrap"			"1"
-			"highlight_color"	"AntsHUDDeepSkyBlue"
+			"highlight_color"	"255 255 0 255"
 			"itemset_color"		"216 244 9 255"
 			"link_color" 		"200 128 255 255"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
 			"image_down_arrow_mouseover"	"scroll_down_on"
-			"image_line"		"ArmoryScrollbarWell"
+			"image_line"		"NoImage"
 			"image_box"			"ArmoryScrollbarBox"
 		}
 	}
@@ -192,10 +192,10 @@
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"SelectedItemModelPanel"
-		"xpos"			"c25"
+		"xpos"			"c40"
 		"ypos"			"40"
 		"zpos"			"1"
-		"wide"			"260"
+		"wide"			"270"
 		"tall"			"135"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
@@ -213,6 +213,7 @@
 			"allow_rot"				"0"
 		}
 	}	
+	
 	"SelectedItemImageModelPanel"
 	{		
 		"ControlName"	"CItemModelPanel"
@@ -375,7 +376,7 @@
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}	
-		
+	
 	"WikiButton"
 	{
 		"ControlName"	"CExButton"

@@ -250,8 +250,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayButton"
-		"xpos"			"c25"
-		"ypos"			"437"
+		"xpos"			"c170"
+		"ypos"			"442"
 		"zpos"			"3"
 		"wide"			"120"
 		"tall"			"25"

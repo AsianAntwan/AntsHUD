@@ -26,9 +26,9 @@
 		"textAlignment"	"west"
 		"unicode"		"1"
 		"wrap"			"0"
-		"xpos"			"c+100"
+		"xpos"			"c100"
 		"ypos"			"5"
-		"tall"			"15"
+		"tall"			"16"
 		"wide"			"180"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -36,8 +36,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"fgcolor_override"		"AntsHUDWhite"
-		"bgcolor_override"		"0 0 0 255"
-		"Font"			"HudFontSmallest"
+		"bgcolor_override"		"BGAnyLight"
+		"Font"			"HudFontSmall"
 	}
 	"ReplayList"
 	{
@@ -50,8 +50,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"paintbackground"	"1"
-		"bgcolor_override"	"41 37 38 0"
+		"paintbackground"	"0"
 		"autohide_scrollbar" "1"
 	}
 }

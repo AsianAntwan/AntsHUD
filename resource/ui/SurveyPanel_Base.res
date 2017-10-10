@@ -96,7 +96,7 @@
 				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallBold"
+				"font"			"HudFontMediumBold"
 				"fgcolor_override"	"AntsHUDDeepSkyBlue"
 				"textAlignment"	"center"
 				"labelText"		"#TF_SurveyQuestion_ThankYouTitle"

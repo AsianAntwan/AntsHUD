@@ -36,10 +36,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"c-197"
+		"xpos"			"c-320"
 		"ypos"			"95"
 		"zpos"			"1"
-		"wide"			"420"
+		"wide"			"640"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -51,7 +51,7 @@
 		"brighttext"	"0"
 		"font"			"NeutraDisp24"
 		"fgcolor"		"AntsHUDWhite"
-	}	
+	}
 
 	"TextMessage"
 	{
@@ -66,7 +66,7 @@
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
 		"font"			"Avenir12"
-		"xpos"			"c-197"
+		"xpos"			"c-203"
 		"ypos"			"125"
 		"zpos"			"1"
 		"wide"			"415"
@@ -84,7 +84,7 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"c-197"
+		"xpos"			"c-203"
 		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"415"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"ok"
-		"xpos"			"c-73"
+		"xpos"			"c-75"
 		"ypos"			"c145"
 		"zpos"			"6"
 		"wide"			"150"
@@ -150,14 +150,14 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"50"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
+		"image"			""
 		"tileImage"		"1"
 		"PaintBackgroundType"	"0"
 	}						

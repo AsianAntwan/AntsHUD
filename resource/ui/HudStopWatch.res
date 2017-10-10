@@ -58,7 +58,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"AvenirBla16"
 			"fgcolor"		"AntsHUDWhite"
-			"xpos"			"-180"
+			"xpos"			"-170"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"300"
@@ -82,7 +82,7 @@
 		"font"			"AvenirBla16"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"west"
-		"xpos"			"180"
+		"xpos"			"190"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"300"
@@ -95,6 +95,7 @@
 		if_comp
 		{
 			"font"	"AvenirBla14"
+			"xpos"	"180"
 			"ypos"	"23"
 		}
 	}
@@ -105,7 +106,7 @@
 		"font"			"AvenirHea16"
 		"labelText"		"captures"
 		"textAlignment"	"west"
-		"xpos"			"194"
+		"xpos"			"204"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"300"
@@ -119,6 +120,7 @@
 		if_comp
 		{
 			"font"	"AvenirHea14"
+			"xpos"	"194"
 			"ypos"	"23"
 		}
 	}
@@ -130,7 +132,7 @@
 		"font"			"Avenir13"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"east"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"150"
@@ -144,6 +146,7 @@
 		if_comp
 		{
 			"font"	"AvenirBla14"
+			"xpos"	"0"
 			"ypos"	"23"
 		}
 	}
@@ -162,7 +165,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"
-
+		
 		"src_corner_height"	"2"				// pixels inside the image
 		"src_corner_width"	"2"
 		
