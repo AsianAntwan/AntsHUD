@@ -54,13 +54,13 @@ Credits
 	Hitmarker (Damage Indicator)
 	--------------------
 		a) Hitmarker Code by: ToonHUD
-		b) Edited Hitmarker Method by: Antwan/Creator of AntsHUD
+		b) Edited Hitmarker Method by: Antwan
 		c) Suggested by: Rep
 		
 	HUD Colors
 	--------------------
 		a) Color Code by: RaysHUD/RaysFire
-		b) Edited Method and RGB Codes by: Antwan/Creator of AntsHUD
+		b) Edited Method and RGB Codes by: Antwan
 		c) Suggested by: Message: "i just don't see the point" & (forgot who it was)
 		
 	Medic Charge Bar Positions
@@ -72,7 +72,12 @@ Credits
 	No Casual & Comp. UI
 	--------------------
 		a) Color Code by: RaysHUD/RaysFire
-		b) Edited UI: Antwan/Creator of AntsHUD
+		b) Edited UI: Antwan
+	
+	No Kill-Death Ratio
+	--------------------
+		a) Code by: Antwan
+		b) Suggested by: Cody Daddy
 		
 	Original Class Loadout Layout
 	--------------------
@@ -99,5 +104,5 @@ Credits
 	Transparent Viewmodels
 	--------------------
 		a) Code by: ToonHUD
-		b) Edited Method by: Antwan/Creator of AntsHUD
+		b) Edited Method by: Antwan
 		c) Suggested by: antlers
