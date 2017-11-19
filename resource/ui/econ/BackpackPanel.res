@@ -377,7 +377,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""0"
 			"border"			"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"BGAnyDarker"
 			
 			"attriblabel"
 			{
@@ -569,7 +569,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
 		"xpos"			"c-288"
-		"ypos"			"323"
+		"ypos"			"337"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"25"

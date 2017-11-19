@@ -9,7 +9,7 @@
 		"ypos"					"105"
 		"wide"					"280"
 		"tall"					"240"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"BGAnyDarker"
 		"PaintBackgroundType"	"0"
 		"settitlebarvisible"	"1"
 		"border"				"NoBorder"

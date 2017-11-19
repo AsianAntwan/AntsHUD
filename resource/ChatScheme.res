@@ -19,6 +19,7 @@ Scheme
 	    "TFMediumBrown"				"69 64 58 255"
 	    "QuickListBGDeselected"		"69 64 58 255"
 	    "QuickListBGSelected"		"131 121 104 150"
+		"Green"						"63 185 73 255"
 	    "Blank"						"0 0 0 0"
 	    "AntsHUDWhite"				"255 255 255 255"
 		"ControlBG"					"76 88 68 255"

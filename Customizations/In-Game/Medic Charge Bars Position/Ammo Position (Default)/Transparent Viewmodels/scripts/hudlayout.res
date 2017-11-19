@@ -157,14 +157,14 @@
 	
 	HudDemomanCharge
 	{
-		"fieldName"		"HudItemEffectMeter"
+		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c25"
-		"ypos_minmode"	"c134"
-		"wide"			"500"
-		"tall"			"500"
+		"ypos"			"c52"
+
+		"wide"			"150"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -174,11 +174,11 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-100"	
-		"ypos"			"c111"	
+		"xpos"			"c-75"	
+		"ypos"			"c52"	
 		"zpos"			"1"
-		"wide"			"500"
-		"tall"			"500"
+		"wide"			"150"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 		"alpha"			"0"
@@ -266,7 +266,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"310"
+		"xpos"					"c-105"
 		"ypos"					"c0"
 		"ypos_minmode"			"c45"
 		"wide"					"250"
@@ -592,7 +592,7 @@
 		"fieldName" "HudMessage"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "f0"
+		"wide"	 "640"
 		"tall"	 "480"
 	}
 
@@ -1053,11 +1053,11 @@
 	
 	HudDemomanPipes
 	{
-		"fieldName"		"HudItemEffectMeter"
+		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c75"	[$WIN32]
-		"ypos"			"c137"	[$WIN32]
+		"xpos"			"c-75"
+		"ypos"			"c52"
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"

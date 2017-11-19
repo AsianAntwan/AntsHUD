@@ -290,7 +290,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""0"
 			"border"			"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"BGAnyDarker"
 			
 			"attriblabel"
 			{
@@ -333,7 +333,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"BGAnyDarker"
 		"PaintBackgroundType"	"0"
 		"centerwrap"	"1"
 		"paintborder"	"1"
@@ -571,10 +571,6 @@
 			"image_drawcolor"		"75 215 255 180"
 			"image_armedcolor"		"75 215 255 255"
 			"image_selectedcolor"	"75 215 255 255"
-			
-			//"image_drawcolor"		"175 50 255 180"
-			//"image_armedcolor"	"175 50 255 255"
-			//"image_selectedcolor"	"175 50 255 255"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"

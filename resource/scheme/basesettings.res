@@ -15,7 +15,7 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"30 30 30 255"
 		
-		Econ.Dialog.BgColor									"Blank"
+		Econ.Dialog.BgColor									"BGAnyDark"
 		Econ.Button.BgColor									"ButtonBG"
 		Econ.Button.FgColor									"AntsHUDGray"
 		Econ.Button.ArmedBgColor							"AntsHUDDeepSkyBlue"

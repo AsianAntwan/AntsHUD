@@ -11,7 +11,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"NoBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"BGAnyDarker"
 		"proportional"	"0"
 	}
 	"Screenshot"

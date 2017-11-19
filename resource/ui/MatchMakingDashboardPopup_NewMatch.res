@@ -7,15 +7,15 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"260"
-		"tall"			"70"
+		"wide"			"200"
+		"tall"			"60"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"1"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"70"
+		"expanded_height"	"60"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
@@ -24,14 +24,14 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"OuterShadow"
-			"xpos"			"9999"
-			"ypos"			"9999"
+			"xpos"			"0"
+			"ypos"			"rs1"
 			"zpos"			"-2"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
+			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -49,8 +49,7 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-			"bgcolor_override"	"BGAnyLight"
+			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -66,7 +65,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"AntsHUDWhite"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NewMatchReady"
 				"proportionaltoparent"	"1"
@@ -85,7 +84,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallest"
-				"fgcolor_override"	"AntsHUDWhite"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
@@ -104,6 +103,12 @@
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
+
+				if_queued
+				{
+					"visible"	"0"
+				}
+
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"font"			"HudFontSmallestBold"
@@ -112,10 +117,10 @@
 				"brighttext"	"0"
 				"Command"		"abandon_match"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_Rejoin_Leave"
+				"labeltext"		"#TF_MM_Rejoin_Abandon"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"1"
+				"actionsignallevel"	"2"
 				"paintbackground"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
@@ -128,9 +133,16 @@
 				"fieldName"		"JoinNowButton"
 				"xpos"			"10"
 				"ypos"			"rs1-5"
+				"wide"			"90"
 				"zpos"			"100"
-				"wide"			"150"
 				"tall"			"15"
+
+				if_queued
+				{
+					"xpos"			"cs-0.5"
+					"wide"			"150"
+				}
+				
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -145,7 +157,7 @@
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"1"
+				"actionsignallevel"	"2"
 
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"

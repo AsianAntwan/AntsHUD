@@ -55,6 +55,25 @@
 		"brighttext"			"0"
 		"font"					"Avenir12"
 	}
+
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"25"
+		"ypos"					"23"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"0"
+		"textAlignment"			"Center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}					
 	
 	"ItemEffectMeterIcon"
 	{
@@ -93,25 +112,6 @@
 		"font"					"MoreSymbols"
 		"fgcolor_override"		"ShadowBlack"
 	}
-
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"Center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
 	
 	"ItemEffectMeterCount"
 	{
@@ -132,6 +132,7 @@
 		"brighttext"			"0"
 		"font"					"NeutraDisp24"
 	}
+	
 	"ItemEffectMeterCountBackground"
 	{
 		"ControlName"			"CExLabel"

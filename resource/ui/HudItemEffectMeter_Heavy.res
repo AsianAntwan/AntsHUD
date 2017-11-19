@@ -53,7 +53,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NeutraDisp14"
-		"fgcolor_override"		"AntsHUDDeepSkyBlue"
 	}
 
 	"ItemEffectMeter"

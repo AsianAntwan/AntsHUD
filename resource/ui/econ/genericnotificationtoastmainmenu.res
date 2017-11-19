@@ -11,7 +11,6 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"AvatarBGPanel"
@@ -47,8 +46,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"AvatarTextLabel"
-		"fgcolor"		"56 47 29 255"
-		"fgcolor_override" "56 47 29 255"
+		"fgcolor"		"AntsHUDWhite"
 		"xpos"			"45"
 		"ypos"			"7"
 		"zpos"			"2"

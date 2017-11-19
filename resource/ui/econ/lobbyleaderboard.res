@@ -118,7 +118,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"BGAnyDark"
+		"bgcolor_override"	"BGAnyDarker"
 		
 		"TipLabel"
 		{

@@ -87,7 +87,12 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" // Main font
+		"7" // Contracts Font
+		{
+			"font" "resource/ocra.ttf"
+			"name" "ocra"
+		}
+		"8" // Main font
 		{	
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
@@ -96,7 +101,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"8" // 2nd Main Font
+		"9" // 2nd Main Font
 		{	
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
@@ -105,7 +110,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"9" // 2nd Main Font Bolder
+		"10" // 2nd Main Font Bolder
 		{	
 			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
 			"name" "AvenirLTStd-Heavy"
@@ -114,7 +119,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"10" // 2nd Main Font Boldest
+		"11" // 2nd Main Font Boldest
 		{	
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "AvenirLTStd-Black"
@@ -123,7 +128,7 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"11" // Literally for + Button on Loadout
+		"12" // Literally for + Button on Loadout
 		{	
 			"font" "resource/fonts/CodeProBold.otf"
 			"name" "Code-Pro-Bold"
@@ -132,27 +137,27 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"12" // Tournament HUD block
+		"13" // Tournament HUD block
 		{	
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"13" // Crosshairs
+		"14" // Crosshairs
 		{		
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
-		"14" // Main Menu Icons		
+		"15" // Main Menu Icons		
 		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}
-		"15" // Other Icons		
+		"16" // Other Icons		
 		{
 			"font" "resource/fonts/More Icons.ttf"
 			"name"	"ToonHUD Icons"
 		}
-		"16" // Other Icons	2
+		"17" // Other Icons	2
 		{
 			"font" "resource/fonts/ModernPictograms.otf"
 			"name"	"ModernPictograms"

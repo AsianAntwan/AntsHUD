@@ -197,7 +197,7 @@ event HudSpyDisguiseFadeOut
 	//Animate PlayerStatusClassImage		Size		"0 0"			Linear 0.0 0.0
 }
 
-//-------------------------------------------
+//===========================================
 
 // Flash the medic charge hud when we have full charge
 
@@ -237,6 +237,13 @@ event DamagedPlayer
 	// colors in colors.res in the resource/scheme folder. Alternatively, you can
 	// use RGBA. 
 
+
+
+
+
+
+
+
 }
 
 //===========================================
@@ -263,6 +270,7 @@ event HudTournament_MoveTimerDown
 {
 	Animate CountdownLabel ypos 150 Linear 0 0
 	Animate CountdownLabelShadow ypos 150 Linear 0 0
+
 
 	SetVisible CountdownBG 0 5
 	SetVisible CountdownLabel 1 0
@@ -367,8 +375,9 @@ event HudTournament_ShowTimerCompetitive
 
 event HudTournament_ShowTimerDefault
 {
-	Animate CountdownLabel ypos 425 Linear 0 0
-	Animate CountdownLabelShadow ypos 427 Linear 0 0
+	Animate CountdownLabel ypos 150 Linear 0 0
+	Animate CountdownLabelShadow ypos 152 Linear 0 0
+
 
 	SetVisible CountdownBG  1 0
 	SetVisible CountdownLabel 1 0

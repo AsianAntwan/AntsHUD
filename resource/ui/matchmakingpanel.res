@@ -40,9 +40,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"image"			"competitive/comp_background_wood01"
+			"image"			"competitive/comp_background_tier001a"
 			"scaleImage"	"1"
 		}
+
 		"UpperLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -79,7 +80,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
-			"fgcolor"		"AntsHUDWhite"
+			"fgcolor"		"TanLight"
 		}
 
 		"CompetitiveModeGroupBox"
@@ -134,12 +135,12 @@
 				"unicode"			"0"
 				"default"			"0"
 		
-				"fgcolor_override"	"255 255 255 255"
+				"fgcolor_override"	"235 226 202 255"
 				"bgcolor_override"	"0 0 0 0"
-				"disabledFgColor_override" "255 255 255 255"
+				"disabledFgColor_override" "235 226 202 255"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "255 255 255 255"
+				"selectionTextColor_override" "235 226 202 255"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 
@@ -204,8 +205,8 @@
 			"visible"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"20 20 20 175"
-			"border"		"NoBorder"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 			"proportionaltoparent"	"1"
 
 			"SearchActiveTitle"

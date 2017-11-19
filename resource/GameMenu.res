@@ -1,36 +1,6 @@
 "GameMenu"
 {
-	//Main Buttons
-	"CasualButton"
-	{
-		"label"		"Casual"
-		"command" 	"play_casual"
-		"OnlyAtMenu" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label"		"Competitive"
-		"command" 	"play_competitive"
-		"OnlyAtMenu" "1"
-	}
-	"MvMButton"
-	{
-		"label"		"MvM"
-		"command" 	"play_mvm"
-		"OnlyAtMenu" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label"		"Server Browser"
-		"command" 	"OpenServerBrowser"
-		"OnlyAtMenu" "1"
-	}
-	"TrainingButton"
-	{
-		"label"		"Training"
-		"command" 	"play_training"
-		"OnlyAtMenu" "1"
-	}
+	//Main Menu Buttons
 	"GeneralStoreButton"
 	{
 		"label" 	"Shop"
@@ -55,11 +25,13 @@
 	{
 		"label" 	"Options"
 		"command" 	"OpenOptionsDialog"
+		"tooltip"	""
 	}
 	"TF2SettingsButton"
 	{
 		"label" 	"Adv. Options"
 		"command" 	"engine opentf2options"
+		"tooltip"	""
 	}
 	"QuitButton"
 	{
@@ -67,35 +39,13 @@
 		"command" 	"engine quit"
 		"OnlyAtMenu" "1"
 	}
-	
 	//Other Buttons
 	"MOTD_ShowButtonPanel"
 	{
 		"label" 	"%"
-		"command" 	"motd_show"
+		"command"	"motd_show"
 		"subimage" 	""
 		"tooltip" 	"TF2 Blog News"
-	}
-	"QuestLogButton"
-	{
-		"label" 	"s"
-		"command" 	"questlog"
-		"subimage" 	""
-		"tooltip" 	"Contracts"
-	}
-	"HUDDefaultModeButton"
-	{
-		"label"		""
-		"command"	"engine cl_hud_minmode 0"
-		"subimage"	""
-		"tooltip"	"Default mode"
-	}
-	"HUDLoweredModeButton"
-	{
-		"label"		""
-		"command"	"engine cl_hud_minmode 1"
-		"subimage"	""
-		"tooltip"	"Lowered mode"
 	}
 	"WatchStreamButton"
 	{
@@ -104,12 +54,12 @@
 		"subimage" 	""
 		"tooltip" 	"Twitch Streams"
 	}
-	"HUDReloadButton"
+	"QuestLogButtonNew"
 	{
-		"label" 	"d"
-		"command" 	"engine hud_reloadscheme"
+		"label" 	"s"
+		"command" 	"questlog"
 		"subimage" 	""
-		"tooltip" 	"HUD Reload"
+		"tooltip" 	"Contracts"
 	}
 	"AchievementsButton"
 	{
@@ -118,13 +68,6 @@
 		"subimage" 	"glyph_achievements"
 		"tooltip" 	"Achievements"
 	}
-	"CreateServerButton"
-	{
-		"label" 	"#GameUI_GameMenu_CreateServer"
-		"command" 	"OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" 	"#GameUI_GameMenu_CreateServer"
-	}
 	"DemoUIButton"
 	{
 		"label" 	"q"
@@ -132,29 +75,28 @@
 		"subimage" 	""
 		"tooltip" 	"DemoUI"
 	}
+	"HUDMinmodeToggle"
+	{
+		"label"		""
+		"command"	"engine incrementvar cl_hud_minmode 0 1 1"
+		"subimage"	""
+		"tooltip"	"Minmode Toggle"
+	}
 	"ConsoleButton"
 	{
 		"label" 	"i"
 		"command" 	"engine toggleconsole"
 		"subimage" 	""
 		"tooltip" 	"Console"
+	}	
+	"HUDReloadButton"
+	{
+		"label" 	"d"
+		"command" 	"engine hud_reloadscheme"
+		"subimage" 	""
+		"tooltip" 	"HUD Reload"
 	}
-	
 	//In-Game Buttons
-	"ResumeGameButton"
-	{
-		"label"		"Resume"
-		"command" 	"ResumeGame"
-		"OnlyInGame" "1"
-		"subimage" 	""
-	}
-	"ServerBrowserButton2"
-	{
-		"label"		"Server Browser"
-		"command" 	"OpenServerBrowser"
-		"OnlyInGame" 	"1"
-		"subimage" 	""
-	}
 	"DisconnectButton"
 	{
 		"label"		"#GameUI_GameMenu_Disconnect"

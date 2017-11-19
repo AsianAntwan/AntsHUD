@@ -4,17 +4,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGRect"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 
-		"bgcolor_override"	"20 20 20 175"
+		"bgcolor_override"	"0 0 0 0"
 	}
-
 
 	"LoadingPanel"
 	{
@@ -71,8 +70,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PreviewImage"
-		"xpos"			"5"
-		"ypos"			"3"
+		"xpos"			"4"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"80"
 		"tall"			"50"
@@ -139,11 +138,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"290"
-		"tall"			"50"
+		"wide"			"p1"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"labelText"		""
@@ -156,7 +155,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_armed"		"TeamMenuBorder"
+		"border_armed"		"StreamListBorder"
 			
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"
