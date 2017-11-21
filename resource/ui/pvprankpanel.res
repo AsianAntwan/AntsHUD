@@ -47,8 +47,8 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"o1"
-			"tall"			"p0.12"
+			"wide"			"100"
+			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -249,7 +249,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"AvenirBla13"
+			"font"			"NeutraDisp14"
 			"fgcolor_override"	"AntsHUDWhite"
 			"textAlignment"	"center"
 			"labelText"		"%level%"
@@ -257,9 +257,8 @@
 
 			if_mini
 			{
-				"xpos"	"73"
-				"ypos"	"4"
-				"font"			"HudFontSmallishBold"
+				"xpos"	"77"
+				"ypos"	"2"
 				"textAlignment"	"north-west"
 			}
 		}

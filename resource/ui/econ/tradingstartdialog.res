@@ -426,7 +426,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "AntsHUDWhite"
+			"fgcolor_override" "AntsHUDLesserWhite"
 		}	
 		
 		"URLFailLabel"
@@ -447,7 +447,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "AntsHUDDeepSkyBlue"
+			"fgcolor_override" "RedSolid"
 		}	
 		"URLSearchingLabel"
 		{
@@ -467,7 +467,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "AntsHUDDeepSkyBlue"
+			"fgcolor_override" "AntsHUDWhite"
 		}	
 		
 		"URLEntry"
@@ -490,7 +490,7 @@
 			"unicode"			"0"
 			"wrap"				"0"
 			"fgcolor_override"	"AntsHUDWhite"
-			"bgcolor_override"	"70 70 70 255"
+			"bgcolor_override"	"BGAnyLight"
 			"paintbackgroundtype" "0"
 			"labelText"			""
 			"font"				"HudFontSmall"

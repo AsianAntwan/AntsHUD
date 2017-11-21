@@ -101,18 +101,18 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"Avenir16"
-		"labelText"		">>"
+		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "200 128 255 255"
+		"fgcolor_override" "0 0 0 0"
 	}
 	"ClassLabel"
 	{
@@ -174,7 +174,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"		
-		"wide"			"853"
+		"wide"			"f2"
 		"tall"			"380"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -240,7 +240,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""0"
 			"border"			"NoBorder"
-			"bgcolor_override"	"25 25 25 255"
+			"bgcolor_override"	"BGAnyDarker"
 			
 			"attriblabel"
 			{
@@ -403,7 +403,7 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"BGAnyDarker"
 		"PaintBackgroundType"	"0"
 	}
 	"RedButton"
@@ -426,15 +426,16 @@
 		"scaleImage"	"1"
 		"command"		"sv_cheats 1;r_skin 0"
 		
+		"paintbackground"	"0"
+		
 		"defaultFgColor_override" "AntsHUDRed"
 		"armedFgColor_override" "AntsHUDLightRed"
-		"depressedFgColor_override" "AntsHUDRed"
+		"depressedFgColor_override" "AntsHUDLightRed"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"keyboardinputenabled"	"0"		
-		"paintbackground"	"0"
+		"keyboardinputenabled"	"0"
 	}
 	
 	"BlueButton"
@@ -457,15 +458,16 @@
 		"scaleImage"	"1"
 		"command"		"sv_cheats 1;r_skin 1"
 		
+		"paintbackground"	"0"
+		
 		"defaultFgColor_override" "AntsHUDBlue"
 		"armedFgColor_override" "AntsHUDLightBlue"
-		"depressedFgColor_override" "AntsHUDBlue"
+		"depressedFgColor_override" "AntsHUDLightBlue"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"keyboardinputenabled"	"0"	
-		"paintbackground"	"0"
+		"keyboardinputenabled"	"0"
 	}
 
 	"CharacterLoadoutButton"

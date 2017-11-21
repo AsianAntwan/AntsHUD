@@ -214,7 +214,7 @@
 		{
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"defaultBgColor_override"	"0 0 0 0"
-			"armedFgColor_override"	"0 191 255 255"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
 			"armedBgColor_override"	"0 0 0 0"
 			"PaintBackgroundType"	"0"
 		}
@@ -255,7 +255,7 @@
 		{
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"defaultBgColor_override"	"0 0 0 0"
-			"armedFgColor_override"	"0 191 255 255"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
 			"armedBgColor_override"	"0 0 0 0"
 			"PaintBackgroundType"	"0"
 		}

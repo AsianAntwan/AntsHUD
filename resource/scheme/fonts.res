@@ -3202,7 +3202,7 @@ Scheme
 			"1"
 			{
 				"name"	"ToonHUD Icons"
-				"tall"	"16"
+				"tall"	"18"
 				"additive"	"0"
 				"antialias"	"1"
 			}

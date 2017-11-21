@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"25 25 25 240"
+		"bgcolor_override"	"10 10 10 225"
 	}
 
 	"Container"

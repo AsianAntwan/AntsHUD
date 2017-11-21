@@ -27,7 +27,7 @@
 		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"AntsHUDGray"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
@@ -123,9 +123,9 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"p.7-16"
+		"ypos"				"p.7-24"
 		"zpos"				"100"
-		"wide"				"60"
+		"wide"				"55"
 		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -142,15 +142,16 @@
 		
 		"ButtonSettings"
 		{
-			"wide"				"19"
-			"tall"				"19"
+			"wide"				"20"
+			"tall"				"20"
 			"autoResize"		"0"
 			"pinCorner"			"2"
 			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labelText"			""
-			"textAlignment"		"south-west"
+			"labelText"			"B"
+			"textAlignment"		"center"
+			"font"				"MoreSymbols"
 			"scaleImage"		"1"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -163,53 +164,29 @@
 			
 			"paintborder"		"0"
 			
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
-			"image_selectedcolor"	"255 255 255 255"
-			
 			"stayselectedonclick"	"1"
-			"keyboardinputenabled"	"0"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"7"
-				"wide"			"19"
-				"tall"			"19"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}				
+			"keyboardinputenabled"	"0"		
 		}
 		
 		"Buttons"
 		{
 			"all"
 			{
-				"userdata"			"2"
-				"image_default"		"store/store_redteam"
-				"image_armed"		"store/store_redteam"
-				"image_selected"	"store/store_redteam"
+				"command"		"sv_cheats 1;r_skin 0"
 				
-				"SubImage"
-				{
-					"image"			"store/store_redteam"
-				}				
+				"defaultFgColor_override" "AntsHUDRed"
+				"armedFgColor_override" "AntsHUDLightRed"
+				"depressedFgColor_override" "AntsHUDLightRed"
+				"selectedFgColor_override"	"AntsHUDLightRed"
 			}
 			"scout"
 			{
-				"userdata"			"3"
-				"image_default"		"store/store_blueteam"
-				"image_armed"		"store/store_blueteam"
-				"image_selected"	"store/store_blueteam"
+				"command"		"sv_cheats 1;r_skin 1"
 				
-				"SubImage"
-				{
-					"image"			"store/store_blueteam"
-				}				
+				"defaultFgColor_override" "AntsHUDBlue"
+				"armedFgColor_override" "AntsHUDLightBlue"
+				"depressedFgColor_override" "AntsHUDLightBlue"
+				"selectedFgColor_override"	"AntsHUDLightBlue"
 			}
 		}
 	}
@@ -293,8 +270,7 @@
 				"image"			"glyph_workshop_edit"
 				"scaleImage"	"1"
 			}				
-		} // Debug button
-
+		}
 
 		"ComboBoxValidPaintkits"
 		{
@@ -325,13 +301,25 @@
 				"visible"	"0"
 			}
 		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"border"			"NoBorder"
+			"paintborder"		"0"
+			
+			"fgcolor_override"	"AntsHUDWhite"
+			"bgcolor_override"	"BGAnyLight"
+			"disabledFgColor_override" "AntsHUDWhite"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "AntsHUDWhite"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
+			
+			"Button"
+			{
+				"defaultFgColor_override"	"AntsHUDWhite"
+				"defaultBgColor_override"	"0 0 0 0"
+				"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+				"armedBgColor_override"	"0 0 0 0"
+				"PaintBackgroundType"	"0"
+			}
 		}
 
 		"PaintkitLabel"
@@ -349,7 +337,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"AntsHUDWhite"
 
 			"fixed_paintkit"
 			{
@@ -365,10 +353,6 @@
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
-			"fixed_paintkit"
-			{
-				"ypos"		"10"
-			}
 			"zpos"				"100"
 			"wide"				"200"
 			"tall"				"15"
@@ -383,6 +367,11 @@
 			"unicode"			"0"
 			"default"			"0"
 			"actionsignallevel"	"2"
+			
+			"fixed_paintkit"
+			{
+				"ypos"		"10"
+			}
 
 			"fixed_item"
 			{
@@ -391,13 +380,25 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
+			"border"			"NoBorder"
+			"paintborder"		"0"
+			
+			"fgcolor_override"	"AntsHUDWhite"
+			"bgcolor_override"	"BGAnyLight"
 			"disabledFgColor_override" "AntsHUDGray"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "AntsHUDWhite"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
+			
+			"Button"
+			{
+				"defaultFgColor_override"	"AntsHUDWhite"
+				"defaultBgColor_override"	"0 0 0 0"
+				"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+				"armedBgColor_override"	"0 0 0 0"
+				"PaintBackgroundType"	"0"
+			}
 		}
 
 		"ItemLabel"
@@ -419,7 +420,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"AntsHUDWhite"
 
 			"fixed_item"
 			{
@@ -483,7 +484,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"AntsHUDWhite"
 
 			"fixed_paintkit"
 			{
@@ -560,8 +561,8 @@
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"
-			"bgcolor_override"	"0 0 0 200"
-			"maxchars"		"18"
+			"bgcolor_override"	"BGAnyLight"
+			"maxchars"		"18"	
 
 			"consume_mode"
 			{
@@ -587,7 +588,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
+			"font"			"Avenir11"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		
@@ -610,5 +611,4 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
 	}
-}
 }

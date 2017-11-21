@@ -142,6 +142,15 @@
 		"selectionColor_override" "BGAnyLight"
 		"selectionTextColor_override" "255 255 255 255"
 		"defaultSelectionBG2Color_override" "BGAnyLight"
+		
+		"Button"
+		{
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+			"armedBgColor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
+		}
 	}
 	
 	"DataPanel"

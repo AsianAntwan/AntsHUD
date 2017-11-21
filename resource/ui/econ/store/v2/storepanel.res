@@ -172,7 +172,7 @@
 		"ControlName"	"CNotificationsPresentPanel"
 		"fieldName"		"NotificationsPresentPanel"
 		"xpos"			"r200"
-		"ypos"			"10"
+		"ypos"			"40"
 		"zpos"			"10000"
 		"wide"			"190"
 		"tall"			"50"
@@ -185,7 +185,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
 		"xpos"			"c275"
-		"ypos"			"437"
+		"ypos"			"441"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -198,12 +198,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
-		"textAlignment"		"north-west"
+		"textAlignment"		"west"
 		"xpos"				"c304"
-		"ypos"				"440"
+		"ypos"				"442"
 		"zpos"				"5"
-		"wide"				"70"
-		"tall"				"100"
+		"wide"				"100"
+		"tall"				"25"
 		"font"				"HudFontSmallest"
 		"wrap"				"1"
 		"labelText"			"#Store_ConfirmStampDonationAddTitle"
@@ -242,6 +242,5 @@
 			"depressedFgColor_override" "AntsHUDWhite"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
-	}	
-	
+	}		
 }

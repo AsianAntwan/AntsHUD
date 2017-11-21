@@ -241,13 +241,22 @@
 		"border"			"NoBorder"
 		"paintborder"		"0"
 		
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"BGAnyLight"
-		"disabledFgColor_override" "255 255 255 255"
+		"disabledFgColor_override" "AntsHUDGray"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "255 255 255 255"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
+		
+		"Button"
+		{
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+			"armedBgColor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
+		}
 	}	
 	"ShowBaseItemsCheckbox"
 	{
@@ -332,13 +341,22 @@
 		"unicode"			"0"
 		"paintborder"		"0"
 		
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"BGAnyLight"
-		"disabledFgColor_override" "255 255 255 255"
+		"disabledFgColor_override" "AntsHUDGray"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "255 255 255 255"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
+
+		"Button"
+		{
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
+			"armedBgColor_override"	"0 0 0 0"
+			"PaintBackgroundType"	"0"
+		}
 	}	
 	
 	"mouseoveritempanel"

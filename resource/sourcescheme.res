@@ -7,7 +7,7 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		
-		"HudBlack"					"20 20 20 150"
+		"HudBlack"					"10 10 10 150"
 		
 		"AntsHUDDeepSkyBlue"		"0 191 255 255"
 		
@@ -16,7 +16,7 @@ Scheme
 		
 		"ButtonBG"					"60 60 60 255"
 		"BGAnyLight"				"45 45 45 255"
-		"BGAnyDark"					"30 30 30 255"
+		"BGAnyDark"					"20 20 20 255"
 		
 		// ----------------------------------
 		
@@ -40,7 +40,7 @@ Scheme
 
 	    "TFMediumBrown"				"69 64 58 255"
 
-	    "QuickListBGDeselected"		"20 20 20 255"
+	    "QuickListBGDeselected"		"10 10 10 255"
 	    "QuickListBGSelected"       "0 191 255 255"
 	    
 	    "Blank"						"0 0 0 0"

@@ -30,8 +30,8 @@
 	{
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"MvMBossStatusPanel"
-		"xpos"				"-325"
-		"ypos"				"-37"
+		"xpos"				"0"
+		"ypos"				"-13"
 		"zpos"				"0"
 		"wide"				"200"
 		"tall"				"100"

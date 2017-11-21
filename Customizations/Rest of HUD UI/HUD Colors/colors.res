@@ -14,7 +14,7 @@ Scheme
 		
 		"ButtonBG"					"50 50 50 255"		// Main Default BG Color for Buttons
 		
-		"AntsHUDLightBlue"			"95 145 195 255"	// Lighter Color of Blu Team
+		"AntsHUDLightBlue"			"115 175 215 255"	// Lighter Color of Blu Team
 		"AntsHUDBlue"				"90 140 190 255"	// Main Blu Team Color
 		"AntsHUDDarkBlue"			"65 115 165 255"	// Darker Color of Blu Team
 		"AntsHUDLightRed"			"235 85 85 255"		// Lighter Color of Red Team
