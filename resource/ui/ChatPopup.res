@@ -46,7 +46,7 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"AntsHUDWhite"
 			}
 		
 			"UpButton"

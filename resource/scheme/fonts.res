@@ -364,16 +364,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-
-
-
-
-
-
-
-
-
 		"HudFontSmallest"
 		{
 			"1"
@@ -384,17 +374,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-
-
-
-
-
-
-
-
-
-
 		"HudFontSmallestBold"
 		{
 			"1"

@@ -36,10 +36,10 @@
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
-			"xpos"			"c-70"
+			"xpos"			"0"
 			"ypos"			"270"
-			"wide"			"140"
-			"tall"			"70"
+			"wide"			"o2"
+			"tall"			"f410"
 			"visible"		"0"
 			"bgcolor_override" 		"0 0 0 0"
 			"noitem_textcolor"		"100 100 100 255"

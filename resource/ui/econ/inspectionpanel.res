@@ -219,7 +219,8 @@
 		}
 		"consume_mode"
 		{
-			"border"		"ReplayHighlightBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"	"BGAnyDark"
 		}
 
 		"DebugButton"

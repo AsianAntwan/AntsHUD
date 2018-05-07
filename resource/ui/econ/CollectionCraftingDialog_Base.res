@@ -338,7 +338,7 @@
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
 		"paintborder"		"0"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"ResponseTimeout"
@@ -362,7 +362,7 @@
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
 		"paintborder"		"0"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"NewItemPanel"
@@ -396,7 +396,7 @@
 			"paintbackground"	"0"
 			"proportionaltoparent"	"1"
 			"paintborder"		"0"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 
 		"ItemName"

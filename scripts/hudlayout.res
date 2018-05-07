@@ -5,7 +5,7 @@
 	// Set visible/enabled to 1 to use. Change labelText to the corr-
 	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
 	// values if not perfectly centered.
-	
+
 	KnucklesCrosses
 	{
 		"visible" 		"0"
@@ -1059,7 +1059,7 @@
 		"xpos"			"c-75"
 		"ypos"			"c52"
 		"wide"			"150"
-		"tall"			"50"
+		"tall"			"52"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	

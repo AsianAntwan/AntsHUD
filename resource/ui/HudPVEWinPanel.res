@@ -167,7 +167,7 @@
 			"ypos"			"3"
 			"wide"			"160"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 		
 		"RespecCountLabel"

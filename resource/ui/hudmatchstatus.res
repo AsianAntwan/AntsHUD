@@ -91,7 +91,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"NeutraDisp24"
 		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"ypos"			"cs-0.12"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"

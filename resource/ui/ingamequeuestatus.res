@@ -46,7 +46,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"font"			"AchievementTracker_Name"
-		"fgcolor_override"	"TanLight"
+		"fgcolor_override"	"AntsHUDWhite"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"
 		"proportionaltoparent"	"1"

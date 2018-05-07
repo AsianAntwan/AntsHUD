@@ -23,6 +23,11 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
+			
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -114,6 +119,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"paintbackground"	"0"
+
+			if_mini
+			{
+				"xpos"		"cs-0.5-228"
+			}
 
 			"ParticleEffects"
 			{
@@ -214,34 +224,11 @@
 				"visible"	"0"
 			}
 		}
-		
-		"NameLabelShadow"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"NameLabelShadow"
-			"xpos"			"1"
-			"ypos"			"2"
-			"wide"			"f0"
-			"zpos"			"99"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"NeutraDisp20"
-			"fgcolor_override"	"ShadowBlack"
-			"textAlignment"	"center"
-			"labelText"		"%name%"
-			"proportionaltoparent"	"1"
 
-			if_mini
-			{
-				"visible"	"0"
-			}
-		}
-
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
 			"xpos"			"0"
 			"ypos"			"17"
 			"wide"			"f0"
@@ -252,7 +239,7 @@
 			"font"			"NeutraDisp14"
 			"fgcolor_override"	"AntsHUDWhite"
 			"textAlignment"	"center"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -260,6 +247,50 @@
 				"xpos"	"77"
 				"ypos"	"2"
 				"textAlignment"	"north-west"
+			}
+			
+			"fonts"
+			{
+				"0"		"NeutraDisp14"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"195"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"NeutraDisp14"
+			"fgcolor_override"	"AntsHUDWhite"
+			"textAlignment"	"north-west"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+			}
+
+			"fonts"
+			{
+				"0"		"NeutraDisp14"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"AntsHUDWhite"
 			}
 		}
 

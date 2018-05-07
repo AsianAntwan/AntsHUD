@@ -6,7 +6,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-200"
-		"ypos"					"105"
+		"ypos"					"55"
 		"wide"					"400"
 		"tall"					"240"
 		"settitlebarvisible"	"0"
