@@ -5,7 +5,7 @@
 	// Set visible/enabled to 1 to use. Change labelText to the corr-
 	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
 	// values if not perfectly centered.
-
+	
 	KnucklesCrosses
 	{
 		"visible" 		"0"
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"xpos"			"c-75"
 		"ypos"			"c52"
-
+		"ypos_minmode"	"c97"
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -255,9 +255,11 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c106"
 		"xpos_minmode"			"c236"
-		"ypos"					"c1"
-		"wide"					"116"
-		"tall"  				"180"
+		"ypos"					"c117"
+		"wide"					"76"
+		"wide_minmode"			"110"
+		"tall"  				"56"
+		"tall_minmode"			"18"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"0"
@@ -1058,6 +1060,7 @@
 		"enabled"		"1"
 		"xpos"			"c-75"
 		"ypos"			"c52"
+		"ypos_minmode"	"c97"
 		"wide"			"150"
 		"tall"			"52"
 		"MeterFG"		"White"
@@ -1279,9 +1282,9 @@
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"r249"
-		"ypos"					"c0"
-		"zpos"					"10"
+		"xpos"					"r245"
+		// "ypos"					"0"
+		"zpos"					"100"
 		"wide"					"300"
 		"tall"					"900"
 	}

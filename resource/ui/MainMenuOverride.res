@@ -1,3 +1,5 @@
+#base "../../resource/ui/MainMenuOverride_MaterialPreload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -317,7 +319,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v1.875"
+			"labelText"		"v1.9.1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -363,7 +365,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v1.875"
+			"labelText"		"v1.9.1"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"

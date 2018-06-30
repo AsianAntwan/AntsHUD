@@ -5,8 +5,8 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10"
+		"ypos"			"5"
+		"zpos"			"100"
 		"wide"			"240"
 		"tall"			"100"
 		"visible"		"0"
@@ -43,6 +43,7 @@
 			"enabled" "1"
 			"fillcolor" "20 20 20 175"
 		}
+		
 		"TitleBackground"
 		{
 			"ControlName" "ImagePanel"

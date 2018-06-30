@@ -5,7 +5,7 @@
 	// Set visible/enabled to 1 to use. Change labelText to the corr-
 	// esponding crosshair in KnucklesCrosses.png. Change xpos/ypos
 	// values if not perfectly centered.
-	
+
 	KnucklesCrosses
 	{
 		"visible" 		"0"
@@ -77,8 +77,8 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1" // TVM
-		"enabled"		"1" // TVM
+		"visible"		"0" // TVM
+		"enabled"		"0" // TVM
 		"image"			"replay/thumbnails/transparent"
 		"scaleImage"	"1"
 	}
@@ -253,13 +253,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c106"
-		"xpos_minmode"			"c236"
-		"ypos"					"c117"
-		"wide"					"76"
-		"wide_minmode"			"110"
+		"xpos"					"cs-.5"
+		"ypos"					"c24"
+		"wide"					"60"
 		"tall"  				"56"
-		"tall_minmode"			"18"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"0"
