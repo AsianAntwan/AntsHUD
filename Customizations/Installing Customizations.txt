@@ -1,0 +1,102 @@
+-----------------------------------
+| How to Install Customizations
+-----------------------------------
+
+1. Search through Customizations folders for your preferences. Keep searching until you hit files like these:
+		-resource
+		-materials
+		-scripts
+2. Copy & Paste those kinds of folder onto your Desktop for the sake of organization.
+3. Move those folders on the AntsHUD Folder itself or inside it where you see files like:
+		-Customizations
+		-materials
+		-resource
+		-scripts
+		-sound
+		-info.vdf
+4. Click any "Yes" or "Replace" that pops up in order for your customization to be installed
+		(Note: If it does not pop up, it's most likely a mistake on your part. That or I'm just dumb.)
+5. You're Done!
+
+Credits
+--------------------
+
+	In-Game
+	--------------------
+	
+		Centered Metal
+		--------------------
+			a) Code by: Antwan
+			b) Suggested by: LISTICK
+			
+		Centered Remaining MvM Money
+		--------------------
+			a) Code by: RaysHUD
+			b) Edited Method by: Antwan
+			c) Suggested by: Message: "i just don't see the point"
+			
+		Hitmarker (Damage Indicator)
+		--------------------
+			a) Code by: ToonHUD
+			b) Edited Method by: Antwan
+			c) Suggested by: Rep
+			
+		Medic Charge Bar Positions
+		--------------------
+			a) Code by: RaysHUD/RaysFire
+			b) Edited Design by: Antwan
+			c) Suggested by: 5τн|~Kami no Hidarite~
+			
+		No Casual & Comp. UI
+		--------------------
+			a) Color Code by: RaysHUD/RaysFire
+			b) Edited UI: Antwan
+			
+		Remove "No Built Label" from Buildings Status
+		--------------------
+			a) Code by: Antwan
+			b) Suggested by: MrGaby5290
+			
+		Top Left Chat Box
+		--------------------
+			a) Suggested by: antlers
+			b) Feedback from: Simba
+			
+		Transparent Viewmodels
+		--------------------
+			a) Code by: ToonHUD
+			b) Edited Method by: Antwan
+			c) Suggested by: antlers
+
+	Rest of HUD UI
+	--------------------
+		
+		HUD Colors
+		--------------------
+			a) Color Code by: RaysHUD/RaysFire
+			b) Edited Method and RGB Codes by: Antwan
+			c) Suggested by: Message: "i just don't see the point" & (forgot who it was)
+			
+		Stats on Map Loading
+		--------------------
+			a) Code by: RaysHUD/RaysFire
+			b) Edited Method by: Antwan
+			c) Suggested by: Meer Sarwat
+			
+		TF2 Logo on Main Menu
+		--------------------
+			a) Code by: Antwan
+			b) Suggest by: (forgot who it was)
+			
+	Scoreboard
+	--------------------
+		
+		No Kill-Death Ratio
+		--------------------
+			a) Code by: Antwan
+			b) Suggested by: Cody Daddy
+
+		Scoreboard-32 Players
+		--------------------
+			a) Code by: RaysHUD/RaysFire
+			b) Edited Design by: Antwan
