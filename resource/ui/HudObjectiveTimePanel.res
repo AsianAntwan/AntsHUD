@@ -43,11 +43,6 @@
 		"color_inactive"		"TimerProgress.InActive"
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
 	}
 	"WaitingForPlayersLabel"
 	{
@@ -70,10 +65,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"wide"					"36"
-			"xpos"					"2"
-			"ypos"					"18"
-			"font"					"HudFontSmallestBold"
+			"xpos"					"cs-.5"
+			"ypos"					"40"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -83,18 +76,12 @@
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"20 20 20 175"
-		"scaleImage"	"1"	
-		"scaleImage"	"1"	
-		
-		if_match
-		{
-			"wide"	"0"
-		}
+		"fillcolor"		"0 0 0 0"
+		"scaleImage"	"1"
 	}
 	"OvertimeLabel"
 	{
@@ -236,9 +223,7 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"0"
-			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
+			"ypos"					"25"
 		}		
 
 	}	
@@ -258,7 +243,8 @@
 		
 		if_match
 		{
-			"wide"	"0"
+			"proportionaltoparent"	"1"
+			"ypos"					"25"
 		}		
 	}	
 }
