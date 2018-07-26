@@ -1,0 +1,30 @@
+-----------------------------------
+| How to Install Customizations
+-----------------------------------
+
+1. Determine what file(s)/folder(s) you want to have.
+2. Drag and drop those desired file(s)/folder(s) onto the #enabled folder.
+3. ???
+4. p r o f i t
+
+Note:
+	There's no need for going into folders. Simply dragging the folder of your desired customization to #enabled will do.
+	Do not install both options of the same customization type(i.e putting both CenteredMetal_BelowCrosshair & CenteredMetal_BetweenHealthAmmo
+	into the #enabled folder). Doing so could cause overlapping or broken HUD elements.
+
+Credits
+--------------------
+
+	Centered Metal - Suggested by: LISTICK
+	Centered Remaining MvM Money - Suggested by: (Message: "i just don't see the point")
+	Hitmarker - Suggested by: Rep
+	Medic Charge Bar Positions - Suggested by: 5τн|~Kami no Hidarite~
+	Remove "No Built Label" from Buildings Status - Suggested by: MrGaby5290
+	Top Left Chat Box -Suggested by: antlers; Feedback from: Simba
+	Transparent Viewmodels - Suggested by: antlers
+	Stats on Map Loading - Suggested by: Meer Sarwat
+	TF2 Logo on Main Menu - Suggest by: (forgot who it was)		
+	No Kill-Death Ratio - Suggested by: Cody Daddy
+	
+	Huge credit for RaysHUD and ToonHUD creators for their code and work being open to edit.
+	Big shoutout for budhud and Flarepunch creators for utilizing the #base system and inspiring me to use it as well.

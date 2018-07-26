@@ -200,7 +200,6 @@ event HudSpyDisguiseFadeOut
 //===========================================
 
 // Flash the medic charge hud when we have full charge
-
 event HudMedicCharged
 {
 	Animate	ChargeMeter 	FgColor		"UberBarColor"				Linear 0.0 0.2
@@ -233,35 +232,33 @@ event DamagedPlayer
 	Animate KnucklesCrosses	 	FgColor 	"CrosshairDamage" 		Linear 0.0 0.0
 	Animate KnucklesCrosses	 	FgColor 	"Crosshair" 			Linear 0.15 0.0
 	
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+	
 	// The colors for CrosshairDamage and Crosshair can be changed under custom
 	// colors in colors.res in the resource/scheme folder. Alternatively, you can
 	// use RGBA. 
+}
 
-
-
-
-
-
-
-
+event HitMarker
+{
+	Animate	Hitmarker	Alpha	"255"	Linear 0.0 0.0		// Hitmarker start
+	Animate	Hitmarker	Alpha	"0"		Linear 0.0 0.95 	// Hitmarker end
 }
 
 //===========================================
-//Match Animations
+
+// Match Animations
 event CompetitiveGame_LowerChatWindow
 {
-	Animate HudChat ypos 275 Accel 0 0
 }
 
 event CompetitiveGame_RestoreChatWindow
 {
-	Animate HudChat ypos 275 Accel 0 0
 }
 
 event HudTournament_MoveChatWindow
 {
-	RunEvent CompetitiveGame_LowerChatWindow 0
-	RunEvent CompetitiveGame_RestoreChatWindow 10
 }
 
 //===========================================

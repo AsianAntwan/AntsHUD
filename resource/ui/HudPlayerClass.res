@@ -17,13 +17,13 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"27"
+		"ypos"			"r75"
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"75"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
 	}
@@ -96,10 +96,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"7"
+		"xpos"			"0"
 		"ypos"			"r200"
 		"zpos"			"2"		
-		"wide"			"100"
+		"wide"			"140"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -109,6 +109,8 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
+		
+		"disable_speak_event"	"1"
 				
 		"model"
 		{
@@ -139,7 +141,7 @@
 				"angles_x"		"-17"
 				"angles_y"		"203"
 				"angles_z"		"-5"
-				"origin_x"		"115"
+				"origin_x"		"135"
 				"origin_y"		"-1"
 				"origin_z"		"-75"
 			}
@@ -149,7 +151,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"125"
+				"origin_x"		"145"
 				"origin_y"		"-3"
 				"origin_z"		"-85"
 			}
@@ -159,7 +161,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"165"
 				"angles_z"		"0"
-				"origin_x"		"145"
+				"origin_x"		"165"
 				"origin_y"		"-5"
 				"origin_z"		"-82"
 			}
@@ -169,9 +171,9 @@
 				"angles_x"		"-13"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"145"
+				"origin_x"		"175"
 				"origin_y"		"-7"
-				"origin_z"		"-87"
+				"origin_z"		"-80"
 			}
 			"Medic"
 			{
@@ -179,7 +181,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"150"
+				"origin_x"		"170"
 				"origin_y"		"-5"
 				"origin_z"		"-82"
 			}
@@ -189,7 +191,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"180"
+				"origin_x"		"200"
 				"origin_y"		"0"
 				"origin_z"		"-82"
 			}
@@ -199,7 +201,7 @@
 				"angles_x"		"-5"
 				"angles_y"		"203"
 				"angles_z"		"-3"
-				"origin_x"		"175"
+				"origin_x"		"195"
 				"origin_y"		"3"
 				"origin_z"		"-77"
 			}
@@ -209,7 +211,7 @@
 				"angles_x"		"-1"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"180"
 				"origin_y"		"0"
 				"origin_z"		"-82"
 			}
@@ -219,7 +221,7 @@
 				"angles_x"		"-10"
 				"angles_y"		"203"
 				"angles_z"		"0"
-				"origin_x"		"140"
+				"origin_x"		"160"
 				"origin_y"		"-2"
 				"origin_z"		"-77"
 			}
