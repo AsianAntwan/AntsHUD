@@ -1,3 +1,4 @@
+#base "../^Customizations/#enabled/KillFeedOnly/KillFeedOnly_hudlayout.res"
 #base "../^Customizations/#enabled/BottomScreenUberMeter/BottomScreenUberMeter_hudlayout.res"
 #base "../^Customizations/#enabled/CenteredMetal_BetweenHealthAmmo/CenteredMetal_BHA_hudlayout.res"
 #base "../^Customizations/#enabled/CenteredMetal_BelowCrosshair/CenteredMetal_BC_hudlayout.res"
