@@ -251,11 +251,9 @@
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"AntsHUDWhite"
-			"defaultBgColor_override"	"0 0 0 0"
-			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
-			"armedBgColor_override"	"0 0 0 0"
-			"PaintBackgroundType"	"0"
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}	
 	"ShowBaseItemsCheckbox"
@@ -351,11 +349,9 @@
 
 		"Button"
 		{
-			"defaultFgColor_override"	"AntsHUDWhite"
-			"defaultBgColor_override"	"0 0 0 0"
-			"armedFgColor_override"	"AntsHUDDeepSkyBlue"
-			"armedBgColor_override"	"0 0 0 0"
-			"PaintBackgroundType"	"0"
+			"defaultFgColor_override" "AntsHUDWhite"
+			"armedFgColor_override" "AntsHUDDeepSkyBlue"
+			"depressedFgColor_override" "AntsHUDWhite"
 		}
 	}	
 	

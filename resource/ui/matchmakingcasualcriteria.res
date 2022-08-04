@@ -20,13 +20,13 @@
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"-7"
-			"ypos"			"-7"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
@@ -37,11 +37,11 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"35"
-			"ypos"			"-10"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"100"
-			"wide"			"225"
-			"tall"			"50"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -56,8 +56,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"xpos"			"rs1-46"
+			"ypos"			"20"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -77,8 +77,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"AntsHUDWhite"
+			"image_armedcolor"	"AntsHUDWhite"
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -99,8 +100,8 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"xpos"			"rs1-27"
+			"ypos"			"20"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -120,8 +121,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"AntsHUDWhite"
+			"image_armedcolor"	"AntsHUDWhite"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -142,8 +144,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-9"
-			"ypos"			"49"
+			"xpos"			"rs1-8"
+			"ypos"			"20"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -169,8 +171,8 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"43"
+			"xpos"		"9"
+			"ypos"		"0"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
@@ -186,15 +188,15 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"10"
-			"ypos"		"33"
+			"xpos"		"9"
+			"ypos"		"18"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
-			"font"			"HudFontSmallest"
+			"font"			"AvenirBla14"
 			"fgcolor_override"	"AntsHUDGray"
 		
 			"mouseinputenabled"	"1"
@@ -231,7 +233,7 @@
 			"tall"			"f65"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -241,20 +243,20 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
-			"ypos"			"65"
+			"ypos"			"38"
 			"wide"			"f15"
-			"tall"			"f65"
+			"tall"			"f40"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
-			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs1+1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.
@@ -264,7 +266,7 @@
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"AntsHUDWhite"
 				}
 		
 				"UpButton"

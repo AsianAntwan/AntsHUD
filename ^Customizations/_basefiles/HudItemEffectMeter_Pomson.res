@@ -53,7 +53,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp14"
+		"font"					"NeutraDisp12"
 	}
 
 	"ItemEffectMeter"

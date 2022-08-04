@@ -13,7 +13,7 @@
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
-		"alpha"					"100"
+		"alpha"					"120"
 	}
 
 	"CTFLogoPanel"
@@ -31,21 +31,21 @@
 		"radius"		"9"
 		"velocity"		"100"
 
-		"fgcolor_override"	"TFOrange"
+		"fgcolor_override"	"AntsHUDDeepSkyBlue"
 	}
 
 	"QueueText"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"QueueText"
-		"xpos"			"rs1-18"
+		"xpos"			"rs1-20"
 		"ypos"			"cs-0.5"
 		"wide"			"f35"
 		"zpos"			"100"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"AchievementTracker_Name"
+		"font"			"AvenirHea12"
 		"fgcolor_override"	"AntsHUDWhite"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"

@@ -32,12 +32,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventTitleLabel"
 		"dropshadow"	"1"
-		"font"			"NeutraDIsp40"
+		"font"			"HudFontMediumSmallBold"
 		"xpos"			0
-		"ypos"			c-98
+		"ypos"			c-126
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"25"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -49,13 +49,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallishBold"
 		"dropshadow"	"1"
 		"xpos"			0
-		"ypos"			0
+		"ypos"			-5
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"20"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -70,13 +70,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"Avenir14"
+		"font"			"HudFontSmallest"
 		"dropshadow"	"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"3"
 		"wide"			"f"
-		"tall"			"24"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
@@ -91,10 +91,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ProgressLevelBar"	
-		"xpos"			"c-190"
-		"ypos"			"r88"
+		"xpos"			"c-135"
+		"ypos"			"r82"
 		"zpos"			"0"
-		"wide"			"380"
+		"wide"			"270"
 		"tall"			"48"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,8 +109,8 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-152"
-		"ypos"			"r64"
+		"xpos"			"c-112"
+		"ypos"			"r58"
 		"visible"		"0"
 	}
 
@@ -120,8 +120,8 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c152"
-		"ypos"			"r64"
+		"xpos"			"c112"
+		"ypos"			"r58"
 		"visible"		"0"
 	}	
 
@@ -248,8 +248,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"34"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -267,8 +267,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-100"
-		"wide"			"42"
-		"tall"			"42"
+		"wide"			"28"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -282,34 +282,34 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		"font"					"Avenir13"
+		"font"					"Avenir14"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"
-		"xpos"					"0"
-		"ypos"					"-13"
+		"xpos"					"-37"
+		"ypos"					"4"
 		"wide"					"150"
 		"tall"					"16"
-		"textAlignment"			"center"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"1"
 		"labelText"				"NameOfCarrier"
 		pin_to_sibling			ProgressLevelBar
-		pin_corner_to_sibling	4
-		pin_to_sibling_corner	6
+		pin_corner_to_sibling	1
+		pin_to_sibling_corner	2
 	}
 
 
 
 	"BallPowerCluster" 
 	{
-		"ControlName" "EditablePanel"
-		"fieldName" "BallPowerCluster"
-		"xpos" "0"
-		"ypos" "32"
-		"zpos" "5"
-		"wide" "f0"
-		"tall" "f0"
+		"ControlName" 	"EditablePanel"
+		"fieldName" 	"BallPowerCluster"
+		"xpos" 			"0"
+		"ypos" 			"46"
+		"zpos" 			"5"
+		"wide" 			"f0"
+		"tall" 			"f0"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -321,8 +321,8 @@
 			"xpos"			"c-85"
 			"ypos"			"13"
 			"zpos"			"1"
-			"wide"			"170"
-			"tall"			"24"
+			"wide"			"166"
+			"tall"			"16"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -341,13 +341,14 @@
 			// Also so that the bar is clipped nicely to the border.
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BallPowerMeterFinalSectionContainer"
-			"xpos"			"c-85"
-			"ypos"			"16"
-			"zpos"			"3"
-			"wide"			"168"
-			"tall"			"18"
+			"xpos"				"c-83"
+			"ypos"				"13"
+			"zpos"				"4"
+			"wide"				"166"
+			"tall"				"16"
 			"visible"			"1"
 			"enabled"			"1"
+			"border"			"YellowBorder"
 
 			"BallPowerMeterFinalSection"
 			{
@@ -356,14 +357,14 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"168"
-				"tall"			"18"
+				"wide"			"166"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"image"			"white"
+				"image"			""
 				"scaleImage"	"1"					
 			}
 		}
@@ -377,11 +378,11 @@
 			// Also so that the bar is clipped nicely to the border.
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BallPowerMeterFillContainer"
-			"xpos"				"c-85"
-			"ypos"				"16"
-			"zpos"				"4"
-			"wide"				"168"
-			"tall"				"18"
+			"xpos"				"c-83"
+			"ypos"				"15"
+			"zpos"				"3"
+			"wide"				"166"
+			"tall"				"12"
 			"visible"			"1"
 			"enabled"			"1"
 
@@ -392,7 +393,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"168"
+				"wide"			"166"
 				"tall"			"18"
 				"autoResize"	"0"
 				"pinCorner"		"0"

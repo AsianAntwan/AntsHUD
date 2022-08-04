@@ -224,6 +224,29 @@
 				"visible"	"0"
 			}
 		}
+		
+		"NameLabelShadow"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"NameLabelShadow"
+			"xpos"			"1"
+			"ypos"			"2"
+			"wide"			"f0"
+			"zpos"			"99"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"NeutraDisp20"
+			"fgcolor_override"	"ShadowBlack"
+			"textAlignment"	"center"
+			"labelText"		"%name%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"visible"	"0"
+			}
+		}
 
 		"DescLine1"
 		{
@@ -236,7 +259,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"NeutraDisp14"
+			"font"			"NeutraDisp13"
 			"fgcolor_override"	"AntsHUDWhite"
 			"textAlignment"	"center"
 			"labelText"		"%desc1%"
@@ -251,7 +274,7 @@
 			
 			"fonts"
 			{
-				"0"		"NeutraDisp14"
+				"0"		"NeutraDisp13"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
@@ -261,14 +284,14 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
+			"xpos"			"0"
 			"ypos"			"29"
 			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"20"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"NeutraDisp14"
+			"font"			"NeutraDisp13"
 			"fgcolor_override"	"AntsHUDWhite"
 			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
@@ -282,7 +305,7 @@
 
 			"fonts"
 			{
-				"0"		"NeutraDisp14"
+				"0"		"NeutraDisp13"
 				"1"		"StorePromotionsTitle"
 				"2"		"FontStorePrice"
 			}
@@ -325,14 +348,14 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
-					"xpos"			"0"
-					"ypos"			"rs1"
+					"xpos"			"1"
+					"ypos"			"rs1+1"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"Avenir12"
+					"font"			"AvenirBla11"
 					"fgcolor_override"	"AntsHUDWhite"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
@@ -343,14 +366,14 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1"
-					"ypos"			"rs1"
+					"xpos"			"rs1-1"
+					"ypos"			"rs1+1"
 					"zpos"			"10"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"Avenir12"
+					"font"			"AvenirBla11"
 					"fgcolor_override"	"AntsHUDWhite"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
@@ -379,7 +402,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
+						"fgcolor_override"	"0 0 0 0"
 						"bgcolor_override"	"0 0 0 0"
 					}
 
@@ -395,6 +418,7 @@
 						"progress"		"0"
 
 						"fgcolor_override"	"CreditsGreen"
+						"bgcolor_override"	"20 20 20 200"
 					}
 
 					"Frame"

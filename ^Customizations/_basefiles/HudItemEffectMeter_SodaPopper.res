@@ -53,7 +53,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp14"
+		"font"					"NeutraDisp12"
 	}
 
 	"ItemEffectMeter"
@@ -62,7 +62,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"12"
+		"ypos"					"11"
 		"zpos"					"2"
 		"wide"					"150"
 		"tall"					"3"				

@@ -142,7 +142,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c52"	
+		"ypos"			"c52"
+		"ypos_minmode"	"c97"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"50"
@@ -1147,8 +1148,8 @@
 		"enabled"				"1"
 		"xpos"					"c-320"
 		"ypos"					"60"
-		"wide"					"640"
-		"tall"					"200"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 
 	AchievementNotificationPanel	

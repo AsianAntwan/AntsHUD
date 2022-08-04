@@ -1849,9 +1849,9 @@
 		"ypos"			"0"
 		"zpos"			"2000"
 		"wide"			"f0"
-		"tall"			"f100"
+		"tall"			"f98"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"10 10 10 240"
+		"bgcolor_override"	"0 0 0 240"
 	}
 }

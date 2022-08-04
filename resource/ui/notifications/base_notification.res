@@ -36,7 +36,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"AvenirHea16"
+		"font"			"NeutraDisp16"
 		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"6"

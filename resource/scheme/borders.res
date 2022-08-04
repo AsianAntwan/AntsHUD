@@ -338,6 +338,83 @@ Scheme
 			}
 		}
 		
+		YellowBorder
+		{
+			"inset" "0 0 0 0"
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 0 150"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 0 150"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "255 255 0 150"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "255 255 0 150"
+					"offset" "3 0"
+				}
+
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 0 150"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 0 150"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "255 255 0 150"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "255 255 0 150"
+					"offset" "3 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 0 150"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "255 255 0 150"
+					"offset" "1 0"
+				}
+				"3"
+				{
+					"color" "255 255 0 150"
+					"offset" "2 0"
+				}
+				"4"
+				{
+					"color" "255 255 0 150"
+					"offset" "3 0"
+				}
+			}
+		}
+		
 		PinkBorder
 		{
 			"inset" "0 0 0 0"

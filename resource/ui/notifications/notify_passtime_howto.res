@@ -9,12 +9,14 @@
 
 	"Notification_Icon"	
 	{
+		"ypos"			"50"
 		"icon"			"passtime_ball"
 	}
 	
 	"Notification_Label"
 	{	
-		"font"			"Avenir12"
+		"ypos"			"50"
+		"font"			"Avenir11"
 		"wide"			"300"
 		"tall"			"100"
 		"labelText"		"#TF_Passtime_HowToPlay"

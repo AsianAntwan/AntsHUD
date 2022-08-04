@@ -14,7 +14,22 @@
 		"image"			"item_carousel_bg"
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
-	}	
+	}
+	
+	"BGStrip"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGStrip"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"310"
+		"tall"			"f0"
+		"border"		"NoBorder"
+		"proportionaltoparent"	"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"BGAnyDark"
+	}
 	
 	"ItemName"
 	{		
@@ -329,8 +344,8 @@
 			"fieldName"		"PaintkitLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"Preview Paint Kit"
-			"textAlignment"	"west"
-			"xpos"			"8"
+			"textAlignment"	"east"
+			"xpos"			"6"
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"15"
@@ -408,8 +423,8 @@
 			"fieldName"		"ItemLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
-			"textAlignment"	"west"
-			"xpos"			"8"
+			"textAlignment"	"east"
+			"xpos"			"6"
 			"ypos"			"30"
 			"fixed_paintkit"
 			{
@@ -472,8 +487,8 @@
 			"fieldName"		"WearLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
-			"textAlignment"	"west"
-			"xpos"			"8"
+			"textAlignment"	"east"
+			"xpos"			"6"
 			"ypos"			"50"
 			"fixed_item"
 			{
@@ -520,6 +535,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
+			"font"			"AvenirBla11"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
@@ -589,7 +605,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"Avenir11"
+			"font"			"AvenirBla11"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		

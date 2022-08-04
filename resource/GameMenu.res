@@ -1,6 +1,22 @@
 "GameMenu"
 {
 	//Main Menu Buttons
+	"ServerButton"
+	{
+		"label" 	"Servers"
+		"command" 	"OpenServerBrowser"
+	}
+	"CreateServerButton"
+	{
+		"label"		"+"
+		"command" 	"OpenCreateMultiplayerGameDialog"
+		"tooltip" 	"#GameUI_GameMenu_CreateServer"
+	}
+	"TrainingButton"
+	{
+		"label" 	"Training"
+		"command" 	"engine training_showdlg"
+	}
 	"GeneralStoreButton"
 	{
 		"label" 	"Shop"

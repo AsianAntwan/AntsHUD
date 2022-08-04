@@ -414,21 +414,6 @@
 
 		"if_specialdelivery"
 		{
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 			"ypos"		"r80"
 		}
 		

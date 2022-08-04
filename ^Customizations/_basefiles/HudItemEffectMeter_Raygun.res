@@ -6,8 +6,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	
-		"ypos"			"c91"	
-		"ypos_minmode"	"c136"	
+		"ypos"			"c92"	
+		"ypos_minmode"	"c137"	
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
@@ -52,7 +52,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NeutraDisp14"
+		"font"					"NeutraDisp12"
 	}
 
 	"ItemEffectMeter"

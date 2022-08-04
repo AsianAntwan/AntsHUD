@@ -973,6 +973,17 @@ Scheme
 			}
 		}
 
+		"MMPlaylistButton"
+		{
+			"1"
+			{
+				"name"		"Neutra Display Titling"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -2108,7 +2119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"AvenirLTStd-Heavy"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -2120,7 +2131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -2132,7 +2143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -2146,7 +2157,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"AvenirLTStd-Black"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2852,6 +2863,26 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"NeutraDisp10"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "10"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"NeutraDisp11"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "11"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"NeutraDisp12"
 		{
 			"1"
@@ -3186,7 +3217,27 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"ModernSymbols"
+		"ModernSymbolsSmallest"
+		{
+			"1"
+			{
+				"name"	"ModernPictograms"
+				"tall"	"12"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"ModernSymbolsSmaller"
+		{
+			"1"
+			{
+				"name"	"ModernPictograms"
+				"tall"	"14"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"ModernSymbolsSmall"
 		{
 			"1"
 			{
