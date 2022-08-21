@@ -1000,7 +1000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"AvenirLTStd-Medium"
+				"name"		"Neutra Display Titling"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"

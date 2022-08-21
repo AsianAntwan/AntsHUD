@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"s0"
+		"xpos"			"0"
 		"ypos"			"205"
 		"zpos"			"3"
 		"wide"			"p0.5"
@@ -144,6 +144,11 @@
 		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
+		
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"150 220 255 20"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"AntsHUDBlue"
 	}
 
 	"teambutton1"
@@ -172,6 +177,11 @@
 		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
+		
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"255 150 120 20"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"AntsHUDRed"
 	}
 
 	"teambutton2"
@@ -181,7 +191,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"c-76"
 		"zpos"			"3"
-		"wide"			"p1"
+		"wide"			"f0"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -199,6 +209,11 @@
 		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
+		
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"0 0 0 125"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"0 0 0 0"
 	}
 	
 	"teambutton3"
@@ -208,7 +223,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"c35"
 		"zpos"			"3"
-		"wide"			"p1"
+		"wide"			"f0"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -226,6 +241,11 @@
 		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDLessWhite"
 		"selectedFgColor_override" 	"AntsHUDWhite"
+		
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override"		"0 0 0 125"
+		"depressedBgColor_override" "0 0 0 0"
+		"selectedBgColor_override" 	"0 0 0 0"
 	}
 	
 	"CancelButton"
@@ -318,10 +338,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"c-110"
+		"xpos"			"c-80"
 		"ypos"			"c-35"
-		"zpos"			"1"
-		"wide"			"100"
+		"zpos"			"2"
+		"wide"			"70"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -339,10 +359,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCountShadow"
-		"xpos"			"c-108"
+		"xpos"			"c-78"
 		"ypos"			"c-33"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -362,8 +382,8 @@
 		"fieldName"		"RedCount"
 		"xpos"			"c10"
 		"ypos"			"c-35"
-		"zpos"			"1"
-		"wide"			"100"
+		"zpos"			"2"
+		"wide"			"70"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -384,7 +404,7 @@
 		"xpos"			"c12"
 		"ypos"			"c-33"
 		"zpos"			"1"
-		"wide"			"100"
+		"wide"			"70"
 		"tall"			"70"
 		"autoResize"	"0"
 		"pinCorner"		"0"

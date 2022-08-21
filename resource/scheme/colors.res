@@ -169,8 +169,8 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"				"255 0 0 255"
-		"ProgressOffWhite"			"251 235 202 255"
-		"ProgressBackground"		"250 234 201 51"
+		"ProgressOffWhite"			"255 255 255 255"
+		"ProgressBackground"		"20 20 20 175"
 		"HealthBgGrey"				"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"		"251 235 202 128"
@@ -178,7 +178,7 @@ Scheme
 		"LabelDark"					"48 43 42 255"
 		"LabelTransparent"			"109 96 80 180"
 		
-		"BuildMenuActive"			"248 231 198 255"
+		"BuildMenuActive"			"255 255 255 255"
 		
 		"DisguiseMenuIconRed"		"192 56 63 255"
 		"DisguiseMenuIconBlue"		"92 128 166 255"

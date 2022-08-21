@@ -51,6 +51,27 @@
 		"icon"			"ico_key_blank"
 		"iconColor"		"255 255 255 255"
 	}
+	
+	"NewNumberLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"NewNumberLabel"
+		"font"			"NeutraDisp14"
+		"fgcolor"		"AntsHUDWhite"
+		"xpos"			"5"
+		"ypos"			"3"
+		"zpos"			"0"
+		"wide"			"15"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"Center"
+		"dulltext"		"1"
+		"brighttext"	"0"
+	}
 
 	"NumberLabel"
 	{	

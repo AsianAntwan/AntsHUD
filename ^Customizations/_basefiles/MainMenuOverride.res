@@ -320,7 +320,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v1.9.4"
+			"labelText"		"v1.9.5"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -366,7 +366,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v1.9.4"
+			"labelText"		"v1.9.5"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -2287,7 +2287,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"115"
+				"xpos"			"117"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.

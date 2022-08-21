@@ -555,17 +555,17 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
 		"xpos"			"-155"
-		"ypos"			"125"
+		"ypos"			"140"
 		"zpos"			"50"
 		"wide"			"150"
-		"tall"			"260"
+		"tall"			"230"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		if_large
 		{
-			"ypos"			"65"
-			"tall"			"385"
+			"ypos"			"75"
+			"tall"			"314"
 		}
 
 		"BlueTeamBG"
@@ -581,7 +581,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderBlueBGOpaque"
+			"border"		"NoBorder"
+			"bgcolor_override"		"AntsHUDBlue"
 		}
 		"BlueTeamImage"
 		{
@@ -657,8 +658,8 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"22"
+			"linegap"		"0"
 			//"show_columns"	"1"
 			
 			if_large
@@ -683,7 +684,7 @@
 			
 			if_large
 			{
-				"tall"			"325"
+				"tall"			"315"
 			}			
 		}
 	}
@@ -693,17 +694,17 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"RedTeamPanel"
 		"xpos"			"r-5"
-		"ypos"			"125"
+		"ypos"			"140"
 		"zpos"			"50"
 		"wide"			"150"
-		"tall"			"260"
+		"tall"			"230"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		if_large
 		{
-			"ypos"			"65"
-			"tall"			"385"
+			"ypos"			"75"
+			"tall"			"314"
 		}
 		
 		"RedTeamBG"
@@ -719,7 +720,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderRedBGOpaque"
+			"border"		"NoBorder"
+			"bgcolor_override"		"AntsHUDRed"
 		}
 		"RedTeamImage"
 		{
@@ -795,13 +797,13 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
-			"linespacing"	"26"
-			"linegap"		"4"
+			"linespacing"	"22"
+			"linegap"		"0"
 			//"show_columns"	"1"
 			
 			if_large
 			{
-				"tall"			"315"
+				"tall"			"300"
 			}			
 		}
 		"RedPlayerListBG"
@@ -817,7 +819,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"NoBorder"
 			
 			if_large
 			{

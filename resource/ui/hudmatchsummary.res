@@ -263,7 +263,7 @@
 
 					if_large
 					{
-						"ypos"			"39"
+						"ypos"			"79"
 					}
 				}
 				"BlueTeamScore"
@@ -285,7 +285,7 @@
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"			"80"
 					}
 
 				}
@@ -309,7 +309,7 @@
 
 					if_large
 					{
-						"ypos"			"45"
+						"ypos"			"82"
 					}
 				}
 				"BlueTeamWinner"
@@ -331,7 +331,7 @@
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"			"80"
 					}
 				}
 				"BlueTeamWinnerDropshadow"
@@ -354,7 +354,7 @@
 
 					if_large
 					{
-						"ypos"			"45"
+						"ypos"			"82"
 					}
 				}
 				"BlueTeamImage"
@@ -373,7 +373,7 @@
 
 					if_large
 					{
-						"ypos"			"29"
+						"ypos"			"69"
 					}
 				}
 				"BlueTeamLabel"
@@ -445,7 +445,7 @@
 
 					if_large
 					{
-						"ypos"			"77"
+						"ypos"			"116"
 						"tall"			"340"
 					}
 
@@ -462,7 +462,7 @@
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"26"
+						"linespacing"	"22"
 						"linegap"		"4"
 						//"show_columns"	"1"
 
@@ -473,12 +473,12 @@
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
-							"tall"			"340"
-							"linegap"		"1"
+							"tall"			"320"
+							"linegap"		"0"
 						}
 					}
 				}
@@ -534,9 +534,9 @@
 
 					if_large
 					{
-						"ypos"			"39"
+						"ypos"			"79"
 					}
-				}						
+				}							
 				"RedTeamScore"
 				{
 					"ControlName"		"CExLabel"
@@ -556,7 +556,7 @@
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"			"80"
 					}
 				}
 				"RedTeamScoreDropshadow"
@@ -564,7 +564,7 @@
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamScoreDropshadow"
 					"font"			"MatchSummaryTeamScores"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamscore%"
 					"textAlignment"		"west"
 					"xpos"			"r3-p.19"
@@ -579,7 +579,7 @@
 
 					if_large
 					{
-						"ypos"			"45"
+						"ypos"			"82"
 					}
 				}
 				"RedTeamWinner"
@@ -601,7 +601,7 @@
 
 					if_large
 					{
-						"ypos"			"43"
+						"ypos"			"80"
 					}
 				}
 				"RedTeamWinnerDropshadow"
@@ -609,7 +609,7 @@
 					"ControlName"		"CExLabel"
 					"fieldName"		"RedTeamWinnerDropshadow"
 					"font"			"MatchSummaryWinner"
-					"fgcolor"		"Black"
+					"fgcolor"		"ShadowBlack"
 					"labelText"		"%redteamwinner%"
 					"textAlignment"		"west"
 					"xpos"			"r3-p.19"
@@ -624,7 +624,7 @@
 
 					if_large
 					{
-						"ypos"			"45"
+						"ypos"			"82"
 					}
 				}
 				"RedTeamImage"
@@ -643,7 +643,7 @@
 
 					if_large
 					{
-						"ypos"			"20"
+						"ypos"			"60"
 					}
 				}
 				"RedTeamLabel"
@@ -715,7 +715,7 @@
 
 					if_large
 					{
-						"ypos"			"77"
+						"ypos"			"116"
 						"tall"			"340"
 					}
 			
@@ -732,7 +732,7 @@
 						"enabled"		"1"
 						"tabPosition"	"0"
 						"autoresize"	"0"
-						"linespacing"	"26"
+						"linespacing"	"22"
 						"linegap"		"4"
 						//"show_columns"	"1"
 
@@ -743,12 +743,12 @@
 						"class_width"	"s.04"
 						"award_width"	"s.04"
 						"stats_width"	"s.08"
-						"horiz_inset"	"5"
+						"horiz_inset"	"0"
 
 						if_large
 						{
 							"tall"			"340"
-							"linegap"		"1"
+							"linegap"		"0"
 						}
 					}
 				}
@@ -765,12 +765,12 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"TFFatLineBorderClearBG"
+					"border"		"NoBorder"
 
 					if_large
 					{
 						"ypos"			"57"
-						"tall"			"360"
+						"tall"			"340"
 					}
 				}
 			}

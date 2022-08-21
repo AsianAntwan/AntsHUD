@@ -625,7 +625,7 @@
 			"armedFgColor_override" "AntsHUDDeepSkyBlue"
 
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"0 191 255 255"
+			"image_armedcolor"	"255 0 0 255"
 
 			"SubImage"
 			{

@@ -81,24 +81,24 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"0"
-		"ypos"			"152"
-		"wide"			"160"
-		"tall"			"60"
-		"visible"		"1"
+		"ypos"			"0"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"Avenir9"
-			"xpos"			"60"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_sentry_not_built"
-			"labelText_lodef"		"#Building_hud_sentry_not_built_360"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"labelText"		""
+			"labelText_lodef"		""
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -128,7 +128,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 
 		"Icon_Upgrade_2"
@@ -144,7 +144,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 
 		"Icon_Upgrade_3"
@@ -160,7 +160,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 		
 		"AlertTray"
@@ -191,7 +191,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 		
 		"SapperIcon"
@@ -207,7 +207,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 		
 		"Health"
@@ -299,7 +299,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"AntsHUDWhite"
 			}
 						
 			"KillsLabel"
@@ -308,7 +308,7 @@
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"12"
-				"ypos"			"13"
+				"ypos"			"12"
 				"wide"			"200"
 				"tall"			"22"
 				"autoResize"	"0"
@@ -334,7 +334,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"AntsHUDWhite"
 			}
 			
 			"Shells"
@@ -353,6 +353,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"fgcolor_override"	"AntsHUDWhite"
 			}
 			
 			"RocketIcon"	
@@ -368,7 +369,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"AntsHUDWhite"
 			}
 			
 			"Rockets"
@@ -402,7 +403,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"iconColor"		"AntsHUDWhite"
 			}			
 			
 			"Upgrade"

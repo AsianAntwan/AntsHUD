@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"AntsHUDWhite"
 	}
 	
 	"Icon_Sentry_1"
@@ -43,7 +43,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"AntsHUDWhite"
 	}
 	
 	"NotBuiltPanel"
@@ -52,24 +52,24 @@
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"20"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 
 		"NotBuiltLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"Avenir9"
-			"xpos"			"60"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"20"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_disp_sentry_not_built"
+			"visible"		"0"
+			"enabled"		"0"
+			"labelText"		""
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -99,7 +99,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 	
 		"AlertTray"
@@ -130,7 +130,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 		
 		"SapperIcon"
@@ -146,7 +146,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"AntsHUDWhite"
 		}
 		
 		"Health"
@@ -238,7 +238,7 @@
 				"enabled"		"0"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"AntsHUDWhite"
 			}
 						
 			"KillsLabel"
@@ -273,7 +273,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"AntsHUDWhite"
 			}
 			
 			"Shells"
