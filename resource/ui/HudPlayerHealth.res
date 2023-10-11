@@ -107,7 +107,23 @@
 		"textAlignment"	"east"	
 		"font"			"NeutraDisp56"
 		"fgcolor"		"ShadowBlack"
-	}			
+	}
+	"PlayerStatusMaxHealthValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusMaxHealthValue"
+		"xpos"			"-91"
+		"ypos"			"14"
+		"zpos"			"6"
+		"wide"			"300"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%MaxHealth%"
+		"textAlignment"	"east"	
+		"font"			"NeutraDisp16"
+		"fgcolor"		"AntsHUDLesserWhite"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

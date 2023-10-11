@@ -1137,7 +1137,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"0"
-		"wide"					"300"
+		"wide"					"320"
 		"tall"					"f0"
 	}
 	

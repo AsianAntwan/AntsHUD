@@ -56,7 +56,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"AvenirBla16"
+			"font"			"AvenirBla14"
 			"fgcolor"		"AntsHUDWhite"
 			"xpos"			"-170"
 			"ypos"			"0"
@@ -69,7 +69,6 @@
 			
 			if_comp
 			{
-				"font"		"AvenirBla14"
 				"ypos"		"23"
 			}
 		}	
@@ -79,7 +78,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"AvenirBla16"
+		"font"			"AvenirBla14"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"	"west"
 		"xpos"			"190"
@@ -94,8 +93,6 @@
 		
 		if_comp
 		{
-			"font"	"AvenirBla14"
-			"xpos"	"180"
 			"ypos"	"23"
 		}
 	}
@@ -103,10 +100,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"AvenirHea16"
+		"font"			"AvenirHea14"
 		"labelText"		"captures"
 		"textAlignment"	"west"
-		"xpos"			"204"
+		"xpos"			"202"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"300"
@@ -119,8 +116,6 @@
 		
 		if_comp
 		{
-			"font"	"AvenirHea14"
-			"xpos"	"194"
 			"ypos"	"23"
 		}
 	}
@@ -129,24 +124,22 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"Avenir13"
+		"font"			"AvenirBla14"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"	"east"
-		"xpos"			"10"
+		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"4"
 		"wide"			"150"
 		"tall"			"18"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
 		
 		if_comp
 		{
-			"font"	"AvenirBla14"
-			"xpos"	"0"
 			"ypos"	"23"
 		}
 	}
