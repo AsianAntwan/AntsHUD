@@ -579,7 +579,7 @@
 			"default"		"1"
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"BGAnyLight"
-			"maxchars"		"18"	
+			"maxchars"		"20"	
 
 			"consume_mode"
 			{
